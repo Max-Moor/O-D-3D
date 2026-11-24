@@ -1,0 +1,318 @@
+{
+ "img": {
+  "machines-materiaux/anycubic-photon-m7-max": [
+   "static/img/machines/anycubic-photon-m7-max",
+   [
+    489,
+    749
+   ]
+  ],
+  "machines-materiaux/bambu-lab-h2c": [
+   "static/img/machines/bambu-lab-h2c",
+   [
+    656,
+    900
+   ]
+  ],
+  "machines-materiaux/intamsys-funmat-ht": [
+   "static/img/machines/intamsys-funmat-ht",
+   [
+    671,
+    696
+   ]
+  ],
+  "machines-materiaux/modix-big-meter": [
+   "static/img/machines/modix-big-meter",
+   [
+    860,
+    900
+   ]
+  ],
+  "machines-materiaux/prusa-core-one": [
+   "static/img/machines/prusa-core-one",
+   [
+    765,
+    900
+   ]
+  ],
+  "machines-materiaux/supermaker-sls3540-pro": [
+   "static/img/machines/supermaker-sls3540-pro",
+   [
+    715,
+    900
+   ]
+  ],
+  "machines-materiaux/supermaker-sls1518": [
+   "static/img/machines/supermaker-sls1518",
+   [
+    664,
+    900
+   ]
+  ],
+  "machines-materiaux/scanner-3devok-mt": [
+   "static/img/machines/scanner-3devok-mt",
+   [
+    158,
+    426
+   ]
+  ],
+  "machines-materiaux/bambu-lab-x1c": [
+   "static/img/machines/bambu-lab-x1c",
+   [
+    619,
+    607
+   ]
+  ],
+  "machines-materiaux/xtool-f1": [
+   "static/img/machines/xtool-f1",
+   [
+    518,
+    900
+   ]
+  ],
+  "machines-materiaux/abs": [
+   "static/img/matieres/abs",
+   [
+    361,
+    242
+   ]
+  ],
+  "machines-materiaux/asa": [
+   "static/img/matieres/asa",
+   [
+    372,
+    273
+   ]
+  ],
+  "machines-materiaux/pa12-gf": [
+   "static/img/matieres/pa12-gf",
+   [
+    346,
+    231
+   ]
+  ],
+  "machines-materiaux/pa12-cf": [
+   "static/img/matieres/pa12-cf",
+   [
+    363,
+    274
+   ]
+  ],
+  "machines-materiaux/peek": [
+   "static/img/matieres/peek",
+   [
+    263,
+    245
+   ]
+  ],
+  "machines-materiaux/pekk": [
+   "static/img/matieres/pekk",
+   [
+    226,
+    251
+   ]
+  ],
+  "machines-materiaux/petg": [
+   "static/img/matieres/petg",
+   [
+    395,
+    290
+   ]
+  ],
+  "machines-materiaux/pla": [
+   "static/img/matieres/pla",
+   [
+    212,
+    358
+   ]
+  ],
+  "machines-materiaux/pp": [
+   "static/img/matieres/pp",
+   [
+    402,
+    212
+   ]
+  ],
+  "machines-materiaux/pps-cf": [
+   "static/img/matieres/pps-cf",
+   [
+    414,
+    234
+   ]
+  ],
+  "machines-materiaux/tpu": [
+   "static/img/matieres/tpu",
+   [
+    494,
+    224
+   ]
+  ],
+  "machines-materiaux/ultem-pei": [
+   "static/img/matieres/ultem-pei",
+   [
+    250,
+    254
+   ]
+  ],
+  "machines-materiaux/sls-nylon-pa12-gris": [
+   "static/img/matieres/sls-nylon-pa12-gris",
+   [
+    486,
+    419
+   ]
+  ],
+  "machines-materiaux/sls-nylon-pa12-serie": [
+   "static/img/matieres/sls-nylon-pa12-serie",
+   [
+    700,
+    440
+   ]
+  ],
+  "machines-materiaux/sls-ultrasint-pa11-cf": [
+   "static/img/matieres/sls-ultrasint-pa11-cf",
+   [
+    700,
+    527
+   ]
+  ],
+  "machines-materiaux/sls-ultrasint-pa11-esd": [
+   "static/img/matieres/sls-ultrasint-pa11-esd",
+   [
+    241,
+    342
+   ]
+  ],
+  "machines-materiaux/sls-ultrasint-pa11": [
+   "static/img/matieres/sls-ultrasint-pa11",
+   [
+    590,
+    241
+   ]
+  ],
+  "machines-materiaux/sls-pa12-grade-alimentaire": [
+   "static/img/matieres/sls-pa12-grade-alimentaire",
+   [
+    430,
+    220
+   ]
+  ],
+  "machines-materiaux/sls-pa12-charge-verre": [
+   "static/img/matieres/sls-pa12-charge-verre",
+   [
+    427,
+    315
+   ]
+  ],
+  "machines-materiaux/sls-pa2210-fr": [
+   "static/img/matieres/sls-pa2210-fr",
+   [
+    368,
+    377
+   ]
+  ],
+  "machines-materiaux/pa11-rilsan": [
+   "static/img/matieres/pa11-rilsan",
+   [
+    700,
+    617
+   ]
+  ],
+  "machines-materiaux/sls-ultrasint-tpu-88a": [
+   "static/img/matieres/sls-ultrasint-tpu-88a",
+   [
+    238,
+    246
+   ]
+  ]
+ },
+ "logos": [
+  [
+   "BEMAC",
+   "static/img/clients/bemac.png",
+   [
+    360,
+    64
+   ]
+  ],
+  [
+   "Walibi Belgium",
+   "static/img/clients/walibi-belgium.png",
+   [
+    123,
+    140
+   ]
+  ],
+  [
+   "CHC Groupe Santé",
+   "static/img/clients/chc-groupe-sante.png",
+   [
+    279,
+    140
+   ]
+  ],
+  [
+   "Joris Ide",
+   "static/img/clients/joris-ide.png",
+   [
+    360,
+    78
+   ]
+  ],
+  [
+   "Solucalc",
+   "static/img/clients/solucalc.png",
+   [
+    201,
+    140
+   ]
+  ],
+  [
+   "Gühring",
+   "static/img/clients/guhring.png",
+   [
+    360,
+    72
+   ]
+  ],
+  [
+   "4M Engineering",
+   "static/img/clients/4m-engineering.png",
+   [
+    182,
+    140
+   ]
+  ],
+  [
+   "PJK Precision Mechanics",
+   "static/img/clients/pjk-precision-mechanics.png",
+   [
+    234,
+    140
+   ]
+  ],
+  [
+   "Ville de Spa",
+   "static/img/clients/ville-de-spa.png",
+   [
+    157,
+    140
+   ]
+  ],
+  [
+   "Ville de Verviers",
+   "static/img/clients/ville-de-verviers.png",
+   [
+    124,
+    140
+   ]
+  ],
+  [
+   "Commune de Welkenraedt",
+   "static/img/clients/commune-de-welkenraedt.png",
+   [
+    360,
+    110
+   ]
+  ]
+ ]
+}
