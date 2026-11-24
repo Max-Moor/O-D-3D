@@ -5,7 +5,7 @@ ROOT = pathlib.Path(__file__).parent
 OUT = ROOT / "dist"
 STATIC = ROOT / "static" if (ROOT / "static").exists() else ROOT.parent / "static"
 PROD = "--prod" in sys.argv
-BASE = "/" if PROD else "/od3d-maquette/"
+BASE = "/" if PROD else "/O-D-3D/"
 SITE = "https://www.od3d.be"
 E = html.escape
 
@@ -150,16 +150,45 @@ def cta(depth, title="Votre pièce, <span class='glow'>fabriquée.</span>", text
 # ---------------------------------------------------------------- rendu générique
 DROP = re.compile(r"^(Autres articles|Plus de détails|Lire plus|En savoir plus|O&D Impression 3D ·.*|O&D 3D|Contactez-nous|Demander un devis|Lancer mon projet|Voir .*)$", re.I)
 CTA_SEC = re.compile(r"(parlons-en|un projet \?|passez à l'action|demandez votre devis|prêt à|contactez-nous)", re.I)
-LABEL = re.compile(r"^(Avantages( & limites)?|Limites|Inconvénients|Points forts|Points faibles|Idéal pour|À éviter|Applications?|Cas d'usage.*|Usages?|Points clés|Atouts?)$", re.I)
+LABEL = re.compile(r"^(Matériaux disponibles|Avantages( & limites)?|Limites|Inconvénients|Points forts|Points faibles|Idéal pour|À éviter|Applications?|Cas d'usage.*|Usages?|Points clés|Atouts?)$", re.I)
 NEG = re.compile(r"^(Limites|Inconvénients|Points faibles|À éviter)$", re.I)
 
 def is_item(t): return len(t) < 75 and not t.endswith((".", ":", "?")) or (len(t) < 75 and t.count(" ") < 9)
 
+ORPHAN = re.compile(r"^(Styles nécessaires.*|STYLES NÉCESSAIRES.*|Besoin d.aide pour choisir.*|BESOIN D.AIDE POUR CHOISIR.*|\d{1,2}|0\d|GROUPE\s*\d.*|STEP\s*\d.*|HEADER|FOOTER|SPECS|SELECTOR|HERO|RÉALISATION\s*\d+|/\w+|\d+ — [A-ZÉ0-9 ]+|LIGNE|Structure HTML.*|ESPACE DESTINÉ.*|.*injectés par JS.*|VS|CTA|POPULAR COMBOS|Choisissez vos deux matériaux|Comparaisons populaires|PROS / CONS|cube|gear|bolt|layers|```.*|.*id=\"[a-z0-9]+\".*)$", re.I)
+KVTAIL = re.compile(r"^(.{1,40}?) (Matériaux?|Quantité|Client|Format|Secteur|Méthode|Dimensions|Délai|Durée|Technologie|Finition|Pièces)$")
+TEXTFIX = [("O&D Impression 3D a Baelen", "O&D Impression 3D à Welkenraedt"), ("à Baelen", "à Welkenraedt"), (" a Baelen", " à Welkenraedt"), ("Usinage CNC — Makera Carvera", "Usinage CNC"), ("Notre Makera Carvera permet", "Notre fraiseuse CNC permet"), ("Makera Carvera", "fraiseuse CNC"), ("Carvera", "fraiseuse CNC")]
+def _fix(v):
+    if isinstance(v, str):
+        for a, b in TEXTFIX: v = v.replace(a, b)
+    elif isinstance(v, list): v = [_fix(x) for x in v]
+    return v
+def short(s, n=150):
+    s = s or ""
+    if len(s) <= n: return s
+    c = s[:n].rsplit(" ", 1)[0].rstrip(" ,;:—-")
+    return c + "…"
 def normalize(blocks, page_h1=None):
+    conv = []
+    blocks = [{k: _fix(x) for k, x in b.items()} for b in blocks]
+    for b in blocks:
+        if b["t"] == "txt" and KVTAIL.match(b["v"]):
+            v, k = KVTAIL.match(b["v"]).groups(); conv.append({"t": "kv", "k": k, "v": v})
+        else: conv.append(b)
+    blocks = [dict(b, v=re.sub(r"^/[a-z]+\s+", "", b["v"])) if isinstance(b.get("v"), str) else b for b in conv]
+    # étiquettes en double (« Conception » à côté de « … : CONCEPTION »)
+    keep = []
+    for i, b in enumerate(blocks):
+        if b["t"] == "txt" and len(b["v"]) < 30:
+            near = [x.get("v", "") for x in blocks[max(0, i - 3):i + 4] if x is not b and isinstance(x.get("v"), str)]
+            if any(b["v"].casefold() != n.casefold() and b["v"].casefold() in n.casefold() and len(n) < 40 for n in near): continue
+        keep.append(b)
+    blocks = [b for b in keep if not (b["t"] in ("txt", "p", "h2", "h3") and isinstance(b.get("v"), str) and ORPHAN.match(b["v"]))]
     out = []
     for b in blocks:
         v = b.get("v")
         if b["t"] == "link": continue
+        if b["t"] == "kv" and b["k"] == b["v"]: continue
         if isinstance(v, str) and DROP.match(v): continue
         if b["t"] in ("txt", "p") and v and v.startswith("© "): continue
         out.append(dict(b))
@@ -213,10 +242,49 @@ def build_model(p):
     flush()
     return {"title": title, "eyebrow": eyebrow, "lead": lead, "stats": stats, "sections": [s for s in secs if not (s["title"] and CTA_SEC.search(s["title"]))]}
 
+PCT = re.compile(r"^\d{1,3}\s?%$")
+def _istxt(x, short=60): return x["t"] == "txt" and len(x["v"]) <= short
+def try_bars(items, i):
+    n = len(items); j = i; title = None
+    def pair(k): return k + 1 < n and _istxt(items[k]) and not PCT.match(items[k]["v"]) and _istxt(items[k + 1]) and PCT.match(items[k + 1]["v"])
+    if not pair(j):
+        if _istxt(items[j]) and pair(j + 1): title = items[j]["v"]; j += 1
+        else: return None, i
+    rows = []
+    while pair(j): rows.append((items[j]["v"], int(re.sub(r"\D", "", items[j + 1]["v"])))); j += 2
+    if len(rows) < 3: return None, i
+    summ = ""
+    if j < n and items[j]["t"] == "p": summ = f'<p style="margin-top:1rem">{E(items[j]["v"])}</p>'; j += 1
+    bars = "".join(f'<div class="bar"><span>{E(a)}</span><i><b style="width:{v}%"></b></i><em>{v}%</em></div>' for a, v in rows)
+    return f'<div class="panel rv bars">{f"<h3>{E(title)}</h3>" if title else ""}{bars}{summ}</div>', j
+
+def try_tcards(items, i):
+    """txt (nom) + p (description) + txt court (étiquette) répétés -> cartes"""
+    n = len(items); cards = []; j = i
+    while j + 1 < n and _istxt(items[j], 45) and not PCT.match(items[j]["v"]) and items[j + 1]["t"] == "p" and len(items[j + 1]["v"]) > 40:
+        tag = None
+        if j + 2 < n and _istxt(items[j + 2], 24) and not (j + 3 < n and items[j + 3]["t"] == "p"): tag = items[j + 2]["v"]; k = j + 3
+        elif j + 2 < n and _istxt(items[j + 2], 24) and j + 3 < n and items[j + 3]["t"] == "p" and j + 4 < n and _istxt(items[j + 4], 24): tag = items[j + 2]["v"]; k = j + 3
+        else: k = j + 2
+        cards.append((items[j]["v"], items[j + 1]["v"], tag)); j = k
+    if len(cards) < 2: return None, i
+    h = "".join(f'<article class="panel spot card rv"><span class="k">{E(tg) if tg else "Fiche"}</span><h3>{E(a)}</h3><p>{E(b)}</p></article>' for a, b, tg in cards)
+    return f'<div class="grid {"g3" if len(cards) >= 3 else "g2"}">{h}</div>', j
+
 def render_items(items):
     out = []; i = 0; n = len(items)
     while i < n:
         b = items[i]; t = b["t"]
+        if t == "txt":
+            group = []
+            while i < n:
+                h_, j = try_bars(items, i)
+                if not h_: break
+                group.append(h_); i = j
+            if group:
+                out.append(f'<div class="grid {"g3" if len(group) >= 3 else "g2" if len(group) == 2 else ""}">' + "".join(group) + "</div>"); continue
+            h_, j = try_tcards(items, i)
+            if h_: out.append(h_); i = j; continue
         if t in ("h3", "h4") or (t == "txt" and i + 1 < n and items[i + 1]["t"] in ("h3",) and len(b["v"]) < 45):
             cards = []
             while i < n and (items[i]["t"] in ("h3", "h4") or (items[i]["t"] == "txt" and i + 1 < n and items[i + 1]["t"] == "h3" and len(items[i]["v"]) < 45)):
@@ -228,6 +296,7 @@ def render_items(items):
                     if x["t"] == "ul": c["list"] += x["v"]
                     elif x["t"] == "kv": c["kv"].append((x["k"], x["v"]))
                     elif x["v"].startswith("✓"): c["chips"] += [s.strip() for s in x["v"].lstrip("✓ ").split("·")]
+                    elif x["t"] == "txt" and c["body"] and len(x["v"]) < 70: c["chips"].append(x["v"])
                     else: c["body"].append(x["v"])
                     i += 1
                 cards.append(c)
@@ -237,7 +306,7 @@ def render_items(items):
                 body = "".join(f"<p>{E(x)}</p>" for x in c["body"])
                 lst = ('<ul class="list" style="margin-top:.8rem">' + "".join(f"<li>{E(x)}</li>" for x in c["list"]) + "</ul>") if c["list"] else ""
                 kv = ('<table class="specs" style="margin-top:.6rem">' + "".join(f"<tr><th>{E(a)}</th><td>{E(b)}</td></tr>" for a, b in c["kv"]) + "</table>") if c["kv"] else ""
-                chips = ('<div class="chips">' + "".join(f'<span class="chip">{E(x)}</span>' for x in c["chips"] if x) + "</div>") if c["chips"] else ""
+                chips = ('<div class="chips">' + "".join((f'<span class="chip tech">{E(x)}</span>' if x.startswith("→") else f'<span class="chip">{E(x)}</span>') for x in c["chips"] if x) + "</div>") if c["chips"] else ""
                 h.append(f'<article class="panel spot card rv"><span class="k">{E(c["k"]) if c["k"] else f"[ {ix:02d} ]"}</span><h3>{E(c["h"])}</h3>{body}{lst}{kv}{chips}</article>')
             out.append(f'<div class="grid {cls}">' + "".join(h) + "</div>")
             continue
@@ -252,7 +321,7 @@ def render_items(items):
             out.append('<div class="faq rv">' + "".join(f"<details><summary>{E(q['q'])}</summary><p>{E(q['a'])}</p></details>" for q in qs) + "</div>")
             continue
         if t == "table":
-            rows = b["v"]; hd = rows[0]; body = rows[1:]
+            rows = b["v"]; hd = rows[0]; body = [r for r in rows[1:] if any(str(c).strip() for c in r[1:])]
             out.append('<div class="panel rv tscroll"><table class="specs wide"><thead><tr>' + "".join(f"<th>{E(c)}</th>" for c in hd) + "</tr></thead><tbody>" +
                        "".join("<tr>" + "".join(f"<td>{E(c)}</td>" for c in r) + "</tr>" for r in body) + "</tbody></table></div>")
             i += 1; continue
@@ -262,6 +331,7 @@ def render_items(items):
             run = []
             while i < n and items[i]["t"] in ("txt", "p"):
                 if items[i]["t"] == "txt" and i + 1 < n and items[i + 1]["t"] == "h3" and len(items[i]["v"]) < 45 and run: break
+                if run and items[i]["t"] == "txt" and (try_tcards(items, i)[0] or try_bars(items, i)[0]): break
                 run.append(items[i]["v"]); i += 1
             # découpe en sous-listes étiquetées / listes / paragraphes
             groups = []; buf = []; lab = None
@@ -285,6 +355,40 @@ def render_items(items):
                 continue
             if len(run) <= 4 and all(len(x) < 40 for x in run) and not any(x.endswith(".") for x in run):
                 out.append('<div class="chips rv" style="margin:0">' + "".join(f'<span class="chip">{E(x)}</span>' for x in run) + "</div>"); continue
+            longs = [x for x in run if len(x) > 80]
+            if longs and len(run) > len(longs):
+                html_ = []; k = 0
+                while k < len(run):
+                    x = run[k]
+                    if x.endswith("?") and len(x) < 160 and k + 1 < len(run) and len(run[k + 1]) > 60 and not run[k + 1].endswith("?"):
+                        qa = []
+                        while k + 1 < len(run) and run[k].endswith("?") and len(run[k + 1]) > 60 and not run[k + 1].endswith("?"):
+                            qa.append((run[k], run[k + 1])); k += 2
+                        html_.append('<div class="faq">' + "".join(f"<details><summary>{E(q)}</summary><p>{E(a)}</p></details>" for q, a in qa) + "</div>"); continue
+                    if len(x) > 80 or (len(x) > 40 and x.endswith((".", "!", "?"))):
+                        html_.append(f"<p>{E(x)}</p>"); k += 1; continue
+                    seg = []
+                    while k < len(run) and not (len(run[k]) > 80 or (len(run[k]) > 40 and run[k].endswith((".", "!", "?")))): seg.append(run[k]); k += 1
+                    nxt_long = k < len(run)
+                    if len(seg) == 1:
+                        if nxt_long: html_.append(f'<div class="stars">{E(seg[0])}</div>' if set(seg[0]) <= set("★☆ ") else f'<h3 style="margin-top:.6rem">{E(seg[0])}</h3>')
+                        continue
+                    lab = None
+                    NAME = re.compile(r"^[A-ZÉÈ][a-zéèëï\-]+ [A-ZÉÈ\-]{2,}$")
+                    names = [ix for ix, y in enumerate(seg) if NAME.match(y)]
+                    if names:
+                        head_ = seg[:names[0]]; team = []
+                        for a, ix in enumerate(names):
+                            end = names[a + 1] if a + 1 < len(names) else len(seg)
+                            team.append((seg[ix], seg[ix + 1:min(end, ix + 2)]))
+                        extra = seg[names[-1] + 2:]
+                        html_.append("".join(f'<div class="hud" style="margin:.6rem 0">{E(h)}</div>' for h in head_) + '<div class="grid g2" style="margin-bottom:1rem">' +
+                                     "".join(f'<div class="panel team">{team_photo(1, nm)}<div><span class="k hud">Fondateur</span><h3>{E(nm)}</h3>' + "".join(f"<p>{E(r)}</p>" for r in roles) + "</div></div>" for nm, roles in team) + "</div>" + "".join(f'<h3 style="margin-top:1.2rem">{E(x)}</h3>' for x in extra))
+                        continue
+                    if re.search(r"(disponibles|typiques|:)$", seg[0], re.I) or seg[0].endswith(":"): lab = seg.pop(0)
+                    elif nxt_long and len(seg) == 2: html_.append(f'<h3 style="margin-top:.6rem">{E(seg[-1])}</h3>'); seg = seg[:-1]
+                    if seg: html_.append((f'<div class="hud" style="margin:.4rem 0 .6rem">{E(lab)}</div>' if lab else "") + '<div class="chips" style="margin:0 0 .8rem">' + "".join(f'<span class="chip">{E(y)}</span>' for y in seg) + "</div>")
+                out.append('<div class="intro rv">' + "".join(html_) + "</div>"); continue
             short = [x for x in run if is_item(x)]
             if len(run) >= 3 and len(short) == len(run):
                 out.append('<ul class="list two rv">' + "".join(f"<li>{E(x)}</li>" for x in run) + "</ul>")
@@ -327,12 +431,16 @@ def hub_grid(depth, items, kind):
     for ix, x in enumerate(items, 1):
         d = x.get("desc", "")
         th = pic(depth, x["path"], label(x), "thumb")
-        cards.append(f'<a class="panel spot lcard rv{" with-img" if th else ""}" href="{rel(depth, x["path"])}">{th}<span class="k">{kind} · {ix:02d}</span><h3>{E(label(x))}</h3><p>{E(d[:150])}</p><span class="go">Ouvrir la fiche →</span></a>')
+        cards.append(f'<a class="panel spot lcard rv{" with-img" if th else ""}" href="{rel(depth, x["path"])}">{th}<span class="k">{kind} · {ix:02d}</span><h3>{E(label(x))}</h3><p>{E(short(d, 150))}</p><span class="go">Ouvrir la fiche →</span></a>')
     return '<div class="grid g3">' + "".join(cards) + "</div>"
 
 def write(path, html_):
     d = OUT / path if path else OUT
     d.mkdir(parents=True, exist_ok=True)
+    if "Nos techniciens vous conseillent</h2>" in html_:
+        up = "../" * (len(path.split("/")) if path else 0)
+        html_ = re.sub(r"(Nos techniciens vous conseillent</h2>[\s\S]*?</p>)", lambda m: m.group(1) +
+                       f'<p style="margin-top:1.4rem;display:flex;gap:.8rem;flex-wrap:wrap"><a class="btn btn-p" href="{up}contact/">Demander conseil <span class="a">→</span></a><a class="btn btn-g" href="{up}comparateur-materiaux/">Comparateur interactif <span class="a">→</span></a></p>', html_, count=1)
     (d / "index.html").write_text(html_, encoding="utf-8")
 
 def depth_of(path): return len(path.split("/")) if path else 0
@@ -343,6 +451,7 @@ HUBS = {"services": (SERVICES, "Service"), "machines-materiaux": (None, None), "
 
 def gen_generic(p):
     d = depth_of(p["path"]); m = build_model(p)
+    if p["path"] == "réalisations" and m["stats"]: m["stats"][0] = (str(len(REAL)), m["stats"][0][1])
     hub = ""
     if p["path"] == "machines-materiaux":
         hub = (f'<section><div class="wrap"><div class="sec-no">[ PARC MACHINES ]</div><h2 class="rv">Nos machines</h2>{hub_grid(d, MACH, "Machine")}</div></section>'
@@ -358,7 +467,7 @@ def gen_generic(p):
         others = [x for x in pool if x["path"] != p["path"]][:6]
         if others:
             sib = f'<section style="padding-top:30px"><div class="wrap"><div class="sec-no">[ À VOIR AUSSI ]</div>{hub_grid(d, others, "Fiche")}</div></section>'
-    body = page_hero(p, d, m) + hub + render_sections(m) + sib + cta(d)
+    body = page_hero(p, d, m) + hub + render_sections(m) + (events_section(d) if p["path"] == "a-propos" else "") + sib + cta(d)
     write(p["path"], head(p["path"], d, p["title"], p["desc"], faq_ld(p)) + chrome(p["path"], d) + body + footer(d))
 
 def gen_post(p):
@@ -375,13 +484,15 @@ def gen_post(p):
         elif t == "faq": content.append(f"<h3>{E(b['q'])}</h3><p>{E(b['a'])}</p>")
     ld = [{"@context": "https://schema.org", "@type": "BlogPosting", "headline": m["title"], "datePublished": p.get("date", ""), "author": {"@type": "Organization", "name": "O&D Impression 3D"}, "publisher": {"@id": SITE + "/#od3d"}}]
     title = p["title"].split(" | ")[0]
-    hero = f'<section class="phero"><div class="wrap">{crumbs(p["path"], d)}<div class="post-meta">Article · {date}</div><h1 style="text-transform:none;font-size:clamp(2rem,4.6vw,3.6rem)">{E(title)}</h1><p class="lead">{E(p["desc"])}</p></div></section>'
+    cov = next((rp for rp, (src, *_x) in NEW_REAL.items() if src == p["path"]), None)
+    covimg = (f'<div class="post-cover">{rimg(d, REALIMG[cov][0][0], REALIMG[cov][0][1], title, lazy=False)}</div><p><a class="btn btn-g" href="{rel(d, cov)}">Voir la réalisation en photos <span class="a">→</span></a></p>') if cov and REALIMG.get(cov) else ""
+    hero = f'<section class="phero"><div class="wrap">{crumbs(p["path"], d)}<div class="post-meta">Article · {date}</div><h1 style="text-transform:none;font-size:clamp(2rem,4.6vw,3.6rem)">{E(title)}</h1><p class="lead">{E(p["desc"])}</p>{covimg}</div></section>'
     body = hero + f'<section><div class="wrap"><article class="prose">{"".join(content)}</article></div></section>' + cta(d)
     write(p["path"], head(p["path"], d, p["title"], p["desc"], ld) + chrome(p["path"], d) + body + footer(d))
 
 def gen_blog_index():
     p = BY["actualites"]; d = 1
-    cards = "".join(f'<a class="panel spot lcard rv" href="{rel(d, x["path"])}"><span class="k">{x.get("date","")[:10] or "Article"}</span><h3>{E(x["title"].split(" | ")[0])}</h3><p>{E(x["desc"][:140])}</p><span class="go">Lire →</span></a>'
+    cards = "".join(f'<a class="panel spot lcard rv" href="{rel(d, x["path"])}"><span class="k">{x.get("date","")[:10] or "Article"}</span><h3>{E(x["title"].split(" | ")[0])}</h3><p>{E(short(x["desc"], 140))}</p><span class="go">Lire →</span></a>'
                     for x in sorted(POSTS, key=lambda x: x.get("date", ""), reverse=True))
     m = {"title": "Actualités & blog", "eyebrow": "Journal de l'atelier", "lead": p["desc"], "stats": []}
     body = page_hero(p, d, m) + f'<section><div class="wrap"><div class="grid g3">{cards}</div></div></section>' + cta(d)
@@ -406,7 +517,7 @@ def gen_home():
             ("SCN", "services/scan-3d", "Scan 3D", "Numérisation et rétro-ingénierie des pièces introuvables."),
             ("XXL", "services/impression-3d-grand-format", "Grand format", "Pièces de grandes dimensions en une seule impression.")]
     tcards = "".join(f'<a class="panel spot lcard rv" href="{rel(d, u)}"><span class="k">{c} — {k}</span><h3 style="font-size:2.4rem;font-weight:700">{c}</h3><p>{E(t)}</p><span class="go">Explorer →</span></a>' for c, u, k, t in tech)
-    reals = "".join(f'<a class="panel spot lcard rv" href="{rel(d, x["path"])}"><span class="k">Projet · {i:02d}</span><h3>{E(label(x))}</h3><p>{E(x["desc"][:130])}</p><span class="go">Voir le projet →</span></a>' for i, x in enumerate(REAL, 1))
+    reals = "".join(f'<a class="panel spot lcard rv" href="{rel(d, x["path"])}"><span class="k">Projet · {i:02d}</span><h3>{E(label(x))}</h3><p>{E(short(x["desc"], 130))}</p><span class="go">Voir le projet →</span></a>' for i, x in enumerate(REAL, 1))
     mats = " ".join(f"<span>{E(label(x))}</span>" for x in MATS)
     tools = "".join(f'<a class="panel spot lcard rv" href="{rel(d, u)}"><span class="k">Outil</span><h3>{t}</h3><p>{s}</p><span class="go">Ouvrir →</span></a>' for u, t, s in [
         ("quiz-technologie-impression-3d", "Quiz : quelle technologie ?", "Quelques questions pour savoir quel procédé convient à votre pièce."),
@@ -430,8 +541,9 @@ def gen_home():
 <section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ BIBLIOTHÈQUE ] — Matériaux</div><h2>Du PLA<br>au <span class="glow">PEEK.</span></h2></div><p class="lead">{len(MATS)} fiches matériaux détaillées : propriétés, avantages, limites et machines compatibles.</p></div>{hub_grid(d, [x for x in MATS if x["path"] in IMG][:8], "Matériau").replace('class="grid g3"', 'class="grid g4"')}<p style="margin-top:1.4rem"><a class="btn btn-g" href="machines-materiaux/">Toute la bibliothèque <span class="a">→</span></a></p></div></section>
 <section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 03 ] — Méthode</div><h2>Du fichier<br>à la pièce.</h2></div></div>
 <div class="steps"><div class="panel rv n"><h3>Envoyez</h3><p>Fichier STEP, STL ou 3MF, plan, croquis… ou la pièce à scanner.</p></div><div class="panel rv n"><h3>Analyse &amp; devis</h3><p>Instantané avec fichier 3D, personnalisé sous 24 h.</p></div><div class="panel rv n"><h3>Fabrication</h3><p>Procédé et matière choisis selon vos contraintes.</p></div><div class="panel rv n"><h3>Livraison</h3><p>Envoi ou retrait à l'atelier de Welkenraedt.</p></div></div></div></section>
-<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 04 ] — Réalisations</div><h2>Des projets<br><span class="glow">réels.</span></h2></div><p><a class="btn btn-g" href="réalisations/">Tous les projets <span class="a">→</span></a></p></div><div class="grid g4">{reals}</div></div></section>
-<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 05 ] — Outils</div><h2>Choisir, comparer,<br>chiffrer.</h2></div></div><div class="grid g4">{tools}</div></div></section>
+<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 04 ] — Réalisations</div><h2>Des projets<br><span class="glow">réels.</span></h2></div><p><a class="btn btn-g" href="réalisations/">Tous les projets <span class="a">→</span></a></p></div>{hub_grid(d, REAL[:6], "Projet")}</div></section>
+{events_section(d, "05")}
+<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 06 ] — Outils</div><h2>Choisir, comparer,<br>chiffrer.</h2></div></div><div class="grid g4">{tools}</div></div></section>
 '''
     m = build_model(p) if p.get("native") is not None else None
     write("", head("", d, "O&D Impression 3D | Impression 3D SLS, FDM & CNC à Liège", "Impression 3D SLS, FDM et résine, usinage CNC et scan 3D à Welkenraedt (Liège). Prototypes, pièces techniques et petites séries. Devis sous 24 h.") + chrome("", d) + hero + secs + cta(d) + footer(d))
@@ -488,6 +600,11 @@ def gen_simple(path, title, h1, text):
     body = f'<section class="phero" style="min-height:60vh"><div class="wrap"><div class="hud eyebrow">{E(title)}</div><h1>{h1}</h1><p class="lead">{text}</p><div class="cta-row"><a class="btn btn-p" href="{rel(d,"")}">Accueil <span class="a">→</span></a></div></div></section>'
     return head(path, d, title + " | O&D Impression 3D", text) + chrome(path, d) + body + footer(d)
 
+exec(open(ROOT / "eco.py", encoding="utf-8").read())
+exec(open(ROOT / "real.py", encoding="utf-8").read())
+exec(open(ROOT / "comp.py", encoding="utf-8").read())
+ECO_URLS = {t["url"]: k for k, t in TECH.items()}
+
 # ---------------------------------------------------------------- build
 if OUT.exists(): shutil.rmtree(OUT)
 OUT.mkdir()
@@ -495,7 +612,14 @@ shutil.copytree(STATIC, OUT / "static")
 gen_home()
 for p in P:
     if p["path"] in ("", "contact", "actualites", "quiz-technologie-impression-3d", "faq"): continue
+    sl = p["path"].split("/")[-1]
     if p.get("blog"): gen_post(p)
+    elif p["path"] in ECO_URLS: gen_eco(ECO_URLS[p["path"]])
+    elif p["path"] == "machines-materiaux": gen_parc()
+    elif p["path"] == "comparateur-materiaux": gen_comp(p)
+    elif p["path"].startswith("réalisations/"): gen_real(p)
+    elif p["path"].startswith("machines-materiaux/") and sl in ALLM: gen_machine(p)
+    elif p["path"].startswith("machines-materiaux/") and sl in ALLT: gen_material(p)
     else: gen_generic(p)
 gen_contact(); gen_blog_index(); gen_faq()
 gen_app("quiz-technologie-impression-3d", BY["quiz-technologie-impression-3d"]["title"], BY["quiz-technologie-impression-3d"]["desc"],
@@ -515,3 +639,4 @@ for u in urls:
 (OUT / "robots.txt").write_text(("User-agent: *\nAllow: /\n\nSitemap: " + SITE + "/sitemap.xml\n") if PROD else "User-agent: *\nDisallow: /\n", encoding="utf-8")
 (OUT / ".nojekyll").write_text("")
 print("pages:", len(list(OUT.rglob("index.html"))))
+import subprocess; subprocess.run([sys.executable, str(ROOT / "i18n.py")], check=True)

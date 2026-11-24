@@ -1,29 +1,16 @@
-# O&D Impression 3D — maquette du nouveau site (design futuriste)
+# O&D Impression 3D — maquette du nouveau site
 
-Maquette **non officielle**, non indexée par Google (`noindex` + `robots.txt` bloquant). Le site officiel reste od3d.be sur Wix.
+Maquette non officielle, non indexée. En ligne : https://max-moor.github.io/O-D-3D/
 
-## Mettre en ligne sur GitHub Pages
-1. Crée un dépôt **public** nommé `od3d-maquette` sur github.com (sans README).
-2. Envoie le contenu : le site compte plus de 100 fichiers, au-delà de la limite d'envoi du navigateur GitHub. Deux options :
-   - **le plus simple** : dis à Claude que le dépôt existe, il pousse tout lui-même ;
-   - ou avec **GitHub Desktop** (gratuit) : *Clone* le dépôt, copie tout ce dossier dedans, *Commit* puis *Push*.
-3. *Settings → Pages* → Source : **Deploy from a branch** → branche `main`, dossier `/ (root)` → *Save*.
-4. Après 1 à 2 minutes : `https://max-moor.github.io/od3d-maquette/`
+Mise à jour : remplacer tout le contenu du dépôt par le contenu de ce dossier, puis Commit + Push.
 
-## Ce qu'il y a dedans
-- **Même structure d'URL que od3d.be** : 82 pages + 29 articles de blog (`services/…`, `machines-materiaux/…`, `comparateur-materiaux/…`, `a-propos/…`, `réalisations/…`, `post/…`). Aucune page regroupée : tout le capital SEO/GEO est conservé.
-- Contenu repris du site actuel (textes, FAQ complète, fiches techniques), photos des machines et matériaux, ruche des logos clients.
-- Nouvelles pages : `devis-instantane/` (calculateur corrigé) et le quiz intégré.
-- `static/` : styles (`css/od3d.css`), scripts (`js/od3d.js`), polices hébergées localement, images optimisées (WebP + PNG).
+- Mêmes URL que od3d.be + écosystèmes SLS / FDM / Résine / CNC, matières CNC, Makera Carvera, devis instantané, FAQ complète.
+- Design : `static/css/od3d.css` · Animations : `static/js/od3d.js` · Photos : `static/img/`
+- Régénérer (avancé) : `python3 _source/build.py` (`--prod` = version indexable pour le lancement).
 
-## Modifier
-- **Couleurs / polices** : variables en haut de `static/css/od3d.css` (`--c` = cyan O&D).
-- **Une page** : chaque page est un fichier `index.html` dans son dossier. Les textes se modifient directement.
-- **Tout régénérer** (avancé) : `python3 _source/build.py` reconstruit toutes les pages à partir de `_source/content/` (nécessite Python 3). Ajoute `--prod` pour la version indexable du lancement.
-
-## À vérifier avant le lancement
-- Les affirmations du site actuel reprises telles quelles (±0,1 mm, 1000×1000×1000 mm, Ultem « certifié FAA », délais…) : voir `4-affirmations-a-verifier.md` de l'archive précédente.
-- Calculateur : préciser si le prix affiché est HTVA ou TVAC (mention orange).
-- La photo « Carvera » n'est utilisée nulle part (aucune page Makera Carvera sur le site actuel).
-- La FAQ citait « Baelen (4837) » : remplacé par « Welkenraedt (4840) ».
-- Pages Wix `donate` et `donation-thank-you-page` non reprises (pages modèles inutilisées).
+## Langues (FR · EN · DE · NL)
+- Le français reste à la racine ; les traductions sont générées dans `/en/`, `/de/`, `/nl/` par `_source/i18n.py` (lancé automatiquement à la fin de `build.py`).
+- Les traductions vivent dans `_source/i18n/en.json`, `de.json`, `nl.json` : `"texte français": "traduction"`. Corriger une traduction = modifier la valeur, puis relancer `python3 build.py`.
+- Une page n'est publiée dans une langue que si 97 % de son texte est traduit ; sinon le bouton de langue renvoie vers l'accueil de cette langue.
+- Liste des textes manquants d'une page : `python3 i18n.py --missing en contact`.
+- Balises `hreflang` + sitemap multilingue ajoutés automatiquement.

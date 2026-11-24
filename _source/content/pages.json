@@ -120,7 +120,7 @@
    },
    {
     "t": "txt",
-    "v": "── SECTION 1 : POURQUOI O&D ──"
+    "v": "── SECTION 1: POURQUOI O&D ──"
    },
    {
     "t": "h3",
@@ -148,7 +148,7 @@
    },
    {
     "t": "txt",
-    "v": "── SECTION 2 : ZONES ──"
+    "v": "── SECTION 2: ZONES ──"
    },
    {
     "t": "txt",
@@ -164,67 +164,11 @@
    },
    {
     "t": "txt",
-    "v": "Welkenraedt"
+    "v": "Welkenraedt Liège Verviers Eupen Spa Seraing Herstal Bruxelles Anvers Namur Mons Gand Bruges Charleroi International"
    },
    {
     "t": "txt",
-    "v": "Liège"
-   },
-   {
-    "t": "txt",
-    "v": "Verviers"
-   },
-   {
-    "t": "txt",
-    "v": "Eupen"
-   },
-   {
-    "t": "txt",
-    "v": "Spa"
-   },
-   {
-    "t": "txt",
-    "v": "Seraing"
-   },
-   {
-    "t": "txt",
-    "v": "Herstal"
-   },
-   {
-    "t": "txt",
-    "v": "Bruxelles"
-   },
-   {
-    "t": "txt",
-    "v": "Anvers"
-   },
-   {
-    "t": "txt",
-    "v": "Namur"
-   },
-   {
-    "t": "txt",
-    "v": "Mons"
-   },
-   {
-    "t": "txt",
-    "v": "Gand"
-   },
-   {
-    "t": "txt",
-    "v": "Bruges"
-   },
-   {
-    "t": "txt",
-    "v": "Charleroi"
-   },
-   {
-    "t": "txt",
-    "v": "International"
-   },
-   {
-    "t": "txt",
-    "v": "── SECTION 3 : PROCESS ──"
+    "v": "── SECTION 3: PROCESS ──"
    },
    {
     "t": "txt",
@@ -284,7 +228,7 @@
    },
    {
     "t": "txt",
-    "v": "CARTE 1 : MACHINES & MATIÈRES"
+    "v": "CARTE 1: MACHINES & MATIÈRES"
    },
    {
     "t": "link",
@@ -293,7 +237,7 @@
    },
    {
     "t": "txt",
-    "v": "CARTE 2 : COMPARATIF MATIÈRES"
+    "v": "CARTE 2: COMPARATIF MATIÈRES"
    },
    {
     "t": "link",
@@ -932,6 +876,10 @@
    },
    {
     "t": "txt",
+    "v": "FDM Industriel · 300×300×400mm"
+   },
+   {
+    "t": "txt",
     "v": "Nos équipements"
    },
    {
@@ -1202,6 +1150,10 @@
    },
    {
     "t": "txt",
+    "v": "LASER CO₂ 0 support SLS · PA12 · Résistance 45–50 MPa"
+   },
+   {
+    "t": "txt",
     "v": "Technologie SLS"
    },
    {
@@ -1412,7 +1364,7 @@
    },
    {
     "t": "txt",
-    "v": "Pourquoi local ?"
+    "v": "Pourquoi local?"
    },
    {
     "t": "h2",
@@ -1469,6 +1421,10 @@
    {
     "t": "p",
     "v": "Livraison J+7 pour les petites commandes en province de Liège. Délais plus longs pour les grandes séries."
+   },
+   {
+    "t": "txt",
+    "v": "Liège Bruxelles Namur Welkenraedt · Province de Liège"
    },
    {
     "t": "txt",
@@ -1681,7 +1637,7 @@
    },
    {
     "t": "txt",
-    "v": "Pourquoi prototyper vite ?"
+    "v": "Pourquoi prototyper vite?"
    },
    {
     "t": "h2",
@@ -1738,6 +1694,10 @@
    {
     "t": "p",
     "v": "Chaque modification de fichier coûte 0€. Seule la fabrication est facturée."
+   },
+   {
+    "t": "txt",
+    "v": "CAO Print Test Avis Modif 24–72h / cycle"
    },
    {
     "t": "txt",
@@ -2284,6 +2244,10 @@
    },
    {
     "t": "txt",
+    "v": "Précision ±0.05mm · STL / STEP"
+   },
+   {
+    "t": "txt",
     "v": "Notre processus"
    },
    {
@@ -2822,6 +2786,10 @@
    },
    {
     "t": "txt",
+    "v": "scan ±0.05mm fidélité"
+   },
+   {
+    "t": "txt",
     "v": "Notre engagement"
    },
    {
@@ -3089,6 +3057,10 @@
    {
     "t": "p",
     "v": "Pièces segmentées, imprimées séparément et assemblées avec encastrements précis et collage structurel."
+   },
+   {
+    "t": "txt",
+    "v": "1000mm 1000mm Grand Format 1000×1000×1000 mm Volume max 1000×1000×1000mm"
    },
    {
     "t": "txt",
@@ -3362,6 +3334,10 @@
    },
    {
     "t": "txt",
+    "v": "UV 405nm SLA · MSLA · Résolution 0.025mm"
+   },
+   {
+    "t": "txt",
     "v": "Nos résines"
    },
    {
@@ -3629,6 +3605,10 @@
    {
     "t": "p",
     "v": "Aucun outillage à commander. Une fois le fichier validé, production dans la journée."
+   },
+   {
+    "t": "txt",
+    "v": "✓ ✓ ✓ ✓ ✓ ✓ ✓ − X % 10 à 500 pièces · Prix dégressifs · Contrôle qualité"
    },
    {
     "t": "txt",
@@ -4812,10 +4792,6 @@
    },
    {
     "t": "txt",
-    "v": "cube"
-   },
-   {
-    "t": "txt",
     "v": "FFF — ACCESSIBLE"
    },
    {
@@ -4828,39 +4804,11 @@
    },
    {
     "t": "txt",
-    "v": "✔ Coût de production faible"
-   },
-   {
-    "t": "txt",
-    "v": "✔ Grand choix de matériaux"
-   },
-   {
-    "t": "txt",
-    "v": "✔ Impression rapide"
-   },
-   {
-    "t": "txt",
-    "v": "✔ Grandes pièces possibles"
-   },
-   {
-    "t": "txt",
-    "v": "✖ Strates visibles"
-   },
-   {
-    "t": "txt",
-    "v": "✖ Résistance variable"
-   },
-   {
-    "t": "txt",
-    "v": "✖ Moins adapté aux formes complexes"
+    "v": "✔ Coût de production faible ✔ Grand choix de matériaux ✔ Impression rapide ✔ Grandes pièces possibles ✖ Strates visibles ✖ Résistance variable ✖ Moins adapté aux formes complexes"
    },
    {
     "t": "txt",
     "v": "STEP 3 SLS"
-   },
-   {
-    "t": "txt",
-    "v": "gear"
    },
    {
     "t": "txt",
@@ -4876,31 +4824,7 @@
    },
    {
     "t": "txt",
-    "v": "✔ Haute résistance mécanique"
-   },
-   {
-    "t": "txt",
-    "v": "✔ Aucune structure de support"
-   },
-   {
-    "t": "txt",
-    "v": "✔ Géométries complexes possibles"
-   },
-   {
-    "t": "txt",
-    "v": "✔ Finition homogène"
-   },
-   {
-    "t": "txt",
-    "v": "✖ Coût plus élevé"
-   },
-   {
-    "t": "txt",
-    "v": "✖ Usage industriel"
-   },
-   {
-    "t": "txt",
-    "v": "✖ Délais plus longs"
+    "v": "✔ Haute résistance mécanique ✔ Aucune structure de support ✔ Géométries complexes possibles ✔ Finition homogène ✖ Coût plus élevé ✖ Usage industriel ✖ Délais plus longs"
    },
    {
     "t": "txt",
@@ -4908,23 +4832,7 @@
    },
    {
     "t": "txt",
-    "v": "Conclusion simple :"
-   },
-   {
-    "t": "txt",
-    "v": "FFF"
-   },
-   {
-    "t": "txt",
-    "v": "= économique & rapide"
-   },
-   {
-    "t": "txt",
-    "v": "SLS"
-   },
-   {
-    "t": "txt",
-    "v": "= technique & performance"
+    "v": "💡 Conclusion simple: FFF = économique & rapide SLS = technique & performance"
    }
   ],
   "embeds": [
@@ -5067,99 +4975,80 @@
     "v": "Production de pièces techniques sans supports — précision industrielle et liberté géométrique"
    },
    {
-    "t": "kv",
-    "k": "Technologie",
-    "v": "SLS — Frittage Laser Sélectif"
+    "t": "txt",
+    "v": "Technologie SLS — Frittage Laser Sélectif"
    },
    {
-    "t": "kv",
-    "k": "Type de laser",
-    "v": "10W · 450 nm diode"
+    "t": "txt",
+    "v": "Type de laser 10W · 450 nm diode"
    },
    {
-    "t": "kv",
-    "k": "Volume d'impression",
-    "v": "150 × 150 × 180 mm"
+    "t": "txt",
+    "v": "Volume d'impression 150 × 150 × 180 mm"
    },
    {
-    "t": "kv",
-    "k": "Épaisseur de couche",
-    "v": "100–150 microns"
+    "t": "txt",
+    "v": "Épaisseur de couche 100–150 microns"
    },
    {
-    "t": "kv",
-    "k": "Galvanomètre laser",
-    "v": "Industriel haute précision"
+    "t": "txt",
+    "v": "Galvanomètre laser Industriel haute précision"
    },
    {
-    "t": "kv",
-    "k": "Vitesse max (Z)",
-    "v": "110 mm/h à 150 microns"
+    "t": "txt",
+    "v": "Vitesse max (Z) 110 mm/h à 150 microns"
    },
    {
-    "t": "kv",
-    "k": "Vitesse typique",
-    "v": "20 mm/h à 120 microns (12% remplissage)"
+    "t": "txt",
+    "v": "Vitesse typique 20 mm/h à 120 microns (12% remplissage)"
    },
    {
-    "t": "kv",
-    "k": "Temps impression complète",
-    "v": "~ 8 heures"
+    "t": "txt",
+    "v": "Temps impression complète ~ 8 heures"
    },
    {
-    "t": "kv",
-    "k": "Temps refroidissement",
-    "v": "< 6 heures"
+    "t": "txt",
+    "v": "Temps refroidissement < 6 heures"
    },
    {
-    "t": "kv",
-    "k": "Contrôle thermique",
-    "v": "Uniformité 0.5–1°C"
+    "t": "txt",
+    "v": "Contrôle thermique Uniformité 0.5–1°C"
    },
    {
-    "t": "kv",
-    "k": "Capteurs thermiques",
-    "v": "Capteurs IR allemands haute précision"
+    "t": "txt",
+    "v": "Capteurs thermiques Capteurs IR allemands haute précision"
    },
    {
-    "t": "kv",
-    "k": "Chauffage surface",
-    "v": "4 zones · tube infrarouge semi-doré"
+    "t": "txt",
+    "v": "Chauffage surface 4 zones · tube infrarouge semi-doré"
    },
    {
-    "t": "kv",
-    "k": "Stockage poudre",
-    "v": "3 litres"
+    "t": "txt",
+    "v": "Stockage poudre 3 litres"
    },
    {
-    "t": "kv",
-    "k": "Ratio poudre recyclée",
-    "v": "2:8 — coût / qualité optimisé"
+    "t": "txt",
+    "v": "Ratio poudre recyclée 2:8 — coût / qualité optimisé"
    },
    {
-    "t": "kv",
-    "k": "Écran",
-    "v": "Tactile 7 pouces"
+    "t": "txt",
+    "v": "Écran Tactile 7 pouces"
    },
    {
-    "t": "kv",
-    "k": "Connexion",
-    "v": "USB"
+    "t": "txt",
+    "v": "Connexion USB"
    },
    {
-    "t": "kv",
-    "k": "Logiciel",
-    "v": "Voxel Dance"
+    "t": "txt",
+    "v": "Logiciel Voxel Dance"
    },
    {
-    "t": "kv",
-    "k": "Alimentation",
-    "v": "100–120V 10A · 220–240V 5A"
+    "t": "txt",
+    "v": "Alimentation 100–120V 10A · 220–240V 5A"
    },
    {
-    "t": "kv",
-    "k": "Encombrement machine",
-    "v": "600 × 550 × 800 mm"
+    "t": "txt",
+    "v": "Encombrement machine 600 × 550 × 800 mm"
    },
    {
     "t": "txt",
@@ -5314,125 +5203,92 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Technologie",
-    "v": "SLS — Frittage Laser Sélectif"
-   },
-   {
-    "t": "kv",
-    "k": "Volume d'impression",
-    "v": "350 × 350 × 430 mm"
-   },
-   {
-    "t": "kv",
-    "k": "Type de laser",
-    "v": "Laser fibre — 300W"
-   },
-   {
-    "t": "kv",
-    "k": "Longueur d'onde",
-    "v": "1064 nm"
-   },
-   {
-    "t": "kv",
-    "k": "Spot laser",
-    "v": "0.22 mm"
-   },
-   {
-    "t": "kv",
-    "k": "Vitesse de scan max",
-    "v": "15 m/s"
-   },
-   {
-    "t": "kv",
-    "k": "Épaisseur de couche",
-    "v": "0.05 – 0.2 mm"
-   },
-   {
-    "t": "kv",
-    "k": "Précision de construction",
-    "v": "± 0.15 mm"
-   },
-   {
-    "t": "kv",
-    "k": "Scanner",
-    "v": "Galvanomètre 3 axes haute précision"
-   },
-   {
-    "t": "kv",
-    "k": "Température chambre max",
-    "v": "200 °C"
-   },
-   {
-    "t": "kv",
-    "k": "Contrôle thermique",
-    "v": "Chauffage 8 zones + contrôle intelligent"
-   },
-   {
-    "t": "kv",
-    "k": "Gaz inerte",
-    "v": "Azote (Nitrogen)"
-   },
-   {
-    "t": "kv",
-    "k": "Température ambiante",
-    "v": "18 – 30 °C"
-   },
-   {
-    "t": "kv",
-    "k": "Taux recyclage poudre",
-    "v": "~80% — ajout 5 kg par cycle"
-   },
-   {
-    "t": "kv",
-    "k": "Format fichier",
-    "v": "STL"
-   },
-   {
-    "t": "kv",
-    "k": "Système d'exploitation",
-    "v": "Windows 10 64-bit"
-   },
-   {
-    "t": "kv",
-    "k": "Alimentation",
-    "v": "220V"
-   },
-   {
-    "t": "kv",
-    "k": "Dimensions machine",
-    "v": "910 × 810 × 1500 mm"
-   },
-   {
-    "t": "kv",
-    "k": "Poids machine",
-    "v": "~800 kg"
-   },
-   {
-    "t": "kv",
-    "k": "Interface",
-    "v": "Écran LCD tactile intégré"
-   },
-   {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Laser fibre 300W vs CO₂ standard — 50% d'économie d'énergie et d'azote — géométries complexes sans support"
+    "t": "txt",
+    "v": "Technologie SLS — Frittage Laser Sélectif"
    },
    {
     "t": "txt",
-    "v": "Poudres compatibles"
+    "v": "Volume d'impression 350 × 350 × 430 mm"
    },
    {
     "t": "txt",
-    "v": "PA12 (Nylon 12)"
+    "v": "Type de laser Laser fibre — 300W"
    },
    {
     "t": "txt",
-    "v": "PA11 (Nylon 11)"
+    "v": "Longueur d'onde 1064 nm"
    },
    {
     "t": "txt",
-    "v": "TPU"
+    "v": "Spot laser 0.22 mm"
+   },
+   {
+    "t": "txt",
+    "v": "Vitesse de scan max 15 m/s"
+   },
+   {
+    "t": "txt",
+    "v": "Épaisseur de couche 0.05 – 0.2 mm"
+   },
+   {
+    "t": "txt",
+    "v": "Précision de construction ± 0.15 mm"
+   },
+   {
+    "t": "txt",
+    "v": "Scanner Galvanomètre 3 axes haute précision"
+   },
+   {
+    "t": "txt",
+    "v": "Température chambre max 200 °C"
+   },
+   {
+    "t": "txt",
+    "v": "Contrôle thermique Chauffage 8 zones + contrôle intelligent"
+   },
+   {
+    "t": "txt",
+    "v": "Gaz inerte Azote (Nitrogen)"
+   },
+   {
+    "t": "txt",
+    "v": "Température ambiante 18 – 30 °C"
+   },
+   {
+    "t": "txt",
+    "v": "Taux recyclage poudre ~80% — ajout 5 kg par cycle"
+   },
+   {
+    "t": "txt",
+    "v": "Format fichier STL"
+   },
+   {
+    "t": "txt",
+    "v": "Système d'exploitation Windows 10 64-bit"
+   },
+   {
+    "t": "txt",
+    "v": "Alimentation 220V"
+   },
+   {
+    "t": "txt",
+    "v": "Dimensions machine 910 × 810 × 1500 mm"
+   },
+   {
+    "t": "txt",
+    "v": "Poids machine ~800 kg"
+   },
+   {
+    "t": "txt",
+    "v": "Interface Écran LCD tactile intégré"
+   },
+   {
+    "t": "txt",
+    "v": "Atout clé Laser fibre 300W vs CO₂ standard — 50% d'économie d'énergie et d'azote — géométries complexes sans support"
+   },
+   {
+    "t": "txt",
+    "v": "Poudres compatibles PA12 (Nylon 12) PA11 (Nylon 11) TPU"
    },
    {
     "t": "txt",
@@ -5527,59 +5383,48 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Technologie",
-    "v": "SLS — Frittage Laser Sélectif"
+    "t": "txt",
+    "v": "Technologie SLS — Frittage Laser Sélectif"
    },
    {
-    "t": "kv",
-    "k": "Usage",
-    "v": "Pièces fonctionnelles et industrielles"
+    "t": "txt",
+    "v": "Usage Pièces fonctionnelles et industrielles"
    },
    {
-    "t": "kv",
-    "k": "Résistance mécanique",
-    "v": "Élevée et durable"
+    "t": "txt",
+    "v": "Résistance mécanique Élevée et durable"
    },
    {
-    "t": "kv",
-    "k": "Flexibilité",
-    "v": "Excellente résistance à la fatigue"
+    "t": "txt",
+    "v": "Flexibilité Excellente résistance à la fatigue"
    },
    {
-    "t": "kv",
-    "k": "Résistance thermique",
-    "v": "~170 °C"
+    "t": "txt",
+    "v": "Résistance thermique ~170 °C"
    },
    {
-    "t": "kv",
-    "k": "Résistance chimique",
-    "v": "Bonne — huiles, graisses et produits chimiques"
+    "t": "txt",
+    "v": "Résistance chimique Bonne — huiles, graisses et produits chimiques"
    },
    {
-    "t": "kv",
-    "k": "Résistance aux chocs",
-    "v": "Excellente"
+    "t": "txt",
+    "v": "Résistance aux chocs Excellente"
    },
    {
-    "t": "kv",
-    "k": "Finition de surface",
-    "v": "Mate légèrement granuleuse"
+    "t": "txt",
+    "v": "Finition de surface Mate légèrement granuleuse"
    },
    {
-    "t": "kv",
-    "k": "Support nécessaire",
-    "v": "Non — poudre autoportante"
+    "t": "txt",
+    "v": "Support nécessaire Non — poudre autoportante"
    },
    {
-    "t": "kv",
-    "k": "Post-traitement",
-    "v": "Sablage · Teinture · Finition"
+    "t": "txt",
+    "v": "Post-traitement Sablage · Teinture · Finition"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Idéal pour les pièces soumises aux chocs, à la flexion et à la fatigue"
+    "t": "txt",
+    "v": "Atout clé Idéal pour les pièces soumises aux chocs, à la flexion et à la fatigue"
    },
    {
     "t": "txt",
@@ -5723,59 +5568,48 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Technologie",
-    "v": "SLS — Frittage Laser Sélectif"
+    "t": "txt",
+    "v": "Technologie SLS — Frittage Laser Sélectif"
    },
    {
-    "t": "kv",
-    "k": "Usage",
-    "v": "Petites et moyennes séries"
+    "t": "txt",
+    "v": "Usage Petites et moyennes séries"
    },
    {
-    "t": "kv",
-    "k": "Résistance mécanique",
-    "v": "Élevée et constante"
+    "t": "txt",
+    "v": "Résistance mécanique Élevée et constante"
    },
    {
-    "t": "kv",
-    "k": "Stabilité dimensionnelle",
-    "v": "Très élevée (production répétée)"
+    "t": "txt",
+    "v": "Stabilité dimensionnelle Très élevée (production répétée)"
    },
    {
-    "t": "kv",
-    "k": "Résistance thermique",
-    "v": "~150 °C"
+    "t": "txt",
+    "v": "Résistance thermique ~150 °C"
    },
    {
-    "t": "kv",
-    "k": "Résistance chimique",
-    "v": "Bonne — huiles, graisses, solvants"
+    "t": "txt",
+    "v": "Résistance chimique Bonne — huiles, graisses, solvants"
    },
    {
-    "t": "kv",
-    "k": "Résistance aux chocs",
-    "v": "Bonne à excellente"
+    "t": "txt",
+    "v": "Résistance aux chocs Bonne à excellente"
    },
    {
-    "t": "kv",
-    "k": "Finition de surface",
-    "v": "Mate légèrement granuleuse"
+    "t": "txt",
+    "v": "Finition de surface Mate légèrement granuleuse"
    },
    {
-    "t": "kv",
-    "k": "Support nécessaire",
-    "v": "Non — poudre autoportante"
+    "t": "txt",
+    "v": "Support nécessaire Non — poudre autoportante"
    },
    {
-    "t": "kv",
-    "k": "Post-traitement",
-    "v": "Sablage · Teinture · Finition industrielle"
+    "t": "txt",
+    "v": "Post-traitement Sablage · Teinture · Finition industrielle"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Alternative directe à l’injection plastique pour petites séries sans outillage"
+    "t": "txt",
+    "v": "Atout clé Alternative directe à l’injection plastique pour petites séries sans outillage"
    },
    {
     "t": "txt",
@@ -5919,59 +5753,48 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Technologie",
-    "v": "SLS — Frittage Laser Sélectif"
+    "t": "txt",
+    "v": "Technologie SLS — Frittage Laser Sélectif"
    },
    {
-    "t": "kv",
-    "k": "Résistance mécanique",
-    "v": "Élevée"
+    "t": "txt",
+    "v": "Résistance mécanique Élevée"
    },
    {
-    "t": "kv",
-    "k": "Résistance thermique",
-    "v": "~150 °C"
+    "t": "txt",
+    "v": "Résistance thermique ~150 °C"
    },
    {
-    "t": "kv",
-    "k": "Résistance chimique",
-    "v": "Bonne — huiles, graisses, solvants"
+    "t": "txt",
+    "v": "Résistance chimique Bonne — huiles, graisses, solvants"
    },
    {
-    "t": "kv",
-    "k": "Stabilité dimensionnelle",
-    "v": "Très bonne"
+    "t": "txt",
+    "v": "Stabilité dimensionnelle Très bonne"
    },
    {
-    "t": "kv",
-    "k": "Résistance aux chocs",
-    "v": "Bonne"
+    "t": "txt",
+    "v": "Résistance aux chocs Bonne"
    },
    {
-    "t": "kv",
-    "k": "Finition de surface",
-    "v": "Rugueuse — sablage recommandé"
+    "t": "txt",
+    "v": "Finition de surface Rugueuse — sablage recommandé"
    },
    {
-    "t": "kv",
-    "k": "Couleur",
-    "v": "Gris naturel"
+    "t": "txt",
+    "v": "Couleur Gris naturel"
    },
    {
-    "t": "kv",
-    "k": "Support nécessaire",
-    "v": "Non — poudre auto-supportante"
+    "t": "txt",
+    "v": "Support nécessaire Non — poudre auto-supportante"
    },
    {
-    "t": "kv",
-    "k": "Post-traitement",
-    "v": "Sablage · Teinture · Laquage"
+    "t": "txt",
+    "v": "Post-traitement Sablage · Teinture · Laquage"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "La référence SLS — rapport qualité/prix optimal pour toute pièce fonctionnelle industrielle"
+    "t": "txt",
+    "v": "Atout clé La référence SLS — rapport qualité/prix optimal pour toute pièce fonctionnelle industrielle"
    },
    {
     "t": "txt",
@@ -6103,64 +5926,52 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Technologie",
-    "v": "SLS — Frittage Laser Sélectif"
+    "t": "txt",
+    "v": "Technologie SLS — Frittage Laser Sélectif"
    },
    {
-    "t": "kv",
-    "k": "Résistance mécanique",
-    "v": "Élevée"
+    "t": "txt",
+    "v": "Résistance mécanique Élevée"
    },
    {
-    "t": "kv",
-    "k": "Flexibilité",
-    "v": "Bonne à très bonne"
+    "t": "txt",
+    "v": "Flexibilité Bonne à très bonne"
    },
    {
-    "t": "kv",
-    "k": "Résistance aux chocs",
-    "v": "Très élevée"
+    "t": "txt",
+    "v": "Résistance aux chocs Très élevée"
    },
    {
-    "t": "kv",
-    "k": "Résistance thermique",
-    "v": "~100 à 120 °C"
+    "t": "txt",
+    "v": "Résistance thermique ~100 à 120 °C"
    },
    {
-    "t": "kv",
-    "k": "Résistance chimique",
-    "v": "Bonne (huiles, carburants)"
+    "t": "txt",
+    "v": "Résistance chimique Bonne (huiles, carburants)"
    },
    {
-    "t": "kv",
-    "k": "Stabilité dimensionnelle",
-    "v": "Bonne"
+    "t": "txt",
+    "v": "Stabilité dimensionnelle Bonne"
    },
    {
-    "t": "kv",
-    "k": "Résistance fatigue",
-    "v": "Excellente"
+    "t": "txt",
+    "v": "Résistance fatigue Excellente"
    },
    {
-    "t": "kv",
-    "k": "Finition de surface",
-    "v": "Mate légèrement granuleuse"
+    "t": "txt",
+    "v": "Finition de surface Mate légèrement granuleuse"
    },
    {
-    "t": "kv",
-    "k": "Support nécessaire",
-    "v": "Non — poudre autoportante"
+    "t": "txt",
+    "v": "Support nécessaire Non — poudre autoportante"
    },
    {
-    "t": "kv",
-    "k": "Post-traitement",
-    "v": "Sablage · Teinture · Finition industrielle"
+    "t": "txt",
+    "v": "Post-traitement Sablage · Teinture · Finition industrielle"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Alternative plus flexible et plus résistante aux impacts que le PA12"
+    "t": "txt",
+    "v": "Atout clé Alternative plus flexible et plus résistante aux impacts que le PA12"
    },
    {
     "t": "txt",
@@ -6304,69 +6115,56 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Technologie",
-    "v": "SLS — Frittage Laser Sélectif"
+    "t": "txt",
+    "v": "Technologie SLS — Frittage Laser Sélectif"
    },
    {
-    "t": "kv",
-    "k": "Renfort",
-    "v": "Fibres de carbone"
+    "t": "txt",
+    "v": "Renfort Fibres de carbone"
    },
    {
-    "t": "kv",
-    "k": "Rigidité",
-    "v": "Très élevée"
+    "t": "txt",
+    "v": "Rigidité Très élevée"
    },
    {
-    "t": "kv",
-    "k": "Poids",
-    "v": "Très léger"
+    "t": "txt",
+    "v": "Poids Très léger"
    },
    {
-    "t": "kv",
-    "k": "Résistance mécanique",
-    "v": "Très élevée"
+    "t": "txt",
+    "v": "Résistance mécanique Très élevée"
    },
    {
-    "t": "kv",
-    "k": "Résistance aux chocs",
-    "v": "Bonne"
+    "t": "txt",
+    "v": "Résistance aux chocs Bonne"
    },
    {
-    "t": "kv",
-    "k": "Stabilité dimensionnelle",
-    "v": "Excellente"
+    "t": "txt",
+    "v": "Stabilité dimensionnelle Excellente"
    },
    {
-    "t": "kv",
-    "k": "Résistance thermique",
-    "v": "Élevée (~150 °C)"
+    "t": "txt",
+    "v": "Résistance thermique Élevée (~150 °C)"
    },
    {
-    "t": "kv",
-    "k": "Résistance chimique",
-    "v": "Bonne"
+    "t": "txt",
+    "v": "Résistance chimique Bonne"
    },
    {
-    "t": "kv",
-    "k": "Finition de surface",
-    "v": "Mate renforcée fibres visibles"
+    "t": "txt",
+    "v": "Finition de surface Mate renforcée fibres visibles"
    },
    {
-    "t": "kv",
-    "k": "Support nécessaire",
-    "v": "Non — poudre autoportante"
+    "t": "txt",
+    "v": "Support nécessaire Non — poudre autoportante"
    },
    {
-    "t": "kv",
-    "k": "Post-traitement",
-    "v": "Sablage · Usinage léger · Finition technique"
+    "t": "txt",
+    "v": "Post-traitement Sablage · Usinage léger · Finition technique"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Remplace des pièces métalliques grâce à son excellent ratio rigidité/poids"
+    "t": "txt",
+    "v": "Atout clé Remplace des pièces métalliques grâce à son excellent ratio rigidité/poids"
    },
    {
     "t": "txt",
@@ -6514,69 +6312,56 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Technologie",
-    "v": "SLS — Frittage Laser Sélectif"
+    "t": "txt",
+    "v": "Technologie SLS — Frittage Laser Sélectif"
    },
    {
-    "t": "kv",
-    "k": "Renfort",
-    "v": "Fibres de verre"
+    "t": "txt",
+    "v": "Renfort Fibres de verre"
    },
    {
-    "t": "kv",
-    "k": "Rigidité",
-    "v": "Très élevée"
+    "t": "txt",
+    "v": "Rigidité Très élevée"
    },
    {
-    "t": "kv",
-    "k": "Résistance mécanique",
-    "v": "Élevée"
+    "t": "txt",
+    "v": "Résistance mécanique Élevée"
    },
    {
-    "t": "kv",
-    "k": "Stabilité dimensionnelle",
-    "v": "Excellente"
+    "t": "txt",
+    "v": "Stabilité dimensionnelle Excellente"
    },
    {
-    "t": "kv",
-    "k": "Résistance aux chocs",
-    "v": "Bonne"
+    "t": "txt",
+    "v": "Résistance aux chocs Bonne"
    },
    {
-    "t": "kv",
-    "k": "Résistance thermique",
-    "v": "Élevée (~120–140 °C)"
+    "t": "txt",
+    "v": "Résistance thermique Élevée (~120–140 °C)"
    },
    {
-    "t": "kv",
-    "k": "Résistance chimique",
-    "v": "Bonne"
+    "t": "txt",
+    "v": "Résistance chimique Bonne"
    },
    {
-    "t": "kv",
-    "k": "Finition de surface",
-    "v": "Mate renforcée fibres visibles"
+    "t": "txt",
+    "v": "Finition de surface Mate renforcée fibres visibles"
    },
    {
-    "t": "kv",
-    "k": "Poids",
-    "v": "Légèrement augmenté vs PA12"
+    "t": "txt",
+    "v": "Poids Légèrement augmenté vs PA12"
    },
    {
-    "t": "kv",
-    "k": "Support nécessaire",
-    "v": "Non — poudre autoportante"
+    "t": "txt",
+    "v": "Support nécessaire Non — poudre autoportante"
    },
    {
-    "t": "kv",
-    "k": "Post-traitement",
-    "v": "Sablage · Usinage léger · Finition technique"
+    "t": "txt",
+    "v": "Post-traitement Sablage · Usinage léger · Finition technique"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Alternative technique ultra rigide pour pièces structurelles exigeantes"
+    "t": "txt",
+    "v": "Atout clé Alternative technique ultra rigide pour pièces structurelles exigeantes"
    },
    {
     "t": "txt",
@@ -6724,59 +6509,52 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Technologie",
-    "v": "SLS — Frittage Laser Sélectif"
+    "t": "txt",
+    "v": "Technologie SLS — Frittage Laser Sélectif"
    },
    {
-    "t": "kv",
-    "k": "Propriété ESD",
-    "v": "Dissipation électrostatique"
+    "t": "txt",
+    "v": "Propriété ESD Dissipation électrostatique"
    },
    {
-    "t": "kv",
-    "k": "Résistivité",
-    "v": "Contrôlée (antistatique)"
+    "t": "txt",
+    "v": "Résistivité Contrôlée (antistatique)"
    },
    {
-    "t": "kv",
-    "k": "Sécurité électronique",
-    "v": "Très élevée"
+    "t": "txt",
+    "v": "Sécurité électronique Très élevée"
    },
    {
-    "t": "kv",
-    "k": "Résistance mécanique",
-    "v": "Élevée"
+    "t": "txt",
+    "v": "Résistance mécanique Élevée"
    },
    {
-    "t": "kv",
-    "k": "Résistance aux chocs",
-    "v": "Très bonne"
+    "t": "txt",
+    "v": "Résistance aux chocs Très bonne"
    },
    {
-    "t": "kv",
-    "k": "Stabilité dimensionnelle",
-    "v": "Bonne"
+    "t": "txt",
+    "v": "Stabilité dimensionnelle Bonne"
    },
    {
-    "t": "kv",
-    "k": "Finition de surface",
-    "v": "Mate légèrement granuleuse"
+    "t": "txt",
+    "v": "Résistance chimique Bonne"
    },
    {
-    "t": "kv",
-    "k": "Support nécessaire",
-    "v": "Non — poudre autoportante"
+    "t": "txt",
+    "v": "Finition de surface Mate légèrement granuleuse"
    },
    {
-    "t": "kv",
-    "k": "Post-traitement",
-    "v": "Sablage · Nettoyage · Finition technique"
+    "t": "txt",
+    "v": "Support nécessaire Non — poudre autoportante"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Protège les composants électroniques contre les décharges électrostatiques"
+    "t": "txt",
+    "v": "Post-traitement Sablage · Nettoyage · Finition technique"
+   },
+   {
+    "t": "txt",
+    "v": "Atout clé Protège les composants électroniques contre les décharges électrostatiques"
    },
    {
     "t": "txt",
@@ -6920,69 +6698,56 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Technologie",
-    "v": "SLS — Frittage Laser Sélectif"
+    "t": "txt",
+    "v": "Technologie SLS — Frittage Laser Sélectif"
    },
    {
-    "t": "kv",
-    "k": "Base matériau",
-    "v": "Polyamide 12 (PA12)"
+    "t": "txt",
+    "v": "Base matériau Polyamide 12 (PA12)"
    },
    {
-    "t": "kv",
-    "k": "Propriété principale",
-    "v": "Ignifuge (UL 94 V-0)"
+    "t": "txt",
+    "v": "Propriété principale Ignifuge (UL 94 V-0)"
    },
    {
-    "t": "kv",
-    "k": "Halogènes",
-    "v": "Sans halogène"
+    "t": "txt",
+    "v": "Halogènes Sans halogène"
    },
    {
-    "t": "kv",
-    "k": "Résistance mécanique",
-    "v": "Élevée"
+    "t": "txt",
+    "v": "Résistance mécanique Élevée"
    },
    {
-    "t": "kv",
-    "k": "Rigidité",
-    "v": "Supérieure au PA12 standard"
+    "t": "txt",
+    "v": "Rigidité Supérieure au PA12 standard"
    },
    {
-    "t": "kv",
-    "k": "Résistance thermique",
-    "v": "Élevée (~150–185 °C)"
+    "t": "txt",
+    "v": "Résistance thermique Élevée (~150–185 °C)"
    },
    {
-    "t": "kv",
-    "k": "Résistance chimique",
-    "v": "Bonne"
+    "t": "txt",
+    "v": "Résistance chimique Bonne"
    },
    {
-    "t": "kv",
-    "k": "Comportement feu",
-    "v": "Auto-extinguible"
+    "t": "txt",
+    "v": "Comportement feu Auto-extinguible"
    },
    {
-    "t": "kv",
-    "k": "Finition de surface",
-    "v": "Mate légèrement granuleuse"
+    "t": "txt",
+    "v": "Finition de surface Mate légèrement granuleuse"
    },
    {
-    "t": "kv",
-    "k": "Support nécessaire",
-    "v": "Non — poudre autoportante"
+    "t": "txt",
+    "v": "Support nécessaire Non — poudre autoportante"
    },
    {
-    "t": "kv",
-    "k": "Post-traitement",
-    "v": "Sablage · Finition technique · Teinture limitée"
+    "t": "txt",
+    "v": "Post-traitement Sablage · Finition technique · Teinture limitée"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Conçu pour les pièces exigeant une sécurité incendie certifiée en environnement industriel"
+    "t": "txt",
+    "v": "Atout clé Conçu pour les pièces exigeant une sécurité incendie certifiée en environnement industriel"
    },
    {
     "t": "txt",
@@ -7130,64 +6895,56 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Technologie",
-    "v": "SLS — Frittage Laser Sélectif"
+    "t": "txt",
+    "v": "Technologie SLS — Frittage Laser Sélectif"
    },
    {
-    "t": "kv",
-    "k": "Base matériau",
-    "v": "Polyamide 12 (PA12)"
+    "t": "txt",
+    "v": "Base matériau Polyamide 12 (PA12)"
    },
    {
-    "t": "kv",
-    "k": "Usage",
-    "v": "Contact alimentaire (selon certification)"
+    "t": "txt",
+    "v": "Usage Contact alimentaire (selon certification)"
    },
    {
-    "t": "kv",
-    "k": "Hygiène",
-    "v": "Élevée"
+    "t": "txt",
+    "v": "Hygiène Élevée"
    },
    {
-    "t": "kv",
-    "k": "Stabilité dimensionnelle",
-    "v": "Très bonne"
+    "t": "txt",
+    "v": "Résistance mécanique Élevée"
    },
    {
-    "t": "kv",
-    "k": "Résistance chimique",
-    "v": "Bonne (produits alimentaires, nettoyants)"
+    "t": "txt",
+    "v": "Stabilité dimensionnelle Très bonne"
    },
    {
-    "t": "kv",
-    "k": "Absorption d’humidité",
-    "v": "Faible à modérée"
+    "t": "txt",
+    "v": "Résistance chimique Bonne (produits alimentaires, nettoyants)"
    },
    {
-    "t": "kv",
-    "k": "Finition de surface",
-    "v": "Mate légèrement granuleuse"
+    "t": "txt",
+    "v": "Absorption d’humidité Faible à modérée"
    },
    {
-    "t": "kv",
-    "k": "Couleur",
-    "v": "Naturelle (gris/blanc selon poudre)"
+    "t": "txt",
+    "v": "Finition de surface Mate légèrement granuleuse"
    },
    {
-    "t": "kv",
-    "k": "Support nécessaire",
-    "v": "Non — poudre autoportante"
+    "t": "txt",
+    "v": "Couleur Naturelle (gris/blanc selon poudre)"
    },
    {
-    "t": "kv",
-    "k": "Post-traitement",
-    "v": "Sablage · Nettoyage · Finition hygiénique"
+    "t": "txt",
+    "v": "Support nécessaire Non — poudre autoportante"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Solution technique pour pièces en contact alimentaire avec exigences industrielles"
+    "t": "txt",
+    "v": "Post-traitement Sablage · Nettoyage · Finition hygiénique"
+   },
+   {
+    "t": "txt",
+    "v": "Atout clé Solution technique pour pièces en contact alimentaire avec exigences industrielles"
    },
    {
     "t": "txt",
@@ -7335,59 +7092,48 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Technologie",
-    "v": "SLS — Frittage Laser Sélectif"
+    "t": "txt",
+    "v": "Technologie SLS — Frittage Laser Sélectif"
    },
    {
-    "t": "kv",
-    "k": "Dureté",
-    "v": "88A Shore"
+    "t": "txt",
+    "v": "Dureté 88A Shore"
    },
    {
-    "t": "kv",
-    "k": "Flexibilité",
-    "v": "Élevée"
+    "t": "txt",
+    "v": "Flexibilité Élevée"
    },
    {
-    "t": "kv",
-    "k": "Résistance à l’abrasion",
-    "v": "Très élevée"
+    "t": "txt",
+    "v": "Résistance à l’abrasion Très élevée"
    },
    {
-    "t": "kv",
-    "k": "Résistance aux chocs",
-    "v": "Excellente"
+    "t": "txt",
+    "v": "Résistance aux chocs Excellente"
    },
    {
-    "t": "kv",
-    "k": "Rebond / élasticité",
-    "v": "Très bon"
+    "t": "txt",
+    "v": "Rebond / élasticité Très bon"
    },
    {
-    "t": "kv",
-    "k": "Résistance chimique",
-    "v": "Bonne (huiles, graisses)"
+    "t": "txt",
+    "v": "Résistance chimique Bonne (huiles, graisses)"
    },
    {
-    "t": "kv",
-    "k": "Finition de surface",
-    "v": "Mate légèrement granuleuse"
+    "t": "txt",
+    "v": "Finition de surface Mate légèrement granuleuse"
    },
    {
-    "t": "kv",
-    "k": "Support nécessaire",
-    "v": "Non"
+    "t": "txt",
+    "v": "Support nécessaire Non"
    },
    {
-    "t": "kv",
-    "k": "Post-traitement",
-    "v": "Découpe · Nettoyage · Finition légère"
+    "t": "txt",
+    "v": "Post-traitement Découpe · Nettoyage · Finition légère"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Élastomère industriel idéal pour pièces flexibles et résistantes aux contraintes répétées"
+    "t": "txt",
+    "v": "Atout clé Élastomère industriel idéal pour pièces flexibles et résistantes aux contraintes répétées"
    },
    {
     "t": "txt",
@@ -7559,85 +7305,44 @@
     "v": "Production série & prototypage rapide"
    },
    {
-    "t": "kv",
-    "k": "Volume d'impression",
-    "v": "256 × 256 × 256 mm"
-   },
-   {
-    "t": "kv",
-    "k": "Vitesse max",
-    "v": "500 mm/s"
-   },
-   {
-    "t": "kv",
-    "k": "Précision",
-    "v": "± 0.1 mm"
-   },
-   {
-    "t": "kv",
-    "k": "Diamètre buse",
-    "v": "0.4 mm (standard)"
-   },
-   {
-    "t": "kv",
-    "k": "Température buse",
-    "v": "jusqu'à 300°C"
-   },
-   {
-    "t": "kv",
-    "k": "Température plateau",
-    "v": "jusqu'à 110°C"
-   },
-   {
-    "t": "kv",
-    "k": "Multi-couleurs",
-    "v": "Oui — jusqu'à 16 couleurs simultanées (AMS)"
-   },
-   {
-    "t": "kv",
-    "k": "Connectivité",
-    "v": "Wi-Fi · Ethernet · USB"
-   },
-   {
-    "t": "kv",
-    "k": "Enceinte fermée",
-    "v": "Oui"
+    "t": "txt",
+    "v": "Volume d'impression 256 × 256 × 256 mm"
    },
    {
     "t": "txt",
-    "v": "Matériaux"
+    "v": "Vitesse max 500 mm/s"
    },
    {
     "t": "txt",
-    "v": "PLA"
+    "v": "Précision ± 0.1 mm"
    },
    {
     "t": "txt",
-    "v": "PETG"
+    "v": "Diamètre buse 0.4 mm (standard)"
    },
    {
     "t": "txt",
-    "v": "ABS"
+    "v": "Température buse jusqu'à 300°C"
    },
    {
     "t": "txt",
-    "v": "ASA"
+    "v": "Température plateau jusqu'à 110°C"
    },
    {
     "t": "txt",
-    "v": "TPU"
+    "v": "Multi-couleurs Oui — jusqu'à 16 couleurs simultanées (AMS)"
    },
    {
     "t": "txt",
-    "v": "PA"
+    "v": "Connectivité Wi-Fi · Ethernet · USB"
    },
    {
     "t": "txt",
-    "v": "PC"
+    "v": "Enceinte fermée Oui"
    },
    {
     "t": "txt",
-    "v": "Composites"
+    "v": "Matériaux PLA PETG ABS ASA TPU PA PC Composites"
    },
    {
     "t": "txt",
@@ -7760,75 +7465,36 @@
     "v": "Impression multicolore — jusqu'à 24 couleurs simultanées"
    },
    {
-    "t": "kv",
-    "k": "Nombre de couleurs",
-    "v": "Jusqu'à 24 simultanées"
-   },
-   {
-    "t": "kv",
-    "k": "Système multi-matériaux",
-    "v": "AMS HT (Advanced Material System)"
-   },
-   {
-    "t": "kv",
-    "k": "Diamètre filament",
-    "v": "1.75 mm"
-   },
-   {
-    "t": "kv",
-    "k": "Température buse",
-    "v": "jusqu'à 320°C"
-   },
-   {
-    "t": "kv",
-    "k": "Enceinte fermée",
-    "v": "Oui — idéale ABS / PC"
-   },
-   {
-    "t": "kv",
-    "k": "Connectivité",
-    "v": "Wi-Fi · Ethernet · USB"
-   },
-   {
-    "t": "kv",
-    "k": "Multi-matériaux",
-    "v": "Oui — rigide + flexible en une seule impression"
+    "t": "txt",
+    "v": "Nombre de couleurs Jusqu'à 24 simultanées"
    },
    {
     "t": "txt",
-    "v": "Matériaux"
+    "v": "Système multi-matériaux AMS HT (Advanced Material System)"
    },
    {
     "t": "txt",
-    "v": "PLA"
+    "v": "Diamètre filament 1.75 mm"
    },
    {
     "t": "txt",
-    "v": "PETG"
+    "v": "Température buse jusqu'à 320°C"
    },
    {
     "t": "txt",
-    "v": "ABS"
+    "v": "Enceinte fermée Oui — idéale ABS / PC"
    },
    {
     "t": "txt",
-    "v": "ASA"
+    "v": "Connectivité Wi-Fi · Ethernet · USB"
    },
    {
     "t": "txt",
-    "v": "TPU"
+    "v": "Multi-matériaux Oui — rigide + flexible en une seule impression"
    },
    {
     "t": "txt",
-    "v": "PA"
-   },
-   {
-    "t": "txt",
-    "v": "PVA"
-   },
-   {
-    "t": "txt",
-    "v": "HIPS"
+    "v": "Matériaux PLA PETG ABS ASA TPU PA PVA HIPS"
    },
    {
     "t": "txt",
@@ -7943,72 +7609,40 @@
     "v": "Pièces XXL — volume jusqu'à 1 m³"
    },
    {
-    "t": "kv",
-    "k": "Volume d'impression",
-    "v": "~1000 × 1000 × 1000 mm — 1 m³"
-   },
-   {
-    "t": "kv",
-    "k": "Format",
-    "v": "Grande format / XXL"
-   },
-   {
-    "t": "kv",
-    "k": "Multi-matériaux",
-    "v": "Oui"
-   },
-   {
-    "t": "kv",
-    "k": "Diamètre filament",
-    "v": "1.75 mm et 2.85 mm"
-   },
-   {
-    "t": "kv",
-    "k": "Structure",
-    "v": "Cadre rigide acier"
-   },
-   {
-    "t": "kv",
-    "k": "Avantage clé",
-    "v": "Pièces XXL sans assemblage"
-   },
-   {
-    "t": "kv",
-    "k": "Buse",
-    "v": "Diamant — Gühring"
-   },
-   {
-    "t": "kv",
-    "k": "Idéal pour",
-    "v": "Maquettes · Signalétique · Pièces industrielles XXL"
+    "t": "txt",
+    "v": "Volume d'impression ~1000 × 1000 × 1000 mm — 1 m³"
    },
    {
     "t": "txt",
-    "v": "Matériaux"
+    "v": "Format Grande format / XXL"
    },
    {
     "t": "txt",
-    "v": "PLA"
+    "v": "Multi-matériaux Oui"
    },
    {
     "t": "txt",
-    "v": "PETG"
+    "v": "Diamètre filament 1.75 mm et 2.85 mm"
    },
    {
     "t": "txt",
-    "v": "ABS"
+    "v": "Structure Cadre rigide acier"
    },
    {
     "t": "txt",
-    "v": "ASA"
+    "v": "Avantage clé Pièces XXL sans assemblage"
    },
    {
     "t": "txt",
-    "v": "Composites"
+    "v": "Buse Diamant — Gühring"
    },
    {
     "t": "txt",
-    "v": "Flexibles"
+    "v": "Idéal pour Maquettes · Signalétique · Pièces industrielles XXL"
+   },
+   {
+    "t": "txt",
+    "v": "Matériaux PLA PETG ABS ASA Composites Flexibles"
    },
    {
     "t": "txt",
@@ -8127,77 +7761,44 @@
     "v": "Prototypage industriel haute performance"
    },
    {
-    "t": "kv",
-    "k": "Volume d'impression",
-    "v": "250 × 220 × 270 mm"
-   },
-   {
-    "t": "kv",
-    "k": "Précision",
-    "v": "± 0.05 mm"
-   },
-   {
-    "t": "kv",
-    "k": "Diamètre buse",
-    "v": "0.4 mm (interchangeable)"
-   },
-   {
-    "t": "kv",
-    "k": "Diamètre filament",
-    "v": "1.75 mm"
-   },
-   {
-    "t": "kv",
-    "k": "Température buse",
-    "v": "jusqu'à 300°C"
-   },
-   {
-    "t": "kv",
-    "k": "Température plateau",
-    "v": "jusqu'à 120°C"
-   },
-   {
-    "t": "kv",
-    "k": "Enceinte fermée",
-    "v": "Oui"
-   },
-   {
-    "t": "kv",
-    "k": "Connectivité",
-    "v": "Ethernet · Wi-Fi · USB"
-   },
-   {
-    "t": "kv",
-    "k": "Matériaux clés",
-    "v": "ASA · ABS · PC · PA — usage industriel"
+    "t": "txt",
+    "v": "Volume d'impression 250 × 220 × 270 mm"
    },
    {
     "t": "txt",
-    "v": "Matériaux"
+    "v": "Précision ± 0.05 mm"
    },
    {
     "t": "txt",
-    "v": "ASA"
+    "v": "Diamètre buse 0.4 mm (interchangeable)"
    },
    {
     "t": "txt",
-    "v": "ABS"
+    "v": "Diamètre filament 1.75 mm"
    },
    {
     "t": "txt",
-    "v": "PC"
+    "v": "Température buse jusqu'à 300°C"
    },
    {
     "t": "txt",
-    "v": "PA"
+    "v": "Température plateau jusqu'à 120°C"
    },
    {
     "t": "txt",
-    "v": "PETG"
+    "v": "Enceinte fermée Oui"
    },
    {
     "t": "txt",
-    "v": "PLA"
+    "v": "Connectivité Ethernet · Wi-Fi · USB"
+   },
+   {
+    "t": "txt",
+    "v": "Matériaux clés ASA · ABS · PC · PA — usage industriel"
+   },
+   {
+    "t": "txt",
+    "v": "Matériaux ASA ABS PC PA PETG PLA"
    },
    {
     "t": "txt",
@@ -8320,69 +7921,56 @@
     "v": "Impression de polymères techniques avancés — PEEK, PEKK, ULTEM / PEI"
    },
    {
-    "t": "kv",
-    "k": "Technologie",
-    "v": "FFF / FDM Haute Température"
+    "t": "txt",
+    "v": "Technologie FFF / FDM Haute Température"
    },
    {
-    "t": "kv",
-    "k": "Résolution max",
-    "v": "50 microns (0.05 mm)"
+    "t": "txt",
+    "v": "Résolution max 50 microns (0.05 mm)"
    },
    {
-    "t": "kv",
-    "k": "Volume d'impression",
-    "v": "260 × 260 × 260 mm"
+    "t": "txt",
+    "v": "Volume d'impression 260 × 260 × 260 mm"
    },
    {
-    "t": "kv",
-    "k": "Précision XY",
-    "v": "12.5 microns"
+    "t": "txt",
+    "v": "Précision XY 12.5 microns"
    },
    {
-    "t": "kv",
-    "k": "Vitesse d'impression",
-    "v": "jusqu'à 300 mm/s"
+    "t": "txt",
+    "v": "Vitesse d'impression jusqu'à 300 mm/s"
    },
    {
-    "t": "kv",
-    "k": "Température extrudeur",
-    "v": "jusqu'à 450°C"
+    "t": "txt",
+    "v": "Température extrudeur jusqu'à 450°C"
    },
    {
-    "t": "kv",
-    "k": "Température plateau",
-    "v": "jusqu'à 160°C"
+    "t": "txt",
+    "v": "Température plateau jusqu'à 160°C"
    },
    {
-    "t": "kv",
-    "k": "Chambre chauffée",
-    "v": "90°C constante"
+    "t": "txt",
+    "v": "Chambre chauffée 90°C constante"
    },
    {
-    "t": "kv",
-    "k": "Nivellement",
-    "v": "Automatique"
+    "t": "txt",
+    "v": "Nivellement Automatique"
    },
    {
-    "t": "kv",
-    "k": "Plateau",
-    "v": "Verre céramique + feuille PI"
+    "t": "txt",
+    "v": "Plateau Verre céramique + feuille PI"
    },
    {
-    "t": "kv",
-    "k": "Connectivité",
-    "v": "Ethernet · Wi-Fi · USB"
+    "t": "txt",
+    "v": "Connectivité Ethernet · Wi-Fi · USB"
    },
    {
-    "t": "kv",
-    "k": "Dimensions machine",
-    "v": "538 × 498 × 650 mm"
+    "t": "txt",
+    "v": "Dimensions machine 538 × 498 × 650 mm"
    },
    {
-    "t": "kv",
-    "k": "Matériaux compatibles",
-    "v": "14+ matériaux techniques haute performance"
+    "t": "txt",
+    "v": "Matériaux compatibles 14+ matériaux techniques haute performance"
    },
    {
     "t": "txt",
@@ -8394,27 +7982,19 @@
    },
    {
     "t": "txt",
-    "v": "Résistance mécanique et chimique"
+    "v": "Résistance mécanique et chimique parmi les meilleures au monde"
    },
    {
     "t": "txt",
-    "v": "parmi les meilleures au monde"
+    "v": "Température de service jusqu'à 250°C en continu"
    },
    {
     "t": "txt",
-    "v": "Température de service jusqu'à"
+    "v": "Applications: aéronautique, médical, automobile, électronique"
    },
    {
     "t": "txt",
-    "v": "250°C en continu"
-   },
-   {
-    "t": "txt",
-    "v": "Applications : aéronautique, médical, automobile, électronique"
-   },
-   {
-    "t": "txt",
-    "v": "Versions : PEEK standard · PEEK-CF · PEEK-GF"
+    "v": "Versions: PEEK standard · PEEK-CF · PEEK-GF"
    },
    {
     "t": "txt",
@@ -8422,11 +8002,7 @@
    },
    {
     "t": "txt",
-    "v": "Plus rigide que le PEEK"
-   },
-   {
-    "t": "txt",
-    "v": "avec moins de retrait"
+    "v": "Plus rigide que le PEEK avec moins de retrait"
    },
    {
     "t": "txt",
@@ -8434,15 +8010,11 @@
    },
    {
     "t": "txt",
-    "v": "Basé sur"
+    "v": "Basé sur Kepstan® Arkema"
    },
    {
     "t": "txt",
-    "v": "Kepstan® Arkema"
-   },
-   {
-    "t": "txt",
-    "v": "Applications : précision, implants, aéronautique"
+    "v": "Applications: précision, implants, aéronautique"
    },
    {
     "t": "txt",
@@ -8450,11 +8022,7 @@
    },
    {
     "t": "txt",
-    "v": "Homologation FAA"
-   },
-   {
-    "t": "txt",
-    "v": "pour l'industrie aéronautique"
+    "v": "Homologation FAA pour l'industrie aéronautique"
    },
    {
     "t": "txt",
@@ -8462,11 +8030,11 @@
    },
    {
     "t": "txt",
-    "v": "Versions : Ultem 1010 · PEI 9085"
+    "v": "Versions: Ultem 1010 · PEI 9085"
    },
    {
     "t": "txt",
-    "v": "Applications : cabines avion, médical, électronique puissance"
+    "v": "Applications: cabines avion, médical, électronique puissance"
    },
    {
     "t": "txt",
@@ -8597,59 +8165,48 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Catégorie",
-    "v": "Filament standard biobased"
+    "t": "txt",
+    "v": "Catégorie Filament standard biobased"
    },
    {
-    "t": "kv",
-    "k": "Facilité d'impression",
-    "v": "Très facile — idéal débutants"
+    "t": "txt",
+    "v": "Facilité d'impression Très facile — idéal débutants"
    },
    {
-    "t": "kv",
-    "k": "Température impression",
-    "v": "180 – 220 °C"
+    "t": "txt",
+    "v": "Température impression 180 – 220 °C"
    },
    {
-    "t": "kv",
-    "k": "Température plateau",
-    "v": "0 – 60 °C (sans plateau chauffé)"
+    "t": "txt",
+    "v": "Température plateau 0 – 60 °C (sans plateau chauffé)"
    },
    {
-    "t": "kv",
-    "k": "Résistance thermique",
-    "v": "Jusqu'à 60 °C (déformation au-delà)"
+    "t": "txt",
+    "v": "Résistance thermique Jusqu'à 60 °C (déformation au-delà)"
    },
    {
-    "t": "kv",
-    "k": "Résistance mécanique",
-    "v": "Bonne en statique — faible sous choc"
+    "t": "txt",
+    "v": "Résistance mécanique Bonne en statique — faible sous choc"
    },
    {
-    "t": "kv",
-    "k": "Résistance chimique",
-    "v": "Faible — sensible aux solvants et acides"
+    "t": "txt",
+    "v": "Résistance chimique Faible — sensible aux solvants et acides"
    },
    {
-    "t": "kv",
-    "k": "Résistance UV",
-    "v": "Faible — jaunissement à long terme"
+    "t": "txt",
+    "v": "Résistance UV Faible — jaunissement à long terme"
    },
    {
-    "t": "kv",
-    "k": "Qualité de surface",
-    "v": "Excellente — très beau rendu visuel, détails fins"
+    "t": "txt",
+    "v": "Qualité de surface Excellente — très beau rendu visuel, détails fins"
    },
    {
-    "t": "kv",
-    "k": "Origine matière",
-    "v": "Biobased — amidon de maïs, canne à sucre"
+    "t": "txt",
+    "v": "Origine matière Biobased — amidon de maïs, canne à sucre"
    },
    {
-    "t": "kv",
-    "k": "Plateau chauffé",
-    "v": "Non requis"
+    "t": "txt",
+    "v": "Plateau chauffé Non requis"
    },
    {
     "t": "txt",
@@ -8845,59 +8402,48 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Catégorie",
-    "v": "Filament intermédiaire"
+    "t": "txt",
+    "v": "Catégorie Filament intermédiaire"
    },
    {
-    "t": "kv",
-    "k": "Facilité d'impression",
-    "v": "Facile à moyenne"
+    "t": "txt",
+    "v": "Facilité d'impression Facile à moyenne"
    },
    {
-    "t": "kv",
-    "k": "Température impression",
-    "v": "230 – 250 °C"
+    "t": "txt",
+    "v": "Température impression 230 – 250 °C"
    },
    {
-    "t": "kv",
-    "k": "Température plateau",
-    "v": "70 – 90 °C"
+    "t": "txt",
+    "v": "Température plateau 70 – 90 °C"
    },
    {
-    "t": "kv",
-    "k": "Résistance thermique",
-    "v": "~80 °C"
+    "t": "txt",
+    "v": "Résistance thermique ~80 °C"
    },
    {
-    "t": "kv",
-    "k": "Résistance à l'humidité",
-    "v": "Bonne — supérieure au PLA"
+    "t": "txt",
+    "v": "Résistance à l'humidité Bonne — supérieure au PLA"
    },
    {
-    "t": "kv",
-    "k": "Résistance mécanique",
-    "v": "Bonne — flexible sans se casser"
+    "t": "txt",
+    "v": "Résistance mécanique Bonne — flexible sans se casser"
    },
    {
-    "t": "kv",
-    "k": "Résistance chimique",
-    "v": "Bonne — résistance basique aux solvants"
+    "t": "txt",
+    "v": "Résistance chimique Bonne — résistance basique aux solvants"
    },
    {
-    "t": "kv",
-    "k": "Résistance UV",
-    "v": "Moyenne — meilleure que PLA"
+    "t": "txt",
+    "v": "Résistance UV Moyenne — meilleure que PLA"
    },
    {
-    "t": "kv",
-    "k": "Plateau chauffé",
-    "v": "Requis — 70 à 90 °C"
+    "t": "txt",
+    "v": "Plateau chauffé Requis — 70 à 90 °C"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Meilleur que le PLA pour les pièces fonctionnelles — sans la complexité de l'ABS"
+    "t": "txt",
+    "v": "Atout clé Meilleur que le PLA pour les pièces fonctionnelles — sans la complexité de l'ABS"
    },
    {
     "t": "txt",
@@ -9085,59 +8631,48 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Catégorie",
-    "v": "Filament flexible / élastomère"
+    "t": "txt",
+    "v": "Catégorie Filament flexible / élastomère"
    },
    {
-    "t": "kv",
-    "k": "Dureté Shore",
-    "v": "85A – 98A (plus bas = plus souple)"
+    "t": "txt",
+    "v": "Dureté Shore 85A – 98A (plus bas = plus souple)"
    },
    {
-    "t": "kv",
-    "k": "Température impression",
-    "v": "220 – 240 °C"
+    "t": "txt",
+    "v": "Température impression 220 – 240 °C"
    },
    {
-    "t": "kv",
-    "k": "Température plateau",
-    "v": "30 – 60 °C"
+    "t": "txt",
+    "v": "Température plateau 30 – 60 °C"
    },
    {
-    "t": "kv",
-    "k": "Résistance thermique",
-    "v": "Jusqu'à 80 °C"
+    "t": "txt",
+    "v": "Résistance thermique Jusqu'à 80 °C"
    },
    {
-    "t": "kv",
-    "k": "Résistance à l'abrasion",
-    "v": "Très élevée"
+    "t": "txt",
+    "v": "Résistance à l'abrasion Très élevée"
    },
    {
-    "t": "kv",
-    "k": "Résistance aux chocs",
-    "v": "Excellente — absorption des impacts"
+    "t": "txt",
+    "v": "Résistance aux chocs Excellente — absorption des impacts"
    },
    {
-    "t": "kv",
-    "k": "Résistance chimique",
-    "v": "Bonne"
+    "t": "txt",
+    "v": "Résistance chimique Bonne"
    },
    {
-    "t": "kv",
-    "k": "Vitesse d'impression",
-    "v": "Lente — vitesse réduite obligatoire"
+    "t": "txt",
+    "v": "Vitesse d'impression Lente — vitesse réduite obligatoire"
    },
    {
-    "t": "kv",
-    "k": "Facilité d'impression",
-    "v": "Moyenne — réglages spécifiques requis"
+    "t": "txt",
+    "v": "Facilité d'impression Moyenne — réglages spécifiques requis"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Élasticité caoutchouteuse — pièces qui s'étirent, se compriment et reprennent leur forme"
+    "t": "txt",
+    "v": "Atout clé Élasticité caoutchouteuse — pièces qui s'étirent, se compriment et reprennent leur forme"
    },
    {
     "t": "txt",
@@ -9321,59 +8856,48 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Catégorie",
-    "v": "Filament technique"
+    "t": "txt",
+    "v": "Catégorie Filament technique"
    },
    {
-    "t": "kv",
-    "k": "Facilité d'impression",
-    "v": "Moyenne — enceinte chauffée requise"
+    "t": "txt",
+    "v": "Facilité d'impression Moyenne — enceinte chauffée requise"
    },
    {
-    "t": "kv",
-    "k": "Température impression",
-    "v": "230 – 250 °C"
+    "t": "txt",
+    "v": "Température impression 230 – 250 °C"
    },
    {
-    "t": "kv",
-    "k": "Température plateau",
-    "v": "100 – 110 °C"
+    "t": "txt",
+    "v": "Température plateau 100 – 110 °C"
    },
    {
-    "t": "kv",
-    "k": "Résistance thermique",
-    "v": "~100 °C"
+    "t": "txt",
+    "v": "Résistance thermique ~100 °C"
    },
    {
-    "t": "kv",
-    "k": "Résistance mécanique",
-    "v": "Bonne — résistant aux chocs"
+    "t": "txt",
+    "v": "Résistance mécanique Bonne — résistant aux chocs"
    },
    {
-    "t": "kv",
-    "k": "Résistance chimique",
-    "v": "Moyenne — sensible aux solvants polaires"
+    "t": "txt",
+    "v": "Résistance chimique Moyenne — sensible aux solvants polaires"
    },
    {
-    "t": "kv",
-    "k": "Résistance UV",
-    "v": "Faible — jaunissement et fragilisation"
+    "t": "txt",
+    "v": "Résistance UV Faible — jaunissement et fragilisation"
    },
    {
-    "t": "kv",
-    "k": "Enceinte fermée",
-    "v": "Recommandée — réduit le gauchissement"
+    "t": "txt",
+    "v": "Enceinte fermée Recommandée — réduit le gauchissement"
    },
    {
-    "t": "kv",
-    "k": "Post-traitement",
-    "v": "Lissage à l'acétone possible — finition parfaite"
+    "t": "txt",
+    "v": "Post-traitement Lissage à l'acétone possible — finition parfaite"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Résistance thermique ~100 °C + lissage acétone pour finition industrielle"
+    "t": "txt",
+    "v": "Atout clé Résistance thermique ~100 °C + lissage acétone pour finition industrielle"
    },
    {
     "t": "txt",
@@ -9561,59 +9085,48 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Catégorie",
-    "v": "Filament extérieur haute performance"
+    "t": "txt",
+    "v": "Catégorie Filament extérieur haute performance"
    },
    {
-    "t": "kv",
-    "k": "Facilité d'impression",
-    "v": "Moyenne — similaire à l'ABS"
+    "t": "txt",
+    "v": "Facilité d'impression Moyenne — similaire à l'ABS"
    },
    {
-    "t": "kv",
-    "k": "Température impression",
-    "v": "240 – 260 °C"
+    "t": "txt",
+    "v": "Température impression 240 – 260 °C"
    },
    {
-    "t": "kv",
-    "k": "Température plateau",
-    "v": "100 – 110 °C"
+    "t": "txt",
+    "v": "Température plateau 100 – 110 °C"
    },
    {
-    "t": "kv",
-    "k": "Résistance thermique",
-    "v": "~100 °C"
+    "t": "txt",
+    "v": "Résistance thermique ~100 °C"
    },
    {
-    "t": "kv",
-    "k": "Résistance UV",
-    "v": "Excellente — pas de jaunissement"
+    "t": "txt",
+    "v": "Résistance UV Excellente — pas de jaunissement"
    },
    {
-    "t": "kv",
-    "k": "Résistance aux intempéries",
-    "v": "Excellente — pluie, gel, chaleur"
+    "t": "txt",
+    "v": "Résistance aux intempéries Excellente — pluie, gel, chaleur"
    },
    {
-    "t": "kv",
-    "k": "Résistance mécanique",
-    "v": "Bonne"
+    "t": "txt",
+    "v": "Résistance mécanique Bonne"
    },
    {
-    "t": "kv",
-    "k": "Enceinte fermée",
-    "v": "Recommandée"
+    "t": "txt",
+    "v": "Enceinte fermée Recommandée"
    },
    {
-    "t": "kv",
-    "k": "Post-traitement",
-    "v": "Lissage à l'acétone possible"
+    "t": "txt",
+    "v": "Post-traitement Lissage à l'acétone possible"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Toutes les qualités de l'ABS + résistance UV/intempéries — le choix numéro 1 pour l'extérieur"
+    "t": "txt",
+    "v": "Atout clé Toutes les qualités de l'ABS + résistance UV/intempéries — le choix numéro 1 pour l'extérieur"
    },
    {
     "t": "txt",
@@ -9797,69 +9310,56 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Catégorie",
-    "v": "Composite Nylon + Fibre de carbone"
+    "t": "txt",
+    "v": "Catégorie Composite Nylon + Fibre de carbone"
    },
    {
-    "t": "kv",
-    "k": "Facilité d'impression",
-    "v": "Avancée — réglages techniques requis"
+    "t": "txt",
+    "v": "Facilité d'impression Avancée — réglages techniques requis"
    },
    {
-    "t": "kv",
-    "k": "Température impression",
-    "v": "260 – 280 °C"
+    "t": "txt",
+    "v": "Température impression 260 – 280 °C"
    },
    {
-    "t": "kv",
-    "k": "Température plateau",
-    "v": "70 – 90 °C"
+    "t": "txt",
+    "v": "Température plateau 70 – 90 °C"
    },
    {
-    "t": "kv",
-    "k": "Résistance thermique",
-    "v": "~180 °C"
+    "t": "txt",
+    "v": "Résistance thermique ~180 °C"
    },
    {
-    "t": "kv",
-    "k": "Rigidité",
-    "v": "Très haute — supérieure au nylon pur"
+    "t": "txt",
+    "v": "Rigidité Très haute — supérieure au nylon pur"
    },
    {
-    "t": "kv",
-    "k": "Résistance mécanique",
-    "v": "Excellente"
+    "t": "txt",
+    "v": "Résistance mécanique Excellente"
    },
    {
-    "t": "kv",
-    "k": "Stabilité dimensionnelle",
-    "v": "Très haute"
+    "t": "txt",
+    "v": "Stabilité dimensionnelle Très haute"
    },
    {
-    "t": "kv",
-    "k": "Poids",
-    "v": "Réduit — léger malgré sa résistance"
+    "t": "txt",
+    "v": "Poids Réduit — léger malgré sa résistance"
    },
    {
-    "t": "kv",
-    "k": "Qualité de surface",
-    "v": "Rugueuse — aspect composite"
+    "t": "txt",
+    "v": "Qualité de surface Rugueuse — aspect composite"
    },
    {
-    "t": "kv",
-    "k": "Buse recommandée",
-    "v": "Durcie — fibre de carbone très abrasive"
+    "t": "txt",
+    "v": "Buse recommandée Durcie — fibre de carbone très abrasive"
    },
    {
-    "t": "kv",
-    "k": "Machines O&D",
-    "v": "Prusa Core One · Modix Big Meter · SLS1518"
+    "t": "txt",
+    "v": "Machines O&D Prusa Core One · Modix Big Meter · SLS1518"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Rigidité et résistance proches du métal — à fraction du poids — idéal remplacement pièces métal"
+    "t": "txt",
+    "v": "Atout clé Rigidité et résistance proches du métal — à fraction du poids — idéal remplacement pièces métal"
    },
    {
     "t": "txt",
@@ -10043,69 +9543,56 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Catégorie",
-    "v": "Composite Nylon + Fibre de verre"
+    "t": "txt",
+    "v": "Catégorie Composite Nylon + Fibre de verre"
    },
    {
-    "t": "kv",
-    "k": "Facilité d'impression",
-    "v": "Avancée — réglages techniques requis"
+    "t": "txt",
+    "v": "Facilité d'impression Avancée — réglages techniques requis"
    },
    {
-    "t": "kv",
-    "k": "Température impression",
-    "v": "260 – 280 °C"
+    "t": "txt",
+    "v": "Température impression 260 – 280 °C"
    },
    {
-    "t": "kv",
-    "k": "Température plateau",
-    "v": "70 – 90 °C"
+    "t": "txt",
+    "v": "Température plateau 70 – 90 °C"
    },
    {
-    "t": "kv",
-    "k": "Résistance thermique",
-    "v": "Très bonne — similaire PA12-CF"
+    "t": "txt",
+    "v": "Résistance thermique Très bonne — similaire PA12-CF"
    },
    {
-    "t": "kv",
-    "k": "Résistance aux impacts",
-    "v": "Meilleure que PA12-CF"
+    "t": "txt",
+    "v": "Résistance aux impacts Meilleure que PA12-CF"
    },
    {
-    "t": "kv",
-    "k": "Rigidité",
-    "v": "Haute"
+    "t": "txt",
+    "v": "Rigidité Haute"
    },
    {
-    "t": "kv",
-    "k": "Stabilité dimensionnelle",
-    "v": "Très haute"
+    "t": "txt",
+    "v": "Stabilité dimensionnelle Très haute"
    },
    {
-    "t": "kv",
-    "k": "Résistance chimique",
-    "v": "Très bonne"
+    "t": "txt",
+    "v": "Résistance chimique Très bonne"
    },
    {
-    "t": "kv",
-    "k": "Poids",
-    "v": "Supérieur au PA12-CF"
+    "t": "txt",
+    "v": "Poids Supérieur au PA12-CF"
    },
    {
-    "t": "kv",
-    "k": "Qualité de surface",
-    "v": "Rugueuse"
+    "t": "txt",
+    "v": "Qualité de surface Rugueuse"
    },
    {
-    "t": "kv",
-    "k": "Buse recommandée",
-    "v": "Durcie — fibre de verre abrasive"
+    "t": "txt",
+    "v": "Buse recommandée Durcie — fibre de verre abrasive"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Plus résistant aux impacts que le CF — idéal pour outillages industriels et pièces en milieu contraint"
+    "t": "txt",
+    "v": "Atout clé Plus résistant aux impacts que le CF — idéal pour outillages industriels et pièces en milieu contraint"
    },
    {
     "t": "txt",
@@ -10277,59 +9764,48 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Catégorie",
-    "v": "Filament technique semi-cristallin"
+    "t": "txt",
+    "v": "Catégorie Filament technique semi-cristallin"
    },
    {
-    "t": "kv",
-    "k": "Facilité d'impression",
-    "v": "Difficile — adhérence plateau délicate"
+    "t": "txt",
+    "v": "Facilité d'impression Difficile — adhérence plateau délicate"
    },
    {
-    "t": "kv",
-    "k": "Température impression",
-    "v": "220 – 240 °C"
+    "t": "txt",
+    "v": "Température impression 220 – 240 °C"
    },
    {
-    "t": "kv",
-    "k": "Température plateau",
-    "v": "80 – 100 °C"
+    "t": "txt",
+    "v": "Température plateau 80 – 100 °C"
    },
    {
-    "t": "kv",
-    "k": "Résistance thermique",
-    "v": "Bonne — ~100 °C"
+    "t": "txt",
+    "v": "Résistance thermique Bonne — ~100 °C"
    },
    {
-    "t": "kv",
-    "k": "Résistance chimique",
-    "v": "Très élevée — acides, bases, solvants"
+    "t": "txt",
+    "v": "Résistance chimique Très élevée — acides, bases, solvants"
    },
    {
-    "t": "kv",
-    "k": "Résistance à la fatigue",
-    "v": "Excellente — idéal pour charnières"
+    "t": "txt",
+    "v": "Résistance à la fatigue Excellente — idéal pour charnières"
    },
    {
-    "t": "kv",
-    "k": "Poids",
-    "v": "Très faible — un des plus légers"
+    "t": "txt",
+    "v": "Poids Très faible — un des plus légers"
    },
    {
-    "t": "kv",
-    "k": "Résistance à l'humidité",
-    "v": "Très bonne"
+    "t": "txt",
+    "v": "Résistance à l'humidité Très bonne"
    },
    {
-    "t": "kv",
-    "k": "Recyclabilité",
-    "v": "Oui — recyclable"
+    "t": "txt",
+    "v": "Recyclabilité Oui — recyclable"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Résistance chimique quasi-universelle + légèreté extrême — idéal pour contenants chimiques et charnières répétitives"
+    "t": "txt",
+    "v": "Atout clé Résistance chimique quasi-universelle + légèreté extrême — idéal pour contenants chimiques et charnières répétitives"
    },
    {
     "t": "txt",
@@ -10505,69 +9981,56 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Catégorie",
-    "v": "Composite haute performance extrême"
+    "t": "txt",
+    "v": "Catégorie Composite haute performance extrême"
    },
    {
-    "t": "kv",
-    "k": "Facilité d'impression",
-    "v": "Très technique — machines spécialisées"
+    "t": "txt",
+    "v": "Facilité d'impression Très technique — machines spécialisées"
    },
    {
-    "t": "kv",
-    "k": "Température impression",
-    "v": "320 – 360 °C"
+    "t": "txt",
+    "v": "Température impression 320 – 360 °C"
    },
    {
-    "t": "kv",
-    "k": "Température plateau",
-    "v": "120 – 150 °C"
+    "t": "txt",
+    "v": "Température plateau 120 – 150 °C"
    },
    {
-    "t": "kv",
-    "k": "Résistance thermique continue",
-    "v": "220 – 240 °C"
+    "t": "txt",
+    "v": "Résistance thermique continue 220 – 240 °C"
    },
    {
-    "t": "kv",
-    "k": "Résistance chimique",
-    "v": "Exceptionnelle — quasi-universelle"
+    "t": "txt",
+    "v": "Résistance chimique Exceptionnelle — quasi-universelle"
    },
    {
-    "t": "kv",
-    "k": "Rigidité",
-    "v": "Très haute — renfort fibre carbone"
+    "t": "txt",
+    "v": "Rigidité Très haute — renfort fibre carbone"
    },
    {
-    "t": "kv",
-    "k": "Stabilité dimensionnelle",
-    "v": "Très haute"
+    "t": "txt",
+    "v": "Stabilité dimensionnelle Très haute"
    },
    {
-    "t": "kv",
-    "k": "Enceinte",
-    "v": "Obligatoire — haute température"
+    "t": "txt",
+    "v": "Enceinte Obligatoire — haute température"
    },
    {
-    "t": "kv",
-    "k": "Usage industrie lourde",
-    "v": "Chimie, pétrole, aérospatial"
+    "t": "txt",
+    "v": "Usage industrie lourde Chimie, pétrole, aérospatial"
    },
    {
-    "t": "kv",
-    "k": "Machines O&D",
-    "v": "INTAMSYS Funmat HT exclusivement"
+    "t": "txt",
+    "v": "Machines O&D INTAMSYS Funmat HT exclusivement"
    },
    {
-    "t": "kv",
-    "k": "Coût",
-    "v": "Très élevé"
+    "t": "txt",
+    "v": "Coût Très élevé"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Résistance thermique jusqu'à 240 °C + résistance chimique quasi-universelle — le choix ultime en milieu extrême"
+    "t": "txt",
+    "v": "Atout clé Résistance thermique jusqu'à 240 °C + résistance chimique quasi-universelle — le choix ultime en milieu extrême"
    },
    {
     "t": "txt",
@@ -10739,69 +10202,56 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Catégorie",
-    "v": "Polymère technique de haute performance"
+    "t": "txt",
+    "v": "Catégorie Polymère technique de haute performance"
    },
    {
-    "t": "kv",
-    "k": "Facilité d'impression",
-    "v": "Très technique — machines spécialisées"
+    "t": "txt",
+    "v": "Facilité d'impression Très technique — machines spécialisées"
    },
    {
-    "t": "kv",
-    "k": "Température impression",
-    "v": "380 – 420 °C"
+    "t": "txt",
+    "v": "Température impression 380 – 420 °C"
    },
    {
-    "t": "kv",
-    "k": "Température plateau",
-    "v": "120 – 160 °C"
+    "t": "txt",
+    "v": "Température plateau 120 – 160 °C"
    },
    {
-    "t": "kv",
-    "k": "Résistance thermique continue",
-    "v": "Jusqu'à 250 °C"
+    "t": "txt",
+    "v": "Résistance thermique continue Jusqu'à 250 °C"
    },
    {
-    "t": "kv",
-    "k": "Résistance chimique",
-    "v": "Excellente — quasi-universelle"
+    "t": "txt",
+    "v": "Résistance chimique Excellente — quasi-universelle"
    },
    {
-    "t": "kv",
-    "k": "Résistance mécanique",
-    "v": "Parmi les meilleures pour un polymère"
+    "t": "txt",
+    "v": "Résistance mécanique Parmi les meilleures pour un polymère"
    },
    {
-    "t": "kv",
-    "k": "Enceinte",
-    "v": "Obligatoire — 90 °C minimum"
+    "t": "txt",
+    "v": "Enceinte Obligatoire — 90 °C minimum"
    },
    {
-    "t": "kv",
-    "k": "Biocompatibilité",
-    "v": "Oui — usage médical et alimentaire"
+    "t": "txt",
+    "v": "Biocompatibilité Oui — usage médical et alimentaire"
    },
    {
-    "t": "kv",
-    "k": "Stérilisable",
-    "v": "Oui — compatible autoclave"
+    "t": "txt",
+    "v": "Stérilisable Oui — compatible autoclave"
    },
    {
-    "t": "kv",
-    "k": "Machines O&D",
-    "v": "INTAMSYS Funmat HT exclusivement"
+    "t": "txt",
+    "v": "Machines O&D INTAMSYS Funmat HT exclusivement"
    },
    {
-    "t": "kv",
-    "k": "Coût",
-    "v": "Très élevé"
+    "t": "txt",
+    "v": "Coût Très élevé"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Résistance thermique 250 °C + biocompatible + stérilisable — le remplacement ultime du métal pour le médical et l'aérospatial"
+    "t": "txt",
+    "v": "Atout clé Résistance thermique 250 °C + biocompatible + stérilisable — le remplacement ultime du métal pour le médical et l'aérospatial"
    },
    {
     "t": "txt",
@@ -10973,69 +10423,56 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Catégorie",
-    "v": "Polymère technique de haute performance"
+    "t": "txt",
+    "v": "Catégorie Polymère technique de haute performance"
    },
    {
-    "t": "kv",
-    "k": "Marque matière",
-    "v": "Kepstan® — Arkema (France)"
+    "t": "txt",
+    "v": "Marque matière Kepstan® — Arkema (France)"
    },
    {
-    "t": "kv",
-    "k": "Température impression",
-    "v": "340 – 380 °C"
+    "t": "txt",
+    "v": "Température impression 340 – 380 °C"
    },
    {
-    "t": "kv",
-    "k": "Température plateau",
-    "v": "120 – 160 °C"
+    "t": "txt",
+    "v": "Température plateau 120 – 160 °C"
    },
    {
-    "t": "kv",
-    "k": "Rigidité vs PEEK",
-    "v": "Supérieure — plus rigide que le PEEK"
+    "t": "txt",
+    "v": "Rigidité vs PEEK Supérieure — plus rigide que le PEEK"
    },
    {
-    "t": "kv",
-    "k": "Retrait à l'impression",
-    "v": "Moindre que le PEEK — meilleure stabilité"
+    "t": "txt",
+    "v": "Retrait à l'impression Moindre que le PEEK — meilleure stabilité"
    },
    {
-    "t": "kv",
-    "k": "Adhésion intercouche",
-    "v": "Supérieure au PEEK"
+    "t": "txt",
+    "v": "Adhésion intercouche Supérieure au PEEK"
    },
    {
-    "t": "kv",
-    "k": "Résistance thermique",
-    "v": "Supérieure au PEEK en rigidité à chaud"
+    "t": "txt",
+    "v": "Résistance thermique Supérieure au PEEK en rigidité à chaud"
    },
    {
-    "t": "kv",
-    "k": "Enceinte",
-    "v": "Obligatoire"
+    "t": "txt",
+    "v": "Enceinte Obligatoire"
    },
    {
-    "t": "kv",
-    "k": "Certifications",
-    "v": "FAA / EASA compatible — médical"
+    "t": "txt",
+    "v": "Certifications FAA / EASA compatible — médical"
    },
    {
-    "t": "kv",
-    "k": "Machines O&D",
-    "v": "INTAMSYS Funmat HT exclusivement"
+    "t": "txt",
+    "v": "Machines O&D INTAMSYS Funmat HT exclusivement"
    },
    {
-    "t": "kv",
-    "k": "Coût",
-    "v": "Très élevé"
+    "t": "txt",
+    "v": "Coût Très élevé"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Plus rigide et plus stable que le PEEK à l'impression — certifiable FAA/EASA — qualité Kepstan® Arkema garantie"
+    "t": "txt",
+    "v": "Atout clé Plus rigide et plus stable que le PEEK à l'impression — certifiable FAA/EASA — qualité Kepstan® Arkema garantie"
    },
    {
     "t": "txt",
@@ -11203,69 +10640,56 @@
     "v": "Spécifications techniques"
    },
    {
-    "t": "kv",
-    "k": "Catégorie",
-    "v": "Polymère haute performance certifié"
+    "t": "txt",
+    "v": "Catégorie Polymère haute performance certifié"
    },
    {
-    "t": "kv",
-    "k": "Grades disponibles",
-    "v": "Ultem 1010 (médical) · Ultem 9085 (aéronautique)"
+    "t": "txt",
+    "v": "Grades disponibles Ultem 1010 (médical) · Ultem 9085 (aéronautique)"
    },
    {
-    "t": "kv",
-    "k": "Température impression",
-    "v": "340 – 380 °C"
+    "t": "txt",
+    "v": "Température impression 340 – 380 °C"
    },
    {
-    "t": "kv",
-    "k": "Température plateau",
-    "v": "120 – 145 °C"
+    "t": "txt",
+    "v": "Température plateau 120 – 145 °C"
    },
    {
-    "t": "kv",
-    "k": "Résistance thermique",
-    "v": "Jusqu'à 210 °C"
+    "t": "txt",
+    "v": "Résistance thermique Jusqu'à 210 °C"
    },
    {
-    "t": "kv",
-    "k": "Certification aéronautique",
-    "v": "FAA / EASA — Ultem 9085"
+    "t": "txt",
+    "v": "Certification aéronautique FAA / EASA — Ultem 9085"
    },
    {
-    "t": "kv",
-    "k": "Résistance aux flammes",
-    "v": "Oui — FAR 25.853 (Ultem 9085)"
+    "t": "txt",
+    "v": "Résistance aux flammes Oui — FAR 25.853 (Ultem 9085)"
    },
    {
-    "t": "kv",
-    "k": "Biocompatibilité",
-    "v": "Oui — Ultem 1010"
+    "t": "txt",
+    "v": "Biocompatibilité Oui — Ultem 1010"
    },
    {
-    "t": "kv",
-    "k": "Enceinte",
-    "v": "Obligatoire"
+    "t": "txt",
+    "v": "Enceinte Obligatoire"
    },
    {
-    "t": "kv",
-    "k": "Rigidité",
-    "v": "Haute"
+    "t": "txt",
+    "v": "Rigidité Haute"
    },
    {
-    "t": "kv",
-    "k": "Machines O&D",
-    "v": "INTAMSYS Funmat HT exclusivement"
+    "t": "txt",
+    "v": "Machines O&D INTAMSYS Funmat HT exclusivement"
    },
    {
-    "t": "kv",
-    "k": "Coût",
-    "v": "Très élevé"
+    "t": "txt",
+    "v": "Coût Très élevé"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Seul polymère imprimable en 3D homologué FAA pour les cabines d'avion — résistance aux flammes certifiée FAR 25.853"
+    "t": "txt",
+    "v": "Atout clé Seul polymère imprimable en 3D homologué FAA pour les cabines d'avion — résistance aux flammes certifiée FAR 25.853"
    },
    {
     "t": "txt",
@@ -11460,109 +10884,60 @@
     "v": "Fraiseuse CNC de bureau carénée pour l’usinage de métaux et de matériaux non métalliques, avec changement automatique d’outils."
    },
    {
-    "t": "kv",
-    "k": "Zone de travail (X × Y × Z)",
-    "v": "400 × 265 × 180 mm"
-   },
-   {
-    "t": "kv",
-    "k": "Broche",
-    "v": "Moteur synchrone à aimants permanents (PMSM)"
-   },
-   {
-    "t": "kv",
-    "k": "Puissance nominale de broche",
-    "v": "1,5 kW (S1)"
-   },
-   {
-    "t": "kv",
-    "k": "Vitesse maximale",
-    "v": "24 000 tr/min"
-   },
-   {
-    "t": "kv",
-    "k": "Changement d’outils",
-    "v": "Automatique · 9 outils + sonde pièce"
-   },
-   {
-    "t": "kv",
-    "k": "Répétabilité de positionnement",
-    "v": "± 0,01 mm"
-   },
-   {
-    "t": "kv",
-    "k": "Axes",
-    "v": "3 axes en standard · modules 4 et 5 axes en option"
-   },
-   {
-    "t": "kv",
-    "k": "Structure",
-    "v": "Châssis en alliage d’aluminium moulé"
-   },
-   {
-    "t": "kv",
-    "k": "Mouvement",
-    "v": "Vis à billes préchargées · moteurs pas à pas NEMA 23 en boucle fermée"
-   },
-   {
-    "t": "kv",
-    "k": "Refroidissement",
-    "v": "Soufflage d’air standard · refroidissement liquide en option"
-   },
-   {
-    "t": "kv",
-    "k": "Enceinte et aspiration",
-    "v": "Enceinte fermée avec porte verrouillable · aspiration et filtration en option"
-   },
-   {
-    "t": "kv",
-    "k": "Logiciels",
-    "v": "ToolDance Studio (CAM automatique et vérifications de conception) + ToolDance Controller"
-   },
-   {
-    "t": "kv",
-    "k": "Atout principal",
-    "v": "Une broche annoncée à 1,5 kW, un magasin automatique de 9 outils et une zone de travail de 400 × 265 × 180 mm dans une machine compacte et carénée."
+    "t": "txt",
+    "v": "Zone de travail (X × Y × Z) 400 × 265 × 180 mm"
    },
    {
     "t": "txt",
-    "v": "Matériaux"
+    "v": "Broche Moteur synchrone à aimants permanents (PMSM)"
    },
    {
     "t": "txt",
-    "v": "Acier"
+    "v": "Puissance nominale de broche 1,5 kW (S1)"
    },
    {
     "t": "txt",
-    "v": "Acier inoxydable"
+    "v": "Vitesse maximale 24 000 tr/min"
    },
    {
     "t": "txt",
-    "v": "Titane"
+    "v": "Changement d’outils Automatique · 9 outils + sonde pièce"
    },
    {
     "t": "txt",
-    "v": "Aluminium"
+    "v": "Répétabilité de positionnement ± 0,01 mm"
    },
    {
     "t": "txt",
-    "v": "Laiton"
+    "v": "Axes 3 axes en standard · modules 4 et 5 axes en option"
    },
    {
     "t": "txt",
-    "v": "Cuivre"
+    "v": "Structure Châssis en alliage d’aluminium moulé"
    },
    {
     "t": "txt",
-    "v": "Bois dur"
+    "v": "Mouvement Vis à billes préchargées · moteurs pas à pas NEMA 23 en boucle fermée"
    },
    {
     "t": "txt",
-    "v": "Acrylique"
+    "v": "Refroidissement Soufflage d’air standard · refroidissement liquide en option"
    },
    {
     "t": "txt",
-    "v": "Plastiques"
+    "v": "Enceinte et aspiration Enceinte fermée avec porte verrouillable · aspiration et filtration en option"
+   },
+   {
+    "t": "txt",
+    "v": "Logiciels ToolDance Studio (CAM automatique et vérifications de conception) + ToolDance Controller"
+   },
+   {
+    "t": "txt",
+    "v": "Atout principal Une broche annoncée à 1,5 kW, un magasin automatique de 9 outils et une zone de travail de 400 × 265 × 180 mm dans une machine compacte et carénée."
+   },
+   {
+    "t": "txt",
+    "v": "Matériaux Acier Acier inoxydable Titane Aluminium Laiton Cuivre Bois dur Acrylique Plastiques"
    },
    {
     "t": "txt",
@@ -11689,131 +11064,76 @@
     "v": "Gravure laser ultra-rapide — portable, DIY & personnalisation"
    },
    {
-    "t": "kv",
-    "k": "Vitesse de gravure",
-    "v": "jusqu'à 4 000 mm/s"
+    "t": "txt",
+    "v": "Vitesse de gravure jusqu'à 4 000 mm/s"
    },
    {
-    "t": "kv",
-    "k": "Précision",
-    "v": "Élevée — objets fins & détaillés"
+    "t": "txt",
+    "v": "Précision Élevée — objets fins & détaillés"
    },
    {
-    "t": "kv",
-    "k": "Type de laser",
-    "v": "Diode 10W — 455 nm"
+    "t": "txt",
+    "v": "Type de laser Diode 10W — 455 nm"
    },
    {
-    "t": "kv",
-    "k": "Source laser",
-    "v": "Mono-laser (sans IR)"
+    "t": "txt",
+    "v": "Source laser Mono-laser (sans IR)"
    },
    {
-    "t": "kv",
-    "k": "Découpe bois",
-    "v": "jusqu'à ~6 mm"
+    "t": "txt",
+    "v": "Découpe bois jusqu'à ~6 mm"
    },
    {
-    "t": "kv",
-    "k": "Découpe acrylique",
-    "v": "jusqu'à ~3 mm (foncé)"
+    "t": "txt",
+    "v": "Découpe acrylique jusqu'à ~3 mm (foncé)"
    },
    {
-    "t": "kv",
-    "k": "Poids",
-    "v": "~4.45 kg — compact & portable"
+    "t": "txt",
+    "v": "Poids ~4.45 kg — compact & portable"
    },
    {
-    "t": "kv",
-    "k": "Alimentation",
-    "v": "24V / 3.5A"
+    "t": "txt",
+    "v": "Alimentation 24V / 3.5A"
    },
    {
-    "t": "kv",
-    "k": "Connectivité",
-    "v": "USB / PC direct"
+    "t": "txt",
+    "v": "Connectivité USB / PC direct"
    },
    {
-    "t": "kv",
-    "k": "Logiciels",
-    "v": "xTool Creative Space · LightBurn"
+    "t": "txt",
+    "v": "Logiciels xTool Creative Space · LightBurn"
    },
    {
-    "t": "kv",
-    "k": "Sécurité",
-    "v": "Capot protection · Ventilation · Arrêt urgence"
+    "t": "txt",
+    "v": "Sécurité Capot protection · Ventilation · Arrêt urgence"
    },
    {
-    "t": "kv",
-    "k": "Positionnement",
-    "v": "Makers · Craft · Petites séries · Personnalisation"
+    "t": "txt",
+    "v": "Positionnement Makers · Craft · Petites séries · Personnalisation"
    },
    {
-    "t": "kv",
-    "k": "Atout clé",
-    "v": "Gravure ultra-rapide (~10 sec/objet) — idéal personnalisation & petites séries"
+    "t": "txt",
+    "v": "Atout clé Gravure ultra-rapide (~10 sec/objet) — idéal personnalisation & petites séries"
    },
    {
     "t": "txt",
     "v": "Limitations"
    },
    {
-    "t": "kv",
-    "k": "Métaux nus",
-    "v": "Très limité (pas d'IR)"
-   },
-   {
-    "t": "kv",
-    "k": "Découpe industrielle",
-    "v": "Non adapté aux épaisseurs importantes"
+    "t": "txt",
+    "v": "Métaux nus Très limité (pas d'IR)"
    },
    {
     "t": "txt",
-    "v": "Compatibles"
+    "v": "Découpe industrielle Non adapté aux épaisseurs importantes"
    },
    {
     "t": "txt",
-    "v": "Bois"
+    "v": "Compatibles Bois Cuir Papier / carton Caoutchouc Pierre / ardoise Verre Métal anodisé Aliments"
    },
    {
     "t": "txt",
-    "v": "Cuir"
-   },
-   {
-    "t": "txt",
-    "v": "Papier / carton"
-   },
-   {
-    "t": "txt",
-    "v": "Caoutchouc"
-   },
-   {
-    "t": "txt",
-    "v": "Pierre / ardoise"
-   },
-   {
-    "t": "txt",
-    "v": "Verre"
-   },
-   {
-    "t": "txt",
-    "v": "Métal anodisé"
-   },
-   {
-    "t": "txt",
-    "v": "Aliments"
-   },
-   {
-    "t": "txt",
-    "v": "Limités"
-   },
-   {
-    "t": "txt",
-    "v": "Métal nu (acier / alu)"
-   },
-   {
-    "t": "txt",
-    "v": "Découpes épaisses"
+    "v": "Limités Métal nu (acier / alu) Découpes épaisses"
    },
    {
     "t": "txt",
@@ -11928,73 +11248,44 @@
     "v": "Détails ultra-fins — bijouterie, médical, design"
    },
    {
-    "t": "kv",
-    "k": "Volume d'impression",
-    "v": "298 × 300 × 164 mm"
-   },
-   {
-    "t": "kv",
-    "k": "Résolution XY",
-    "v": "< 0.05 mm"
-   },
-   {
-    "t": "kv",
-    "k": "Source lumineuse",
-    "v": "LCD mono 12K"
-   },
-   {
-    "t": "kv",
-    "k": "Technologie",
-    "v": "MSLA (Masking LCD)"
-   },
-   {
-    "t": "kv",
-    "k": "Recyclage résine",
-    "v": "Automatique"
-   },
-   {
-    "t": "kv",
-    "k": "Nettoyage",
-    "v": "Spray intégré"
-   },
-   {
-    "t": "kv",
-    "k": "Séchage",
-    "v": "360° intégré"
-   },
-   {
-    "t": "kv",
-    "k": "Type de résine",
-    "v": "Standard · ABS-like · Flexible · Castable"
-   },
-   {
-    "t": "kv",
-    "k": "Atout principal",
-    "v": "Surfaces lisses & détails impossibles à obtenir en FDM"
+    "t": "txt",
+    "v": "Volume d'impression 298 × 300 × 164 mm"
    },
    {
     "t": "txt",
-    "v": "Résines"
+    "v": "Résolution XY < 0.05 mm"
    },
    {
     "t": "txt",
-    "v": "Standard"
+    "v": "Source lumineuse LCD mono 12K"
    },
    {
     "t": "txt",
-    "v": "ABS-like"
+    "v": "Technologie MSLA (Masking LCD)"
    },
    {
     "t": "txt",
-    "v": "Flexible"
+    "v": "Recyclage résine Automatique"
    },
    {
     "t": "txt",
-    "v": "Castable (bijoux)"
+    "v": "Nettoyage Spray intégré"
    },
    {
     "t": "txt",
-    "v": "Dentaire"
+    "v": "Séchage 360° intégré"
+   },
+   {
+    "t": "txt",
+    "v": "Type de résine Standard · ABS-like · Flexible · Castable"
+   },
+   {
+    "t": "txt",
+    "v": "Atout principal Surfaces lisses & détails impossibles à obtenir en FDM"
+   },
+   {
+    "t": "txt",
+    "v": "Résines Standard ABS-like Flexible Castable (bijoux) Dentaire"
    },
    {
     "t": "txt",
@@ -12117,74 +11408,60 @@
     "v": "Numérisation industrielle ultra rapide — pièces mécaniques, corps humains, objets complexes"
    },
    {
-    "t": "kv",
-    "k": "Type",
-    "v": "Scanner 3D portable professionnel"
+    "t": "txt",
+    "v": "Type Scanner 3D portable professionnel"
    },
    {
-    "t": "kv",
-    "k": "Précision",
-    "v": "jusqu'à 0.04 mm"
+    "t": "txt",
+    "v": "Précision jusqu'à 0.04 mm"
    },
    {
-    "t": "kv",
-    "k": "Résolution",
-    "v": "0.05 mm (laser bleu) · 0.1 mm (IR)"
+    "t": "txt",
+    "v": "Résolution 0.05 mm (laser bleu) · 0.1 mm (IR)"
    },
    {
-    "t": "kv",
-    "k": "Vitesse acquisition",
-    "v": "4 500 000 points / seconde"
+    "t": "txt",
+    "v": "Vitesse acquisition 4 500 000 points / seconde"
    },
    {
-    "t": "kv",
-    "k": "Cadence",
-    "v": "jusqu'à 70 FPS"
+    "t": "txt",
+    "v": "Cadence jusqu'à 70 FPS"
    },
    {
-    "t": "kv",
-    "k": "Couverture grande zone",
-    "v": "1100 × 1000 mm par trame"
+    "t": "txt",
+    "v": "Couverture grande zone 1100 × 1000 mm par trame"
    },
    {
-    "t": "kv",
-    "k": "Distance de scan",
-    "v": "150 à 1500 mm"
+    "t": "txt",
+    "v": "Distance de scan 150 à 1500 mm"
    },
    {
-    "t": "kv",
-    "k": "Alignement",
-    "v": "Géométrie · texture · marqueurs"
+    "t": "txt",
+    "v": "Alignement Géométrie · texture · marqueurs"
    },
    {
-    "t": "kv",
-    "k": "Formats exportés",
-    "v": "STL · OBJ · ASC · formats standards"
+    "t": "txt",
+    "v": "Formats exportés STL · OBJ · ASC · formats standards"
    },
    {
-    "t": "kv",
-    "k": "Logiciel inclus",
-    "v": "3DeVOK Studio — sans abonnement"
+    "t": "txt",
+    "v": "Logiciel inclus 3DeVOK Studio — sans abonnement"
    },
    {
-    "t": "kv",
-    "k": "Certification laser",
-    "v": "IEC 60825 — technologie œil-safe"
+    "t": "txt",
+    "v": "Certification laser IEC 60825 — technologie œil-safe"
    },
    {
-    "t": "kv",
-    "k": "Utilisation extérieure",
-    "v": "Compatible lumière directe du soleil"
+    "t": "txt",
+    "v": "Utilisation extérieure Compatible lumière directe du soleil"
    },
    {
-    "t": "kv",
-    "k": "Matériaux compatibles",
-    "v": "Noir · réfléchissant · peau · cheveux · surfaces mates — sans poudre"
+    "t": "txt",
+    "v": "Matériaux compatibles Noir · réfléchissant · peau · cheveux · surfaces mates — sans poudre"
    },
    {
-    "t": "kv",
-    "k": "Sources laser",
-    "v": "34 lignes laser bleues · 22 lignes IR · lumière IR grande zone"
+    "t": "txt",
+    "v": "Sources laser 34 lignes laser bleues · 22 lignes IR · lumière IR grande zone"
    },
    {
     "t": "txt",
@@ -12196,11 +11473,7 @@
    },
    {
     "t": "txt",
-    "v": "Idéal pour :"
-   },
-   {
-    "t": "txt",
-    "v": "pièces mécaniques, composants industriels, petits objets"
+    "v": "Idéal pour: pièces mécaniques, composants industriels, petits objets"
    },
    {
     "t": "txt",
@@ -12216,11 +11489,7 @@
    },
    {
     "t": "txt",
-    "v": "Idéal pour :"
-   },
-   {
-    "t": "txt",
-    "v": "petits composants et détails fins"
+    "v": "Idéal pour: petits composants et détails fins"
    },
    {
     "t": "txt",
@@ -12236,23 +11505,11 @@
    },
    {
     "t": "txt",
-    "v": "Idéal pour :"
+    "v": "Idéal pour: sculptures, mobilier, corps humains, grandes pièces"
    },
    {
     "t": "txt",
-    "v": "sculptures, mobilier, corps humains, grandes pièces"
-   },
-   {
-    "t": "txt",
-    "v": "Couverture jusqu'à"
-   },
-   {
-    "t": "txt",
-    "v": "1100 × 1000 mm"
-   },
-   {
-    "t": "txt",
-    "v": "par trame"
+    "v": "Couverture jusqu'à 1100 × 1000 mm par trame"
    },
    {
     "t": "txt",
@@ -12290,29 +11547,8 @@
     "v": "FDM, SLS, Résine, CNC — 30+ matériaux disponibles dans notre atelier de Welkenraedt. Ce guide vous aide à choisir la bonne combinaison technologie + matériau pour votre projet."
    },
    {
-    "t": "link",
-    "v": "🖨️ FDM / FFF",
-    "href": "#fdm"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ SLS Frittage",
-    "href": "#sls"
-   },
-   {
-    "t": "link",
-    "v": "💎 Résine SLA/MSLA",
-    "href": "#resine"
-   },
-   {
-    "t": "link",
-    "v": "⚙️ Usinage CNC",
-    "href": "#cnc"
-   },
-   {
-    "t": "link",
-    "v": "📊 Tableau synthèse",
-    "href": "#synthese"
+    "t": "txt",
+    "v": "🖨️ FDM / FFF 🌡️ SLS Frittage 💎 Résine SLA/MSLA ⚙️ Usinage CNC 📊 Tableau synthèse"
    },
    {
     "t": "txt",
@@ -12368,59 +11604,7 @@
    },
    {
     "t": "txt",
-    "v": "PLA"
-   },
-   {
-    "t": "txt",
-    "v": "PETG"
-   },
-   {
-    "t": "txt",
-    "v": "ABS"
-   },
-   {
-    "t": "txt",
-    "v": "ASA"
-   },
-   {
-    "t": "txt",
-    "v": "TPU"
-   },
-   {
-    "t": "txt",
-    "v": "PP"
-   },
-   {
-    "t": "txt",
-    "v": "PC"
-   },
-   {
-    "t": "txt",
-    "v": "PA12-CF"
-   },
-   {
-    "t": "txt",
-    "v": "PA12-GF"
-   },
-   {
-    "t": "txt",
-    "v": "PPS-CF"
-   },
-   {
-    "t": "txt",
-    "v": "PEEK"
-   },
-   {
-    "t": "txt",
-    "v": "PEEK-CF"
-   },
-   {
-    "t": "txt",
-    "v": "PEKK"
-   },
-   {
-    "t": "txt",
-    "v": "Ultem"
+    "v": "PLA PETG ABS ASA TPU PP PC PA12-CF PA12-GF PPS-CF PEEK PEEK-CF PEKK Ultem"
    },
    {
     "t": "kv",
@@ -12645,35 +11829,7 @@
    },
    {
     "t": "txt",
-    "v": "PA12"
-   },
-   {
-    "t": "txt",
-    "v": "PA12-GF"
-   },
-   {
-    "t": "txt",
-    "v": "PA11"
-   },
-   {
-    "t": "txt",
-    "v": "PA11-CF"
-   },
-   {
-    "t": "txt",
-    "v": "PA11-ESD"
-   },
-   {
-    "t": "txt",
-    "v": "PA2210 FR"
-   },
-   {
-    "t": "txt",
-    "v": "PA12 Alimentaire"
-   },
-   {
-    "t": "txt",
-    "v": "TPU 88A"
+    "v": "PA12 PA12-GF PA11 PA11-CF PA11-ESD PA2210 FR PA12 Alimentaire TPU 88A"
    },
    {
     "t": "kv",
@@ -12838,23 +11994,7 @@
    },
    {
     "t": "txt",
-    "v": "Standard"
-   },
-   {
-    "t": "txt",
-    "v": "Castable"
-   },
-   {
-    "t": "txt",
-    "v": "Biocompatible"
-   },
-   {
-    "t": "txt",
-    "v": "Dentaire"
-   },
-   {
-    "t": "txt",
-    "v": "Haute T°"
+    "v": "Standard Castable Biocompatible Dentaire Haute T°"
    },
    {
     "t": "kv",
@@ -12971,27 +12111,7 @@
    },
    {
     "t": "txt",
-    "v": "POM"
-   },
-   {
-    "t": "txt",
-    "v": "Nylon"
-   },
-   {
-    "t": "txt",
-    "v": "Aluminium"
-   },
-   {
-    "t": "txt",
-    "v": "Bois"
-   },
-   {
-    "t": "txt",
-    "v": "Composites"
-   },
-   {
-    "t": "txt",
-    "v": "HDPE"
+    "v": "POM Nylon Aluminium Bois Composites HDPE"
    },
    {
     "t": "kv",
@@ -13121,7 +12241,7 @@
    },
    {
     "t": "txt",
-    "v": "Besoin d'un conseil ?"
+    "v": "Besoin d'un conseil?"
    },
    {
     "t": "h2",
@@ -13182,7 +12302,15 @@
    },
    {
     "t": "txt",
+    "v": "— Matériau A —"
+   },
+   {
+    "t": "txt",
     "v": "VS"
+   },
+   {
+    "t": "txt",
+    "v": "— Matériau B —"
    },
    {
     "t": "txt",
@@ -13635,15 +12763,15 @@
    },
    {
     "t": "txt",
-    "v": "Peut-on combiner plusieurs technologies pour un seul projet ?"
+    "v": "Peut-on combiner plusieurs technologies pour un seul projet?"
    },
    {
     "t": "txt",
-    "v": "Absolument, et c'est souvent la meilleure approche. Par exemple : une structure principale imprimée en FDM (grande, solide, économique) avec des inserts en résine pour les détails fins, ou des pièces de production en SLS associées à des gabarits et fixations en FDM. Nous vous conseillerons sur la combinaison optimale en fonction de votre projet."
+    "v": "Absolument, et c'est souvent la meilleure approche. Par exemple: une structure principale imprimée en FDM (grande, solide, économique) avec des inserts en résine pour les détails fins, ou des pièces de production en SLS associées à des gabarits et fixations en FDM. Nous vous conseillerons sur la combinaison optimale en fonction de votre projet."
    },
    {
     "t": "txt",
-    "v": "La résine est-elle toujours plus précise que le FDM ?"
+    "v": "La résine est-elle toujours plus précise que le FDM?"
    },
    {
     "t": "txt",
@@ -13651,7 +12779,7 @@
    },
    {
     "t": "txt",
-    "v": "Pourquoi le SLS est-il plus cher que le FDM ?"
+    "v": "Pourquoi le SLS est-il plus cher que le FDM?"
    },
    {
     "t": "txt",
@@ -13659,7 +12787,7 @@
    },
    {
     "t": "txt",
-    "v": "Quelle technologie est la meilleure pour les pièces résistantes à l'eau ?"
+    "v": "Quelle technologie est la meilleure pour les pièces résistantes à l'eau?"
    },
    {
     "t": "txt",
@@ -13667,7 +12795,7 @@
    },
    {
     "t": "txt",
-    "v": "Comment choisir si je n'ai pas d'expertise technique ?"
+    "v": "Comment choisir si je n'ai pas d'expertise technique?"
    },
    {
     "t": "txt",
@@ -13675,7 +12803,7 @@
    },
    {
     "t": "txt",
-    "v": "Peut-on obtenir des échantillons pour comparer les finitions ?"
+    "v": "Peut-on obtenir des échantillons pour comparer les finitions?"
    },
    {
     "t": "txt",
@@ -13719,7 +12847,7 @@
    },
    {
     "t": "txt",
-    "v": "Besoin d'aide pour choisir ? Demandez l'aide de nos techniciens"
+    "v": "Besoin d'aide pour choisir? Demandez l'aide de nos techniciens"
    },
    {
     "t": "h2",
@@ -14179,15 +13307,15 @@
    },
    {
     "t": "txt",
-    "v": "Le PETG est-il vraiment plus solide que le PLA ?"
+    "v": "Le PETG est-il vraiment plus solide que le PLA?"
    },
    {
     "t": "txt",
-    "v": "En résistance à la traction pure, le PLA est légèrement supérieur. Mais le PETG est moins cassant : il se déforme avant de casser, ce qui le rend plus adapté aux chocs. Pour les pièces fonctionnelles soumises à des contraintes dynamiques, le PETG est généralement préféré."
+    "v": "En résistance à la traction pure, le PLA est légèrement supérieur. Mais le PETG est moins cassant: il se déforme avant de casser, ce qui le rend plus adapté aux chocs. Pour les pièces fonctionnelles soumises à des contraintes dynamiques, le PETG est généralement préféré."
    },
    {
     "t": "txt",
-    "v": "Peut-on remplacer le PLA par le PETG sans changer les paramètres d'impression ?"
+    "v": "Peut-on remplacer le PLA par le PETG sans changer les paramètres d'impression?"
    },
    {
     "t": "txt",
@@ -14195,7 +13323,7 @@
    },
    {
     "t": "txt",
-    "v": "Le PLA est-il vraiment biodégradable ?"
+    "v": "Le PLA est-il vraiment biodégradable?"
    },
    {
     "t": "txt",
@@ -14203,7 +13331,7 @@
    },
    {
     "t": "txt",
-    "v": "Le PETG convient-il pour le contact alimentaire ?"
+    "v": "Le PETG convient-il pour le contact alimentaire?"
    },
    {
     "t": "txt",
@@ -14211,7 +13339,7 @@
    },
    {
     "t": "txt",
-    "v": "Mon imprimante peut-elle gérer les deux matériaux ?"
+    "v": "Mon imprimante peut-elle gérer les deux matériaux?"
    },
    {
     "t": "txt",
@@ -14251,10 +13379,6 @@
    },
    {
     "t": "txt",
-    "v": "Ajoutez vos boutons ici"
-   },
-   {
-    "t": "txt",
     "v": "Styles nécessaires pour le bloc contact (à insérer dans votre balise <style>)"
    },
    {
@@ -14263,7 +13387,7 @@
    },
    {
     "t": "txt",
-    "v": "Besoin d'aide pour choisir ? Demandez l'aide de nos techniciens"
+    "v": "Besoin d'aide pour choisir? Demandez l'aide de nos techniciens"
    },
    {
     "t": "h2",
@@ -14718,7 +13842,7 @@
    },
    {
     "t": "txt",
-    "v": "L'ASA peut-il être lissé à l'acétone comme l'ABS ?"
+    "v": "L'ASA peut-il être lissé à l'acétone comme l'ABS?"
    },
    {
     "t": "txt",
@@ -14726,7 +13850,7 @@
    },
    {
     "t": "txt",
-    "v": "Combien de temps l'ASA résiste-t-il aux UV ?"
+    "v": "Combien de temps l'ASA résiste-t-il aux UV?"
    },
    {
     "t": "txt",
@@ -14734,7 +13858,7 @@
    },
    {
     "t": "txt",
-    "v": "L'ABS et l'ASA sont-ils dangereux à imprimer ?"
+    "v": "L'ABS et l'ASA sont-ils dangereux à imprimer?"
    },
    {
     "t": "txt",
@@ -14742,7 +13866,7 @@
    },
    {
     "t": "txt",
-    "v": "Peut-on peindre l'ABS et l'ASA ?"
+    "v": "Peut-on peindre l'ABS et l'ASA?"
    },
    {
     "t": "txt",
@@ -14750,11 +13874,11 @@
    },
    {
     "t": "txt",
-    "v": "ABS ou ASA pour une impression 3D de pièces de drone ?"
+    "v": "ABS ou ASA pour une impression 3D de pièces de drone?"
    },
    {
     "t": "txt",
-    "v": "Pour les drones utilisés en extérieur, l'ASA s'impose : résistance aux UV, aux intempéries et aux variations de température. Si le drone est uniquement utilisé en intérieur, l'ABS convient et coûte moins cher. Dans les deux cas, un remplissage élevé (40–60%) est recommandé pour la résistance aux chocs."
+    "v": "Pour les drones utilisés en extérieur, l'ASA s'impose: résistance aux UV, aux intempéries et aux variations de température. Si le drone est uniquement utilisé en intérieur, l'ABS convient et coûte moins cher. Dans les deux cas, un remplissage élevé (40–60%) est recommandé pour la résistance aux chocs."
    },
    {
     "t": "txt",
@@ -14790,10 +13914,6 @@
    },
    {
     "t": "txt",
-    "v": "Ajoutez vos boutons ici"
-   },
-   {
-    "t": "txt",
     "v": "Styles nécessaires pour le bloc contact (à insérer dans votre balise <style>)"
    },
    {
@@ -14802,7 +13922,7 @@
    },
    {
     "t": "txt",
-    "v": "Besoin d'aide pour choisir ? Demandez l'aide de nos techniciens"
+    "v": "Besoin d'aide pour choisir? Demandez l'aide de nos techniciens"
    },
    {
     "t": "h2",
@@ -15247,7 +14367,7 @@
    },
    {
     "t": "txt",
-    "v": "Ces matériaux sont-ils compatibles avec les imprimantes FDM standard ?"
+    "v": "Ces matériaux sont-ils compatibles avec les imprimantes FDM standard?"
    },
    {
     "t": "txt",
@@ -15255,7 +14375,7 @@
    },
    {
     "t": "txt",
-    "v": "Peut-on usiner ou percer les pièces après impression ?"
+    "v": "Peut-on usiner ou percer les pièces après impression?"
    },
    {
     "t": "txt",
@@ -15263,7 +14383,7 @@
    },
    {
     "t": "txt",
-    "v": "Quelle est la différence de prix entre PA12-CF et PA12-GF ?"
+    "v": "Quelle est la différence de prix entre PA12-CF et PA12-GF?"
    },
    {
     "t": "txt",
@@ -15271,7 +14391,7 @@
    },
    {
     "t": "txt",
-    "v": "Ces matériaux résistent-ils aux huiles et solvants ?"
+    "v": "Ces matériaux résistent-ils aux huiles et solvants?"
    },
    {
     "t": "txt",
@@ -15279,7 +14399,7 @@
    },
    {
     "t": "txt",
-    "v": "La surface rugueuse des composites est-elle un problème ?"
+    "v": "La surface rugueuse des composites est-elle un problème?"
    },
    {
     "t": "txt",
@@ -15287,7 +14407,7 @@
    },
    {
     "t": "txt",
-    "v": "Peut-on utiliser PA12-CF ou PA12-GF en SLS ?"
+    "v": "Peut-on utiliser PA12-CF ou PA12-GF en SLS?"
    },
    {
     "t": "txt",
@@ -15327,10 +14447,6 @@
    },
    {
     "t": "txt",
-    "v": "Ajoutez vos boutons ici"
-   },
-   {
-    "t": "txt",
     "v": "Styles nécessaires pour le bloc contact (à insérer dans votre balise <style>)"
    },
    {
@@ -15339,7 +14455,7 @@
    },
    {
     "t": "txt",
-    "v": "Besoin d'aide pour choisir ? Demandez l'aide de nos techniciens"
+    "v": "Besoin d'aide pour choisir? Demandez l'aide de nos techniciens"
    },
    {
     "t": "h2",
@@ -15716,7 +14832,7 @@
    },
    {
     "t": "txt",
-    "v": "Le PPA-CF est-il vraiment difficile à imprimer ?"
+    "v": "Le PPA-CF est-il vraiment difficile à imprimer?"
    },
    {
     "t": "txt",
@@ -15724,7 +14840,7 @@
    },
    {
     "t": "txt",
-    "v": "Peut-on utiliser le PPS-CF pour des pièces en extérieur ?"
+    "v": "Peut-on utiliser le PPS-CF pour des pièces en extérieur?"
    },
    {
     "t": "txt",
@@ -15732,7 +14848,7 @@
    },
    {
     "t": "txt",
-    "v": "Quelles sont les précautions pour la buse ?"
+    "v": "Quelles sont les précautions pour la buse?"
    },
    {
     "t": "txt",
@@ -15740,7 +14856,7 @@
    },
    {
     "t": "txt",
-    "v": "Quelle est la différence de stabilité dimensionnelle ?"
+    "v": "Quelle est la différence de stabilité dimensionnelle?"
    },
    {
     "t": "txt",
@@ -15748,7 +14864,7 @@
    },
    {
     "t": "txt",
-    "v": "O&D peut-il imprimer mes pièces en PPA-CF ou PPS-CF ?"
+    "v": "O&D peut-il imprimer mes pièces en PPA-CF ou PPS-CF?"
    },
    {
     "t": "txt",
@@ -15784,7 +14900,7 @@
    },
    {
     "t": "txt",
-    "v": "Besoin d'aide pour choisir ? Demandez l'aide de nos techniciens"
+    "v": "Besoin d'aide pour choisir? Demandez l'aide de nos techniciens"
    },
    {
     "t": "h2",
@@ -16324,7 +15440,7 @@
    },
    {
     "t": "txt",
-    "v": "Faut-il un devis spécial pour ces matériaux ?"
+    "v": "Faut-il un devis spécial pour ces matériaux?"
    },
    {
     "t": "txt",
@@ -16332,7 +15448,7 @@
    },
    {
     "t": "txt",
-    "v": "Ces matériaux sont-ils disponibles avec renfort fibre ?"
+    "v": "Ces matériaux sont-ils disponibles avec renfort fibre?"
    },
    {
     "t": "txt",
@@ -16340,7 +15456,7 @@
    },
    {
     "t": "txt",
-    "v": "Peut-on stériliser les pièces PEEK à l'autoclave ?"
+    "v": "Peut-on stériliser les pièces PEEK à l'autoclave?"
    },
    {
     "t": "txt",
@@ -16348,11 +15464,11 @@
    },
    {
     "t": "txt",
-    "v": "Comment savoir si mon application nécessite vraiment du PEEK ?"
+    "v": "Comment savoir si mon application nécessite vraiment du PEEK?"
    },
    {
     "t": "txt",
-    "v": "La règle générale : si votre pièce fonctionne à moins de 150°C et n'est pas exposée à des acides concentrés, le PA12 ou l'ASA suffisent souvent. Le PEEK est justifié quand aucun autre polymère ne tient dans les conditions d'utilisation. Contactez-nous avec votre cahier des charges — nous vous aidons à choisir le matériau le moins cher qui répond à vos exigences."
+    "v": "La règle générale: si votre pièce fonctionne à moins de 150°C et n'est pas exposée à des acides concentrés, le PA12 ou l'ASA suffisent souvent. Le PEEK est justifié quand aucun autre polymère ne tient dans les conditions d'utilisation. Contactez-nous avec votre cahier des charges — nous vous aidons à choisir le matériau le moins cher qui répond à vos exigences."
    },
    {
     "t": "txt",
@@ -16388,10 +15504,6 @@
    },
    {
     "t": "txt",
-    "v": "Ajoutez vos boutons ici"
-   },
-   {
-    "t": "txt",
     "v": "Styles nécessaires pour le bloc contact (à insérer dans votre balise <style>)"
    },
    {
@@ -16400,7 +15512,7 @@
    },
    {
     "t": "txt",
-    "v": "Besoin d'aide pour choisir ? Demandez l'aide de nos techniciens"
+    "v": "Besoin d'aide pour choisir? Demandez l'aide de nos techniciens"
    },
    {
     "t": "h2",
@@ -16541,7 +15653,7 @@
    },
    {
     "t": "txt",
-    "v": "GROUPE 1 : CONCEPTION"
+    "v": "GROUPE 1: CONCEPTION"
    },
    {
     "t": "txt",
@@ -16585,7 +15697,7 @@
    },
    {
     "t": "txt",
-    "v": "Fichiers acceptés : STL · STEP · OBJ · F3D"
+    "v": "Fichiers acceptés: STL · STEP · OBJ · F3D"
    },
    {
     "t": "txt",
@@ -16609,7 +15721,7 @@
    },
    {
     "t": "txt",
-    "v": "GROUPE 2 : PROTOTYPAGE"
+    "v": "GROUPE 2: PROTOTYPAGE"
    },
    {
     "t": "txt",
@@ -16633,7 +15745,7 @@
    },
    {
     "t": "txt",
-    "v": "Délai : 24h à 72h selon complexité"
+    "v": "Délai: 24h à 72h selon complexité"
    },
    {
     "t": "txt",
@@ -16657,7 +15769,7 @@
    },
    {
     "t": "txt",
-    "v": "GROUPE 3 : PRODUCTION"
+    "v": "GROUPE 3: PRODUCTION"
    },
    {
     "t": "txt",
@@ -16788,9 +15900,8 @@
     "v": "Pièces sur mesure, reproduction de pièces cassées, prototypage industriel. O&D Impression 3D sert particuliers et entreprises à Liège, Verviers, Spa et au-delà."
    },
    {
-    "t": "link",
-    "v": "📞 04 290 11 92",
-    "href": "tel:+3242901192"
+    "t": "txt",
+    "v": "📞 04 290 11 92"
    },
    {
     "t": "kv",
@@ -16830,71 +15941,11 @@
    },
    {
     "t": "txt",
-    "v": "Liège"
+    "v": "Liège Verviers Spa Seraing Herve Eupen Visé Huy Waremme Malmedy Theux Aywaille Welkenraedt Stavelot"
    },
    {
     "t": "txt",
-    "v": "Verviers"
-   },
-   {
-    "t": "txt",
-    "v": "Spa"
-   },
-   {
-    "t": "txt",
-    "v": "Seraing"
-   },
-   {
-    "t": "txt",
-    "v": "Herve"
-   },
-   {
-    "t": "txt",
-    "v": "Eupen"
-   },
-   {
-    "t": "txt",
-    "v": "Visé"
-   },
-   {
-    "t": "txt",
-    "v": "Huy"
-   },
-   {
-    "t": "txt",
-    "v": "Waremme"
-   },
-   {
-    "t": "txt",
-    "v": "Malmedy"
-   },
-   {
-    "t": "txt",
-    "v": "Theux"
-   },
-   {
-    "t": "txt",
-    "v": "Aywaille"
-   },
-   {
-    "t": "txt",
-    "v": "Welkenraedt"
-   },
-   {
-    "t": "txt",
-    "v": "Stavelot"
-   },
-   {
-    "t": "txt",
-    "v": "RUE TROIS BOURDONS 52"
-   },
-   {
-    "t": "txt",
-    "v": "4840 WELKENRAEDT"
-   },
-   {
-    "t": "txt",
-    "v": "PROVINCE DE LIÈGE"
+    "v": "RUE TROIS BOURDONS 52 4840 WELKENRAEDT PROVINCE DE LIÈGE"
    },
    {
     "t": "txt",
@@ -17057,27 +16108,15 @@
    },
    {
     "t": "txt",
-    "v": "PETG"
+    "v": "PETG Matériau"
    },
    {
     "t": "txt",
-    "v": "Matériau"
+    "v": "5+5 pièces Quantité"
    },
    {
     "t": "txt",
-    "v": "5+5 pièces"
-   },
-   {
-    "t": "txt",
-    "v": "Quantité"
-   },
-   {
-    "t": "txt",
-    "v": "Collectivité"
-   },
-   {
-    "t": "txt",
-    "v": "Client"
+    "v": "Collectivité Client"
    },
    {
     "t": "txt",
@@ -17097,27 +16136,15 @@
    },
    {
     "t": "txt",
-    "v": "PLA bicolore"
+    "v": "PLA bicolore Matériau"
    },
    {
     "t": "txt",
-    "v": "Matériau"
+    "v": "Multi-sections Format"
    },
    {
     "t": "txt",
-    "v": "Multi-sections"
-   },
-   {
-    "t": "txt",
-    "v": "Format"
-   },
-   {
-    "t": "txt",
-    "v": "Industriel"
-   },
-   {
-    "t": "txt",
-    "v": "Secteur"
+    "v": "Industriel Secteur"
    },
    {
     "t": "txt",
@@ -17137,27 +16164,15 @@
    },
    {
     "t": "txt",
-    "v": "PAHT-CF + PLA"
+    "v": "PAHT-CF + PLA Matériaux"
    },
    {
     "t": "txt",
-    "v": "Matériaux"
+    "v": "Rétroconception Méthode"
    },
    {
     "t": "txt",
-    "v": "Rétroconception"
-   },
-   {
-    "t": "txt",
-    "v": "Méthode"
-   },
-   {
-    "t": "txt",
-    "v": "Automobile"
-   },
-   {
-    "t": "txt",
-    "v": "Secteur"
+    "v": "Automobile Secteur"
    },
    {
     "t": "txt",
@@ -17177,27 +16192,15 @@
    },
    {
     "t": "txt",
-    "v": "PLA noir"
+    "v": "PLA noir Matériau"
    },
    {
     "t": "txt",
-    "v": "Matériau"
+    "v": "40 cm ⌀ Dimensions"
    },
    {
     "t": "txt",
-    "v": "40 cm ⌀"
-   },
-   {
-    "t": "txt",
-    "v": "Dimensions"
-   },
-   {
-    "t": "txt",
-    "v": "HoReCa"
-   },
-   {
-    "t": "txt",
-    "v": "Secteur"
+    "v": "HoReCa Secteur"
    },
    {
     "t": "txt",
@@ -17413,7 +16416,7 @@
    },
    {
     "t": "txt",
-    "v": "Où est situé O&D Impression 3D dans la province de Liège ?"
+    "v": "Où est situé O&D Impression 3D dans la province de Liège?"
    },
    {
     "t": "txt",
@@ -17421,15 +16424,15 @@
    },
    {
     "t": "txt",
-    "v": "Quelles villes de la province de Liège desservez-vous ?"
+    "v": "Quelles villes de la province de Liège desservez-vous?"
    },
    {
     "t": "txt",
-    "v": "Nous servons toute la province : Liège, Verviers, Spa, Seraing, Herve, Eupen, Visé, Huy, Waremme, Malmedy, Stavelot, Aywaille, Theux et toutes les communes environnantes. Livraison possible dans toute la Belgique."
+    "v": "Nous servons toute la province: Liège, Verviers, Spa, Seraing, Herve, Eupen, Visé, Huy, Waremme, Malmedy, Stavelot, Aywaille, Theux et toutes les communes environnantes. Livraison possible dans toute la Belgique."
    },
    {
     "t": "txt",
-    "v": "Combien coûte une impression 3D dans la province de Liège ?"
+    "v": "Combien coûte une impression 3D dans la province de Liège?"
    },
    {
     "t": "txt",
@@ -17437,7 +16440,7 @@
    },
    {
     "t": "txt",
-    "v": "Pouvez-vous reproduire une pièce cassée introuvable dans le commerce ?"
+    "v": "Pouvez-vous reproduire une pièce cassée introuvable dans le commerce?"
    },
    {
     "t": "txt",
@@ -17445,15 +16448,15 @@
    },
    {
     "t": "txt",
-    "v": "Quels matériaux utilisez-vous pour l'impression 3D à Liège ?"
+    "v": "Quels matériaux utilisez-vous pour l'impression 3D à Liège?"
    },
    {
     "t": "txt",
-    "v": "Nous maîtrisons plus de 20 matériaux de pointe : des matériaux courants (PLA, PETG, ABS, ASA, TPU) aux plastiques de haute performance (PA12-CF, PEEK, PEKK, Ultem) ainsi que les poudres SLS (Nylon PA12, PA11, options ESD, ignifuge ou alimentaire)."
+    "v": "Nous maîtrisons plus de 20 matériaux de pointe: des matériaux courants (PLA, PETG, ABS, ASA, TPU) aux plastiques de haute performance (PA12-CF, PEEK, PEKK, Ultem) ainsi que les poudres SLS (Nylon PA12, PA11, options ESD, ignifuge ou alimentaire)."
    },
    {
     "t": "txt",
-    "v": "Travaillez-vous avec des entreprises et des collectivités de la région liégeoise ?"
+    "v": "Travaillez-vous avec des entreprises et des collectivités de la région liégeoise?"
    },
    {
     "t": "txt",
@@ -17525,6 +16528,10 @@
    {
     "t": "p",
     "v": "Ce contexte économique génère une forte demande en fabrication additive : prototypage pour les startups, pièces de rechange pour les industries de la métallurgie et de l'agroalimentaire, modèles anatomiques pour le secteur médical universitaire, outillage pour les ateliers de production. O&D Impression 3D répond à l'ensemble de ces besoins depuis notre atelier de Welkenraedt, à 30 minutes du centre de Liège."
+   },
+   {
+    "t": "txt",
+    "v": "Welkenraedt Liège Seraing ~25 min Herstal ~35 min Ans ~30 min Flémalle ~30 min Chênée ~28 min O&D Impression 3D · Zone de service"
    },
    {
     "t": "txt",
@@ -17618,49 +16625,8 @@
     "v": "FDM, SLS, résine, haute température — notre gamme complète est disponible pour les clients de Liège."
    },
    {
-    "t": "link",
-    "v": "🔬 Prototypage rapide",
-    "href": "od3d-prototypage.html"
-   },
-   {
-    "t": "link",
-    "v": "📦 Petite série",
-    "href": "od3d-petite-serie.html"
-   },
-   {
-    "t": "link",
-    "v": "⚙️ Fabrication additive",
-    "href": "od3d-fabrication-additive.html"
-   },
-   {
-    "t": "link",
-    "v": "🔭 Scan 3D",
-    "href": "od3d-scan-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "🔄 Rétroconception",
-    "href": "od3d-retroconception.html"
-   },
-   {
-    "t": "link",
-    "v": "📐 Grand format (1m³)",
-    "href": "od3d-grand-format.html"
-   },
-   {
-    "t": "link",
-    "v": "💎 Impression résine",
-    "href": "od3d-resine.html"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ Impression SLS",
-    "href": "od3d-sls.html"
-   },
-   {
-    "t": "link",
-    "v": "🖊️ Modélisation 3D",
-    "href": "od3d-modelisation-3d.html"
+    "t": "txt",
+    "v": "🔬 Prototypage rapide 📦 Petite série ⚙️ Fabrication additive 🔭 Scan 3D 🔄 Rétroconception 📐 Grand format (1m³) 💎 Impression résine 🌡️ Impression SLS 🖊️ Modélisation 3D"
    },
    {
     "t": "txt",
@@ -17735,44 +16701,8 @@
     "v": "Toutes nos machines sont disponibles pour les commandes en provenance de Liège."
    },
    {
-    "t": "link",
-    "v": "🖨️ Bambu Lab X1C",
-    "href": "https://www.od3d.be/machines/bambu-lab-x1c"
-   },
-   {
-    "t": "link",
-    "v": "🖨️ Bambu Lab H2C",
-    "href": "https://www.od3d.be/machines/bambu-lab-h2c"
-   },
-   {
-    "t": "link",
-    "v": "🖨️ Prusa Core One",
-    "href": "https://www.od3d.be/machines/prusa-core-one"
-   },
-   {
-    "t": "link",
-    "v": "📐 Modix Big Meter (1m³)",
-    "href": "https://www.od3d.be/machines/modix-big-meter"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ SuperMaker SLS 1518",
-    "href": "https://www.od3d.be/machines/supermaker-sls1518"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ SuperMaker SLS 3540 Pro",
-    "href": "https://www.od3d.be/machines/supermaker-sls3540-pro"
-   },
-   {
-    "t": "link",
-    "v": "💎 Anycubic Photon M7 Max",
-    "href": "https://www.od3d.be/machines/anycubic-photon-m7-max"
-   },
-   {
-    "t": "link",
-    "v": "🔥 INTAMSYS Funmat HT",
-    "href": "https://www.od3d.be/machines/intamsys-funmat-ht"
+    "t": "txt",
+    "v": "🖨️ Bambu Lab X1C 🖨️ Bambu Lab H2C 🖨️ Prusa Core One 📐 Modix Big Meter (1m³) 🌡️ SuperMaker SLS 1518 🌡️ SuperMaker SLS 3540 Pro 💎 Anycubic Photon M7 Max 🔥 INTAMSYS Funmat HT"
    },
    {
     "t": "link",
@@ -17789,7 +16719,7 @@
    },
    {
     "t": "txt",
-    "v": "Êtes-vous bien situés pour livrer à Liège ?"
+    "v": "Êtes-vous bien situés pour livrer à Liège?"
    },
    {
     "t": "txt",
@@ -17797,7 +16727,7 @@
    },
    {
     "t": "txt",
-    "v": "Travaillez-vous avec les entreprises industrielles de Liège ?"
+    "v": "Travaillez-vous avec les entreprises industrielles de Liège?"
    },
    {
     "t": "txt",
@@ -17805,7 +16735,7 @@
    },
    {
     "t": "txt",
-    "v": "Peut-on venir visiter l'atelier depuis Liège ?"
+    "v": "Peut-on venir visiter l'atelier depuis Liège?"
    },
    {
     "t": "txt",
@@ -17813,7 +16743,7 @@
    },
    {
     "t": "txt",
-    "v": "Faites-vous des partenariats avec les hautes écoles et l'ULiège ?"
+    "v": "Faites-vous des partenariats avec les hautes écoles et l'ULiège?"
    },
    {
     "t": "txt",
@@ -17836,83 +16766,16 @@
     "v": "📍 Villes & Localités desservies"
    },
    {
-    "t": "link",
-    "v": "→ Impression 3D Verviers",
-    "href": "od3d-geo-verviers.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Belgique",
-    "href": "od3d-geo-belgique.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Eupen",
-    "href": "od3d-geo-eupen.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Seraing",
-    "href": "od3d-geo-seraing.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Spa",
-    "href": "od3d-geo-spa.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Huy",
-    "href": "od3d-geo-huy.html"
+    "t": "txt",
+    "v": "→ Impression 3D Verviers → Impression 3D Belgique → Impression 3D Eupen → Impression 3D Seraing → Impression 3D Spa → Impression 3D Huy"
    },
    {
     "t": "h3",
     "v": "⚙️ Nos Expertises & Solutions"
    },
    {
-    "t": "link",
-    "v": "→ Impression 3D industrielle",
-    "href": "od3d-industrielle.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Prototypage rapide",
-    "href": "od3d-prototypage.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Scan 3D",
-    "href": "od3d-scan-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Modélisation 3D",
-    "href": "od3d-modelisation-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Grand format",
-    "href": "od3d-grand-format.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Petite série",
-    "href": "od3d-petite-serie.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression résine",
-    "href": "od3d-resine.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression SLS",
-    "href": "od3d-sls.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Comparateur matériaux",
-    "href": "od3d-comparateur-materiaux.html"
+    "t": "txt",
+    "v": "→ Impression 3D industrielle → Prototypage rapide → Scan 3D → Modélisation 3D → Grand format → Petite série → Impression résine → Impression SLS → Comparateur matériaux"
    },
    {
     "t": "txt",
@@ -17988,6 +16851,10 @@
    {
     "t": "p",
     "v": "Que vous soyez basé à Bruxelles, Anvers, Gand, Liège, Charleroi, Namur ou dans toute autre région du pays, O&D Impression 3D répond à vos exigences de fabrication additive. De la pièce unique fonctionnelle en PEEK jusqu'à la petite série en plastique technique ou résine, nous combinons réactivité, expertise technique et logistique optimisée depuis notre atelier de Welkenraedt pour servir l'ensemble du territoire belge."
+   },
+   {
+    "t": "txt",
+    "v": "Welkenraedt Bruxelles Anvers Livraison J+1 Gand Livraison J+1 Liège ~30 min Charleroi Livraison J+1 Namur Livraison J+1 O&D Impression 3D · Service National"
    },
    {
     "t": "txt",
@@ -18081,49 +16948,8 @@
     "v": "FDM, SLS, résine, haute température — notre gamme complète est accessible à l'ensemble des acteurs économiques belges."
    },
    {
-    "t": "link",
-    "v": "🔬 Prototypage rapide",
-    "href": "od3d-prototypage.html"
-   },
-   {
-    "t": "link",
-    "v": "📦 Petite série",
-    "href": "od3d-petite-serie.html"
-   },
-   {
-    "t": "link",
-    "v": "⚙️ Fabrication additive",
-    "href": "od3d-fabrication-additive.html"
-   },
-   {
-    "t": "link",
-    "v": "🔭 Scan 3D",
-    "href": "od3d-scan-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "🔄 Rétroconception",
-    "href": "od3d-retroconception.html"
-   },
-   {
-    "t": "link",
-    "v": "📐 Grand format (1m³)",
-    "href": "od3d-grand-format.html"
-   },
-   {
-    "t": "link",
-    "v": "💎 Impression résine",
-    "href": "od3d-resine.html"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ Impression SLS",
-    "href": "od3d-sls.html"
-   },
-   {
-    "t": "link",
-    "v": "🖊️ Modélisation 3D",
-    "href": "od3d-modelisation-3d.html"
+    "t": "txt",
+    "v": "🔬 Prototypage rapide 📦 Petite série ⚙️ Fabrication additive 🔭 Scan 3D 🔄 Rétroconception 📐 Grand format (1m³) 💎 Impression résine 🌡️ Impression SLS 🖊️ Modélisation 3D"
    },
    {
     "t": "txt",
@@ -18198,44 +17024,8 @@
     "v": "Un parc de machines professionnelles haut de gamme au service de vos commandes belges."
    },
    {
-    "t": "link",
-    "v": "🖨️ Bambu Lab X1C",
-    "href": "https://www.od3d.be/machines/bambu-lab-x1c"
-   },
-   {
-    "t": "link",
-    "v": "🖨️ Bambu Lab H2C",
-    "href": "https://www.od3d.be/machines/bambu-lab-h2c"
-   },
-   {
-    "t": "link",
-    "v": "🖨️ Prusa Core One",
-    "href": "https://www.od3d.be/machines/prusa-core-one"
-   },
-   {
-    "t": "link",
-    "v": "📐 Modix Big Meter (1m³)",
-    "href": "https://www.od3d.be/machines/modix-big-meter"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ SuperMaker SLS 1518",
-    "href": "https://www.od3d.be/machines/supermaker-sls1518"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ SuperMaker SLS 3540 Pro",
-    "href": "https://www.od3d.be/machines/supermaker-sls3540-pro"
-   },
-   {
-    "t": "link",
-    "v": "💎 Anycubic Photon M7 Max",
-    "href": "https://www.od3d.be/machines/anycubic-photon-m7-max"
-   },
-   {
-    "t": "link",
-    "v": "🔥 INTAMSYS Funmat HT",
-    "href": "https://www.od3d.be/machines/intamsys-funmat-ht"
+    "t": "txt",
+    "v": "🖨️ Bambu Lab X1C 🖨️ Bambu Lab H2C 🖨️ Prusa Core One 📐 Modix Big Meter (1m³) 🌡️ SuperMaker SLS 1518 🌡️ SuperMaker SLS 3540 Pro 💎 Anycubic Photon M7 Max 🔥 INTAMSYS Funmat HT"
    },
    {
     "t": "link",
@@ -18252,7 +17042,7 @@
    },
    {
     "t": "txt",
-    "v": "Livrez-vous dans toutes les régions de Belgique ?"
+    "v": "Livrez-vous dans toutes les régions de Belgique?"
    },
    {
     "t": "txt",
@@ -18260,7 +17050,7 @@
    },
    {
     "t": "txt",
-    "v": "Comment commander depuis une entreprise belge ?"
+    "v": "Comment commander depuis une entreprise belge?"
    },
    {
     "t": "txt",
@@ -18268,15 +17058,15 @@
    },
    {
     "t": "txt",
-    "v": "Quels types de matériaux proposez-vous pour les professionnels ?"
+    "v": "Quels types de matériaux proposez-vous pour les professionnels?"
    },
    {
     "t": "txt",
-    "v": "Nous disposons d'un large choix de matériaux techniques et industriels : filaments chargés (PA12-CF, fibre de verre), polymères hautes performances (PEEK), résines techniques (standard, rigide, biocompatible) et poudres SLS pour des géométries complexes sans supports."
+    "v": "Nous disposons d'un large choix de matériaux techniques et industriels: filaments chargés (PA12-CF, fibre de verre), polymères hautes performances (PEEK), résines techniques (standard, rigide, biocompatible) et poudres SLS pour des géométries complexes sans supports."
    },
    {
     "t": "txt",
-    "v": "Est-il possible de signer un accord de confidentialité (NDA) ?"
+    "v": "Est-il possible de signer un accord de confidentialité (NDA)?"
    },
    {
     "t": "txt",
@@ -18299,83 +17089,16 @@
     "v": "📍 Villes & Régions desservies"
    },
    {
-    "t": "link",
-    "v": "→ Impression 3D Liège",
-    "href": "od3d-geo-bruxelles.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Verviers",
-    "href": "od3d-geo-anvers.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Seraing",
-    "href": "od3d-geo-gand.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Eupen",
-    "href": "od3d-geo-liege.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Spa",
-    "href": "od3d-geo-charleroi.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Huy",
-    "href": "od3d-geo-namur.html"
+    "t": "txt",
+    "v": "→ Impression 3D Liège → Impression 3D Verviers → Impression 3D Seraing → Impression 3D Eupen → Impression 3D Spa → Impression 3D Huy"
    },
    {
     "t": "h3",
     "v": "⚙️ Nos Expertises & Solutions"
    },
    {
-    "t": "link",
-    "v": "→ Impression 3D industrielle",
-    "href": "od3d-industrielle.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Prototypage rapide",
-    "href": "od3d-prototypage.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Scan 3D",
-    "href": "od3d-scan-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Modélisation 3D",
-    "href": "od3d-modelisation-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Grand format",
-    "href": "od3d-grand-format.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Petite série",
-    "href": "od3d-petite-serie.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression résine",
-    "href": "od3d-resine.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression SLS",
-    "href": "od3d-sls.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Comparateur matériaux",
-    "href": "od3d-comparateur-materiaux.html"
+    "t": "txt",
+    "v": "→ Impression 3D industrielle → Prototypage rapide → Scan 3D → Modélisation 3D → Grand format → Petite série → Impression résine → Impression SLS → Comparateur matériaux"
    },
    {
     "t": "txt",
@@ -18451,6 +17174,10 @@
    {
     "t": "p",
     "v": "La proximité de Verviers avec Welkenraedt — seulement 15 minutes — fait d'O&D Impression 3D le partenaire naturel des entreprises et particuliers verviétois qui ont besoin d'un service d'impression 3D réactif. Nous intervenons régulièrement pour des PME de la région, des artisans, des bureaux d'études et des porteurs de projets basés dans l'arrondissement de Verviers."
+   },
+   {
+    "t": "txt",
+    "v": "Welkenraedt Verviers Dison ~12 min Pepinster ~18 min Theux ~20 min Spa ~30 min Limbourg ~15 min O&D Impression 3D · Zone de service"
    },
    {
     "t": "txt",
@@ -18544,49 +17271,8 @@
     "v": "FDM, SLS, résine, haute température — notre gamme complète est disponible pour les clients de Verviers."
    },
    {
-    "t": "link",
-    "v": "🔬 Prototypage rapide",
-    "href": "od3d-prototypage.html"
-   },
-   {
-    "t": "link",
-    "v": "📦 Petite série",
-    "href": "od3d-petite-serie.html"
-   },
-   {
-    "t": "link",
-    "v": "⚙️ Fabrication additive",
-    "href": "od3d-fabrication-additive.html"
-   },
-   {
-    "t": "link",
-    "v": "🔭 Scan 3D",
-    "href": "od3d-scan-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "🔄 Rétroconception",
-    "href": "od3d-retroconception.html"
-   },
-   {
-    "t": "link",
-    "v": "📐 Grand format (1m³)",
-    "href": "od3d-grand-format.html"
-   },
-   {
-    "t": "link",
-    "v": "💎 Impression résine",
-    "href": "od3d-resine.html"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ Impression SLS",
-    "href": "od3d-sls.html"
-   },
-   {
-    "t": "link",
-    "v": "🖊️ Modélisation 3D",
-    "href": "od3d-modelisation-3d.html"
+    "t": "txt",
+    "v": "🔬 Prototypage rapide 📦 Petite série ⚙️ Fabrication additive 🔭 Scan 3D 🔄 Rétroconception 📐 Grand format (1m³) 💎 Impression résine 🌡️ Impression SLS 🖊️ Modélisation 3D"
    },
    {
     "t": "txt",
@@ -18661,44 +17347,8 @@
     "v": "Toutes nos machines sont disponibles pour les commandes en provenance de Verviers."
    },
    {
-    "t": "link",
-    "v": "🖨️ Bambu Lab X1C",
-    "href": "https://www.od3d.be/machines/bambu-lab-x1c"
-   },
-   {
-    "t": "link",
-    "v": "🖨️ Bambu Lab H2C",
-    "href": "https://www.od3d.be/machines/bambu-lab-h2c"
-   },
-   {
-    "t": "link",
-    "v": "🖨️ Prusa Core One",
-    "href": "https://www.od3d.be/machines/prusa-core-one"
-   },
-   {
-    "t": "link",
-    "v": "📐 Modix Big Meter (1m³)",
-    "href": "https://www.od3d.be/machines/modix-big-meter"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ SuperMaker SLS 1518",
-    "href": "https://www.od3d.be/machines/supermaker-sls1518"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ SuperMaker SLS 3540 Pro",
-    "href": "https://www.od3d.be/machines/supermaker-sls3540-pro"
-   },
-   {
-    "t": "link",
-    "v": "💎 Anycubic Photon M7 Max",
-    "href": "https://www.od3d.be/machines/anycubic-photon-m7-max"
-   },
-   {
-    "t": "link",
-    "v": "🔥 INTAMSYS Funmat HT",
-    "href": "https://www.od3d.be/machines/intamsys-funmat-ht"
+    "t": "txt",
+    "v": "🖨️ Bambu Lab X1C 🖨️ Bambu Lab H2C 🖨️ Prusa Core One 📐 Modix Big Meter (1m³) 🌡️ SuperMaker SLS 1518 🌡️ SuperMaker SLS 3540 Pro 💎 Anycubic Photon M7 Max 🔥 INTAMSYS Funmat HT"
    },
    {
     "t": "link",
@@ -18715,7 +17365,7 @@
    },
    {
     "t": "txt",
-    "v": "Quelle est la distance entre votre atelier et Verviers ?"
+    "v": "Quelle est la distance entre votre atelier et Verviers?"
    },
    {
     "t": "txt",
@@ -18723,7 +17373,7 @@
    },
    {
     "t": "txt",
-    "v": "Livrez-vous dans toute la région verviétoise ?"
+    "v": "Livrez-vous dans toute la région verviétoise?"
    },
    {
     "t": "txt",
@@ -18731,7 +17381,7 @@
    },
    {
     "t": "txt",
-    "v": "Avez-vous de l'expérience avec l'industrie verviétoise ?"
+    "v": "Avez-vous de l'expérience avec l'industrie verviétoise?"
    },
    {
     "t": "txt",
@@ -18739,7 +17389,7 @@
    },
    {
     "t": "txt",
-    "v": "Peut-on obtenir un devis en venant directement à l'atelier ?"
+    "v": "Peut-on obtenir un devis en venant directement à l'atelier?"
    },
    {
     "t": "txt",
@@ -18762,83 +17412,16 @@
     "v": "📍 Villes & Localités desservies"
    },
    {
-    "t": "link",
-    "v": "→ Impression 3D Liege",
-    "href": "od3d-geo-liege.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Belgique",
-    "href": "od3d-geo-belgique.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Eupen",
-    "href": "od3d-geo-eupen.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Seraing",
-    "href": "od3d-geo-seraing.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Spa",
-    "href": "od3d-geo-spa.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Huy",
-    "href": "od3d-geo-huy.html"
+    "t": "txt",
+    "v": "→ Impression 3D Liege → Impression 3D Belgique → Impression 3D Eupen → Impression 3D Seraing → Impression 3D Spa → Impression 3D Huy"
    },
    {
     "t": "h3",
     "v": "⚙️ Nos Expertises & Solutions"
    },
    {
-    "t": "link",
-    "v": "→ Impression 3D industrielle",
-    "href": "od3d-industrielle.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Prototypage rapide",
-    "href": "od3d-prototypage.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Scan 3D",
-    "href": "od3d-scan-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Modélisation 3D",
-    "href": "od3d-modelisation-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Grand format",
-    "href": "od3d-grand-format.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Petite série",
-    "href": "od3d-petite-serie.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression résine",
-    "href": "od3d-resine.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression SLS",
-    "href": "od3d-sls.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Comparateur matériaux",
-    "href": "od3d-comparateur-materiaux.html"
+    "t": "txt",
+    "v": "→ Impression 3D industrielle → Prototypage rapide → Scan 3D → Modélisation 3D → Grand format → Petite série → Impression résine → Impression SLS → Comparateur matériaux"
    },
    {
     "t": "txt",
@@ -18914,6 +17497,10 @@
    {
     "t": "p",
     "v": "Le milieu motorsport en particulier génère une demande croissante en impression 3D : pièces aérodynamiques, protections, composants de carrosserie, outillage de pit-stop, pièces légères en ASA ou PA12-CF. Notre atelier répond à ces besoins avec des matériaux adaptés aux contraintes automobiles."
+   },
+   {
+    "t": "txt",
+    "v": "Welkenraedt Spa Theux ~22 min Stavelot ~40 min Malmedy ~35 min Francorc. ~28 min Aywaille ~35 min O&D Impression 3D · Zone de service"
    },
    {
     "t": "txt",
@@ -19007,49 +17594,8 @@
     "v": "FDM, SLS, résine, haute température — notre gamme complète est disponible pour les clients de Spa."
    },
    {
-    "t": "link",
-    "v": "🔬 Prototypage rapide",
-    "href": "od3d-prototypage.html"
-   },
-   {
-    "t": "link",
-    "v": "📦 Petite série",
-    "href": "od3d-petite-serie.html"
-   },
-   {
-    "t": "link",
-    "v": "⚙️ Fabrication additive",
-    "href": "od3d-fabrication-additive.html"
-   },
-   {
-    "t": "link",
-    "v": "🔭 Scan 3D",
-    "href": "od3d-scan-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "🔄 Rétroconception",
-    "href": "od3d-retroconception.html"
-   },
-   {
-    "t": "link",
-    "v": "📐 Grand format (1m³)",
-    "href": "od3d-grand-format.html"
-   },
-   {
-    "t": "link",
-    "v": "💎 Impression résine",
-    "href": "od3d-resine.html"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ Impression SLS",
-    "href": "od3d-sls.html"
-   },
-   {
-    "t": "link",
-    "v": "🖊️ Modélisation 3D",
-    "href": "od3d-modelisation-3d.html"
+    "t": "txt",
+    "v": "🔬 Prototypage rapide 📦 Petite série ⚙️ Fabrication additive 🔭 Scan 3D 🔄 Rétroconception 📐 Grand format (1m³) 💎 Impression résine 🌡️ Impression SLS 🖊️ Modélisation 3D"
    },
    {
     "t": "txt",
@@ -19124,44 +17670,8 @@
     "v": "Toutes nos machines sont disponibles pour les commandes en provenance de Spa."
    },
    {
-    "t": "link",
-    "v": "🖨️ Bambu Lab X1C",
-    "href": "https://www.od3d.be/machines/bambu-lab-x1c"
-   },
-   {
-    "t": "link",
-    "v": "🖨️ Bambu Lab H2C",
-    "href": "https://www.od3d.be/machines/bambu-lab-h2c"
-   },
-   {
-    "t": "link",
-    "v": "🖨️ Prusa Core One",
-    "href": "https://www.od3d.be/machines/prusa-core-one"
-   },
-   {
-    "t": "link",
-    "v": "📐 Modix Big Meter (1m³)",
-    "href": "https://www.od3d.be/machines/modix-big-meter"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ SuperMaker SLS 1518",
-    "href": "https://www.od3d.be/machines/supermaker-sls1518"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ SuperMaker SLS 3540 Pro",
-    "href": "https://www.od3d.be/machines/supermaker-sls3540-pro"
-   },
-   {
-    "t": "link",
-    "v": "💎 Anycubic Photon M7 Max",
-    "href": "https://www.od3d.be/machines/anycubic-photon-m7-max"
-   },
-   {
-    "t": "link",
-    "v": "🔥 INTAMSYS Funmat HT",
-    "href": "https://www.od3d.be/machines/intamsys-funmat-ht"
+    "t": "txt",
+    "v": "🖨️ Bambu Lab X1C 🖨️ Bambu Lab H2C 🖨️ Prusa Core One 📐 Modix Big Meter (1m³) 🌡️ SuperMaker SLS 1518 🌡️ SuperMaker SLS 3540 Pro 💎 Anycubic Photon M7 Max 🔥 INTAMSYS Funmat HT"
    },
    {
     "t": "link",
@@ -19178,15 +17688,15 @@
    },
    {
     "t": "txt",
-    "v": "Avez-vous de l'expérience avec le secteur motorsport ?"
+    "v": "Avez-vous de l'expérience avec le secteur motorsport?"
    },
    {
     "t": "txt",
-    "v": "Oui. Nous produisons régulièrement des pièces pour des équipes et des passionnés de motorsport : pièces en ASA (résistant aux UV et aux intempéries), PA12-CF (légèreté + rigidité), TPU (protections flexibles). La proximité de Spa-Francorchamps fait de nous un partenaire naturel pour ce secteur."
+    "v": "Oui. Nous produisons régulièrement des pièces pour des équipes et des passionnés de motorsport: pièces en ASA (résistant aux UV et aux intempéries), PA12-CF (légèreté + rigidité), TPU (protections flexibles). La proximité de Spa-Francorchamps fait de nous un partenaire naturel pour ce secteur."
    },
    {
     "t": "txt",
-    "v": "Pouvez-vous reproduire des pièces pour des équipements hôteliers anciens ?"
+    "v": "Pouvez-vous reproduire des pièces pour des équipements hôteliers anciens?"
    },
    {
     "t": "txt",
@@ -19194,7 +17704,7 @@
    },
    {
     "t": "txt",
-    "v": "Livrez-vous vers Stavelot et Malmedy depuis Welkenraedt ?"
+    "v": "Livrez-vous vers Stavelot et Malmedy depuis Welkenraedt?"
    },
    {
     "t": "txt",
@@ -19202,11 +17712,11 @@
    },
    {
     "t": "txt",
-    "v": "Peut-on faire des pièces résistantes à l'eau chaude pour un spa ou une piscine ?"
+    "v": "Peut-on faire des pièces résistantes à l'eau chaude pour un spa ou une piscine?"
    },
    {
     "t": "txt",
-    "v": "Oui. Nous proposons plusieurs matériaux résistants à l'eau chaude et aux produits chimiques : PETG (résistant jusqu'à 80°C), ABS/ASA (100°C), PA12 (150°C). Pour les environnements très chauds (sauna, hammam), consultez-nous pour choisir le matériau adapté."
+    "v": "Oui. Nous proposons plusieurs matériaux résistants à l'eau chaude et aux produits chimiques: PETG (résistant jusqu'à 80°C), ABS/ASA (100°C), PA12 (150°C). Pour les environnements très chauds (sauna, hammam), consultez-nous pour choisir le matériau adapté."
    },
    {
     "t": "txt",
@@ -19225,83 +17735,16 @@
     "v": "📍 Villes & Localités desservies"
    },
    {
-    "t": "link",
-    "v": "→ Impression 3D Liege",
-    "href": "od3d-geo-liege.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Verviers",
-    "href": "od3d-geo-verviers.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Belgique",
-    "href": "od3d-geo-belgique.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Eupen",
-    "href": "od3d-geo-eupen.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Seraing",
-    "href": "od3d-geo-seraing.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Huy",
-    "href": "od3d-geo-huy.html"
+    "t": "txt",
+    "v": "→ Impression 3D Liege → Impression 3D Verviers → Impression 3D Belgique → Impression 3D Eupen → Impression 3D Seraing → Impression 3D Huy"
    },
    {
     "t": "h3",
     "v": "⚙️ Nos Expertises & Solutions"
    },
    {
-    "t": "link",
-    "v": "→ Impression 3D industrielle",
-    "href": "od3d-industrielle.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Prototypage rapide",
-    "href": "od3d-prototypage.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Scan 3D",
-    "href": "od3d-scan-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Modélisation 3D",
-    "href": "od3d-modelisation-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Grand format",
-    "href": "od3d-grand-format.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Petite série",
-    "href": "od3d-petite-serie.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression résine",
-    "href": "od3d-resine.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression SLS",
-    "href": "od3d-sls.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Comparateur matériaux",
-    "href": "od3d-comparateur-materiaux.html"
+    "t": "txt",
+    "v": "→ Impression 3D industrielle → Prototypage rapide → Scan 3D → Modélisation 3D → Grand format → Petite série → Impression résine → Impression SLS → Comparateur matériaux"
    },
    {
     "t": "txt",
@@ -19377,6 +17820,10 @@
    {
     "t": "p",
     "v": "Notre atelier est naturellement le partenaire d'impression 3D le plus proche pour les entreprises et particuliers d'Eupen. Nous proposons un service entièrement bilingue français/allemand pour faciliter la communication avec nos clients germanophones. Les délais pour Eupen sont parmi les plus courts de notre zone de service."
+   },
+   {
+    "t": "txt",
+    "v": "Welkenraedt Eupen Welkenraedt ~0 min (atelier) Lontzen ~5 min Raeren ~12 min Aix-la-Chapelle (DE) ~25 min Herve ~20 min O&D Impression 3D · Zone de service"
    },
    {
     "t": "txt",
@@ -19470,49 +17917,8 @@
     "v": "FDM, SLS, résine, haute température — notre gamme complète est disponible pour les clients de Eupen."
    },
    {
-    "t": "link",
-    "v": "🔬 Prototypage rapide",
-    "href": "od3d-prototypage.html"
-   },
-   {
-    "t": "link",
-    "v": "📦 Petite série",
-    "href": "od3d-petite-serie.html"
-   },
-   {
-    "t": "link",
-    "v": "⚙️ Fabrication additive",
-    "href": "od3d-fabrication-additive.html"
-   },
-   {
-    "t": "link",
-    "v": "🔭 Scan 3D",
-    "href": "od3d-scan-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "🔄 Rétroconception",
-    "href": "od3d-retroconception.html"
-   },
-   {
-    "t": "link",
-    "v": "📐 Grand format (1m³)",
-    "href": "od3d-grand-format.html"
-   },
-   {
-    "t": "link",
-    "v": "💎 Impression résine",
-    "href": "od3d-resine.html"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ Impression SLS",
-    "href": "od3d-sls.html"
-   },
-   {
-    "t": "link",
-    "v": "🖊️ Modélisation 3D",
-    "href": "od3d-modelisation-3d.html"
+    "t": "txt",
+    "v": "🔬 Prototypage rapide 📦 Petite série ⚙️ Fabrication additive 🔭 Scan 3D 🔄 Rétroconception 📐 Grand format (1m³) 💎 Impression résine 🌡️ Impression SLS 🖊️ Modélisation 3D"
    },
    {
     "t": "txt",
@@ -19587,44 +17993,8 @@
     "v": "Toutes nos machines sont disponibles pour les commandes en provenance de Eupen."
    },
    {
-    "t": "link",
-    "v": "🖨️ Bambu Lab X1C",
-    "href": "https://www.od3d.be/machines/bambu-lab-x1c"
-   },
-   {
-    "t": "link",
-    "v": "🖨️ Bambu Lab H2C",
-    "href": "https://www.od3d.be/machines/bambu-lab-h2c"
-   },
-   {
-    "t": "link",
-    "v": "🖨️ Prusa Core One",
-    "href": "https://www.od3d.be/machines/prusa-core-one"
-   },
-   {
-    "t": "link",
-    "v": "📐 Modix Big Meter (1m³)",
-    "href": "https://www.od3d.be/machines/modix-big-meter"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ SuperMaker SLS 1518",
-    "href": "https://www.od3d.be/machines/supermaker-sls1518"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ SuperMaker SLS 3540 Pro",
-    "href": "https://www.od3d.be/machines/supermaker-sls3540-pro"
-   },
-   {
-    "t": "link",
-    "v": "💎 Anycubic Photon M7 Max",
-    "href": "https://www.od3d.be/machines/anycubic-photon-m7-max"
-   },
-   {
-    "t": "link",
-    "v": "🔥 INTAMSYS Funmat HT",
-    "href": "https://www.od3d.be/machines/intamsys-funmat-ht"
+    "t": "txt",
+    "v": "🖨️ Bambu Lab X1C 🖨️ Bambu Lab H2C 🖨️ Prusa Core One 📐 Modix Big Meter (1m³) 🌡️ SuperMaker SLS 1518 🌡️ SuperMaker SLS 3540 Pro 💎 Anycubic Photon M7 Max 🔥 INTAMSYS Funmat HT"
    },
    {
     "t": "link",
@@ -19646,7 +18016,7 @@
    },
    {
     "t": "txt",
-    "v": "Quelle est la distance exacte entre Eupen et votre atelier ?"
+    "v": "Quelle est la distance exacte entre Eupen et votre atelier?"
    },
    {
     "t": "txt",
@@ -19654,7 +18024,7 @@
    },
    {
     "t": "txt",
-    "v": "Livrez-vous aussi vers l'Allemagne depuis Eupen ?"
+    "v": "Livrez-vous aussi vers l'Allemagne depuis Eupen?"
    },
    {
     "t": "txt",
@@ -19662,7 +18032,7 @@
    },
    {
     "t": "txt",
-    "v": "Avez-vous des tarifs spéciaux pour les institutions de la Communauté germanophone ?"
+    "v": "Avez-vous des tarifs spéciaux pour les institutions de la Communauté germanophone?"
    },
    {
     "t": "txt",
@@ -19685,83 +18055,16 @@
     "v": "📍 Villes & Localités desservies"
    },
    {
-    "t": "link",
-    "v": "→ Impression 3D Liege",
-    "href": "od3d-geo-liege.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Verviers",
-    "href": "od3d-geo-verviers.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Belgique",
-    "href": "od3d-geo-belgique.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Seraing",
-    "href": "od3d-geo-seraing.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Spa",
-    "href": "od3d-geo-spa.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Huy",
-    "href": "od3d-geo-huy.html"
+    "t": "txt",
+    "v": "→ Impression 3D Liege → Impression 3D Verviers → Impression 3D Belgique → Impression 3D Seraing → Impression 3D Spa → Impression 3D Huy"
    },
    {
     "t": "h3",
     "v": "⚙️ Nos Expertises & Solutions"
    },
    {
-    "t": "link",
-    "v": "→ Impression 3D industrielle",
-    "href": "od3d-industrielle.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Prototypage rapide",
-    "href": "od3d-prototypage.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Scan 3D",
-    "href": "od3d-scan-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Modélisation 3D",
-    "href": "od3d-modelisation-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Grand format",
-    "href": "od3d-grand-format.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Petite série",
-    "href": "od3d-petite-serie.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression résine",
-    "href": "od3d-resine.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression SLS",
-    "href": "od3d-sls.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Comparateur matériaux",
-    "href": "od3d-comparateur-materiaux.html"
+    "t": "txt",
+    "v": "→ Impression 3D industrielle → Prototypage rapide → Scan 3D → Modélisation 3D → Grand format → Petite série → Impression résine → Impression SLS → Comparateur matériaux"
    },
    {
     "t": "txt",
@@ -19837,6 +18140,10 @@
    {
     "t": "p",
     "v": "L'impression 3D répond à des besoins très concrets dans l'industrie seraingienne : pièces de rechange pour équipements en cours de démantèlement ou de reconversion, outillage léger pour lignes de production, prototypage de nouveaux produits dans le cadre de la diversification économique de la ville."
+   },
+   {
+    "t": "txt",
+    "v": "Welkenraedt Seraing Ougrée ~32 min Boncelles ~38 min Jemeppe-sur-Meuse ~38 min Liège ~30 min Flémalle ~40 min O&D Impression 3D · Zone de service"
    },
    {
     "t": "txt",
@@ -19930,49 +18237,8 @@
     "v": "FDM, SLS, résine, haute température — notre gamme complète est disponible pour les clients de Seraing."
    },
    {
-    "t": "link",
-    "v": "🔬 Prototypage rapide",
-    "href": "od3d-prototypage.html"
-   },
-   {
-    "t": "link",
-    "v": "📦 Petite série",
-    "href": "od3d-petite-serie.html"
-   },
-   {
-    "t": "link",
-    "v": "⚙️ Fabrication additive",
-    "href": "od3d-fabrication-additive.html"
-   },
-   {
-    "t": "link",
-    "v": "🔭 Scan 3D",
-    "href": "od3d-scan-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "🔄 Rétroconception",
-    "href": "od3d-retroconception.html"
-   },
-   {
-    "t": "link",
-    "v": "📐 Grand format (1m³)",
-    "href": "od3d-grand-format.html"
-   },
-   {
-    "t": "link",
-    "v": "💎 Impression résine",
-    "href": "od3d-resine.html"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ Impression SLS",
-    "href": "od3d-sls.html"
-   },
-   {
-    "t": "link",
-    "v": "🖊️ Modélisation 3D",
-    "href": "od3d-modelisation-3d.html"
+    "t": "txt",
+    "v": "🔬 Prototypage rapide 📦 Petite série ⚙️ Fabrication additive 🔭 Scan 3D 🔄 Rétroconception 📐 Grand format (1m³) 💎 Impression résine 🌡️ Impression SLS 🖊️ Modélisation 3D"
    },
    {
     "t": "txt",
@@ -20047,44 +18313,8 @@
     "v": "Toutes nos machines sont disponibles pour les commandes en provenance de Seraing."
    },
    {
-    "t": "link",
-    "v": "🖨️ Bambu Lab X1C",
-    "href": "https://www.od3d.be/machines/bambu-lab-x1c"
-   },
-   {
-    "t": "link",
-    "v": "🖨️ Bambu Lab H2C",
-    "href": "https://www.od3d.be/machines/bambu-lab-h2c"
-   },
-   {
-    "t": "link",
-    "v": "🖨️ Prusa Core One",
-    "href": "https://www.od3d.be/machines/prusa-core-one"
-   },
-   {
-    "t": "link",
-    "v": "📐 Modix Big Meter (1m³)",
-    "href": "https://www.od3d.be/machines/modix-big-meter"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ SuperMaker SLS 1518",
-    "href": "https://www.od3d.be/machines/supermaker-sls1518"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ SuperMaker SLS 3540 Pro",
-    "href": "https://www.od3d.be/machines/supermaker-sls3540-pro"
-   },
-   {
-    "t": "link",
-    "v": "💎 Anycubic Photon M7 Max",
-    "href": "https://www.od3d.be/machines/anycubic-photon-m7-max"
-   },
-   {
-    "t": "link",
-    "v": "🔥 INTAMSYS Funmat HT",
-    "href": "https://www.od3d.be/machines/intamsys-funmat-ht"
+    "t": "txt",
+    "v": "🖨️ Bambu Lab X1C 🖨️ Bambu Lab H2C 🖨️ Prusa Core One 📐 Modix Big Meter (1m³) 🌡️ SuperMaker SLS 1518 🌡️ SuperMaker SLS 3540 Pro 💎 Anycubic Photon M7 Max 🔥 INTAMSYS Funmat HT"
    },
    {
     "t": "link",
@@ -20101,7 +18331,7 @@
    },
    {
     "t": "txt",
-    "v": "Travaillez-vous avec les industries de Seraing ?"
+    "v": "Travaillez-vous avec les industries de Seraing?"
    },
    {
     "t": "txt",
@@ -20109,7 +18339,7 @@
    },
    {
     "t": "txt",
-    "v": "Pouvez-vous intervenir rapidement pour une urgence industrielle à Seraing ?"
+    "v": "Pouvez-vous intervenir rapidement pour une urgence industrielle à Seraing?"
    },
    {
     "t": "txt",
@@ -20117,7 +18347,7 @@
    },
    {
     "t": "txt",
-    "v": "Fournissez-vous des certificats pour les pièces industrielles ?"
+    "v": "Fournissez-vous des certificats pour les pièces industrielles?"
    },
    {
     "t": "txt",
@@ -20125,7 +18355,7 @@
    },
    {
     "t": "txt",
-    "v": "Quelle est la différence de prix entre vos pièces et l'usinage CNC ?"
+    "v": "Quelle est la différence de prix entre vos pièces et l'usinage CNC?"
    },
    {
     "t": "txt",
@@ -20148,83 +18378,16 @@
     "v": "📍 Villes & Localités desservies"
    },
    {
-    "t": "link",
-    "v": "→ Impression 3D Liege",
-    "href": "od3d-geo-liege.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Verviers",
-    "href": "od3d-geo-verviers.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Belgique",
-    "href": "od3d-geo-belgique.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Eupen",
-    "href": "od3d-geo-eupen.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Spa",
-    "href": "od3d-geo-spa.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Huy",
-    "href": "od3d-geo-huy.html"
+    "t": "txt",
+    "v": "→ Impression 3D Liege → Impression 3D Verviers → Impression 3D Belgique → Impression 3D Eupen → Impression 3D Spa → Impression 3D Huy"
    },
    {
     "t": "h3",
     "v": "⚙️ Nos Expertises & Solutions"
    },
    {
-    "t": "link",
-    "v": "→ Impression 3D industrielle",
-    "href": "od3d-industrielle.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Prototypage rapide",
-    "href": "od3d-prototypage.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Scan 3D",
-    "href": "od3d-scan-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Modélisation 3D",
-    "href": "od3d-modelisation-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Grand format",
-    "href": "od3d-grand-format.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Petite série",
-    "href": "od3d-petite-serie.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression résine",
-    "href": "od3d-resine.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression SLS",
-    "href": "od3d-sls.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Comparateur matériaux",
-    "href": "od3d-comparateur-materiaux.html"
+    "t": "txt",
+    "v": "→ Impression 3D industrielle → Prototypage rapide → Scan 3D → Modélisation 3D → Grand format → Petite série → Impression résine → Impression SLS → Comparateur matériaux"
    },
    {
     "t": "txt",
@@ -20300,6 +18463,10 @@
    {
     "t": "p",
     "v": "Notre atelier de Welkenraedt dessert régulièrement des clients de l'arrondissement de Huy : PME industrielles, artisans, professionnels libéraux. La livraison vers Huy est organisée via transporteur express avec un délai de J+7 pour les petites commandes."
+   },
+   {
+    "t": "txt",
+    "v": "Welkenraedt Huy Waremme ~50 min Amay ~42 min Hannut ~55 min Flémalle ~35 min Namur ~40 min O&D Impression 3D · Zone de service"
    },
    {
     "t": "txt",
@@ -20393,49 +18560,8 @@
     "v": "FDM, SLS, résine, haute température — notre gamme complète est disponible pour les clients de Huy."
    },
    {
-    "t": "link",
-    "v": "🔬 Prototypage rapide",
-    "href": "od3d-prototypage.html"
-   },
-   {
-    "t": "link",
-    "v": "📦 Petite série",
-    "href": "od3d-petite-serie.html"
-   },
-   {
-    "t": "link",
-    "v": "⚙️ Fabrication additive",
-    "href": "od3d-fabrication-additive.html"
-   },
-   {
-    "t": "link",
-    "v": "🔭 Scan 3D",
-    "href": "od3d-scan-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "🔄 Rétroconception",
-    "href": "od3d-retroconception.html"
-   },
-   {
-    "t": "link",
-    "v": "📐 Grand format (1m³)",
-    "href": "od3d-grand-format.html"
-   },
-   {
-    "t": "link",
-    "v": "💎 Impression résine",
-    "href": "od3d-resine.html"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ Impression SLS",
-    "href": "od3d-sls.html"
-   },
-   {
-    "t": "link",
-    "v": "🖊️ Modélisation 3D",
-    "href": "od3d-modelisation-3d.html"
+    "t": "txt",
+    "v": "🔬 Prototypage rapide 📦 Petite série ⚙️ Fabrication additive 🔭 Scan 3D 🔄 Rétroconception 📐 Grand format (1m³) 💎 Impression résine 🌡️ Impression SLS 🖊️ Modélisation 3D"
    },
    {
     "t": "txt",
@@ -20510,44 +18636,8 @@
     "v": "Toutes nos machines sont disponibles pour les commandes en provenance de Huy."
    },
    {
-    "t": "link",
-    "v": "🖨️ Bambu Lab X1C",
-    "href": "https://www.od3d.be/machines/bambu-lab-x1c"
-   },
-   {
-    "t": "link",
-    "v": "🖨️ Bambu Lab H2C",
-    "href": "https://www.od3d.be/machines/bambu-lab-h2c"
-   },
-   {
-    "t": "link",
-    "v": "🖨️ Prusa Core One",
-    "href": "https://www.od3d.be/machines/prusa-core-one"
-   },
-   {
-    "t": "link",
-    "v": "📐 Modix Big Meter (1m³)",
-    "href": "https://www.od3d.be/machines/modix-big-meter"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ SuperMaker SLS 1518",
-    "href": "https://www.od3d.be/machines/supermaker-sls1518"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ SuperMaker SLS 3540 Pro",
-    "href": "https://www.od3d.be/machines/supermaker-sls3540-pro"
-   },
-   {
-    "t": "link",
-    "v": "💎 Anycubic Photon M7 Max",
-    "href": "https://www.od3d.be/machines/anycubic-photon-m7-max"
-   },
-   {
-    "t": "link",
-    "v": "🔥 INTAMSYS Funmat HT",
-    "href": "https://www.od3d.be/machines/intamsys-funmat-ht"
+    "t": "txt",
+    "v": "🖨️ Bambu Lab X1C 🖨️ Bambu Lab H2C 🖨️ Prusa Core One 📐 Modix Big Meter (1m³) 🌡️ SuperMaker SLS 1518 🌡️ SuperMaker SLS 3540 Pro 💎 Anycubic Photon M7 Max 🔥 INTAMSYS Funmat HT"
    },
    {
     "t": "link",
@@ -20569,15 +18659,15 @@
    },
    {
     "t": "txt",
-    "v": "Avez-vous de l'expérience avec le secteur chimique de la région de Huy ?"
+    "v": "Avez-vous de l'expérience avec le secteur chimique de la région de Huy?"
    },
    {
     "t": "txt",
-    "v": "Oui. Nous proposons des matériaux résistants aux produits chimiques : PP (polypropylène) pour les acides et bases faibles, PVDF et PEEK pour les environnements les plus agressifs. Contactez-nous avec la liste des produits chimiques en contact pour une recommandation matériau adaptée."
+    "v": "Oui. Nous proposons des matériaux résistants aux produits chimiques: PP (polypropylène) pour les acides et bases faibles, PVDF et PEEK pour les environnements les plus agressifs. Contactez-nous avec la liste des produits chimiques en contact pour une recommandation matériau adaptée."
    },
    {
     "t": "txt",
-    "v": "Peut-on reproduire des éléments patrimoniaux pour des bâtiments classés ?"
+    "v": "Peut-on reproduire des éléments patrimoniaux pour des bâtiments classés?"
    },
    {
     "t": "txt",
@@ -20585,7 +18675,7 @@
    },
    {
     "t": "txt",
-    "v": "Proposez-vous des tarifs éducatifs ?"
+    "v": "Proposez-vous des tarifs éducatifs?"
    },
    {
     "t": "txt",
@@ -20608,83 +18698,16 @@
     "v": "📍 Villes & Localités desservies"
    },
    {
-    "t": "link",
-    "v": "→ Impression 3D Liege",
-    "href": "od3d-geo-liege.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Verviers",
-    "href": "od3d-geo-verviers.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Belgique",
-    "href": "od3d-geo-belgique.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Eupen",
-    "href": "od3d-geo-eupen.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Seraing",
-    "href": "od3d-geo-seraing.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression 3D Spa",
-    "href": "od3d-geo-spa.html"
+    "t": "txt",
+    "v": "→ Impression 3D Liege → Impression 3D Verviers → Impression 3D Belgique → Impression 3D Eupen → Impression 3D Seraing → Impression 3D Spa"
    },
    {
     "t": "h3",
     "v": "⚙️ Nos Expertises & Solutions"
    },
    {
-    "t": "link",
-    "v": "→ Impression 3D industrielle",
-    "href": "od3d-industrielle.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Prototypage rapide",
-    "href": "od3d-prototypage.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Scan 3D",
-    "href": "od3d-scan-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Modélisation 3D",
-    "href": "od3d-modelisation-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Grand format",
-    "href": "od3d-grand-format.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Petite série",
-    "href": "od3d-petite-serie.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression résine",
-    "href": "od3d-resine.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Impression SLS",
-    "href": "od3d-sls.html"
-   },
-   {
-    "t": "link",
-    "v": "→ Comparateur matériaux",
-    "href": "od3d-comparateur-materiaux.html"
+    "t": "txt",
+    "v": "→ Impression 3D industrielle → Prototypage rapide → Scan 3D → Modélisation 3D → Grand format → Petite série → Impression résine → Impression SLS → Comparateur matériaux"
    },
    {
     "t": "txt",
@@ -20836,11 +18859,7 @@
    },
    {
     "t": "txt",
-    "v": "/section"
-   },
-   {
-    "t": "txt",
-    "v": "NDA"
+    "v": "/section NDA"
    },
    {
     "t": "txt",
@@ -20863,49 +18882,8 @@
     "v": "Retrouvez tous nos services et nos guides matériaux pour préparer votre demande."
    },
    {
-    "t": "link",
-    "v": "🔬 Prototypage rapide",
-    "href": "od3d-prototypage.html"
-   },
-   {
-    "t": "link",
-    "v": "📦 Petite série",
-    "href": "od3d-petite-serie.html"
-   },
-   {
-    "t": "link",
-    "v": "🔄 Rétroconception",
-    "href": "od3d-retroconception.html"
-   },
-   {
-    "t": "link",
-    "v": "⚙️ Fabrication additive",
-    "href": "od3d-fabrication-additive.html"
-   },
-   {
-    "t": "link",
-    "v": "📐 Grand format 1m³",
-    "href": "od3d-grand-format.html"
-   },
-   {
-    "t": "link",
-    "v": "💎 Résine SLA",
-    "href": "od3d-resine.html"
-   },
-   {
-    "t": "link",
-    "v": "🌡️ SLS frittage",
-    "href": "od3d-sls.html"
-   },
-   {
-    "t": "link",
-    "v": "🔭 Scan 3D",
-    "href": "od3d-scan-3d.html"
-   },
-   {
-    "t": "link",
-    "v": "⚗️ Comparer les matériaux",
-    "href": "od3d-comparateur-materiaux.html"
+    "t": "txt",
+    "v": "🔬 Prototypage rapide 📦 Petite série 🔄 Rétroconception ⚙️ Fabrication additive 📐 Grand format 1m³ 💎 Résine SLA 🌡️ SLS frittage 🔭 Scan 3D ⚗️ Comparer les matériaux"
    },
    {
     "t": "txt",
@@ -21041,7 +19019,7 @@
    },
    {
     "t": "txt",
-    "v": "Pourquoi l'impression 3D ?"
+    "v": "Pourquoi l'impression 3D?"
    },
    {
     "t": "h2",
@@ -21089,7 +19067,7 @@
    },
    {
     "t": "txt",
-    "v": "Vous avez une pièce introuvable ?"
+    "v": "Vous avez une pièce introuvable?"
    },
    {
     "t": "h2",
@@ -21217,7 +19195,7 @@
    },
    {
     "t": "txt",
-    "v": "Et si c'était votre appareil ?"
+    "v": "Et si c'était votre appareil?"
    },
    {
     "t": "h2",
@@ -21265,7 +19243,7 @@
    },
    {
     "t": "txt",
-    "v": "Un appareil en panne ?"
+    "v": "Un appareil en panne?"
    },
    {
     "t": "h2",
@@ -21397,7 +19375,7 @@
    },
    {
     "t": "txt",
-    "v": "Et votre véhicule ?"
+    "v": "Et votre véhicule?"
    },
    {
     "t": "h2",
@@ -21445,7 +19423,7 @@
    },
    {
     "t": "txt",
-    "v": "Une pièce automobile à reproduire ?"
+    "v": "Une pièce automobile à reproduire?"
    },
    {
     "t": "h2",
@@ -21621,7 +19599,7 @@
    },
    {
     "t": "txt",
-    "v": "Un projet événementiel ou de maquette ?"
+    "v": "Un projet événementiel ou de maquette?"
    },
    {
     "t": "h2",
@@ -21805,7 +19783,7 @@
    },
    {
     "t": "txt",
-    "v": "Un projet à réaliser ?"
+    "v": "Un projet à réaliser?"
    },
    {
     "t": "h2",
@@ -21985,7 +19963,7 @@
    },
    {
     "t": "txt",
-    "v": "Un projet à réaliser ?"
+    "v": "Un projet à réaliser?"
    },
    {
     "t": "h2",
@@ -22165,7 +20143,7 @@
    },
    {
     "t": "txt",
-    "v": "Un projet à réaliser ?"
+    "v": "Un projet à réaliser?"
    },
    {
     "t": "h2",
@@ -22289,23 +20267,7 @@
    },
    {
     "t": "txt",
-    "v": "La grande porte de coffret — d'environ"
-   },
-   {
-    "t": "txt",
-    "v": "60 cm"
-   },
-   {
-    "t": "txt",
-    "v": "— a été imprimée à 5 reprises sur notre Modix Big Meter, notre machine grand format. Cette machine est équipée d'une"
-   },
-   {
-    "t": "txt",
-    "v": "buse diamant de chez Gühring"
-   },
-   {
-    "t": "txt",
-    "v": ", idéale pour les impressions longues et les pièces de grand volume. La buse diamant garantit une résistance à l'usure optimale sur les longues sessions d'impression que nécessitent des pièces de cette taille."
+    "v": "La grande porte de coffret — d'environ 60 cm — a été imprimée à 5 reprises sur notre Modix Big Meter, notre machine grand format. Cette machine est équipée d'une buse diamant de chez Gühring, idéale pour les impressions longues et les pièces de grand volume. La buse diamant garantit une résistance à l'usure optimale sur les longues sessions d'impression que nécessitent des pièces de cette taille."
    },
    {
     "t": "txt",
@@ -22317,23 +20279,7 @@
    },
    {
     "t": "txt",
-    "v": "Les"
-   },
-   {
-    "t": "txt",
-    "v": "5 éléments complémentaires"
-   },
-   {
-    "t": "txt",
-    "v": "de plus petite taille ont été produits sur notre Bambu Lab H2C. Cette machine, de précision industrielle, garantit une"
-   },
-   {
-    "t": "txt",
-    "v": "excellente qualité de finition"
-   },
-   {
-    "t": "txt",
-    "v": "et une précision dimensionnelle élevée sur les détails — particulièrement important pour les systèmes d'emboîtement qui doivent s'assembler parfaitement avec la grande porte."
+    "v": "Les 5 éléments complémentaires de plus petite taille ont été produits sur notre Bambu Lab H2C. Cette machine, de précision industrielle, garantit une excellente qualité de finition et une précision dimensionnelle élevée sur les détails — particulièrement important pour les systèmes d'emboîtement qui doivent s'assembler parfaitement avec la grande porte."
    },
    {
     "t": "txt",
@@ -22391,7 +20337,7 @@
    },
    {
     "t": "txt",
-    "v": "Et votre commune ou organisation ?"
+    "v": "Et votre commune ou organisation?"
    },
    {
     "t": "h2",
@@ -22439,7 +20385,7 @@
    },
    {
     "t": "txt",
-    "v": "Un projet à réaliser ?"
+    "v": "Un projet à réaliser?"
    },
    {
     "t": "h2",
@@ -22955,7 +20901,7 @@
    },
    {
     "t": "txt",
-    "v": "Acheter une imprimante Avantages : Autonomie Production rapide Inconvénients : Investissement initial Maintenance Courbe d’apprentissage Passer par un service (comme O&D 3D) Avantages : Expertise Accè"
+    "v": "Acheter une imprimante Avantages: Autonomie Production rapide Inconvénients: Investissement initial Maintenance Courbe d’apprentissage Passer par un service (comme O&D 3D) Avantages: Expertise Accè"
    },
    {
     "t": "txt",
@@ -22963,7 +20909,7 @@
    },
    {
     "t": "txt",
-    "v": "Un bon fichier 3D est essentiel pour garantir une impression réussie. Vérifier la géométrie Le modèle doit être : Fermé (sans trous) Sans erreurs de maillage Étanche (manifold) Adapter l’épaisseur Évi"
+    "v": "Un bon fichier 3D est essentiel pour garantir une impression réussie. Vérifier la géométrie Le modèle doit être: Fermé (sans trous) Sans erreurs de maillage Étanche (manifold) Adapter l’épaisseur Évi"
    }
   ],
   "embed": [],
@@ -23069,15 +21015,15 @@
    },
    {
     "t": "txt",
-    "v": "Acheter une imprimante Avantages : Autonomie Production rapide Inconvénients : Investissement initial Maintenance Courbe d’apprentissage Passer par un service (comme O&D 3D) Avantages : Expertise Accè"
+    "v": "Acheter une imprimante Avantages: Autonomie Production rapide Inconvénients: Investissement initial Maintenance Courbe d’apprentissage Passer par un service (comme O&D 3D) Avantages: Expertise Accè"
    },
    {
     "t": "txt",
-    "v": "L’impression 3D s’impose progressivement dans le secteur industriel. Prototypage rapide Permet de : Tester rapidement un concept Réduire les cycles de développement Fabrication de pièces sur mesure Id"
+    "v": "L’impression 3D s’impose progressivement dans le secteur industriel. Prototypage rapide Permet de: Tester rapidement un concept Réduire les cycles de développement Fabrication de pièces sur mesure Id"
    },
    {
     "t": "txt",
-    "v": "Un bon fichier 3D est essentiel pour garantir une impression réussie. Vérifier la géométrie Le modèle doit être : Fermé (sans trous) Sans erreurs de maillage Étanche (manifold) Adapter l’épaisseur Évi"
+    "v": "Un bon fichier 3D est essentiel pour garantir une impression réussie. Vérifier la géométrie Le modèle doit être: Fermé (sans trous) Sans erreurs de maillage Étanche (manifold) Adapter l’épaisseur Évi"
    }
   ],
   "embed": [],
@@ -23472,7 +21418,7 @@
    },
    {
     "t": "txt",
-    "v": "Acheter une imprimante Avantages : Autonomie Production rapide Inconvénients : Investissement initial Maintenance Courbe d’apprentissage Passer par un service (comme O&D 3D) Avantages : Expertise Accè"
+    "v": "Acheter une imprimante Avantages: Autonomie Production rapide Inconvénients: Investissement initial Maintenance Courbe d’apprentissage Passer par un service (comme O&D 3D) Avantages: Expertise Accè"
    },
    {
     "t": "txt",
@@ -23480,7 +21426,7 @@
    },
    {
     "t": "txt",
-    "v": "L’impression 3D s’impose progressivement dans le secteur industriel. Prototypage rapide Permet de : Tester rapidement un concept Réduire les cycles de développement Fabrication de pièces sur mesure Id"
+    "v": "L’impression 3D s’impose progressivement dans le secteur industriel. Prototypage rapide Permet de: Tester rapidement un concept Réduire les cycles de développement Fabrication de pièces sur mesure Id"
    }
   ],
   "embed": [],
@@ -23742,7 +21688,7 @@
    },
    {
     "t": "txt",
-    "v": "Acheter une imprimante Avantages : Autonomie Production rapide Inconvénients : Investissement initial Maintenance Courbe d’apprentissage Passer par un service (comme O&D 3D) Avantages : Expertise Accè"
+    "v": "Acheter une imprimante Avantages: Autonomie Production rapide Inconvénients: Investissement initial Maintenance Courbe d’apprentissage Passer par un service (comme O&D 3D) Avantages: Expertise Accè"
    },
    {
     "t": "txt",
@@ -23750,7 +21696,7 @@
    },
    {
     "t": "txt",
-    "v": "L’impression 3D s’impose progressivement dans le secteur industriel. Prototypage rapide Permet de : Tester rapidement un concept Réduire les cycles de développement Fabrication de pièces sur mesure Id"
+    "v": "L’impression 3D s’impose progressivement dans le secteur industriel. Prototypage rapide Permet de: Tester rapidement un concept Réduire les cycles de développement Fabrication de pièces sur mesure Id"
    }
   ],
   "embed": [],
@@ -24299,11 +22245,11 @@
    },
    {
     "t": "txt",
-    "v": "L’impression 3D s’impose progressivement dans le secteur industriel. Prototypage rapide Permet de : Tester rapidement un concept Réduire les cycles de développement Fabrication de pièces sur mesure Id"
+    "v": "L’impression 3D s’impose progressivement dans le secteur industriel. Prototypage rapide Permet de: Tester rapidement un concept Réduire les cycles de développement Fabrication de pièces sur mesure Id"
    },
    {
     "t": "txt",
-    "v": "Un bon fichier 3D est essentiel pour garantir une impression réussie. Vérifier la géométrie Le modèle doit être : Fermé (sans trous) Sans erreurs de maillage Étanche (manifold) Adapter l’épaisseur Évi"
+    "v": "Un bon fichier 3D est essentiel pour garantir une impression réussie. Vérifier la géométrie Le modèle doit être: Fermé (sans trous) Sans erreurs de maillage Étanche (manifold) Adapter l’épaisseur Évi"
    }
   ],
   "embed": [],
@@ -24421,7 +22367,7 @@
    },
    {
     "t": "txt",
-    "v": "Acheter une imprimante Avantages : Autonomie Production rapide Inconvénients : Investissement initial Maintenance Courbe d’apprentissage Passer par un service (comme O&D 3D) Avantages : Expertise Accè"
+    "v": "Acheter une imprimante Avantages: Autonomie Production rapide Inconvénients: Investissement initial Maintenance Courbe d’apprentissage Passer par un service (comme O&D 3D) Avantages: Expertise Accè"
    },
    {
     "t": "txt",
@@ -24429,7 +22375,7 @@
    },
    {
     "t": "txt",
-    "v": "L’impression 3D s’impose progressivement dans le secteur industriel. Prototypage rapide Permet de : Tester rapidement un concept Réduire les cycles de développement Fabrication de pièces sur mesure Id"
+    "v": "L’impression 3D s’impose progressivement dans le secteur industriel. Prototypage rapide Permet de: Tester rapidement un concept Réduire les cycles de développement Fabrication de pièces sur mesure Id"
    }
   ],
   "embed": [],
@@ -24530,7 +22476,7 @@
    },
    {
     "t": "txt",
-    "v": "Acheter une imprimante Avantages : Autonomie Production rapide Inconvénients : Investissement initial Maintenance Courbe d’apprentissage Passer par un service (comme O&D 3D) Avantages : Expertise Accè"
+    "v": "Acheter une imprimante Avantages: Autonomie Production rapide Inconvénients: Investissement initial Maintenance Courbe d’apprentissage Passer par un service (comme O&D 3D) Avantages: Expertise Accè"
    },
    {
     "t": "txt",
@@ -24538,7 +22484,7 @@
    },
    {
     "t": "txt",
-    "v": "L’impression 3D s’impose progressivement dans le secteur industriel. Prototypage rapide Permet de : Tester rapidement un concept Réduire les cycles de développement Fabrication de pièces sur mesure Id"
+    "v": "L’impression 3D s’impose progressivement dans le secteur industriel. Prototypage rapide Permet de: Tester rapidement un concept Réduire les cycles de développement Fabrication de pièces sur mesure Id"
    }
   ],
   "embed": [],
@@ -25617,7 +23563,7 @@
    },
    {
     "t": "txt",
-    "v": "Pourquoi demander un devis en ligne pour vos projets 3D ? Demander un devis en ligne vous offre plusieurs avantages. D’abord, cela vous fait gagner du temps. Vous n’avez pas besoin de vous déplacer ou"
+    "v": "Pourquoi demander un devis en ligne pour vos projets 3D? Demander un devis en ligne vous offre plusieurs avantages. D’abord, cela vous fait gagner du temps. Vous n’avez pas besoin de vous déplacer ou"
    }
   ],
   "embed": [],
@@ -25711,7 +23657,7 @@
    },
    {
     "t": "txt",
-    "v": "Pourquoi demander un devis en ligne pour vos projets 3D ? Demander un devis en ligne vous offre plusieurs avantages. D’abord, cela vous fait gagner du temps. Vous n’avez pas besoin de vous déplacer ou"
+    "v": "Pourquoi demander un devis en ligne pour vos projets 3D? Demander un devis en ligne vous offre plusieurs avantages. D’abord, cela vous fait gagner du temps. Vous n’avez pas besoin de vous déplacer ou"
    }
   ],
   "embed": [],
@@ -26185,7 +24131,7 @@
    },
    {
     "t": "txt",
-    "v": "Dans le monde de l’impression 3D, le choix du matériau est crucial. Deux plastiques techniques souvent évoqués sont l’ABS et le PEEK. Mais dans quels cas faut-il privilégier le PEEK ? ABS : le standar"
+    "v": "Dans le monde de l’impression 3D, le choix du matériau est crucial. Deux plastiques techniques souvent évoqués sont l’ABS et le PEEK. Mais dans quels cas faut-il privilégier le PEEK? ABS: le standar"
    }
   ],
   "embed": [],

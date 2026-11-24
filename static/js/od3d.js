@@ -81,3 +81,13 @@ hexes.forEach(h => {
   h.addEventListener('mouseenter', () => { h.classList.add('on'); hexes.forEach(o => o !== h && o.classList.add('dim')); });
   h.addEventListener('mouseleave', () => hexes.forEach(o => o.classList.remove('on', 'dim')));
 });
+
+// Visionneuse photo
+document.querySelectorAll('.gal-i').forEach(a => a.addEventListener('click', e => {
+  e.preventDefault();
+  const lb = document.createElement('div'); lb.className = 'lb';
+  lb.innerHTML = '<img alt="" src="' + a.dataset.full + '">';
+  lb.addEventListener('click', () => lb.remove());
+  document.addEventListener('keydown', function k(ev) { if (ev.key === 'Escape') { lb.remove(); document.removeEventListener('keydown', k); } });
+  document.body.appendChild(lb);
+}));

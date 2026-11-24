@@ -223,6 +223,20 @@
     238,
     246
    ]
+  ],
+  "machines-materiaux/makera-carvera": [
+   "static/img/machines/makera-carvera",
+   [
+    446,
+    409
+   ]
+  ],
+  "machines-materiaux/tooldance-x1-cnc": [
+   "static/img/machines/tooldance-x1-cnc",
+   [
+    715,
+    501
+   ]
   ]
  },
  "logos": [
@@ -313,6 +327,282 @@
     360,
     110
    ]
+  ]
+ ],
+ "real": {
+  "réalisations/audi-s3-pieces-endommagees": [
+   [
+    "static/img/real/audi-s3-pieces-endommagees/1",
+    [
+     450,
+     600
+    ]
+   ],
+   [
+    "static/img/real/audi-s3-pieces-endommagees/2",
+    [
+     450,
+     600
+    ]
+   ],
+   [
+    "static/img/real/audi-s3-pieces-endommagees/3",
+    [
+     450,
+     600
+    ]
+   ],
+   [
+    "static/img/real/audi-s3-pieces-endommagees/4",
+    [
+     450,
+     600
+    ]
+   ]
+  ],
+  "réalisations/coffrets-electriques-ville-de-spa": [
+   [
+    "static/img/real/coffrets-electriques-ville-de-spa/1",
+    [
+     900,
+     675
+    ]
+   ],
+   [
+    "static/img/real/coffrets-electriques-ville-de-spa/2",
+    [
+     900,
+     1200
+    ]
+   ],
+   [
+    "static/img/real/coffrets-electriques-ville-de-spa/3",
+    [
+     900,
+     1200
+    ]
+   ]
+  ],
+  "réalisations/hachoir-piece-cassee": [
+   [
+    "static/img/real/hachoir-piece-cassee/1",
+    [
+     450,
+     600
+    ]
+   ],
+   [
+    "static/img/real/hachoir-piece-cassee/2",
+    [
+     450,
+     600
+    ]
+   ]
+  ],
+  "réalisations/infrabel-rails-maquette": [
+   [
+    "static/img/real/infrabel-rails-maquette/1",
+    [
+     800,
+     551
+    ]
+   ],
+   [
+    "static/img/real/infrabel-rails-maquette/2",
+    [
+     582,
+     600
+    ]
+   ]
+  ],
+  "réalisations/logopede-polypropylene": [
+   [
+    "static/img/real/logopede-polypropylene/1",
+    [
+     600,
+     800
+    ]
+   ],
+   [
+    "static/img/real/logopede-polypropylene/2",
+    [
+     600,
+     800
+    ]
+   ]
+  ],
+  "réalisations/porte-cles-bicolores-garage-lx-cars": [
+   [
+    "static/img/real/porte-cles-bicolores-garage-lx-cars/1",
+    [
+     594,
+     600
+    ]
+   ],
+   [
+    "static/img/real/porte-cles-bicolores-garage-lx-cars/2",
+    [
+     800,
+     717
+    ]
+   ],
+   [
+    "static/img/real/porte-cles-bicolores-garage-lx-cars/3",
+    [
+     800,
+     1066
+    ]
+   ]
+  ],
+  "réalisations/pic-barriere-asa-retro-conception": [
+   [
+    "static/img/real/pic-barriere-asa-retro-conception/1",
+    [
+     450,
+     600
+    ]
+   ],
+   [
+    "static/img/real/pic-barriere-asa-retro-conception/2",
+    [
+     450,
+     600
+    ]
+   ],
+   [
+    "static/img/real/pic-barriere-asa-retro-conception/3",
+    [
+     269,
+     600
+    ]
+   ]
+  ],
+  "réalisations/semelles-tabouret-40cm-gites-herve": [
+   [
+    "static/img/real/semelles-tabouret-40cm-gites-herve/1",
+    [
+     450,
+     600
+    ]
+   ],
+   [
+    "static/img/real/semelles-tabouret-40cm-gites-herve/2",
+    [
+     450,
+     600
+    ]
+   ],
+   [
+    "static/img/real/semelles-tabouret-40cm-gites-herve/3",
+    [
+     450,
+     600
+    ]
+   ],
+   [
+    "static/img/real/semelles-tabouret-40cm-gites-herve/4",
+    [
+     450,
+     600
+    ]
+   ]
+  ],
+  "réalisations/walibi-wagons-loup-garou": [
+   [
+    "static/img/real/walibi-wagons-loup-garou/4",
+    [
+     1134,
+     1400
+    ]
+   ],
+   [
+    "static/img/real/walibi-wagons-loup-garou/1",
+    [
+     1208,
+     518
+    ]
+   ],
+   [
+    "static/img/real/walibi-wagons-loup-garou/2",
+    [
+     484,
+     646
+    ]
+   ],
+   [
+    "static/img/real/walibi-wagons-loup-garou/3",
+    [
+     482,
+     598
+    ]
+   ]
+  ],
+  "réalisations/faucon-bas-relief-jean-pierre-craninx": [
+   [
+    "static/img/real/faucon-bas-relief-jean-pierre-craninx/1",
+    [
+     616,
+     870
+    ]
+   ]
+  ]
+ },
+ "team": {
+  "Owen SCHIMMENTI": [
+   "static/img/team/owen-schimmenti",
+   [
+    404,
+    392
+   ]
+  ],
+  "Donovan WAUCOMONT": [
+   "static/img/team/donovan-waucomont",
+   [
+    430,
+    412
+   ]
+  ]
+ },
+ "events": [
+  [
+   "static/img/events/img_4386",
+   [
+    1050,
+    1400
+   ],
+   "Euronaval 2026 · Paris"
+  ],
+  [
+   "static/img/events/img_4366",
+   [
+    1050,
+    1400
+   ],
+   "Euronaval 2026 · Paris"
+  ],
+  [
+   "static/img/events/img_4323",
+   [
+    1050,
+    1400
+   ],
+   "Euronaval 2026 · Paris"
+  ],
+  [
+   "static/img/events/equipe-au-formnext",
+   [
+    848,
+    498
+   ],
+   "Formnext · Francfort"
+  ],
+  [
+   "static/img/events/equipe-a-batibouw",
+   [
+    1216,
+    704
+   ],
+   "Batibouw · Bruxelles"
   ]
  ]
 }

@@ -15,8 +15,28 @@ def clean(t):
     return " ".join(t.split())
 EMOJI = re.compile(r"^[^\w]{0,3}$")
 
+INLINE = ("span","strong","b","em","i","a","code","small","sup","sub","mark","u","br","abbr")
 def walk(node, out):
-    for ch in node.children:
+    # nœud mixte (texte + éléments inline + blocs) : regrouper les suites inline
+    children = list(node.children); buf = []
+    def flush():
+        if buf:
+            t = clean(" ".join(x if isinstance(x, str) else x.get_text(" ") for x in buf))
+            t = re.sub(r"\s+([,.;:!?)])", r"\1", t)
+            if t and not EMOJI.match(t): out.append({"t": "txt", "v": t})
+            buf.clear()
+    has_text = any(isinstance(c, NavigableString) and clean(str(c)) for c in children)
+    if has_text:
+        for ch in children:
+            if isinstance(ch, NavigableString) or (isinstance(ch, Tag) and ch.name in INLINE and not ch.find(("div","p","ul","table"))):
+                buf.append(str(ch) if isinstance(ch, NavigableString) else ch)
+            else:
+                flush(); walk_one(ch, out)
+        flush(); return
+    for ch in children: walk_one(ch, out)
+
+def walk_one(ch, out):
+    for ch in [ch]:
         if isinstance(ch, NavigableString):
             t = clean(str(ch))
             if t and not EMOJI.match(t): out.append({"t": "txt", "v": t})
@@ -50,6 +70,12 @@ def walk(node, out):
             t = clean(ch.get_text(" "))
             if t and len(t) > 3: out.append({"t": "link", "v": t, "href": ch.get("href", "")})
         else:
+            BLOCKS = ("div","p","h1","h2","h3","h4","h5","ul","ol","li","table","section","article","details","header","footer","figure","form","nav","aside","blockquote")
+            if not ch.find(BLOCKS):
+                t = clean(ch.get_text(" "))
+                t = re.sub(r"\s+([,.;:!?)])", r"\1", t)
+                if t and not EMOJI.match(t): out.append({"t": "txt", "v": t})
+                continue
             kids = [c for c in ch.children if isinstance(c, Tag) and c.name not in ("br",)]
             texts = [c for c in ch.children if isinstance(c, NavigableString) and clean(str(c))]
             # paire libellé / valeur
