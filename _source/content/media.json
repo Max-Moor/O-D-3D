@@ -237,6 +237,48 @@
     715,
     501
    ]
+  ],
+  "machines-materiaux/cnc-aluminium": [
+   "static/img/matieres/cnc-aluminium",
+   [
+    520,
+    416
+   ]
+  ],
+  "machines-materiaux/cnc-bronze": [
+   "static/img/matieres/cnc-bronze",
+   [
+    434,
+    372
+   ]
+  ],
+  "machines-materiaux/cnc-cuivre": [
+   "static/img/matieres/cnc-cuivre",
+   [
+    582,
+    304
+   ]
+  ],
+  "machines-materiaux/cnc-ertalon": [
+   "static/img/matieres/cnc-ertalon",
+   [
+    452,
+    336
+   ]
+  ],
+  "machines-materiaux/cnc-pom": [
+   "static/img/matieres/cnc-pom",
+   [
+    362,
+    440
+   ]
+  ],
+  "machines-materiaux/cnc-titane": [
+   "static/img/matieres/cnc-titane",
+   [
+    512,
+    334
+   ]
   ]
  },
  "logos": [

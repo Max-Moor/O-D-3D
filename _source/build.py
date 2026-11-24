@@ -113,7 +113,7 @@ def chrome(p, depth):
     mock = "" if PROD else '<div class="mock">Maquette · non officielle</div>'
     return f'''<aside class="rail"><a class="logo" href="{rel(depth, "")}" aria-label="Accueil O&amp;D Impression 3D"><img src="{pre}static/img/logo-od.png" alt="O&amp;D" width="60" height="32"></a><nav aria-label="Navigation principale">{rail}</nav><div class="coord">50.65°N · 5.97°E — WELKENRAEDT</div></aside>
 <header class="top"><a class="brand" href="{rel(depth, "")}"><img src="{pre}static/img/logo-od.png" alt="O&amp;D" width="56" height="30"><span>Impression 3D</span></a>
-<div class="status"><b>Atelier en ligne</b><span>SLS · FDM · Résine · CNC · Scan 3D</span><span>Depuis 2021</span></div>
+<div class="status"><b>Atelier en ligne</b><span>SLS · FDM · SLA · CNC · Scan 3D</span><span>Depuis 2021</span></div>
 <div class="top-actions"><a class="btn btn-p" href="{rel(depth, "devis-instantane")}">Devis instantané <span class="a">→</span></a><button class="menu-btn" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu"><i></i></button></div></header>
 {over}{mock}
 <main id="main">
@@ -157,7 +157,7 @@ def is_item(t): return len(t) < 75 and not t.endswith((".", ":", "?")) or (len(t
 
 ORPHAN = re.compile(r"^(Styles nécessaires.*|STYLES NÉCESSAIRES.*|Besoin d.aide pour choisir.*|BESOIN D.AIDE POUR CHOISIR.*|\d{1,2}|0\d|GROUPE\s*\d.*|STEP\s*\d.*|HEADER|FOOTER|SPECS|SELECTOR|HERO|RÉALISATION\s*\d+|/\w+|\d+ — [A-ZÉ0-9 ]+|LIGNE|Structure HTML.*|ESPACE DESTINÉ.*|.*injectés par JS.*|VS|CTA|POPULAR COMBOS|Choisissez vos deux matériaux|Comparaisons populaires|PROS / CONS|cube|gear|bolt|layers|```.*|.*id=\"[a-z0-9]+\".*)$", re.I)
 KVTAIL = re.compile(r"^(.{1,40}?) (Matériaux?|Quantité|Client|Format|Secteur|Méthode|Dimensions|Délai|Durée|Technologie|Finition|Pièces)$")
-TEXTFIX = [("O&D Impression 3D a Baelen", "O&D Impression 3D à Welkenraedt"), ("à Baelen", "à Welkenraedt"), (" a Baelen", " à Welkenraedt"), ("Usinage CNC — Makera Carvera", "Usinage CNC"), ("Notre Makera Carvera permet", "Notre fraiseuse CNC permet"), ("Makera Carvera", "fraiseuse CNC"), ("Carvera", "fraiseuse CNC")]
+TEXTFIX = [("FDM vs SLS vs Résine", "FDM vs SLS vs SLA"), ("O&D Impression 3D a Baelen", "O&D Impression 3D à Welkenraedt"), ("à Baelen", "à Welkenraedt"), (" a Baelen", " à Welkenraedt"), ("Usinage CNC — Makera Carvera", "Usinage CNC"), ("Notre Makera Carvera permet", "Notre fraiseuse CNC permet"), ("Makera Carvera", "fraiseuse CNC"), ("Carvera", "fraiseuse CNC")]
 def _fix(v):
     if isinstance(v, str):
         for a, b in TEXTFIX: v = v.replace(a, b)
@@ -507,38 +507,62 @@ def hive():
         f'<div class="hex"><img src="{L[n][1][:-4]}.webp" alt="{E(alt.get(n, n))}" width="{L[n][2][0]}" height="{L[n][2][1]}" loading="lazy"></div>' for n in r if n in L) + "</div>" for r in HIVE)
     return f'<div class="hive rv" id="hive">{rows}</div>'
 
+def cloud(shape, obj, proc, color="#00C1EA", extra="Glisser pour tourner", cls="", tilt=None):
+    return (f'<div class="scan {cls}" style="--c:{color}"><div class="ring"></div><div class="ring r2"></div><canvas data-shape="{shape}" data-color="{color}"{f' data-tilt="{tilt}"' if tilt is not None else ""} aria-label="Rendu 3D interactif : {E(obj)}"></canvas>'
+            f'<div class="tag t1">Objet<b>{E(obj)}</b></div><div class="tag t2">Rotation<b data-ang>000.0°</b></div><div class="tag t3">Points<b data-npts>—</b></div><div class="tag t4">{E(proc)}<b>{E(extra)}</b></div></div>')
+
+ECO_C = {"sls": "#00C1EA", "fdm": "#FF8A3D", "resine": "#A97BFF", "cnc": "#C9D6DF"}
+def mat_ring(d):
+    cards = []
+    for x in MATS:
+        s = x["path"].split("/")[-1]; tk = None
+        for k, t in TECH.items():
+            if s in t["mats"]: tk = k
+        if not tk: continue
+        im = pic(d, x["path"], label(x), "rc-img")
+        if not im:
+            sym = CNC_MATS[s][7] if s in CNC_MATS else label(x).split()[0]
+            im = f'<span class="rc-img sym"><b>{E(sym)}</b></span>'
+        tg = HUBDATA.get(s, {}).get("tag") or (CNC_MATS[s][1] if s in CNC_MATS else "")
+        cards.append(f'<a class="rcard" data-t="{tk}" style="--eco:{ECO_C[tk]}" href="{rel(d, x["path"])}" draggable="false">{im}<span class="rc-t">{E(TECH[tk]["name"])}</span><b>{E(label(x))}</b><span class="rc-g">{E(tg)}</span></a>')
+    chips = '<button type="button" class="on" data-f="all">Toutes</button>' + "".join(f'<button type="button" data-f="{k}" style="--eco:{ECO_C[k]}">{E(t["name"])}</button>' for k, t in TECH.items() if t["mats"])
+    return (f'<div class="mring" id="mring"><div class="mr-filters" role="group" aria-label="Filtrer par technologie">{chips}</div>'
+            f'<div class="mr-box"><div class="mr-stage"><div class="mr-core">{cloud("gear", "Engrenage", "Matière", "#00C1EA", "PA12 · SLS", "mini")}</div><div class="mr-rot">{"".join(cards)}</div></div>'
+            f'<button type="button" class="mr-arr l" data-nav="-1" aria-label="Matière précédente"><span>‹</span><span>‹</span></button><button type="button" class="mr-arr r" data-nav="1" aria-label="Matière suivante"><span>›</span><span>›</span></button></div>'
+            f'<div class="mr-front"><span class="hud">Face à vous</span><b id="mrName">—</b><span id="mrTag"></span><a class="btn btn-g" id="mrGo" href="#">Ouvrir la fiche <span class="a">→</span></a></div></div>')
+
 def gen_home():
     p = BY[""] if "" in BY else {"path": "", "title": "O&D Impression 3D", "desc": ""}
     d = 0
-    tech = [("SLS", "services/impression-3d-sls", "Frittage laser", "Pièces fonctionnelles en nylon, sans supports. Petites séries rentables."),
-            ("FDM", "services/fabrication-additive", "Dépôt de fil", "Du PLA au PEEK et à l'ULTEM : prototypes, outillages, pièces techniques."),
-            ("RES", "services/impression-3d-resine", "Résine", "Détails fins et surfaces lisses pour maquettes et prototypes d'aspect."),
-            ("CNC", "machines-materiaux/tooldance-x1-cnc", "Usinage", "Aluminium, laiton, bronze, titane, POM : usinés dans la masse."),
-            ("SCN", "services/scan-3d", "Scan 3D", "Numérisation et rétro-ingénierie des pièces introuvables."),
-            ("XXL", "services/impression-3d-grand-format", "Grand format", "Pièces de grandes dimensions en une seule impression.")]
-    tcards = "".join(f'<a class="panel spot lcard rv" href="{rel(d, u)}"><span class="k">{c} — {k}</span><h3 style="font-size:2.4rem;font-weight:700">{c}</h3><p>{E(t)}</p><span class="go">Explorer →</span></a>' for c, u, k, t in tech)
+    tech = [("SLS", "services/impression-3d-sls", "Frittage laser", "Pièces fonctionnelles robustes en nylon, sans supports. Formes complexes et séries."),
+            ("FDM", "services/impression-3d-fdm", "Dépôt de filament", "Prototypes, outillages, grandes pièces et multicolore. Du PLA au PEEK et à l'ULTEM."),
+            ("SLA", "services/impression-3d-resine", "Stéréolithographie", "Très haute définition, surfaces lisses, petits détails : maquettes et pièces d'aspect."),
+            ("CNC", "services/usinage-cnc", "Fraisage", "Pièces usinées précises dans la masse : aluminium, laiton, bronze, titane, plastiques techniques."),
+            ("Scan 3D", "services/scan-3d", "Numérisation", "Rétro-conception, reproduction de pièces introuvables, contrôle de forme."),
+            ("Laser", "machines-materiaux/xtool-f1", "Gravure laser", "Personnalisation, marquage, numérotation, découpe et signalétique.")]
+    tcards = "".join(f'<a class="panel spot lcard tcard rv" href="{rel(d, u)}"><span class="k">{k}</span><h3 class="tcode">{c}</h3><p>{E(t)}</p><span class="go">Explorer →</span></a>' for c, u, k, t in tech)
     reals = "".join(f'<a class="panel spot lcard rv" href="{rel(d, x["path"])}"><span class="k">Projet · {i:02d}</span><h3>{E(label(x))}</h3><p>{E(short(x["desc"], 130))}</p><span class="go">Voir le projet →</span></a>' for i, x in enumerate(REAL, 1))
     mats = " ".join(f"<span>{E(label(x))}</span>" for x in MATS)
     tools = "".join(f'<a class="panel spot lcard rv" href="{rel(d, u)}"><span class="k">Outil</span><h3>{t}</h3><p>{s}</p><span class="go">Ouvrir →</span></a>' for u, t, s in [
         ("quiz-technologie-impression-3d", "Quiz : quelle technologie ?", "Quelques questions pour savoir quel procédé convient à votre pièce."),
         ("devis-instantane", "Devis instantané", "Déposez votre STL, choisissez la matière : estimation immédiate."),
-        ("comparateur-materiaux", "Comparateur de matériaux", "PLA vs PETG, PEEK vs PEKK vs Ultem, FDM vs SLS vs résine…"),
+        ("comparateur-materiaux", "Comparateur de matériaux", "PLA vs PETG, PEEK vs PEKK vs Ultem, FDM vs SLS vs SLA…"),
         ("technologies-materiaux-impression-3d", "Guide matériaux & technologies", "Le guide complet pour choisir procédé et matière.")])
     hero = f'''<section class="hero"><div class="wrap">
 <div><div class="hud eyebrow">Fabrication additive &amp; usinage — Belgique</div>
 <h1><span class="ln"><span>Fabriquer</span></span><span class="ln"><span>le futur,</span></span><span class="ln"><span class="glow">couche par couche.</span></span></h1>
-<p class="lead">Impression 3D <strong>SLS, FDM et résine</strong>, <strong>usinage CNC</strong> et <strong>scan 3D</strong> réunis dans un atelier à Welkenraedt. Prototypes, pièces techniques et petites séries pour l'industrie et les secteurs exigeants.</p>
+<p class="lead">Impression 3D <strong>SLS, FDM et SLA</strong>, <strong>usinage CNC</strong> et <strong>scan 3D</strong> réunis dans un atelier à Welkenraedt. Prototypes, pièces techniques et petites séries pour l'industrie et les secteurs exigeants.</p>
 <div class="cta-row"><a class="btn btn-p" href="devis-instantane/">Devis instantané <span class="a">→</span></a><a class="btn btn-g" href="services/">Nos technologies</a></div>
 <div class="stats"><div class="stat"><b>2021</b><span>Atelier fondé</span></div><div class="stat"><b>6</b><span>Procédés</span></div><div class="stat"><b>{len(MATS)}</b><span>Fiches matériaux</span></div><div class="stat"><b>24 h</b><span>Devis personnalisé</span></div></div></div>
-<div class="scan" aria-hidden="true"><div class="ring"></div><div class="ring r2"></div><canvas id="cloud"></canvas>
-<div class="tag t1">Objet<b>Bride percée Ø80</b></div><div class="tag t2">Rotation<b id="ang">000.0°</b></div><div class="tag t3">Points<b id="npts">—</b></div><div class="tag t4">Scanner<b>3DeVOK MT</b></div></div>
+<div class="scan" aria-hidden="true"><div class="ring"></div><div class="ring r2"></div><canvas id="cloud" data-shape="flange" aria-label="Rendu 3D interactif"></canvas>
+<div class="tag t1">Objet<b>Bride percée Ø80</b></div><div class="tag t2">Rotation<b id="ang" data-ang>000.0°</b></div><div class="tag t3">Points<b id="npts" data-npts>—</b></div><div class="tag t4">Scanner<b>3DeVOK MT</b></div></div>
 </div></section>
 <div class="ticker" aria-hidden="true"><div>{mats} {mats}</div></div>'''
     secs = f'''
 <section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 01 ] — Technologies</div><h2>Six procédés.<br><span class="glow">Un interlocuteur.</span></h2></div><p class="lead">Le procédé se choisit selon votre cahier des charges : résistance, précision, état de surface, quantité, budget.</p></div><div class="grid g3">{tcards}</div></div></section>
 <section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 02 ] — Parc machines</div><h2>Ce qui tourne<br>à l'atelier.</h2></div><p><a class="btn btn-g" href="machines-materiaux/">Tout le parc <span class="a">→</span></a></p></div>{hub_grid(d, MACH[:6], "Machine")}</div></section>
 <section style="padding-top:0"><div class="wrap"><div class="sec-no">[ RÉFÉRENCES ] — Ils nous ont confié leurs pièces</div>{hive()}</div></section>
-<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ BIBLIOTHÈQUE ] — Matériaux</div><h2>Du PLA<br>au <span class="glow">PEEK.</span></h2></div><p class="lead">{len(MATS)} fiches matériaux détaillées : propriétés, avantages, limites et machines compatibles.</p></div>{hub_grid(d, [x for x in MATS if x["path"] in IMG][:8], "Matériau").replace('class="grid g3"', 'class="grid g4"')}<p style="margin-top:1.4rem"><a class="btn btn-g" href="machines-materiaux/">Toute la bibliothèque <span class="a">→</span></a></p></div></section>
+<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ BIBLIOTHÈQUE ] — Matériaux</div><h2>Du PLA<br>au <span class="glow">PEEK.</span></h2></div><p class="lead">{len(MATS)} fiches matériaux détaillées : propriétés, avantages, limites et machines compatibles.</p></div>{mat_ring(d)}<p style="margin-top:1.4rem"><a class="btn btn-g" href="machines-materiaux/">Toute la bibliothèque <span class="a">→</span></a></p></div></section>
 <section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 03 ] — Méthode</div><h2>Du fichier<br>à la pièce.</h2></div></div>
 <div class="steps"><div class="panel rv n"><h3>Envoyez</h3><p>Fichier STEP, STL ou 3MF, plan, croquis… ou la pièce à scanner.</p></div><div class="panel rv n"><h3>Analyse &amp; devis</h3><p>Instantané avec fichier 3D, personnalisé sous 24 h.</p></div><div class="panel rv n"><h3>Fabrication</h3><p>Procédé et matière choisis selon vos contraintes.</p></div><div class="panel rv n"><h3>Livraison</h3><p>Envoi ou retrait à l'atelier de Welkenraedt.</p></div></div></div></section>
 <section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 04 ] — Réalisations</div><h2>Des projets<br><span class="glow">réels.</span></h2></div><p><a class="btn btn-g" href="réalisations/">Tous les projets <span class="a">→</span></a></p></div>{hub_grid(d, REAL[:6], "Projet")}</div></section>
@@ -546,7 +570,7 @@ def gen_home():
 <section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 06 ] — Outils</div><h2>Choisir, comparer,<br>chiffrer.</h2></div></div><div class="grid g4">{tools}</div></div></section>
 '''
     m = build_model(p) if p.get("native") is not None else None
-    write("", head("", d, "O&D Impression 3D | Impression 3D SLS, FDM & CNC à Liège", "Impression 3D SLS, FDM et résine, usinage CNC et scan 3D à Welkenraedt (Liège). Prototypes, pièces techniques et petites séries. Devis sous 24 h.") + chrome("", d) + hero + secs + cta(d) + footer(d))
+    write("", head("", d, "O&D Impression 3D | Impression 3D SLS, FDM & CNC à Liège", "Impression 3D SLS, FDM et SLA, usinage CNC et scan 3D à Welkenraedt (Liège). Prototypes, pièces techniques et petites séries. Devis sous 24 h.") + chrome("", d) + hero + secs + cta(d) + footer(d))
 
 def gen_app(path, title, desc, h1, lead, src, height=1100):
     d = depth_of(path); p = {"path": path, "desc": desc}
@@ -575,7 +599,7 @@ def gen_contact():
     form = f'''<section style="padding-top:50px"><div class="wrap" style="display:grid;gap:40px">
 <form class="panel form" name="devis" method="POST" action="../merci/" data-netlify="true" netlify-honeypot="bot" enctype="multipart/form-data">
 <input type="hidden" name="form-name" value="devis"><p class="sr"><label>Ne pas remplir <input name="bot"></label></p>
-<div class="field full"><label>Technologie envisagée</label><div class="opts">{"".join(f'<label><input type="checkbox" name="techno" value="{t}"><span>{t}</span></label>' for t in ["SLS","FDM","Résine","CNC","Scan 3D","Gravure laser","Je ne sais pas"])}</div></div>
+<div class="field full"><label>Technologie envisagée</label><div class="opts">{"".join(f'<label><input type="checkbox" name="techno" value="{t}"><span>{t}</span></label>' for t in ["SLS","FDM","SLA","CNC","Scan 3D","Gravure laser","Je ne sais pas"])}</div></div>
 <div class="field"><label for="n">Nom *</label><input id="n" name="nom" required autocomplete="name"></div>
 <div class="field"><label for="s">Société</label><input id="s" name="societe" autocomplete="organization"></div>
 <div class="field"><label for="e">E-mail *</label><input id="e" type="email" name="email" required autocomplete="email"></div>

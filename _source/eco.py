@@ -54,7 +54,7 @@ TECH = {
    "limits": ["Lignes de couche visibles", "Résistance plus faible entre les couches : l'orientation compte", "Supports nécessaires pour les parties en surplomb"],
    "comp": ["comparateur-materiaux/fdm-sls-resine", "comparateur-materiaux/pla-petg", "comparateur-materiaux/abs-asa", "comparateur-materiaux/pa12cf-pa12gf",
             "comparateur-materiaux/comparateur-ppa-cf-vs-pps-cf", "comparateur-materiaux/peek-pekk-ultem"]},
- "resine": {"name": "Résine", "long": "Photopolymérisation (MSLA)", "url": "services/impression-3d-resine",
+ "resine": {"name": "SLA", "long": "Stéréolithographie (résine)", "url": "services/impression-3d-resine",
    "machines": ["anycubic-photon-m7-max"], "mats": [],
    "steps": [("Une cuve de résine", "La pièce est fabriquée dans une cuve de résine liquide."),
              ("La lumière durcit", "Un écran UV durcit une couche entière d'un seul coup, avec une très grande finesse."),
@@ -64,7 +64,7 @@ TECH = {
    "comp": ["comparateur-materiaux/fdm-sls-resine"]},
  "cnc": {"name": "CNC", "long": "Usinage à commande numérique", "url": "services/usinage-cnc",
    "machines": ["tooldance-x1-cnc"],
-   "mats": ["cnc-aluminium", "cnc-laiton", "cnc-bronze", "cnc-titane", "cnc-pom", "cnc-ertalon"],
+   "mats": ["cnc-aluminium", "cnc-laiton", "cnc-cuivre", "cnc-bronze", "cnc-titane", "cnc-pom", "cnc-ertalon"],
    "steps": [("Un bloc de matière", "On part d'un bloc brut : aluminium, laiton, plastique technique…"),
              ("La fraise enlève", "Une fraise tournant à grande vitesse retire la matière en suivant votre fichier 3D."),
              ("Une pièce dans la masse", "On obtient une pièce pleine, précise, avec un bel état de surface.")],
@@ -88,6 +88,10 @@ CNC_MATS = {
    [("Densité", "≈ 8,5 g/cm³"), ("Usinabilité", "Excellente"), ("Aspect", "Doré, polissable"), ("Frottement", "Faible")],
    ["Usinage très précis et propre", "Bel aspect décoratif", "Bonne conductivité électrique", "Faible frottement"], ["Lourd", "S'oxyde (ternit) sans protection"],
    ["Raccords et inserts", "Pièces décoratives", "Contacts électriques", "Petites pièces mécaniques"], "CuZn"),
+ "cnc-cuivre": ("Cuivre", "Conducteur · Usinable · Esthétique", "Le meilleur conducteur électrique et thermique usinable.",
+   [("Densité", "≈ 8,9 g/cm³"), ("Conductivité", "Électrique et thermique très élevées")],
+   ["Excellente conductivité électrique et thermique", "Bonne résistance à la corrosion"], ["Plus délicat à usiner que le laiton", "Lourd"],
+   ["Barres de connexion", "Dissipateurs", "Contacts"], "Cu"),
  "cnc-bronze": ("Bronze", "Anti-usure · Autolubrifiant · Durable", "Alliage cuivre-étain apprécié pour les pièces qui frottent.",
    [("Densité", "≈ 8,8 g/cm³"), ("Frottement", "Très faible"), ("Résistance à l'usure", "Élevée")],
    ["Excellente résistance à l'usure", "Faible coefficient de frottement", "Bonne résistance à la corrosion"], ["Lourd", "Plus coûteux que le laiton"],
@@ -111,8 +115,10 @@ for slug, (name, tag, intro, *_r) in CNC_MATS.items():
 P.append({"path": "services/impression-3d-fdm", "title": "Impression 3D FDM en Belgique | O&D Impression 3D",
           "desc": "Impression 3D FDM à Welkenraedt (Liège) : prototypes, pièces techniques et grandes pièces, du PLA au PEEK et à l'ULTEM. Devis sous 24 h.", "native": [], "embed": [], "new": True})
 P.append({"path": "services/usinage-cnc", "title": "Usinage CNC aluminium, laiton & plastiques | O&D Impression 3D",
-          "desc": "Usinage CNC à Welkenraedt (Liège) : aluminium, laiton, bronze, titane, POM, Ertalon. Pièces précises à l'unité ou en petite série.", "native": [], "embed": [], "new": True})
+          "desc": "Usinage CNC à Welkenraedt (Liège) : aluminium, laiton, cuivre, bronze, titane, POM, Ertalon. Pièces précises à l'unité ou en petite série.", "native": [], "embed": [], "new": True})
 for p in P[-9:]: BY[p["path"]] = p
+for _p in P:
+    BY[_p["path"]] = _p
 SERVICES[:] = [p for p in P if p["path"].startswith("services/")]
 ALLM = [m for t in TECH.values() for m in t["machines"]] + OTHER_MACH
 MACH[:] = [BY["machines-materiaux/" + s] for s in ALLM if "machines-materiaux/" + s in BY]
@@ -120,14 +126,17 @@ ALLT = [m for t in TECH.values() for m in t["mats"]]
 MATS[:] = [BY["machines-materiaux/" + s] for s in ALLT if "machines-materiaux/" + s in BY]
 
 
-NICE = {"supermaker-sls1518": "Supermaker SLS1518", "supermaker-sls3540-pro": "Supermaker SLS3540 Pro", "sls-nylon-pa12-gris": "Nylon PA12 gris",
+for _p in P:
+    _p["title"] = _p["title"].replace("FDM vs SLS vs Résine", "FDM vs SLS vs SLA")
+    _p["desc"] = _p.get("desc", "").replace("FDM, SLS ou résine", "FDM, SLS ou SLA (résine)")
+NICE = {"comparateur-materiaux/fdm-sls-resine": "FDM vs SLS vs SLA", "supermaker-sls1518": "Supermaker SLS1518", "supermaker-sls3540-pro": "Supermaker SLS3540 Pro", "sls-nylon-pa12-gris": "Nylon PA12 gris",
         "sls-nylon-pa12-serie": "Nylon PA12 série", "pa11-rilsan": "Rilsan PA11", "sls-ultrasint-pa11": "PA11", "sls-ultrasint-pa11-cf": "PA11 CF",
         "sls-ultrasint-pa11-esd": "PA11 ESD", "sls-pa12-charge-verre": "PA12 chargé verre", "sls-pa2210-fr": "PA2210 FR", "sls-pa12-grade-alimentaire": "PA12 alimentaire",
         "sls-ultrasint-tpu-88a": "TPU 88A", "pa12-cf": "PA12-CF", "pa12-gf": "PA12-GF", "pps-cf": "PPS-CF", "peek": "PEEK", "pekk": "PEKK", "ultem-pei": "ULTEM (PEI)",
         "pla": "PLA", "petg": "PETG", "abs": "ABS", "asa": "ASA", "tpu": "TPU", "pp": "PP", "bambu-lab-h2c": "Bambu Lab H2C", "bambu-lab-x1c": "Bambu Lab X1C",
         "prusa-core-one": "Prusa Core One", "modix-big-meter": "Modix Big Meter", "intamsys-funmat-ht": "INTAMSYS Funmat HT", "anycubic-photon-m7-max": "Anycubic Photon M7 Max",
         "makera-carvera": "Makera Carvera", "tooldance-x1-cnc": "ToolDance X1", "scanner-3devok-mt": "Scanner 3DeVOK MT", "xtool-f1": "xTool F1",
-        "services/impression-3d-sls": "Impression 3D SLS", "services/impression-3d-fdm": "Impression 3D FDM", "services/impression-3d-resine": "Impression 3D résine", "services/usinage-cnc": "Usinage CNC"}
+        "services/impression-3d-sls": "Impression 3D SLS", "services/impression-3d-fdm": "Impression 3D FDM", "services/impression-3d-resine": "Impression 3D SLA", "services/usinage-cnc": "Usinage CNC"}
 _old_label = label
 def label(p):
     s = p["path"].split("/", 1)[-1]
@@ -228,7 +237,64 @@ def gen_machine(p):
     out += cta(d)
     write(p["path"], head(p["path"], d, p["title"], p["desc"]) + chrome(p["path"], d) + out + footer(d))
 
+MATX = {}
+for _f in ("matx_sls.py", "matx_fdm.py", "matx_cnc.py"):
+    exec(open(ROOT / "content" / _f, encoding="utf-8").read())
+
+def mx_link(d, s):
+    path = s if "/" in s else "machines-materiaux/" + s
+    if path not in BY: return E(s)
+    return f'<a href="{rel(d, path)}">{E(label(BY[path]))}</a>'
+
+def gen_material_rich(p, s, X):
+    d = depth_of(p["path"]); tk = tech_of(s); name = label(p); hub = HUBDATA.get(s, {})
+    tname = TECH[tk]["name"] if tk else ""
+    tag = hub.get("tag") or (CNC_MATS[s][1] if s in CNC_MATS else "")
+    m = {"title": X["h1"], "eyebrow": f"Matériau {tname} · {name}", "lead": X["lead"], "stats": []}
+    after = f'<div class="chips" style="margin-top:1.4rem">{tag_chip(d, tk) if tk else ""}{"<span class=chip>" + E(tag) + "</span>" if tag else ""}</div>'
+    after += f'<div class="cta-row" style="margin-top:1.4rem"><a class="btn btn-p" href="{rel(d, "devis-instantane")}">Devis en {E(name)} <span class="a">→</span></a><a class="btn btn-g" href="#faq">Questions fréquentes</a></div>'
+    out = page_hero(p, d, m, after)
+    if p["path"] not in IMG and s in CNC_MATS:
+        out = out.replace('<section class="phero">', '<section class="phero has-sym">', 1)
+    n = 1
+    def S(title, body, tag=None, right=""):
+        nonlocal n
+        r = sec(f"{n:02d}", title, body, tag, right=right); n += 1; return r
+    out += S(f"{E(name)} en bref", '<div class="rspecs">' + "".join(f'<div class="rspec panel"><span class="hud">{E(k)}</span><b>{E(v)}</b></div>' for k, v in X["quick"]) + "</div>", "Fiche express")
+    out += S(f"Qu'est-ce que le {E(name)} ?", '<div class="prose rbody">' + "".join(f"<p>{E(x)}</p>" for x in X["what"]) + "</div>", "Le matériau")
+    out += S("Points forts &amp; limites", pros_cons(X["strong"], X["limits"]).replace(">Avantages<", ">Points forts<"), "Pour / contre")
+    out += S(f"Applications du {E(name)}", '<div class="grid g3">' + "".join(f'<div class="panel rv appc"><span class="hud">Secteur</span><h3>{E(a)}</h3><p>{E(b)}</p></div>' for a, b in X["apps"]) + "</div>", "Usages")
+    rows = []
+    if s in CNC_MATS: rows = CNC_MATS[s][3]
+    else:
+        kv, _a, _l = embed_struct(p); rows = kv
+    seen = {k.lower() for k, _ in rows}
+    rows = rows + [(k, v) for k, v in X.get("typ", []) if k.lower() not in seen]
+    if rows:
+        out += S("Données techniques", spec_table(rows) + '<p class="note hud" style="margin-top:.8rem">Valeurs indicatives (données fabricant ou ordres de grandeur de la famille de matériau). * À valider selon l\'application finale. Fiches techniques complètes sur demande.</p>', "Caractéristiques")
+    tips = '<div class="grid g2"><div class="panel rv"><div class="hud" style="margin-bottom:1rem">Conseils de conception</div><ul class="list">' + "".join(f"<li>{E(x)}</li>" for x in X["design"]) + '</ul></div>'
+    tips += '<div class="panel rv"><div class="hud" style="margin-bottom:1rem">Finitions &amp; post-traitements</div><ul class="list">' + "".join(f"<li>{E(x)}</li>" for x in X["finish"]) + "</ul></div></div>"
+    out += S(f"Bien concevoir sa pièce en {E(name)}", tips, "Conseils d'atelier")
+    ms = X.get("machines") or (TECH[tk]["machines"] if tk else [])
+    out += S("Usiné sur" if tk == "cnc" else "Imprimé sur", mini_cards(d, ms, "Machine " + tname), "Machines compatibles")
+    if X.get("vs"):
+        out += S(f"{E(name)} ou autre chose ?", '<div class="vsl">' + "".join(f'<div class="panel rv vsi"><span class="hud">Alternative</span><h3>{mx_link(d, a)}</h3><p>{E(b[0].upper() + b[1:])}</p></div>' for a, b in X["vs"]) + "</div>", "Comparer")
+    if X.get("faq"):
+        out += '<div id="faq"></div>' + S(f"Questions fréquentes sur le {E(name)}", '<div class="faq">' + "".join(f"<details><summary>{E(q)}</summary><p>{E(a)}</p></details>" for q, a in X["faq"]) + "</div>", "FAQ")
+        ld = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in X["faq"]]}
+        out += '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False) + "</script>"
+    if tk:
+        others = [x for x in TECH[tk]["mats"] if x != s][:8]
+        out += S(f'Autres matières {tname}', mini_cards(d, others, "Matériau " + tname), right=f'<p><a class="btn btn-g" href="{rel(d, TECH[tk]["url"])}">Écosystème {tname} <span class="a">→</span></a></p>')
+    if X.get("seo"):
+        out += f'<section class="tight"><div class="wrap"><div class="kw"><span class="hud">On nous trouve aussi pour</span><div class="chips">' + "".join(f'<span class="chip">{E(k)}</span>' for k in X["seo"]) + "</div></div></div></section>"
+    if p["native"]: out += more_details(detail_model(p))
+    out += cta(d)
+    write(p["path"], head(p["path"], d, p["title"], p["desc"]) + chrome(p["path"], d) + out + footer(d))
+
 def gen_material(p):
+    if p["path"].split("/")[-1] in MATX:
+        return gen_material_rich(p, p["path"].split("/")[-1], MATX[p["path"].split("/")[-1]])
     s = p["path"].split("/")[-1]; d = depth_of(p["path"]); tk = tech_of(s); hub = HUBDATA.get(s, {})
     if s in CNC_MATS:
         name, tag, intro, rows, adv, lim, apps, sym = CNC_MATS[s]
@@ -260,13 +326,13 @@ def reals_for(tk):
     return [x for x in REAL if re.search(keys, x["title"] + " " + x["desc"], re.I)]
 
 def art(t, cap=False):
-    a = {"Résine": "la résine", "CNC": "l’usinage CNC"}.get(t["name"], "le " + t["name"])
+    a = {"CNC": "l’usinage CNC"}.get(t["name"], "le " + t["name"])
     return a[0].upper() + a[1:] if cap else a
 
 def gen_eco(tk):
     t = TECH[tk]; p = BY[t["url"]]; d = depth_of(t["url"])
     hero_img = {"sls": "machines-materiaux/supermaker-sls3540-pro", "fdm": "machines-materiaux/bambu-lab-h2c", "resine": "machines-materiaux/anycubic-photon-m7-max", "cnc": "machines-materiaux/tooldance-x1-cnc"}[tk]
-    title = {"sls": "Impression 3D SLS", "fdm": "Impression 3D FDM", "resine": "Impression 3D résine", "cnc": "Usinage CNC"}[tk]
+    title = {"sls": "Impression 3D SLS", "fdm": "Impression 3D FDM", "resine": "Impression 3D SLA", "cnc": "Usinage CNC"}[tk]
     lead = {"sls": "Le frittage laser transforme de la poudre de nylon en pièces solides et fonctionnelles, sans aucun support. C'est la technologie des pièces techniques et des petites séries.",
             "fdm": "La technologie d'impression 3D la plus répandue : un fil de plastique fondu, déposé couche par couche. Du prototype en PLA à la pièce aéronautique en PEEK.",
             "resine": "Une résine liquide durcie par la lumière, pour des pièces d'une finesse et d'un état de surface inégalés.",
@@ -279,7 +345,8 @@ def gen_eco(tk):
             f'<div class="pvis"><div class="halo"></div>{img}</div></div></div></section>')
     steps = '<div class="steps">' + "".join(f'<div class="panel rv n"><h3>{E(a)}</h3><p>{E(b)}</p></div>' for a, b in t["steps"]) + '<div class="panel hot rv"><h3>Votre pièce</h3><p>Envoyez votre fichier : nous confirmons que ' + art(t) + " est le bon choix, ou nous vous orientons vers une autre technologie.</p></div></div>"
     out = hero + sec("01", f'{art(t, True)} en 3 étapes', steps, "En clair")
-    out += sec("02", "Quand le choisir ?", pros_cons(t["ideal"], t["limits"]).replace(">Avantages<", ">Idéal pour<").replace(">Limites<", ">Moins adapté si<"))
+    _sh, _ob, _pr = {"sls": ("lattice", "Structure en treillis", "PA12 · SLS"), "fdm": ("bracket", "Équerre de fixation", "PA12-CF · FDM"), "resine": ("ring", "Bague sertie", "Résine · SLA"), "cnc": ("impeller", "Roue de turbine", "Aluminium · CNC")}[tk]
+    out += sec("02", "Quand le choisir ?", '<div class="eco-split"><div class="eco-cloud">' + cloud(_sh, _ob, "Rendu", ECO_COL[tk], _pr, tilt={"sls": -.5, "fdm": -.6, "resine": -.2, "cnc": -.55}[tk]) + '<p class="hud dim" style="text-align:center;margin-top:.4rem">Rendu interactif · glissez pour faire tourner</p></div><div>' + pros_cons(t["ideal"], t["limits"]).replace(">Avantages<", ">Idéal pour<").replace(">Limites<", ">Moins adapté si<").replace('class="grid g2"', 'class="grid"') + '</div></div>')
     out += f'<div id="machines"></div>' + sec("03", f'Nos machines {t["name"]}', mini_cards(d, t["machines"], "Machine " + t["name"]))
     if t["mats"]: out += sec("04", f'Nos matières {t["name"]}', mini_cards(d, t["mats"], "Matériau " + t["name"]))
     comps = [BY[c] for c in t["comp"] if c in BY]
@@ -302,17 +369,57 @@ def tech_picker(depth):
                      f'<p>{E(t["ideal"][0])} · {E(t["ideal"][1])}</p><span class="go">{len(t["machines"])} machine{"s" if len(t["machines"])>1 else ""}{(" · " + str(len(t["mats"])) + " matières") if t["mats"] else ""} →</span></a>')
     return '<div class="grid g4">' + "".join(cards) + "</div>"
 
+ECO_COL = {"sls": "#00C1EA", "fdm": "#FF8A3D", "resine": "#A97BFF", "cnc": "#C9D6DF"}
+ECO_TXT = {
+ "sls": ("Un laser fait fondre de la poudre de nylon, couche après couche. La poudre autour soutient la pièce : aucun support.", "Pièce en nylon solide, grain fin, formes libres", "jusqu'à 350 × 350 × 430 mm"),
+ "fdm": ("Une buse dépose un fil de plastique fondu, ligne par ligne, comme un stylo 3D piloté par ordinateur.", "Du PLA multicolore au PEEK haute performance", "jusqu'à 1 m (Modix Big Meter)"),
+ "resine": ("Une résine liquide durcit sous la lumière UV, couche par couche, pour une finesse de détail maximale.", "Pièce lisse, ultra-détaillée", "jusqu'à 298 × 300 × 164 mm"),
+ "cnc": ("Une fraise retire la matière d'un bloc plein : la pièce est usinée dans la masse, en métal ou en plastique technique.", "Pièce pleine, cotes précises, bel état de surface", "métaux & plastiques techniques")}
+ECO_NEED = [("sls", "Une pièce fonctionnelle en nylon, des formes complexes ou une petite série"),
+            ("fdm", "Un prototype rapide, une grande pièce, du multicolore ou une matière haute température"),
+            ("resine", "Des détails très fins et une surface lisse : maquette, figurine, pièce d'aspect"),
+            ("cnc", "Une pièce en métal ou des ajustements très précis")]
+ECO_IMG = {"sls": "machines-materiaux/supermaker-sls3540-pro", "fdm": "machines-materiaux/bambu-lab-h2c", "resine": "machines-materiaux/anycubic-photon-m7-max", "cnc": "machines-materiaux/tooldance-x1-cnc"}
+
+def mat_tiles(d, slugs):
+    out = []
+    for s in slugs:
+        x = BY.get("machines-materiaux/" + s)
+        if not x: continue
+        th = pic(d, x["path"], label(x), "mt-img") or f'<span class="mt-img sym"><b>{E(CNC_MATS[s][7]) if s in CNC_MATS else ""}</b></span>'
+        tg = HUBDATA.get(s, {}).get("tag") or (CNC_MATS[s][1] if s in CNC_MATS else "")
+        out.append(f'<a class="mtile" href="{rel(d, x["path"])}">{th}<b>{E(label(x))}</b><span>{E(tg)}</span></a>')
+    return '<div class="mtiles">' + "".join(out) + "</div>"
+
 def gen_parc():
     p = BY["machines-materiaux"]; d = 1
-    m = {"title": "Machines &amp; matières", "eyebrow": "Parc machines", "lead": "Notre parc et nos matières, rangés par technologie. Choisissez une technologie pour tout comprendre, ou ouvrez directement une fiche.", "stats": []}
-    m["title"] = "Machines & matières"
-    out = page_hero(p, d, m, '<div class="chips eco-nav" style="margin-top:1.4rem">' + "".join(f'<a class="chip" href="#{k}">{t["name"]}</a>' for k, t in TECH.items()) + '<a class="chip" href="#autres">Scan &amp; laser</a></div>')
-    out += sec("00", "Choisir une technologie", tech_picker(d))
-    n = 1
-    for k, t in TECH.items():
-        inner = f'<div class="hud" style="margin:0 0 1rem">Machines {t["name"]}</div>' + mini_cards(d, t["machines"], "Machine " + t["name"])
-        if t["mats"]: inner += f'<div class="hud" style="margin:2.4rem 0 1rem">Matières {t["name"]}</div>' + mini_cards(d, t["mats"], "Matériau " + t["name"])
-        out += f'<div id="{k}"></div>' + sec(f"{n:02d}", f'{t["name"]} — {t["long"]}', inner, right=f'<p><a class="btn btn-g" href="{rel(d, t["url"])}">Découvrir l’écosystème {t["name"]} <span class="a">→</span></a></p>'); n += 1
-    out += '<div id="autres"></div>' + sec(f"{n:02d}", "Scan 3D &amp; gravure laser", mini_cards(d, OTHER_MACH, "Équipement"))
+    nm = sum(len(t["machines"]) for t in TECH.values()) + len(OTHER_MACH); nt = sum(len(t["mats"]) for t in TECH.values())
+    tiles = "".join(f'<a class="ecot" style="--eco:{ECO_COL[k]}" href="#{k}"><span class="hud">{E(t["long"])}</span><b>{E(t["name"])}</b><p>{E(ECO_TXT[k][1])}</p>'
+                    f'<span class="cnt">{len(t["machines"])} machine{"s" if len(t["machines"]) > 1 else ""}{" · " + str(len(t["mats"])) + " matières" if t["mats"] else ""}</span><i class="arr">↓</i></a>' for k, t in TECH.items())
+    hero = (f'<section class="phero eco-hero"><div class="wrap">{crumbs("machines-materiaux", d)}<div class="hud eyebrow">Parc machines &amp; matières</div>'
+            f'<h1>4 écosystèmes.<br><span class="glow">Un seul atelier.</span></h1>'
+            f'<p class="lead">Chaque technologie est un écosystème complet : un procédé, ses machines, ses matières. {nm} machines et {nt} matières, rangées pour que vous trouviez la bonne combinaison en un coup d\'œil.</p>'
+            f'<div class="ecomap">{tiles}</div></div></section>')
+    need = '<div class="needs">' + "".join(f'<a class="need" style="--eco:{ECO_COL[k]}" href="#{k}"><span class="q">Vous avez besoin de…</span><p>{E(txt)}</p><b>{E(TECH[k]["name"])} →</b></a>' for k, txt in ECO_NEED) + "</div>"
+    out = hero + sec("00", "Quelle technologie <span class='glow'>pour quoi ?</span>", need, "Choisir en 10 secondes")
+    for i, (k, t) in enumerate(TECH.items(), 1):
+        how, res, vol = ECO_TXT[k]
+        img = pic(d, ECO_IMG[k], t["name"], "pimg")
+        figs = (f'<div class="ecofig"><div><b>{len(t["machines"])}</b><span>machine{"s" if len(t["machines"]) > 1 else ""}</span></div>'
+                + (f'<div><b>{len(t["mats"])}</b><span>matières</span></div>' if t["mats"] else "")
+                + f'<div><b class="sm">{E(vol)}</b><span>{"volume max." if k != "cnc" else "matières usinées"}</span></div></div>')
+        ideal = "".join(f"<li>{E(x)}</li>" for x in t["ideal"][:4])
+        band = (f'<section class="ecoband" id="{k}" style="--eco:{ECO_COL[k]}"><div class="wrap">'
+                f'<div class="eb-top"><div class="eb-txt"><div class="hud eb-no">Écosystème {i:02d} / {len(TECH):02d}</div>'
+                f'<h2 class="eb-code">{E(t["name"])}</h2><div class="eb-long">{E(t["long"])}</div>'
+                f'<div class="eb-how"><span class="hud">Comment ça marche</span><p>{E(how)}</p></div>'
+                f'<div class="eb-how"><span class="hud">Idéal pour</span><ul>{ideal}</ul></div>{figs}'
+                f'<a class="btn btn-p" href="{rel(d, t["url"])}">Explorer l\'écosystème {E(t["name"])} <span class="a">→</span></a></div>'
+                f'<div class="eb-vis"><div class="halo"></div>{img}</div></div>'
+                f'<div class="eb-flow"><div class="eb-step"><span class="hud">① Machines {E(t["name"])}</span></div>{mini_cards(d, t["machines"], "Machine " + t["name"])}</div>'
+                + (f'<div class="eb-flow"><div class="eb-step"><span class="hud">② Matières {E(t["name"])}</span></div>{mat_tiles(d, t["mats"])}</div>' if t["mats"] else "")
+                + '</div></section>')
+        out += band
+    out += '<div id="autres"></div>' + sec("05", "Et aussi : scan 3D &amp; gravure laser", mini_cards(d, OTHER_MACH, "Équipement"), "Équipements complémentaires")
     out += cta(d)
     write("machines-materiaux", head("machines-materiaux", d, p["title"], p["desc"]) + chrome("machines-materiaux", d) + out + footer(d))

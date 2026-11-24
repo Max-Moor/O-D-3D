@@ -10,7 +10,7 @@ CMP_LABELS = {"impression": "Facilité d'impression", "mecanique": "Résistance 
               "chimique": "Résistance chimique", "uv": "Résistance aux UV", "surface": "Qualité de surface", "flexibilite": "Flexibilité"}
 CMP_QUICK = [("PLA", "PETG"), ("PETG", "ABS"), ("ABS", "ASA"), ("PA12-CF", "PA12-GF"), ("PEEK", "PEKK"), ("PEEK", "Ultem"),
              ("SLS-PA12", "PA12-GF"), ("Resine-Std", "PLA"), ("TPU", "SLS-TPU"), ("PPA-CF", "PPS-CF")]
-CMP_PAIRS = {"comparateur-materiaux/fdm-sls-resine": ("FDM", "SLS", "Résine"), "comparateur-materiaux/pla-petg": ("PLA", "PETG"),
+CMP_PAIRS = {"comparateur-materiaux/fdm-sls-resine": ("FDM", "SLS", "SLA"), "comparateur-materiaux/pla-petg": ("PLA", "PETG"),
              "comparateur-materiaux/abs-asa": ("ABS", "ASA"), "comparateur-materiaux/pa12cf-pa12gf": ("PA12-CF", "PA12-GF"),
              "comparateur-materiaux/comparateur-ppa-cf-vs-pps-cf": ("PPA-CF", "PPS-CF"), "comparateur-materiaux/peek-pekk-ultem": ("PEEK", "PEKK", "Ultem")}
 
@@ -33,7 +33,7 @@ def gen_comp(p):
     def sel(id_, cur):
         o = "".join(f'<optgroup label="{E(g)}">' + "".join(f'<option value="{E(k)}"{" selected" if k == cur else ""}>{E(n)}</option>' for k, n in items) + "</optgroup>" for g, items in groups.items())
         return f'<select id="{id_}" class="csel">{o}</select>'
-    quick = "".join(f'<button type="button" class="chip" data-a="{E(a)}" data-b="{E(b)}">{E(a.replace("Resine-Std", "Résine"))} <i>vs</i> {E(b)}</button>' for a, b in CMP_QUICK)
+    quick = "".join(f'<button type="button" class="chip" data-a="{E(a)}" data-b="{E(b)}">{E(a.replace("Resine-Std", "SLA"))} <i>vs</i> {E(b)}</button>' for a, b in CMP_QUICK)
     hero = (f'<section class="phero"><div class="wrap">{crumbs(p["path"], d)}<div class="hud eyebrow">Outil interactif</div>'
             f'<h1>Comparateur de matériaux</h1><p class="lead">Choisissez deux matériaux : leurs points forts, leurs limites et leurs caractéristiques s\'affichent côte à côte. '
             f'{len(CMP)} matériaux FDM, SLS et résine.</p></div></section>')

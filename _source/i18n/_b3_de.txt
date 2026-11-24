@@ -1,0 +1,22 @@
+0|Alle
+1|Zahnrad
+2|Werkstoff
+4|Ziehen, um den Ring zu drehen
+5|Vor Ihnen
+6|Datenblatt öffnen
+7|Interaktives 3D-Rendering
+8|Nach Technologie filtern
+9|Interaktives 3D-Rendering: Zahnrad
+10|Vorheriger Werkstoff
+11|Nächster Werkstoff
+12|Befestigungswinkel
+13|Rendering
+15|Interaktives Rendering · ziehen zum Drehen
+16|Interaktives 3D-Rendering: Befestigungswinkel
+17|Gefasster Ring
+18|Harz · SLA
+19|Interaktives 3D-Rendering: Gefasster Ring
+20|Gitterstruktur
+21|Interaktives 3D-Rendering: Gitterstruktur
+22|Turbinenrad
+24|Interaktives 3D-Rendering: Turbinenrad

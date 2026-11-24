@@ -72,7 +72,8 @@ def main():
         for l, code, name in ALL:
             if l == "fr": href = up + (urllib.parse.quote(rel) + "/" if rel else "")
             elif rel in done[l]: href = up + f"{l}/" + (urllib.parse.quote(rel) + "/" if rel else "")
-            else: href = up + f"{l}/"
+            elif "" in done[l]: href = up + f"{l}/"
+            else: href = up + (urllib.parse.quote(rel) + "/" if rel else "")
             cls = ' aria-current="true"' if l == cur else ""
             items.append(f'<a href="{href}" hreflang="{l}" lang="{l}"{cls}><b>{code}</b> {name}</a>')
         return (f'<details class="lang-sw"><summary aria-label="Langue / Language"><span>{cur.upper()}</span></summary>'

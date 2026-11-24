@@ -1,0 +1,79 @@
+0|SLS · FDM · SLA · CNC · 3D-Scan
+9|SLA-3D-Druck
+11|Kupfer
+14|SLS, FDM und SLA
+15|Lasersintern
+16|Robuste Funktionsteile aus Nylon, ohne Stützen. Komplexe Formen und Serien.
+17|Fadenablage
+18|Prototypen, Werkzeuge, große Teile und Mehrfarbigkeit. Von PLA bis PEEK und ULTEM.
+19|Stereolithografie
+20|Sehr hohe Auflösung, glatte Oberflächen, feine Details: Modelle und Sichtteile.
+21|Fräsen
+22|Präzise aus dem Vollen gefräste Teile: Aluminium, Messing, Bronze, Titan, technische Kunststoffe.
+23|Digitalisierung
+24|Reverse Engineering, Nachbau nicht mehr erhältlicher Teile, Formprüfung.
+25|Laser
+26|Personalisierung, Markierung, Nummerierung, Schneiden und Beschilderung.
+27|29 ausführliche Werkstoffblätter: Eigenschaften, Vorteile, Grenzen und kompatible Maschinen.
+28|PLA vs. PETG, PEEK vs. PEKK vs. Ultem, FDM vs. SLS vs. SLA…
+29|SLS-, FDM- und SLA-3D-Druck, CNC-Bearbeitung und 3D-Scan in Welkenraedt (Lüttich). Prototypen, technische Teile und Kleinserien. Angebot innerhalb von 24 h.
+30|Maschinen & Werkstoffe
+31|4 Ökosysteme.
+32|Eine Werkstatt.
+33|Jede Technologie ist ein vollständiges Ökosystem: ein Verfahren, seine Maschinen, seine Werkstoffe. 11 Maschinen und 29 Werkstoffe, so geordnet, dass Sie die richtige Kombination auf einen Blick finden.
+34|Festes Nylonteil, feine Körnung, freie Formen
+35|2 Maschinen · 10 Werkstoffe
+36|Vom mehrfarbigen PLA bis zum Hochleistungs-PEEK
+37|5 Maschinen · 12 Werkstoffe
+38|Stereolithografie (Harz)
+39|Glattes, hochdetailliertes Teil
+40|1 Maschine
+41|Massives Teil, präzise Maße, schöne Oberfläche
+42|1 Maschine · 7 Werkstoffe
+43|[ 00 ] — In 10 Sekunden wählen
+44|Welche Technologie
+45|wofür?
+46|Sie brauchen…
+47|Ein Funktionsteil aus Nylon, komplexe Formen oder eine Kleinserie
+49|Einen schnellen Prototyp, ein großes Teil, Mehrfarbigkeit oder einen Hochtemperatur-Werkstoff
+51|Sehr feine Details und eine glatte Oberfläche: Modell, Figur, Sichtteil
+53|Ein Metallteil oder sehr präzise Passungen
+55|Ökosystem 01 / 04
+56|So funktioniert es
+57|Ein Laser schmilzt Nylonpulver Schicht für Schicht. Das umgebende Pulver stützt das Teil: keine Stützen.
+58|Maschinen
+59|Werkstoffe
+60|bis 350 × 350 × 430 mm
+61|max. Bauraum
+62|Das SLS-Ökosystem entdecken
+63|① SLS-Maschinen
+64|② SLS-Werkstoffe
+65|Ökosystem 02 / 04
+66|Eine Düse trägt geschmolzenen Kunststofffaden Linie für Linie auf, wie ein computergesteuerter 3D-Stift.
+67|bis 1 m (Modix Big Meter)
+68|Das FDM-Ökosystem entdecken
+69|① FDM-Maschinen
+70|② FDM-Werkstoffe
+71|Ökosystem 03 / 04
+72|Ein flüssiges Harz härtet unter UV-Licht Schicht für Schicht aus, für maximale Detailtreue.
+73|Maschine
+74|bis 298 × 300 × 164 mm
+75|Das SLA-Ökosystem entdecken
+76|① SLA-Maschinen
+77|SLA-Maschine
+78|Ökosystem 04 / 04
+79|Ein Fräser trägt Material aus einem Vollblock ab: Das Teil wird aus dem Vollen gefräst, aus Metall oder technischem Kunststoff.
+80|Metalle & technische Kunststoffe
+81|bearbeitete Werkstoffe
+82|Das CNC-Ökosystem entdecken
+83|① CNC-Maschinen
+84|② CNC-Werkstoffe
+85|Leitfähig · Zerspanbar · Ästhetisch
+86|[ 05 ] — Ergänzende Ausrüstung
+87|Außerdem: 3D-Scan & Lasergravur
+88|FDM, SLS oder SLA (Harz): Welche 3D-Drucktechnologie wählen? Vergleich von Präzision, Werkstoffen, Kosten und Lieferzeit, von O&D Impression 3D in Lüttich.
+89|SLA-Ökosystem — Stereolithografie (Harz)
+90|SLA in 3 Schritten
+91|Senden Sie Ihre Datei: Wir bestätigen, dass SLA die richtige Wahl ist, oder empfehlen Ihnen eine andere Technologie.
+92|Unsere SLA-Maschinen
+93|CNC-Bearbeitung in Welkenraedt (Lüttich): Aluminium, Messing, Kupfer, Bronze, Titan, POM, Ertalon. Präzise Teile als Einzelstück oder in Kleinserie.
