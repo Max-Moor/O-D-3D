@@ -145,9 +145,11 @@ document.querySelectorAll('.gal-i').forEach(a => a.addEventListener('click', e =
     all.forEach(c => c.classList.toggle('front', c === front));
     if (front && nameEl) { nameEl.textContent = front.querySelector('b').textContent; tagEl.textContent = front.querySelector('.rc-t').textContent + ' · ' + front.querySelector('.rc-g').textContent; goEl.href = front.getAttribute('href'); }
   }
-  function frame() {
+  let last = 0;
+  function frame(now) {
+    now = now || performance.now(); const dt = last ? Math.min((now - last) / 1000, .05) : 0; last = now;
     if (target !== null) { const d = target - th; th += d * .12; if (Math.abs(d) < .05) { th = target; target = null; } }
-    else if (!drag) { th += v; v *= .94; if (!hover && !reduce && Math.abs(v) < .02) th -= .06; }
+    else if (!drag) { th += v; v *= .94; if (!hover && !reduce && Math.abs(v) < .02) th -= 10 * dt; }
     tiltX += (tiltT - tiltX) * .08;
     render(); if (live) requestAnimationFrame(frame);
   }
@@ -158,7 +160,8 @@ document.querySelectorAll('.gal-i').forEach(a => a.addEventListener('click', e =
     if (!drag) return; const dx = e.clientX - drag.x; moved = Math.max(moved, Math.abs(dx)); const nt = drag.th + dx * .22; v = nt - th; th = nt; });
   const up = () => { if (drag) { drag = null; stage.classList.remove('grab'); if (Math.abs(v) < .3) snapTo(0); } };
   stage.addEventListener('pointerup', up); stage.addEventListener('pointercancel', up);
-  stage.addEventListener('pointerenter', () => hover = true); stage.addEventListener('pointerleave', () => { hover = false; tiltT = -12; });
+  all.forEach(c => { c.addEventListener('pointerenter', () => hover = true); c.addEventListener('pointerleave', () => hover = false); });
+  stage.addEventListener('pointerleave', () => { hover = false; tiltT = -12; });
   stage.addEventListener('click', e => { if (moved > 6) { e.preventDefault(); e.stopPropagation(); } }, true);
   stage.addEventListener('wheel', e => { if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) { e.preventDefault(); v = 0; target = null; th -= e.deltaX * .15; } }, { passive: false });
   stage.tabIndex = 0;
@@ -171,5 +174,13 @@ document.querySelectorAll('.gal-i').forEach(a => a.addEventListener('click', e =
   }));
   addEventListener('resize', layout);
   layout(); render();
-  new IntersectionObserver(es => es.forEach(e => { const was = live; live = e.isIntersecting; if (live && !was) frame(); })).observe(stage);
+  new IntersectionObserver(es => es.forEach(e => { const was = live; live = e.isIntersecting; if (live && !was) { last = 0; frame(); } })).observe(stage);
 })();
+
+// Grilles équilibrées : 4 éléments → 2 + 2, 6 → 3 + 3, 5 → 3 + 2…
+document.querySelectorAll('.grid.g3, .grid.g4').forEach(g => {
+  const n = g.children.length, c = g.classList.contains('g4') ? 4 : 3;
+  if (n <= c) return;
+  const rows = Math.ceil(n / c), cols = Math.ceil(n / rows);
+  if (cols !== c) { g.dataset.cols = cols; g.style.setProperty('--cols', cols); }
+});

@@ -441,6 +441,7 @@ def write(path, html_):
         up = "../" * (len(path.split("/")) if path else 0)
         html_ = re.sub(r"(Nos techniciens vous conseillent</h2>[\s\S]*?</p>)", lambda m: m.group(1) +
                        f'<p style="margin-top:1.4rem;display:flex;gap:.8rem;flex-wrap:wrap"><a class="btn btn-p" href="{up}contact/">Demander conseil <span class="a">→</span></a><a class="btn btn-g" href="{up}comparateur-materiaux/">Comparateur interactif <span class="a">→</span></a></p>', html_, count=1)
+    html_ = html_.replace('a-propos/ou/"', 'a-propos/impression-3d-ville-liege/"') if path != "a-propos/ou" else html_
     (d / "index.html").write_text(html_, encoding="utf-8")
 
 def depth_of(path): return len(path.split("/")) if path else 0
@@ -627,6 +628,7 @@ def gen_simple(path, title, h1, text):
 exec(open(ROOT / "eco.py", encoding="utf-8").read())
 exec(open(ROOT / "real.py", encoding="utf-8").read())
 exec(open(ROOT / "comp.py", encoding="utf-8").read())
+exec(open(ROOT / "about.py", encoding="utf-8").read())
 ECO_URLS = {t["url"]: k for k, t in TECH.items()}
 
 # ---------------------------------------------------------------- build
@@ -641,6 +643,9 @@ for p in P:
     elif p["path"] in ECO_URLS: gen_eco(ECO_URLS[p["path"]])
     elif p["path"] == "machines-materiaux": gen_parc()
     elif p["path"] == "comparateur-materiaux": gen_comp(p)
+    elif p["path"] == "a-propos": gen_about()
+    elif p["path"] == LIEGE_MAIN: gen_liege()
+    elif p["path"] == LIEGE_OLD: pass
     elif p["path"].startswith("réalisations/"): gen_real(p)
     elif p["path"].startswith("machines-materiaux/") and sl in ALLM: gen_machine(p)
     elif p["path"].startswith("machines-materiaux/") and sl in ALLT: gen_material(p)
@@ -654,7 +659,7 @@ gen_app("devis-instantane", "Devis instantané impression 3D | O&D Impression 3D
 (OUT / "merci/index.html").write_text(gen_simple("merci", "Demande envoyée", 'Merci. <span class="glow">On s\'en occupe.</span>', "Votre demande est bien arrivée : réponse technique sous 24 h."), encoding="utf-8")
 (OUT / "404.html").write_text(gen_simple("", "Page introuvable", 'Signal <span class="glow">perdu.</span>', "Cette page n'existe pas ou a été déplacée.").replace("<head>", f'<head>\n<base href="{BASE}">').replace('href="./static', 'href="' + BASE + 'static').replace('src="./static', 'src="' + BASE + 'static').replace('href="./"', 'href="' + BASE + '"'), encoding="utf-8")
 # sitemap / robots
-urls = [""] + [p["path"] for p in P if p["path"]] + ["devis-instantane"]
+urls = [""] + [p["path"] for p in P if p["path"] and p["path"] != LIEGE_OLD] + ["devis-instantane"]
 seen = []
 for u in urls:
     if u not in seen: seen.append(u)

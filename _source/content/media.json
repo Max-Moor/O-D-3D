@@ -279,6 +279,13 @@
     512,
     334
    ]
+  ],
+  "machines-materiaux/cnc-laiton": [
+   "static/img/matieres/cnc-laiton",
+   [
+    600,
+    448
+   ]
   ]
  },
  "logos": [
