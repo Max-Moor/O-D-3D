@@ -172,7 +172,7 @@ def pros_cons(adv, lim):
     return f'<div class="grid g2">{a}{l}</div>'
 
 def sec(no, title, inner, eyebrow=None, right=""):
-    eb = f" — {E(eyebrow)}" if eyebrow else ""
+    eb = f" · {E(eyebrow)}" if eyebrow else ""
     return f'<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ {no} ]{eb}</div><h2 class="rv">{title}</h2></div>{right}</div>{inner}</div></section>'
 
 def more_details(m):

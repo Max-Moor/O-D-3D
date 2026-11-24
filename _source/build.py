@@ -76,6 +76,7 @@ def head(p, depth, title, desc, extra_ld=()):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc)}">
 <meta name="robots" content="{robots}">
@@ -100,14 +101,14 @@ def chrome(p, depth):
     rail = "".join(f'<a href="{rel(depth, h)}"{" aria-current=\"page\"" if cur == h else ""}><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">{ICON[i]}</svg>{t}</a>' for h, t, i in RAIL)
     def col(t, hub, items):
         lis = "".join(f'<li><a href="{rel(depth, x["path"])}">{E(label(x))}</a></li>' for x in items)
-        return f'<div><h4><a href="{rel(depth, hub)}">{t} →</a></h4><ul>{lis}</ul></div>'
+        return f'<div><h2 class="h4"><a href="{rel(depth, hub)}">{t} →</a></h2><ul>{lis}</ul></div>'
     over = f'''<div class="overlay" id="menu"><div class="cols">
 {col("Services", "services", SERVICES)}
 <div>{col("Machines", "machines-materiaux", MACH)[5:-6]}{col("Comparatifs", "comparateur-materiaux", COMP)[5:-6]}</div>
 {col("Matériaux", "machines-materiaux", MATS)}
 {col("Réalisations", "réalisations", REAL)}
-<div>{col("À propos & zones", "a-propos", ZONES)[5:-6]}<h4><a href="{rel(depth,"technologies-materiaux-impression-3d")}">Guide matériaux →</a></h4><h4><a href="{rel(depth,"quiz-technologie-impression-3d")}">Quiz technologie →</a></h4><h4><a href="{rel(depth,"devis-instantane")}">Devis instantané →</a></h4></div>
-<div><h4><a href="{rel(depth,"actualites")}">Blog →</a></h4><h4><a href="{rel(depth,"faq")}">FAQ →</a></h4><h4><a href="{rel(depth,"contact")}">Contact →</a></h4></div>
+<div>{col("À propos & zones", "a-propos", ZONES)[5:-6]}<h2 class="h4"><a href="{rel(depth,"technologies-materiaux-impression-3d")}">Guide matériaux →</a></h2><h2 class="h4"><a href="{rel(depth,"quiz-technologie-impression-3d")}">Quiz technologie →</a></h2><h2 class="h4"><a href="{rel(depth,"devis-instantane")}">Devis instantané →</a></h2></div>
+<div><h2 class="h4"><a href="{rel(depth,"actualites")}">Blog →</a></h2><h2 class="h4"><a href="{rel(depth,"faq")}">FAQ →</a></h2><h2 class="h4"><a href="{rel(depth,"contact")}">Contact →</a></h2></div>
 </div></div>'''
     pre = "../" * depth
     mock = "" if PROD else '<div class="mock">Maquette · non officielle</div>'
@@ -125,8 +126,8 @@ def footer(depth):
     return f'''</main>
 <footer class="foot"><div class="wrap">
 <div class="big"><div><img src="{pre}static/img/logo-od-large.png" alt="O&amp;D Impression 3D" width="180" height="97" loading="lazy"><p style="margin-top:1rem">Fabrication additive et usinage pour l'industrie. Rue Trois Bourdons 52E, 4840 Welkenraedt, Belgique. Depuis 2021.</p></div>
-<div class="map"><div><h4>Services</h4><ul>{ul(SERVICES)}</ul></div><div><h4>Machines</h4><ul>{ul(MACH)}</ul><h4 style="margin-top:1.4rem">Comparatifs</h4><ul>{ul(COMP)}</ul></div>
-<div><h4>Matériaux</h4><ul>{ul(MATS)}</ul></div><div><h4>Réalisations</h4><ul>{ul(REAL)}</ul><h4 style="margin-top:1.4rem">Zones</h4><ul>{ul(ZONES)}</ul></div></div></div>
+<div class="map"><div><h2 class="h4">Services</h2><ul>{ul(SERVICES)}</ul></div><div><h2 class="h4">Machines</h2><ul>{ul(MACH)}</ul><h2 class="h4" style="margin-top:1.4rem">Comparatifs</h2><ul>{ul(COMP)}</ul></div>
+<div><h2 class="h4">Matériaux</h2><ul>{ul(MATS)}</ul></div><div><h2 class="h4">Réalisations</h2><ul>{ul(REAL)}</ul><h2 class="h4" style="margin-top:1.4rem">Zones</h2><ul>{ul(ZONES)}</ul></div></div></div>
 <div class="base"><span>© <span data-year>2026</span> O&amp;D Impression 3D</span><span><a href="{rel(depth,"mentions-légales")}">Mentions légales</a> · <a href="{rel(depth,"politique-de-confidentialité")}">Confidentialité</a> · <a href="{rel(depth,"politique-de-cookies")}">Cookies</a> · <a href="{rel(depth,"faq")}">FAQ</a></span></div>
 </div></footer>
 <div class="dock"><a class="btn btn-p" href="{rel(depth, "devis-instantane")}">Devis instantané <span class="a">→</span></a></div>
@@ -410,7 +411,7 @@ def render_sections(m, start=1):
         if not s["title"] and not body.strip(): continue
         head_ = ""
         if s["title"]:
-            head_ = f'<div class="sec-no">[ {ix:02d} ]{(" — " + E(s["eyebrow"])) if s["eyebrow"] else ""}</div><h2 class="rv{" long" if len(s["title"]) > 60 else ""}">{E(s["title"])}</h2>'
+            head_ = f'<div class="sec-no">[ {ix:02d} ]{(" · " + E(s["eyebrow"])) if s["eyebrow"] else ""}</div><h2 class="rv{" long" if len(s["title"]) > 60 else ""}">{E(s["title"])}</h2>'
         h.append(f'<section><div class="wrap">{head_}<div class="flow">{body}</div></div></section>')
     return "\n".join(h)
 
@@ -560,15 +561,15 @@ def gen_home():
 </div></section>
 <div class="ticker" aria-hidden="true"><div>{mats} {mats}</div></div>'''
     secs = f'''
-<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 01 ] — Technologies</div><h2>Six procédés.<br><span class="glow">Un interlocuteur.</span></h2></div><p class="lead">Le procédé se choisit selon votre cahier des charges : résistance, précision, état de surface, quantité, budget.</p></div><div class="grid g3">{tcards}</div></div></section>
-<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 02 ] — Parc machines</div><h2>Ce qui tourne<br>à l'atelier.</h2></div><p><a class="btn btn-g" href="machines-materiaux/">Tout le parc <span class="a">→</span></a></p></div>{hub_grid(d, MACH[:6], "Machine")}</div></section>
-<section style="padding-top:0"><div class="wrap"><div class="sec-no">[ RÉFÉRENCES ] — Ils nous ont confié leurs pièces</div>{hive()}</div></section>
-<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ BIBLIOTHÈQUE ] — Matériaux</div><h2>Du PLA<br>au <span class="glow">PEEK.</span></h2></div><p class="lead">{len(MATS)} fiches matériaux détaillées : propriétés, avantages, limites et machines compatibles.</p></div>{mat_ring(d)}<p style="margin-top:1.4rem"><a class="btn btn-g" href="machines-materiaux/">Toute la bibliothèque <span class="a">→</span></a></p></div></section>
-<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 03 ] — Méthode</div><h2>Du fichier<br>à la pièce.</h2></div></div>
+<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 01 ] · Technologies</div><h2>Six procédés.<br><span class="glow">Un interlocuteur.</span></h2></div><p class="lead">Le procédé se choisit selon votre cahier des charges : résistance, précision, état de surface, quantité, budget.</p></div><div class="grid g3">{tcards}</div></div></section>
+<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 02 ] · Parc machines</div><h2>Ce qui tourne<br>à l'atelier.</h2></div><p><a class="btn btn-g" href="machines-materiaux/">Tout le parc <span class="a">→</span></a></p></div>{hub_grid(d, MACH[:6], "Machine")}</div></section>
+<section style="padding-top:0"><div class="wrap"><div class="sec-no">[ RÉFÉRENCES ] · Ils nous ont confié leurs pièces</div>{hive()}</div></section>
+<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ BIBLIOTHÈQUE ] · Matériaux</div><h2>Du PLA<br>au <span class="glow">PEEK.</span></h2></div><p class="lead">{len(MATS)} fiches matériaux détaillées : propriétés, avantages, limites et machines compatibles.</p></div>{mat_ring(d)}<p style="margin-top:1.4rem"><a class="btn btn-g" href="machines-materiaux/">Toute la bibliothèque <span class="a">→</span></a></p></div></section>
+<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 03 ] · Méthode</div><h2>Du fichier<br>à la pièce.</h2></div></div>
 <div class="steps"><div class="panel rv n"><h3>Envoyez</h3><p>Fichier STEP, STL ou 3MF, plan, croquis… ou la pièce à scanner.</p></div><div class="panel rv n"><h3>Analyse &amp; devis</h3><p>Instantané avec fichier 3D, personnalisé sous 24 h.</p></div><div class="panel rv n"><h3>Fabrication</h3><p>Procédé et matière choisis selon vos contraintes.</p></div><div class="panel rv n"><h3>Livraison</h3><p>Envoi ou retrait à l'atelier de Welkenraedt.</p></div></div></div></section>
-<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 04 ] — Réalisations</div><h2>Des projets<br><span class="glow">réels.</span></h2></div><p><a class="btn btn-g" href="réalisations/">Tous les projets <span class="a">→</span></a></p></div>{hub_grid(d, REAL[:6], "Projet")}</div></section>
+<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 04 ] · Réalisations</div><h2>Des projets<br><span class="glow">réels.</span></h2></div><p><a class="btn btn-g" href="réalisations/">Tous les projets <span class="a">→</span></a></p></div>{hub_grid(d, REAL[:6], "Projet")}</div></section>
 {events_section(d, "05")}
-<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 06 ] — Outils</div><h2>Choisir, comparer,<br>chiffrer.</h2></div></div><div class="grid g4">{tools}</div></div></section>
+<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 06 ] · Outils</div><h2>Choisir, comparer,<br>chiffrer.</h2></div></div><div class="grid g4">{tools}</div></div></section>
 '''
     m = build_model(p) if p.get("native") is not None else None
     write("", head("", d, "O&D Impression 3D | Impression 3D SLS, FDM & CNC à Liège", "Impression 3D SLS, FDM et SLA, usinage CNC et scan 3D à Welkenraedt (Liège). Prototypes, pièces techniques et petites séries. Devis sous 24 h.") + chrome("", d) + hero + secs + cta(d) + footer(d))
@@ -577,6 +578,12 @@ def gen_app(path, title, desc, h1, lead, src, height=1100):
     d = depth_of(path); p = {"path": path, "desc": desc}
     BY.setdefault(path, {"path": path, "title": title, "desc": desc, "native": [], "embed": []})
     m = {"title": h1, "eyebrow": "Outil interactif", "lead": lead, "stats": []}
+    if src == "quiz.html":
+        css = (STATIC / "apps" / "quiz_inline.css").read_text(encoding="utf-8").replace("border-radius: 18px;", "border-radius: 0;")
+        js = (STATIC / "apps" / "quiz_inline.js").read_text(encoding="utf-8")
+        body = (page_hero(p, d, m) + f'<section style="padding-top:30px"><div class="wrap"><style>{css}</style><div id="quizApp"><div class="qz-wrapper" id="quizRoot"></div></div>'
+                f'<script>{js}</script></div></section>' + cta(d))
+        write(path, head(path, d, title, desc) + chrome(path, d) + body + footer(d)); return
     body = page_hero(p, d, m) + f'<section style="padding-top:40px"><div class="wrap"><iframe class="app" style="min-height:{height}px" src="{"../" * d}static/apps/{src}" title="{E(h1)}" loading="lazy"></iframe></div></section>' + cta(d)
     write(path, head(path, d, title, desc) + chrome(path, d) + body + footer(d))
 
@@ -588,7 +595,7 @@ def fx(t):
 def gen_faq():
     p = BY["faq"]; d = 1
     tabs = "".join(f'<a class="chip" href="#cat{i}">{E(c["c"])}</a>' for i, c in enumerate(FAQ))
-    secs = "".join(f'<section id="cat{i}" style="padding:50px 0 10px"><div class="wrap"><div class="sec-no">[ {i+1:02d} ] — {len(c["i"])} questions</div><h2 class="rv">{E(c["c"])}</h2>'
+    secs = "".join(f'<section id="cat{i}" style="padding:50px 0 10px"><div class="wrap"><div class="sec-no">[ {i+1:02d} ] · {len(c["i"])} questions</div><h2 class="rv">{E(c["c"])}</h2>'
                    + '<div class="faq rv">' + "".join(f"<details><summary>{E(q)}</summary><p>{E(fx(a))}</p></details>" for q, a in c["i"]) + "</div></div></section>" for i, c in enumerate(FAQ))
     ld = [{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": fx(a)}} for c in FAQ for q, a in c["i"]]}]
     m = {"title": "Questions fréquentes", "eyebrow": "Foire aux questions", "lead": "Services, matériaux, prix, délais, fichiers : les réponses aux questions qu'on nous pose le plus souvent.", "stats": []}
@@ -599,7 +606,7 @@ def gen_contact():
     p = BY["contact"]; d = 1; m = build_model(p)
     form = f'''<section style="padding-top:50px"><div class="wrap" style="display:grid;gap:40px">
 <form class="panel form" name="devis" method="POST" action="../merci/" data-netlify="true" netlify-honeypot="bot" enctype="multipart/form-data">
-<input type="hidden" name="form-name" value="devis"><p class="sr"><label>Ne pas remplir <input name="bot"></label></p>
+<input type="hidden" name="form-name" value="devis"><p class="sr" aria-hidden="true"><label>Ne pas remplir <input name="bot" tabindex="-1" autocomplete="off"></label></p>
 <div class="field full"><label>Technologie envisagée</label><div class="opts">{"".join(f'<label><input type="checkbox" name="techno" value="{t}"><span>{t}</span></label>' for t in ["SLS","FDM","SLA","CNC","Scan 3D","Gravure laser","Je ne sais pas"])}</div></div>
 <div class="field"><label for="n">Nom *</label><input id="n" name="nom" required autocomplete="name"></div>
 <div class="field"><label for="s">Société</label><input id="s" name="societe" autocomplete="organization"></div>

@@ -156,12 +156,11 @@ document.querySelectorAll('.gal-i').forEach(a => a.addEventListener('click', e =
   const snapTo = dir => { const i = Math.round(-th / step) + dir; target = -i * step; v = 0; };
   stage.addEventListener('pointerdown', e => { root.classList.add('touched'); drag = { x: e.clientX, th }; moved = 0; v = 0; target = null; stage.setPointerCapture(e.pointerId); stage.classList.add('grab'); });
   stage.addEventListener('pointermove', e => {
-    const r = stage.getBoundingClientRect(); tiltT = -12 - ((e.clientY - r.top) / r.height - .5) * 10;
-    if (!drag) return; const dx = e.clientX - drag.x; moved = Math.max(moved, Math.abs(dx)); const nt = drag.th + dx * .22; v = nt - th; th = nt; });
+        if (!drag) return; const dx = e.clientX - drag.x; moved = Math.max(moved, Math.abs(dx)); const nt = drag.th + dx * .22; v = nt - th; th = nt; });
   const up = () => { if (drag) { drag = null; stage.classList.remove('grab'); if (Math.abs(v) < .3) snapTo(0); } };
   stage.addEventListener('pointerup', up); stage.addEventListener('pointercancel', up);
   all.forEach(c => { c.addEventListener('pointerenter', () => hover = true); c.addEventListener('pointerleave', () => hover = false); });
-  stage.addEventListener('pointerleave', () => { hover = false; tiltT = -12; });
+  stage.addEventListener('pointerleave', () => { hover = false; });
   stage.addEventListener('click', e => { if (moved > 6) { e.preventDefault(); e.stopPropagation(); } }, true);
   stage.addEventListener('wheel', e => { if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) { e.preventDefault(); v = 0; target = null; th -= e.deltaX * .15; } }, { passive: false });
   stage.tabIndex = 0;
@@ -184,3 +183,11 @@ document.querySelectorAll('.grid.g3, .grid.g4').forEach(g => {
   const rows = Math.ceil(n / c), cols = Math.ceil(n / rows);
   if (cols !== c) { g.dataset.cols = cols; g.style.setProperty('--cols', cols); }
 });
+
+// En-têtes de section : la ligne se trace quand la section arrive à l'écran
+(function () {
+  const ss = document.querySelectorAll('section');
+  if (!('IntersectionObserver' in window)) { ss.forEach(s => s.classList.add('seen')); return; }
+  const o = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('seen'); o.unobserve(e.target); } }), { threshold: .15 });
+  ss.forEach(s => o.observe(s));
+})();

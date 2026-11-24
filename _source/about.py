@@ -13,7 +13,7 @@ FOUNDERS = [
   "Donovan suit les projets de A à Z et s'occupe du dessin 3D : il écoute le besoin, modélise la pièce, la fait valider et reste votre interlocuteur jusqu'à la livraison.",
   ["Gestion de projet", "Dessin & modélisation 3D", "Impression 3D"]),
 ]
-TEAM_MORE = [("Max Moor", "Responsable Marketing & Relations internationales")]
+TEAM_MORE = []
 
 TIMELINE = [
  ("2019", "Origines", "La passion avant tout", "Un projet personnel autour des motos 50 cm³ : les premiers pas dans la fabrication.", False),
@@ -65,7 +65,7 @@ def gen_about():
             f'<div class="stats"><div class="stat"><b>2021</b><span>Création de l\'atelier</span></div><div class="stat"><b>6</b><span>Technologies</span></div>'
             f'<div class="stat"><b>{len(MATS)}</b><span>Matières</span></div><div class="stat"><b>100 %</b><span>Fabriqué en Belgique</span></div></div></div></section>')
     founders = '<div class="fgrid">' + "".join(founder_card(d, *f) for f in FOUNDERS) + "</div>"
-    founders += '<div class="fmore">' + "".join(f'<div class="panel"><span class="hud">L\'équipe</span><b>{E(n)}</b><span>{E(r)}</span></div>' for n, r in TEAM_MORE) + "</div>"
+    if TEAM_MORE: founders += '<div class="fmore">' + "".join(f'<div class="panel"><span class="hud">L\'équipe</span><b>{E(n)}</b><span>{E(r)}</span></div>' for n, r in TEAM_MORE) + "</div>"
     out = hero + sec("01", "O &amp; D, <span class='glow'>ce sont eux.</span>", founders, "Les fondateurs",
                      right='<p class="lead">Owen + Donovan = O&amp;D. Deux profils complémentaires : la machine et le projet.</p>')
     tl = '<div class="tline">' + "".join(
@@ -83,7 +83,7 @@ def gen_about():
         items = []
         for (t, x, badge, imp) in steps:
             n += 1
-            items.append(f'<div class="ps rv"><div class="ps-n">{n:02d}</div><div><h4>{E(t)}</h4><p>{E(x)}</p><span class="ps-b{" imp" if imp else ""}">{E(badge)}</span></div></div>')
+            items.append(f'<div class="ps rv"><div class="ps-n">{n:02d}</div><div><h3 class="ps-t">{E(t)}</h3><p>{E(x)}</p><span class="ps-b{" imp" if imp else ""}">{E(badge)}</span></div></div>')
         cols.append(f'<div class="pcol"><div class="pg hud">{E(g)}</div>{"".join(items)}</div>')
     out += sec("05", "De l'idée à la pièce <span class='glow'>entre vos mains.</span>", '<div class="process">' + "".join(cols) + "</div>", "Notre processus",
                right='<p class="lead">Un accompagnement complet, de la première prise de contact jusqu\'à la livraison. Transparent, simple, professionnel.</p>')

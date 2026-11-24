@@ -263,23 +263,6 @@
    },
    {
     "t": "txt",
-    "v": "MM"
-   },
-   {
-    "t": "kv",
-    "k": "Max Moor",
-    "v": "21 octobre 2025"
-   },
-   {
-    "t": "p",
-    "v": "Jeunes indépendants dynamiques et motivés… délais respectés haut la main, prix très honnête."
-   },
-   {
-    "t": "txt",
-    "v": "Avis Google"
-   },
-   {
-    "t": "txt",
     "v": "AVIS 2"
    },
    {
@@ -470,23 +453,6 @@
    {
     "t": "txt",
     "v": "DUPLICATE SET pour boucle infinie"
-   },
-   {
-    "t": "txt",
-    "v": "MM"
-   },
-   {
-    "t": "kv",
-    "k": "Max Moor",
-    "v": "21 octobre 2025"
-   },
-   {
-    "t": "p",
-    "v": "Jeunes indépendants dynamiques et motivés… délais respectés haut la main, prix très honnête."
-   },
-   {
-    "t": "txt",
-    "v": "Avis Google"
    },
    {
     "t": "txt",
@@ -4248,7 +4214,7 @@
     "v": [
      "250 x 220 x 270mm volume d'impression",
      "Dotée d'une chambre fermée",
-     "Imprimer de l'ASA, de l'ABS, du PC, du PA...",
+     "Imprimer de l'ASA, de l'ABS, du PC, du PA…",
      "Qualité d'impression maximale"
     ]
    },
@@ -4683,7 +4649,7 @@
     "t": "ul",
     "v": [
      "Dimensions plateau : 360mm x 240mm x 140mm",
-     "Possibilité matière : Aluminium, laiton, cuivre, bois, plastiques, ...",
+     "Possibilité matière : Aluminium, laiton, cuivre, bois, plastiques, …",
      "Servomoteurs en boucle fermée (protection anti-collision)",
      "Usinage multi-matériaux sur une seule machine",
      "Fabrication de PCB en interne, sans sous-traitance",
@@ -7832,7 +7798,7 @@
    },
    {
     "t": "p",
-    "v": "Avec un volume d'impression de 260 x 260 x 260 mm et une compatibilité avec plus de 14 matériaux techniques (PEEK, PEEK-CF, PEKK, Ultem, PPSU, PC, PA, ABS...), c'est l'outil idéal pour les bureaux d'études, les laboratoires, l'aérospatial, le médical et l'automobile."
+    "v": "Avec un volume d'impression de 260 x 260 x 260 mm et une compatibilité avec plus de 14 matériaux techniques (PEEK, PEEK-CF, PEKK, Ultem, PPSU, PC, PA, ABS…), c'est l'outil idéal pour les bureaux d'études, les laboratoires, l'aérospatial, le médical et l'automobile."
    },
    {
     "t": "p",
@@ -10967,7 +10933,7 @@
    },
    {
     "t": "p",
-    "v": "La xTool F1 Lite est notre laser de gravure et découpe ultra-rapide. Avec une vitesse de 4000 mm/s et la capacité de travailler sur plus de 300 matériaux différents (bois, métal, cuir, verre, tissu, plastique...), elle est l'outil parfait pour la personnalisation, la création artisanale et la petite série industrielle."
+    "v": "La xTool F1 Lite est notre laser de gravure et découpe ultra-rapide. Avec une vitesse de 4000 mm/s et la capacité de travailler sur plus de 300 matériaux différents (bois, métal, cuir, verre, tissu, plastique…), elle est l'outil parfait pour la personnalisation, la création artisanale et la petite série industrielle."
    },
    {
     "t": "p",
@@ -11371,7 +11337,7 @@
    },
    {
     "t": "p",
-    "v": "Export vers logiciels tiers : SolidWorks, Rhino, Geomagic, Meshlab..."
+    "v": "Export vers logiciels tiers : SolidWorks, Rhino, Geomagic, Meshlab…"
    },
    {
     "t": "p",
@@ -12360,7 +12326,7 @@
    },
    {
     "t": "h3",
-    "v": "Aller plus loin..."
+    "v": "Aller plus loin…"
    },
    {
     "t": "h3",
@@ -12882,7 +12848,7 @@
    },
    {
     "t": "h3",
-    "v": "Aller plus loin..."
+    "v": "Aller plus loin…"
    },
    {
     "t": "h3",
@@ -13287,7 +13253,7 @@
    },
    {
     "t": "txt",
-    "v": "⚠️ Ni l'un ni l'autre si..."
+    "v": "⚠️ Ni l'un ni l'autre si…"
    },
    {
     "t": "txt",
@@ -13422,7 +13388,7 @@
    },
    {
     "t": "h3",
-    "v": "Aller plus loin..."
+    "v": "Aller plus loin…"
    },
    {
     "t": "h3",
@@ -13798,7 +13764,7 @@
    },
    {
     "t": "txt",
-    "v": "✅ Choisissez ABS si..."
+    "v": "✅ Choisissez ABS si…"
    },
    {
     "t": "txt",
@@ -13822,7 +13788,7 @@
    },
    {
     "t": "txt",
-    "v": "⬆️ Montez en gamme si..."
+    "v": "⬆️ Montez en gamme si…"
    },
    {
     "t": "txt",
@@ -13957,7 +13923,7 @@
    },
    {
     "t": "h3",
-    "v": "Aller plus loin..."
+    "v": "Aller plus loin…"
    },
    {
     "t": "h3",
@@ -14490,7 +14456,7 @@
    },
    {
     "t": "h3",
-    "v": "Aller plus loin..."
+    "v": "Aller plus loin…"
    },
    {
     "t": "h3",
@@ -14935,7 +14901,7 @@
    },
    {
     "t": "h3",
-    "v": "Aller plus loin..."
+    "v": "Aller plus loin…"
    },
    {
     "t": "h3",
@@ -16388,23 +16354,6 @@
     "t": "kv",
     "k": "Emmanuel Broers",
     "v": "HERVE · PROVINCE DE LIÈGE"
-   },
-   {
-    "t": "txt",
-    "v": "★★★★★"
-   },
-   {
-    "t": "p",
-    "v": "« Une équipe de jeunes indépendants dynamiques et motivés, qui relèvent les défis avec brio. Délais respectés, prix très honnête. »"
-   },
-   {
-    "t": "txt",
-    "v": "MM"
-   },
-   {
-    "t": "kv",
-    "k": "Max Moor",
-    "v": "RÉGION LIÉGEOISE"
    },
    {
     "t": "txt",

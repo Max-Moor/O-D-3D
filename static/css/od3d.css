@@ -654,3 +654,53 @@ section.tight{padding:1rem 0}
 .f-body>*:not(.f-letter){position:relative;z-index:1}
 .f-letter{position:absolute;left:auto;top:auto;right:-.04em;bottom:-.28em;transform:none;font:800 clamp(9rem,16vw,14rem)/1 var(--fh);color:transparent;-webkit-text-stroke:2px rgba(0,193,234,.28);z-index:0;pointer-events:none}
 .f-photo img{mix-blend-mode:normal}
+/* audit : accessibilité & finitions */
+:root{color-scheme:dark}
+html{-webkit-tap-highlight-color:rgba(0,193,234,.18)}
+a,button,summary,label,.chip,.rcard{touch-action:manipulation}
+[id]{scroll-margin-top:90px}
+.specs td,.stat b,.ecofig b,.ctab td,.rspec b,.tl-node b,.ps-n{font-variant-numeric:tabular-nums}
+.foot h2.h4{font:500 .64rem var(--fm);letter-spacing:.14em;text-transform:uppercase;color:var(--c);margin:0 0 .8rem;line-height:1.4}
+.overlay h2.h4{font:500 .7rem var(--fm);letter-spacing:.14em;text-transform:uppercase;color:var(--c);margin:0 0 .8rem;padding-bottom:.6rem;border-bottom:1px solid var(--line);line-height:1.4}
+.ps .ps-t{margin:.1rem 0 .3rem;font:700 1rem var(--fh)}
+a:focus-visible,button:focus-visible,summary:focus-visible,.chip:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid #00C1EA;outline-offset:3px}
+/* accueil mobile : page moins longue */
+@media(max-width:700px){
+ section.hero ~ section .grid.g3>a:nth-child(n+4){display:none}
+ .hero .scan{max-width:300px}
+}
+/* ===== passe design : couche de mouvement unifiée ===== */
+:root{--ease:cubic-bezier(.2,.8,.2,1)}
+@media(min-width:900px){section{padding:96px 0}.sec-head{margin-bottom:38px}}
+/* cartes : se soulèvent de 2 px, bord qui s'allume */
+a.panel,a.lcard,.rcard,.zone,.need,.ecot,.mtile,.vsi,.appc,.sg,.tl-card,.fcard{transition:transform .35s var(--ease),border-color .35s var(--ease),box-shadow .35s var(--ease),background .35s var(--ease)}
+a.panel:hover,a.lcard:hover,.zone:hover,.mtile:hover,.sg:hover,.appc:hover{transform:translateY(-2px);box-shadow:0 18px 40px -24px rgba(0,193,234,.55)}
+a.panel:hover,a.lcard:hover{border-color:rgba(0,193,234,.55)}
+/* photos : zoom 1.03 dans leur cadre */
+.thumb.photo,.gal-i,.ev,.f-photo{overflow:hidden}
+.thumb.photo img,.gal-i img,.ev img{transition:transform .6s var(--ease)}
+.lcard:hover .thumb.photo img,.gal-i:hover img,.ev:hover img{transform:scale(1.03)}
+.fcard:hover .f-photo img{transform:scale(1.03)}
+/* boutons : montent au survol, s'enfoncent au clic */
+.btn{transition:transform .2s var(--ease),filter .2s,box-shadow .2s,background .2s,border-color .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn:active,.chip:active,.mr-arr:active,.cmp-quick .chip:active,.mr-filters button:active{transform:translateY(1px) scale(.98)}
+/* liens de texte : soulignement qui se dessine */
+.prose a,.rbody a,.vsi h3 a,.faq a{background:linear-gradient(currentColor,currentColor) 0 100%/0 1px no-repeat;border-bottom:0;transition:background-size .35s var(--ease);color:#7fe3f7}
+.prose a:hover,.rbody a:hover,.vsi h3 a:hover,.faq a:hover{background-size:100% 1px}
+/* « Voir la fiche → » : la flèche avance */
+.go{transition:letter-spacing .3s var(--ease),color .3s}
+a:hover>.go{letter-spacing:.22em}
+/* entrée de chaque page : eyebrow, titre, texte, chiffres */
+.phero .eyebrow,.phero h1,.phero .lead,.phero .stats,.phero .chips,.phero .cta-row,.phero .pvis,.phero .ecomap,.phero .split>div:first-child>*{animation:enter .9s var(--ease) both}
+.phero h1{animation-delay:.06s}.phero .lead{animation-delay:.14s}.phero .stats,.phero .chips,.phero .cta-row{animation-delay:.22s}.phero .pvis{animation-delay:.18s}.phero .ecomap{animation-delay:.28s}
+@keyframes enter{from{opacity:0;transform:translateY(18px);filter:blur(4px)}to{opacity:1;transform:none;filter:none}}
+/* moment : la ligne des en-têtes de section se trace à l'apparition */
+.sec-head .sec-no,.wrap>.sec-no{position:relative}
+.sec-no::after{transform-origin:left;transition:transform 1.1s var(--ease) .1s}
+section:not(.seen) .sec-no::after{transform:scaleX(0)}
+/* titres de section : léger glissement à l'apparition */
+.sec-head h2.rv{transform:translateY(26px);clip-path:inset(0 0 100% 0);transition:opacity .9s var(--ease),transform .9s var(--ease),clip-path .9s var(--ease)}
+.sec-head h2.rv.in{transform:none;clip-path:inset(0 0 -20% 0)}
+@media(prefers-reduced-motion:reduce){.sec-head h2.rv{clip-path:none;transform:none}section:not(.seen) .sec-no::after{transform:none}}
+.no-js .sec-head h2.rv{clip-path:none;transform:none}.no-js section .sec-no::after{transform:none}
