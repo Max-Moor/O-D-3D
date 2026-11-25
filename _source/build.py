@@ -561,6 +561,11 @@ def gen_home():
 </div></section>
 <div class="ticker" aria-hidden="true"><div>{mats} {mats}</div></div>'''
     secs = f'''
+<section class="vid-sec"><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ ATELIER ] · Welkenraedt</div><h2>L'atelier <span class="glow">en mouvement.</span></h2></div><p class="lead">Les machines tournent, les pièces sortent. Un aperçu de notre atelier de Welkenraedt et de l'équipe au travail.</p></div>
+<figure class="vframe rv"><video id="atelierVid" muted loop playsinline preload="metadata" poster="static/video/atelier-od3d-poster.jpg" aria-label="Vidéo de présentation de l'atelier O&amp;D Impression 3D"><source src="static/video/atelier-od3d.mp4" type="video/mp4"></video>
+<span class="vc tl"></span><span class="vc tr"></span><span class="vc bl"></span><span class="vc br"></span><span class="vrec hud"><i></i>Atelier · Welkenraedt (BE)</span>
+<div class="vctl"><button type="button" class="vbtn" data-act="play" aria-label="Lecture / pause"><span class="ic-pause">❚❚</span><span class="ic-play">▶</span></button><button type="button" class="vbtn" data-act="sound" aria-label="Activer / couper le son"><span class="ic-mute">Son coupé</span><span class="ic-snd">Son activé</span></button>
+<a class="vyt" href="https://youtu.be/kWaspuGcDJc" target="_blank" rel="noopener">Voir sur YouTube ↗</a></div></figure></div></section>
 <section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 01 ] · Technologies</div><h2>Six procédés.<br><span class="glow">Un interlocuteur.</span></h2></div><p class="lead">Le procédé se choisit selon votre cahier des charges : résistance, précision, état de surface, quantité, budget.</p></div><div class="grid g3">{tcards}</div></div></section>
 <section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 02 ] · Parc machines</div><h2>Ce qui tourne<br>à l'atelier.</h2></div><p><a class="btn btn-g" href="machines-materiaux/">Tout le parc <span class="a">→</span></a></p></div>{hub_grid(d, MACH[:6], "Machine")}</div></section>
 <section style="padding-top:0"><div class="wrap"><div class="sec-no">[ RÉFÉRENCES ] · Ils nous ont confié leurs pièces</div>{hive()}</div></section>

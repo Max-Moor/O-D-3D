@@ -119,7 +119,7 @@ def main():
                 parts[0] = newp
                 return f'{attr}="{" ".join(parts)}"'
 
-            out = re.sub(r'\b(href|src|data-full)="([^"]*)"', fix, t)
+            out = re.sub(r'\b(href|src|data-full|poster)="([^"]*)"', fix, t)
             out = re.sub(r'\bsrcset="([^"]*)"', lambda m: 'srcset="' + ", ".join(
                 ("../" + x.strip() if not re.match(r"(https?:|data:|/)", x.strip()) else x.strip()) for x in m.group(1).split(",")) + '"', out)
             out = translate(out, dic)
