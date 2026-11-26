@@ -192,15 +192,16 @@ document.querySelectorAll('.grid.g3, .grid.g4').forEach(g => {
   ss.forEach(s => o.observe(s));
 })();
 
-// Vidéo de l'atelier : lecture auto en sourdine quand visible, pause / son
+// Vidéo de l'atelier (fond de l'accueil) : lecture auto en sourdine, pause / son
 (function () {
   const v = document.getElementById('atelierVid'); if (!v) return;
-  const f = v.closest('.vframe'), reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const f = v.closest('[data-vid]') || v.parentElement, reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   let userPaused = reduce;
+  if (reduce) { v.removeAttribute('autoplay'); v.pause(); }
   const sync = () => f.classList.toggle('paused', v.paused);
   v.addEventListener('play', sync); v.addEventListener('pause', sync); sync();
-  new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting && !userPaused) v.play().catch(() => {}); else if (!e.isIntersecting) v.pause(); }), { threshold: .35 }).observe(v);
-  f.querySelector('[data-act="play"]').addEventListener('click', () => { if (v.paused) { userPaused = false; v.play(); } else { userPaused = true; v.pause(); } });
-  f.querySelector('[data-act="sound"]').addEventListener('click', () => { v.muted = !v.muted; f.classList.toggle('sound', !v.muted); if (!v.muted && v.paused) { userPaused = false; v.play(); } });
-  v.addEventListener('click', () => f.querySelector('[data-act="play"]').click());
+  new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting && !userPaused) v.play().catch(() => {}); else if (!e.isIntersecting) v.pause(); }), { threshold: .2 }).observe(v);
+  const pb = f.querySelector('[data-act="play"]'), sb = f.querySelector('[data-act="sound"]');
+  if (pb) pb.addEventListener('click', () => { if (v.paused) { userPaused = false; v.play(); } else { userPaused = true; v.pause(); } });
+  if (sb) sb.addEventListener('click', () => { v.muted = !v.muted; f.classList.toggle('sound', !v.muted); if (!v.muted && v.paused) { userPaused = false; v.play(); } });
 })();

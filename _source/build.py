@@ -550,23 +550,24 @@ def gen_home():
         ("devis-instantane", "Devis instantané", "Déposez votre STL, choisissez la matière : estimation immédiate."),
         ("comparateur-materiaux", "Comparateur de matériaux", "PLA vs PETG, PEEK vs PEKK vs Ultem, FDM vs SLS vs SLA…"),
         ("technologies-materiaux-impression-3d", "Guide matériaux & technologies", "Le guide complet pour choisir procédé et matière.")])
-    hero = f'''<section class="hero"><div class="wrap">
-<div><div class="hud eyebrow">Fabrication additive &amp; usinage — Belgique</div>
-<h1><span class="ln"><span>Fabriquer</span></span><span class="ln"><span>le futur,</span></span><span class="ln"><span class="glow">couche par couche.</span></span></h1>
-<p class="lead">Impression 3D <strong>SLS, FDM et SLA</strong>, <strong>usinage CNC</strong> et <strong>scan 3D</strong> réunis dans un atelier à Welkenraedt. Prototypes, pièces techniques et petites séries pour l'industrie et les secteurs exigeants.</p>
-<div class="cta-row"><a class="btn btn-p" href="devis-instantane/">Devis instantané <span class="a">→</span></a><a class="btn btn-g" href="services/">Nos technologies</a></div>
-<div class="stats"><div class="stat"><b>2021</b><span>Atelier fondé</span></div><div class="stat"><b>6</b><span>Procédés</span></div><div class="stat"><b>{len(MATS)}</b><span>Fiches matériaux</span></div><div class="stat"><b>24 h</b><span>Devis personnalisé</span></div></div></div>
-<div class="scan" aria-hidden="true"><div class="ring"></div><div class="ring r2"></div><canvas id="cloud" data-shape="flange" aria-label="Rendu 3D interactif"></canvas>
-<div class="tag t1">Objet<b>Bride percée Ø80</b></div><div class="tag t2">Rotation<b id="ang" data-ang>000.0°</b></div><div class="tag t3">Points<b id="npts" data-npts>—</b></div><div class="tag t4">Scanner<b>3DeVOK MT</b></div></div>
+    def htile(code, url, kind, mimg):
+        im = pic(0, mimg, code, "ht-img") or ""
+        return f'<a class="htile" href="{url}/"><span class="ht-code">{code}</span><span class="ht-kind">{kind}</span>{im}<span class="ht-go">→</span></a>'
+    tiles = (htile("SLS", "services/impression-3d-sls", "Impression 3D nylon", "machines-materiaux/supermaker-sls3540-pro")
+             + htile("FDM", "services/impression-3d-fdm", "Impression 3D filament", "machines-materiaux/bambu-lab-h2c")
+             + htile("SLA", "services/impression-3d-resine", "Impression 3D résine", "machines-materiaux/anycubic-photon-m7-max")
+             + htile("CNC", "services/usinage-cnc", "Usinage CNC métal &amp; plastique", "machines-materiaux/tooldance-x1-cnc"))
+    hero = f'''<section class="hero hv" data-vid><video class="hv-bg" id="atelierVid" muted loop playsinline autoplay preload="auto" poster="static/video/atelier-od3d-poster.jpg" aria-label="Vidéo de l'atelier O&amp;D Impression 3D"><source src="static/video/atelier-od3d.mp4" type="video/mp4"></video><div class="hv-shade"></div>
+<div class="wrap"><div class="hv-txt"><div class="hud eyebrow">Atelier de fabrication · Welkenraedt, Belgique</div>
+<h1><span class="ln"><span>Impression 3D</span></span><span class="ln"><span class="glow">&amp; usinage CNC</span></span></h1>
+<p class="lead">Prototypes, pièces techniques et petites séries, de la pièce unique à la production. Impression 3D <strong>SLS, FDM et SLA</strong>, <strong>fraisage CNC</strong>, scan 3D et modélisation : tout est fait dans notre atelier. Devis sous 24 h.</p>
+<div class="cta-row"><a class="btn btn-p" href="devis-instantane/">Devis instantané <span class="a">→</span></a><a class="btn btn-g" href="contact/">Envoyer un fichier</a></div></div>
+<div class="htiles">{tiles}</div>
+<div class="hv-ctl"><button type="button" class="vbtn" data-act="play" aria-label="Lecture / pause"><span class="ic-pause">❚❚</span><span class="ic-play">▶</span></button><button type="button" class="vbtn" data-act="sound" aria-label="Activer / couper le son"><span class="ic-mute">Son coupé</span><span class="ic-snd">Son activé</span></button><a class="vyt" href="https://youtu.be/kWaspuGcDJc" target="_blank" rel="noopener">Voir sur YouTube ↗</a></div>
 </div></section>
 <div class="ticker" aria-hidden="true"><div>{mats} {mats}</div></div>'''
     secs = f'''
-<section class="vid-sec"><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ ATELIER ] · Welkenraedt</div><h2>L'atelier <span class="glow">en mouvement.</span></h2></div><p class="lead">Les machines tournent, les pièces sortent. Un aperçu de notre atelier de Welkenraedt et de l'équipe au travail.</p></div>
-<figure class="vframe rv"><video id="atelierVid" muted loop playsinline preload="metadata" poster="static/video/atelier-od3d-poster.jpg" aria-label="Vidéo de présentation de l'atelier O&amp;D Impression 3D"><source src="static/video/atelier-od3d.mp4" type="video/mp4"></video>
-<span class="vc tl"></span><span class="vc tr"></span><span class="vc bl"></span><span class="vc br"></span><span class="vrec hud"><i></i>Atelier · Welkenraedt (BE)</span>
-<div class="vctl"><button type="button" class="vbtn" data-act="play" aria-label="Lecture / pause"><span class="ic-pause">❚❚</span><span class="ic-play">▶</span></button><button type="button" class="vbtn" data-act="sound" aria-label="Activer / couper le son"><span class="ic-mute">Son coupé</span><span class="ic-snd">Son activé</span></button>
-<a class="vyt" href="https://youtu.be/kWaspuGcDJc" target="_blank" rel="noopener">Voir sur YouTube ↗</a></div></figure></div></section>
-<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 01 ] · Technologies</div><h2>Six procédés.<br><span class="glow">Un interlocuteur.</span></h2></div><p class="lead">Le procédé se choisit selon votre cahier des charges : résistance, précision, état de surface, quantité, budget.</p></div><div class="grid g3">{tcards}</div></div></section>
+<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 01 ] · Technologies</div><h2>Six procédés.<br><span class="glow">Un interlocuteur.</span></h2></div><p class="lead">Le procédé se choisit selon votre cahier des charges : résistance, précision, état de surface, quantité, budget.</p></div><div class="tech-lay"><div class="grid g2">{tcards}</div><div class="tech-scan"><div class="scan" aria-hidden="true"><div class="ring"></div><div class="ring r2"></div><canvas id="cloud" data-shape="flange" aria-label="Rendu 3D interactif"></canvas><div class="tag t1">Objet<b>Bride percée Ø80</b></div><div class="tag t2">Rotation<b id="ang" data-ang>000.0°</b></div><div class="tag t3">Points<b id="npts" data-npts>—</b></div><div class="tag t4">Scanner<b>3DeVOK MT</b></div></div></div></div></div></section>
 <section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 02 ] · Parc machines</div><h2>Ce qui tourne<br>à l'atelier.</h2></div><p><a class="btn btn-g" href="machines-materiaux/">Tout le parc <span class="a">→</span></a></p></div>{hub_grid(d, MACH[:6], "Machine")}</div></section>
 <section style="padding-top:0"><div class="wrap"><div class="sec-no">[ RÉFÉRENCES ] · Ils nous ont confié leurs pièces</div>{hive()}</div></section>
 <section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ BIBLIOTHÈQUE ] · Matériaux</div><h2>Du PLA<br>au <span class="glow">PEEK.</span></h2></div><p class="lead">{len(MATS)} fiches matériaux détaillées : propriétés, avantages, limites et machines compatibles.</p></div>{mat_ring(d)}<p style="margin-top:1.4rem"><a class="btn btn-g" href="machines-materiaux/">Toute la bibliothèque <span class="a">→</span></a></p></div></section>
