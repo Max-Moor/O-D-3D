@@ -50,8 +50,8 @@ ICON = {
  "blog": '<path d="M4 4h16v16H4z"/><path d="M8 9h8M8 13h8M8 17h5"/>',
  "mail": '<path d="M3 5h18v14H3z"/><path d="M3 6l9 7 9-7"/>',
 }
-RAIL = [("", "Accueil", "home"), ("services", "Services", "serv"), ("machines-materiaux", "Parc", "mach"), ("comparateur-materiaux", "Comparer", "comp"),
-        ("réalisations", "Projets", "real"), ("a-propos", "À propos", "about"), ("actualites", "Blog", "blog"), ("contact", "Contact", "mail")]
+RAIL = [("services", "Services", ""), ("machines-materiaux", "Machines", ""), ("comparateur-materiaux", "Comparatifs", ""),
+        ("réalisations", "Réalisations", ""), ("a-propos", "À propos", ""), ("actualites", "Blog", ""), ("contact", "Contact", "")]
 
 def section_of(path):
     first = path.split("/")[0]
@@ -76,7 +76,7 @@ def head(p, depth, title, desc, extra_ld=()):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="dark">
+<meta name="color-scheme" content="dark light">
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc)}">
 <meta name="robots" content="{robots}">
@@ -85,20 +85,20 @@ def head(p, depth, title, desc, extra_ld=()):
 <meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}">
 <meta property="og:url" content="{url}"><meta property="og:image" content="{SITE}/static/img/og-image.jpg"><meta property="og:locale" content="fr_BE">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#020407">
+<meta name="theme-color" content="#0B0E11">
+<script>try{{var t=localStorage.getItem("od3d-theme");if(t==="light")document.documentElement.dataset.theme="light"}}catch(e){{}}</script>
 <link rel="icon" href="{pre}static/img/favicon-32.png" sizes="32x32"><link rel="apple-touch-icon" href="{pre}static/img/apple-touch-icon.png">
-<link rel="preload" href="{pre}static/fonts/chakra-petch-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{pre}static/fonts/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{pre}static/css/od3d.css">
 {chr(10).join('<script type="application/ld+json">' + json.dumps(x, ensure_ascii=False) + '</script>' for x in ld)}
 </head>
 <body>
 <a class="skip" href="#main">Aller au contenu</a>
-<div class="bgfx" aria-hidden="true"></div>
 '''
 
 def chrome(p, depth):
     cur = section_of(p)
-    rail = "".join(f'<a href="{rel(depth, h)}"{" aria-current=\"page\"" if cur == h else ""}><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">{ICON[i]}</svg>{t}</a>' for h, t, i in RAIL)
+    rail = "".join(f'<a href="{rel(depth, h)}"{" aria-current=\"page\"" if cur == h else ""}>{t}</a>' for h, t, i in RAIL)
     def col(t, hub, items):
         lis = "".join(f'<li><a href="{rel(depth, x["path"])}">{E(label(x))}</a></li>' for x in items)
         return f'<div><h2 class="h4"><a href="{rel(depth, hub)}">{t} →</a></h2><ul>{lis}</ul></div>'
@@ -112,10 +112,9 @@ def chrome(p, depth):
 </div></div>'''
     pre = "../" * depth
     mock = "" if PROD else '<div class="mock">Maquette · non officielle</div>'
-    return f'''<aside class="rail"><a class="logo" href="{rel(depth, "")}" aria-label="Accueil O&amp;D Impression 3D"><img src="{pre}static/img/logo-od.png" alt="O&amp;D" width="60" height="32"></a><nav aria-label="Navigation principale">{rail}</nav><div class="coord">50.65°N · 5.97°E — WELKENRAEDT</div></aside>
-<header class="top"><a class="brand" href="{rel(depth, "")}"><img src="{pre}static/img/logo-od.png" alt="O&amp;D" width="56" height="30"><span>Impression 3D</span></a>
-<div class="status"><b>Atelier en ligne</b><span>SLS · FDM · SLA · CNC · Scan 3D</span><span>Depuis 2021</span></div>
-<div class="top-actions"><a class="btn btn-p" href="{rel(depth, "devis-instantane")}">Devis instantané <span class="a">→</span></a><button class="menu-btn" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu"><i></i></button></div></header>
+    return f'''<header class="top"><a class="brand" href="{rel(depth, "")}" aria-label="Accueil O&amp;D Impression 3D"><img src="{pre}static/img/logo-od.png" alt="O&amp;D" width="56" height="30"><span>Impression 3D</span></a>
+<nav class="mainnav" aria-label="Navigation principale">{rail}</nav>
+<div class="top-actions"><button type="button" class="theme-btn" aria-label="Thème clair ou sombre"><svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg><svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M5 19l1.5-1.5M17.5 6.5L19 5"/></svg></button><a class="btn btn-p" href="{rel(depth, "devis-instantane")}">Devis instantané <span class="a">→</span></a><button class="menu-btn" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu"><i></i><span>Menu</span></button></div></header>
 {over}{mock}
 <main id="main">
 '''
@@ -144,7 +143,7 @@ def crumbs(p, depth):
         out.append(f'<a href="{href}">{E(name)}</a>' if i < len(parts) - 1 else f'<span>{E(name)}</span>')
     return '<nav class="crumbs" aria-label="Fil d\'Ariane">' + " <i>/</i> ".join(out) + "</nav>"
 
-def cta(depth, title="Votre pièce, <span class='glow'>fabriquée.</span>", text="Envoyez votre fichier 3D ou décrivez votre besoin : devis instantané avec fichier, devis personnalisé sous 24 h."):
+def cta(depth, title="Une pièce à fabriquer ?", text="Envoyez votre fichier 3D ou décrivez votre besoin : devis instantané avec fichier, devis personnalisé sous 24 h."):
     return f'''<section style="padding-top:20px"><div class="wrap"><div class="panel hot cta rv"><div><div class="hud eyebrow">Prochaine étape</div><h2>{title}</h2><p class="lead" style="margin:0">{text}</p></div>
 <div class="cta-row" style="flex-direction:column"><a class="btn btn-p" href="{rel(depth,"devis-instantane")}">Devis instantané <span class="a">→</span></a><a class="btn btn-g" href="{rel(depth,"contact")}">Demande personnalisée <span class="a">→</span></a></div></div></div></section>'''
 
@@ -269,7 +268,7 @@ def try_tcards(items, i):
         else: k = j + 2
         cards.append((items[j]["v"], items[j + 1]["v"], tag)); j = k
     if len(cards) < 2: return None, i
-    h = "".join(f'<article class="panel spot card rv"><span class="k">{E(tg) if tg else "Fiche"}</span><h3>{E(a)}</h3><p>{E(b)}</p></article>' for a, b, tg in cards)
+    h = "".join(f'<article class="panel spot card rv">{f'<span class="k">{E(tg)}</span>' if tg else ""}<h3>{E(a)}</h3><p>{E(b)}</p></article>' for a, b, tg in cards)
     return f'<div class="grid {"g3" if len(cards) >= 3 else "g2"}">{h}</div>', j
 
 def render_items(items):
@@ -308,7 +307,7 @@ def render_items(items):
                 lst = ('<ul class="list" style="margin-top:.8rem">' + "".join(f"<li>{E(x)}</li>" for x in c["list"]) + "</ul>") if c["list"] else ""
                 kv = ('<table class="specs" style="margin-top:.6rem">' + "".join(f"<tr><th>{E(a)}</th><td>{E(b)}</td></tr>" for a, b in c["kv"]) + "</table>") if c["kv"] else ""
                 chips = ('<div class="chips">' + "".join((f'<span class="chip tech">{E(x)}</span>' if x.startswith("→") else f'<span class="chip">{E(x)}</span>') for x in c["chips"] if x) + "</div>") if c["chips"] else ""
-                h.append(f'<article class="panel spot card rv"><span class="k">{E(c["k"]) if c["k"] else f"[ {ix:02d} ]"}</span><h3>{E(c["h"])}</h3>{body}{lst}{kv}{chips}</article>')
+                h.append(f'<article class="panel spot card rv">{f'<span class="k">{E(c["k"])}</span>' if c["k"] else ""}<h3>{E(c["h"])}</h3>{body}{lst}{kv}{chips}</article>')
             out.append(f'<div class="grid {cls}">' + "".join(h) + "</div>")
             continue
         if t == "kv":
@@ -411,7 +410,7 @@ def render_sections(m, start=1):
         if not s["title"] and not body.strip(): continue
         head_ = ""
         if s["title"]:
-            head_ = f'<div class="sec-no">[ {ix:02d} ]{(" · " + E(s["eyebrow"])) if s["eyebrow"] else ""}</div><h2 class="rv{" long" if len(s["title"]) > 60 else ""}">{E(s["title"])}</h2>'
+            head_ = (f'<div class="sec-no">{E(s["eyebrow"])}</div>' if s["eyebrow"] else "") + f'<h2 class="rv{" long" if len(s["title"]) > 60 else ""}">{E(s["title"])}</h2>'
         h.append(f'<section><div class="wrap">{head_}<div class="flow">{body}</div></div></section>')
     return "\n".join(h)
 
@@ -424,7 +423,7 @@ def page_hero(p, depth, m, after=""):
     img = pic(depth, p["path"], m["title"], "pimg", lazy=False)
     if img:
         return (f'<section class="phero has-img"><div class="wrap">{crumbs(p["path"], depth)}<div class="split"><div>{eb}<h1>{E(m["title"])}</h1>{lead}{stats}{after}</div>'
-                f'<div class="pvis"><div class="halo"></div>{img}<span class="hud dim tagl">Réf. {E(p["path"].split("/")[-1].upper())}</span></div></div></div></section>')
+                f'<div class="pvis">{img}</div></div></div></section>')
     return f'<section class="phero"><div class="wrap">{crumbs(p["path"], depth)}{eb}<h1>{E(m["title"])}</h1>{lead}{stats}{after}</div></section>'
 
 def hub_grid(depth, items, kind):
@@ -432,8 +431,17 @@ def hub_grid(depth, items, kind):
     for ix, x in enumerate(items, 1):
         d = x.get("desc", "")
         th = pic(depth, x["path"], label(x), "thumb")
-        cards.append(f'<a class="panel spot lcard rv{" with-img" if th else ""}" href="{rel(depth, x["path"])}">{th}<span class="k">{kind} · {ix:02d}</span><h3>{E(label(x))}</h3><p>{E(short(d, 150))}</p><span class="go">Ouvrir la fiche →</span></a>')
+        cards.append(f'<a class="panel spot lcard rv{" with-img" if th else ""}" href="{rel(depth, x["path"])}">{th}<span class="k">{kind}</span><h3>{E(label(x))}</h3><p>{E(short(d, 150))}</p><span class="go">Ouvrir la fiche →</span></a>')
     return '<div class="grid g3">' + "".join(cards) + "</div>"
+
+def dedash(h):
+    """Remplace les tirets longs ' \u2014 ' par ' : ' (titres courts) ou une virgule (phrases)."""
+    def r(m):
+        left = m.group(1)
+        short = len(left) <= 42 and "," not in left and ":" not in left
+        return left + (" : " if short else ", ")
+    parts = re.split(r'(<script.*?</script>|<style.*?</style>)', h, flags=re.S)
+    return "".join(p if p.startswith(("<script", "<style")) else re.sub(r'([^<>"]*?) \u2014 ', r, p) for p in parts)
 
 def write(path, html_):
     d = OUT / path if path else OUT
@@ -443,7 +451,7 @@ def write(path, html_):
         html_ = re.sub(r"(Nos techniciens vous conseillent</h2>[\s\S]*?</p>)", lambda m: m.group(1) +
                        f'<p style="margin-top:1.4rem;display:flex;gap:.8rem;flex-wrap:wrap"><a class="btn btn-p" href="{up}contact/">Demander conseil <span class="a">→</span></a><a class="btn btn-g" href="{up}comparateur-materiaux/">Comparateur interactif <span class="a">→</span></a></p>', html_, count=1)
     html_ = html_.replace('a-propos/ou/"', 'a-propos/impression-3d-ville-liege/"') if path != "a-propos/ou" else html_
-    (d / "index.html").write_text(html_, encoding="utf-8")
+    (d / "index.html").write_text(dedash(html_), encoding="utf-8")
 
 def depth_of(path): return len(path.split("/")) if path else 0
 
@@ -456,11 +464,11 @@ def gen_generic(p):
     if p["path"] == "réalisations" and m["stats"]: m["stats"][0] = (str(len(REAL)), m["stats"][0][1])
     hub = ""
     if p["path"] == "machines-materiaux":
-        hub = (f'<section><div class="wrap"><div class="sec-no">[ PARC MACHINES ]</div><h2 class="rv">Nos machines</h2>{hub_grid(d, MACH, "Machine")}</div></section>'
-               f'<section><div class="wrap"><div class="sec-no">[ BIBLIOTHÈQUE ]</div><h2 class="rv">Nos matériaux</h2>{hub_grid(d, MATS, "Matériau")}</div></section>')
+        hub = (f'<section><div class="wrap"><div class="sec-no">Parc machines</div><h2 class="rv">Nos machines</h2>{hub_grid(d, MACH, "Machine")}</div></section>'
+               f'<section><div class="wrap"><div class="sec-no">Bibliothèque</div><h2 class="rv">Nos matériaux</h2>{hub_grid(d, MATS, "Matériau")}</div></section>')
     elif p["path"] in HUBS:
         items, kind = HUBS[p["path"]]
-        hub = f'<section><div class="wrap"><div class="sec-no">[ INDEX ]</div><h2 class="rv">{"Nos villes et zones" if p["path"]=="a-propos" else "Toutes les fiches"}</h2>{hub_grid(d, items, kind)}</div></section>'
+        hub = f'<section><div class="wrap"><h2 class="rv">{"Nos villes et zones" if p["path"]=="a-propos" else "Toutes les fiches"}</h2>{hub_grid(d, items, kind)}</div></section>'
     # liens vers pages sœurs (maillage interne)
     sib = ""
     parent = p["path"].rsplit("/", 1)[0] if "/" in p["path"] else None
@@ -468,7 +476,7 @@ def gen_generic(p):
         pool = MACH if p in MACH else MATS if p in MATS else kids(parent)
         others = [x for x in pool if x["path"] != p["path"]][:6]
         if others:
-            sib = f'<section style="padding-top:30px"><div class="wrap"><div class="sec-no">[ À VOIR AUSSI ]</div>{hub_grid(d, others, "Fiche")}</div></section>'
+            sib = f'<section style="padding-top:30px"><div class="wrap"><div class="sec-no">À voir aussi</div>{hub_grid(d, others, "Fiche")}</div></section>'
     body = page_hero(p, d, m) + hub + render_sections(m) + (events_section(d) if p["path"] == "a-propos" else "") + sib + cta(d)
     write(p["path"], head(p["path"], d, p["title"], p["desc"], faq_ld(p)) + chrome(p["path"], d) + body + footer(d))
 
@@ -510,28 +518,28 @@ def hive():
     return f'<div class="hive rv" id="hive">{rows}</div>'
 
 def cloud(shape, obj, proc, color="#00C1EA", extra="Glisser pour tourner", cls="", tilt=None):
-    return (f'<div class="scan {cls}" style="--c:{color}"><div class="ring"></div><div class="ring r2"></div><canvas data-shape="{shape}" data-color="{color}"{f' data-tilt="{tilt}"' if tilt is not None else ""} aria-label="Rendu 3D interactif : {E(obj)}"></canvas>'
-            f'<div class="tag t1">Objet<b>{E(obj)}</b></div><div class="tag t2">Rotation<b data-ang>000.0°</b></div><div class="tag t3">Points<b data-npts>—</b></div><div class="tag t4">{E(proc)}<b>{E(extra)}</b></div></div>')
+    return (f'<div class="scan {cls}" {f' style="--c:{color}"' if color != "ink" else ""}><canvas data-shape="{shape}" data-color="{color}"{f' data-tilt="{tilt}"' if tilt is not None else ""} role="img" aria-label="{E(obj)} : modèle 3D à faire pivoter"></canvas>'
+            f'<p class="cap"><b>{E(obj)}</b><span>Glisser pour faire pivoter</span></p></div>')
 
-ECO_C = {"sls": "#00C1EA", "fdm": "#FF8A3D", "resine": "#A97BFF", "cnc": "#C9D6DF"}
+ECO_C = {"sls": "#00A6CC", "fdm": "#F07328", "resine": "#35A874", "cnc": "#8795A1"}
 def mat_ring(d):
+    """Bibliothèque de matières : filtre par technologie + grille de fiches (tous les liens restent accessibles)."""
     cards = []
     for x in MATS:
         s = x["path"].split("/")[-1]; tk = None
         for k, t in TECH.items():
             if s in t["mats"]: tk = k
         if not tk: continue
-        im = pic(d, x["path"], label(x), "rc-img")
-        if not im:
+        im = pic(d, x["path"], label(x), "mc-pic")
+        if im: im = f'<span class="mc-img">{im}</span>'
+        else:
             sym = CNC_MATS[s][7] if s in CNC_MATS else label(x).split()[0]
-            im = f'<span class="rc-img sym"><b>{E(sym)}</b></span>'
+            im = f'<span class="mc-img sym"><b>{E(sym)}</b></span>'
         tg = HUBDATA.get(s, {}).get("tag") or (CNC_MATS[s][1] if s in CNC_MATS else "")
-        cards.append(f'<a class="rcard" data-t="{tk}" style="--eco:{ECO_C[tk]}" href="{rel(d, x["path"])}" draggable="false">{im}<span class="rc-t">{E(TECH[tk]["name"])}</span><b>{E(label(x))}</b><span class="rc-g">{E(tg)}</span></a>')
-    chips = '<button type="button" class="on" data-f="all">Toutes</button>' + "".join(f'<button type="button" data-f="{k}" style="--eco:{ECO_C[k]}">{E(t["name"])}</button>' for k, t in TECH.items() if t["mats"])
+        cards.append(f'<a class="mcard" data-t="{tk}" style="--eco:{ECO_C[tk]}" href="{rel(d, x["path"])}">{im}<span class="mc-t">{E(TECH[tk]["name"])}</span><b>{E(label(x))}</b><span class="mc-g">{E(tg)}</span></a>')
+    chips = '<button type="button" class="on" data-f="all">Toutes</button>' + "".join(f'<button type="button" data-f="{k}">{E(t["name"])}</button>' for k, t in TECH.items() if t["mats"])
     return (f'<div class="mring" id="mring"><div class="mr-filters" role="group" aria-label="Filtrer par technologie">{chips}</div>'
-            f'<div class="mr-box"><div class="mr-stage"><div class="mr-core">{cloud("gear", "Engrenage", "Matière", "#00C1EA", "PA12 · SLS", "mini")}</div><div class="mr-rot">{"".join(cards)}</div></div>'
-            f'<button type="button" class="mr-arr l" data-nav="-1" aria-label="Matière précédente"><span>‹</span><span>‹</span></button><button type="button" class="mr-arr r" data-nav="1" aria-label="Matière suivante"><span>›</span><span>›</span></button></div>'
-            f'<div class="mr-front"><span class="hud">Face à vous</span><b id="mrName">—</b><span id="mrTag"></span><a class="btn btn-g" id="mrGo" href="#">Ouvrir la fiche <span class="a">→</span></a></div></div>')
+            f'<div class="mgrid">{"".join(cards)}</div></div>')
 
 def gen_home():
     p = BY[""] if "" in BY else {"path": "", "title": "O&D Impression 3D", "desc": ""}
@@ -544,7 +552,6 @@ def gen_home():
             ("Laser", "machines-materiaux/xtool-f1", "Gravure laser", "Personnalisation, marquage, numérotation, découpe et signalétique.")]
     tcards = "".join(f'<a class="panel spot lcard tcard rv" href="{rel(d, u)}"><span class="k">{k}</span><h3 class="tcode">{c}</h3><p>{E(t)}</p><span class="go">Explorer →</span></a>' for c, u, k, t in tech)
     reals = "".join(f'<a class="panel spot lcard rv" href="{rel(d, x["path"])}"><span class="k">Projet · {i:02d}</span><h3>{E(label(x))}</h3><p>{E(short(x["desc"], 130))}</p><span class="go">Voir le projet →</span></a>' for i, x in enumerate(REAL, 1))
-    mats = " ".join(f"<span>{E(label(x))}</span>" for x in MATS)
     tools = "".join(f'<a class="panel spot lcard rv" href="{rel(d, u)}"><span class="k">Outil</span><h3>{t}</h3><p>{s}</p><span class="go">Ouvrir →</span></a>' for u, t, s in [
         ("quiz-technologie-impression-3d", "Quiz : quelle technologie ?", "Quelques questions pour savoir quel procédé convient à votre pièce."),
         ("devis-instantane", "Devis instantané", "Déposez votre STL, choisissez la matière : estimation immédiate."),
@@ -559,23 +566,22 @@ def gen_home():
              + htile("CNC", "services/usinage-cnc", "Usinage CNC métal &amp; plastique", "machines-materiaux/tooldance-x1-cnc"))
     hero = f'''<section class="hero hv" data-vid><video class="hv-bg" id="atelierVid" muted loop playsinline autoplay preload="auto" poster="static/video/atelier-od3d-poster.jpg" aria-label="Vidéo de l'atelier O&amp;D Impression 3D"><source src="static/video/atelier-od3d.mp4" type="video/mp4"></video><div class="hv-shade"></div>
 <div class="wrap"><div class="hv-txt"><div class="hud eyebrow">Atelier de fabrication · Welkenraedt, Belgique</div>
-<h1><span class="ln"><span>Impression 3D</span></span><span class="ln"><span class="glow">&amp; usinage CNC</span></span></h1>
+<h1><span class="ln">Impression 3D</span><span class="ln">&amp; usinage CNC</span></h1>
 <p class="lead">Prototypes, pièces techniques et petites séries, de la pièce unique à la production. Impression 3D <strong>SLS, FDM et SLA</strong>, <strong>fraisage CNC</strong>, scan 3D et modélisation : tout est fait dans notre atelier. Devis sous 24 h.</p>
 <div class="cta-row"><a class="btn btn-p" href="devis-instantane/">Devis instantané <span class="a">→</span></a><a class="btn btn-g" href="contact/">Envoyer un fichier</a></div></div>
 <div class="htiles">{tiles}</div>
 <div class="hv-ctl"><button type="button" class="vbtn" data-act="play" aria-label="Lecture / pause"><span class="ic-pause">❚❚</span><span class="ic-play">▶</span></button><button type="button" class="vbtn" data-act="sound" aria-label="Activer / couper le son"><span class="ic-mute">Son coupé</span><span class="ic-snd">Son activé</span></button><a class="vyt" href="https://youtu.be/kWaspuGcDJc" target="_blank" rel="noopener">Voir sur YouTube ↗</a></div>
-</div></section>
-<div class="ticker" aria-hidden="true"><div>{mats} {mats}</div></div>'''
+</div></section>'''
     secs = f'''
-<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 01 ] · Technologies</div><h2>Six procédés.<br><span class="glow">Un interlocuteur.</span></h2></div><p class="lead">Le procédé se choisit selon votre cahier des charges : résistance, précision, état de surface, quantité, budget.</p></div><div class="tech-lay"><div class="grid g2">{tcards}</div><div class="tech-scan"><div class="scan" aria-hidden="true"><div class="ring"></div><div class="ring r2"></div><canvas id="cloud" data-shape="flange" aria-label="Rendu 3D interactif"></canvas><div class="tag t1">Objet<b>Bride percée Ø80</b></div><div class="tag t2">Rotation<b id="ang" data-ang>000.0°</b></div><div class="tag t3">Points<b id="npts" data-npts>—</b></div><div class="tag t4">Scanner<b>3DeVOK MT</b></div></div></div></div></div></section>
-<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 02 ] · Parc machines</div><h2>Ce qui tourne<br>à l'atelier.</h2></div><p><a class="btn btn-g" href="machines-materiaux/">Tout le parc <span class="a">→</span></a></p></div>{hub_grid(d, MACH[:6], "Machine")}</div></section>
-<section style="padding-top:0"><div class="wrap"><div class="sec-no">[ RÉFÉRENCES ] · Ils nous ont confié leurs pièces</div>{hive()}</div></section>
-<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ BIBLIOTHÈQUE ] · Matériaux</div><h2>Du PLA<br>au <span class="glow">PEEK.</span></h2></div><p class="lead">{len(MATS)} fiches matériaux détaillées : propriétés, avantages, limites et machines compatibles.</p></div>{mat_ring(d)}<p style="margin-top:1.4rem"><a class="btn btn-g" href="machines-materiaux/">Toute la bibliothèque <span class="a">→</span></a></p></div></section>
-<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 03 ] · Méthode</div><h2>Du fichier<br>à la pièce.</h2></div></div>
+<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">Technologies</div><h2>Nos procédés de fabrication</h2></div><p class="lead">Le procédé se choisit selon votre cahier des charges : résistance, précision, état de surface, quantité, budget.</p></div><div class="tech-lay"><div class="grid g2">{tcards}</div><div class="tech-scan">{cloud("flange", "Bride percée Ø80", "", "ink")}</div></div></div></section>
+<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">Parc machines</div><h2>Les machines de l'atelier</h2></div><p><a class="btn btn-g" href="machines-materiaux/">Tout le parc <span class="a">→</span></a></p></div>{hub_grid(d, MACH[:6], "Machine")}</div></section>
+<section class="dark"><div class="wrap"><div class="sec-no">Références</div><h2>Ils nous ont confié leurs pièces</h2>{hive()}</div></section>
+<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">Bibliothèque</div><h2>Matériaux, du PLA au PEEK</h2></div><p class="lead">{len(MATS)} fiches matériaux détaillées : propriétés, avantages, limites et machines compatibles.</p></div>{mat_ring(d)}<p style="margin-top:1.4rem"><a class="btn btn-g" href="machines-materiaux/">Toute la bibliothèque <span class="a">→</span></a></p></div></section>
+<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">Méthode</div><h2>Du fichier à la pièce</h2></div></div>
 <div class="steps"><div class="panel rv n"><h3>Envoyez</h3><p>Fichier STEP, STL ou 3MF, plan, croquis… ou la pièce à scanner.</p></div><div class="panel rv n"><h3>Analyse &amp; devis</h3><p>Instantané avec fichier 3D, personnalisé sous 24 h.</p></div><div class="panel rv n"><h3>Fabrication</h3><p>Procédé et matière choisis selon vos contraintes.</p></div><div class="panel rv n"><h3>Livraison</h3><p>Envoi ou retrait à l'atelier de Welkenraedt.</p></div></div></div></section>
-<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 04 ] · Réalisations</div><h2>Des projets<br><span class="glow">réels.</span></h2></div><p><a class="btn btn-g" href="réalisations/">Tous les projets <span class="a">→</span></a></p></div>{hub_grid(d, REAL[:6], "Projet")}</div></section>
-{events_section(d, "05")}
-<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ 06 ] · Outils</div><h2>Choisir, comparer,<br>chiffrer.</h2></div></div><div class="grid g4">{tools}</div></div></section>
+<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">Réalisations</div><h2>Nos réalisations</h2></div><p><a class="btn btn-g" href="réalisations/">Tous les projets <span class="a">→</span></a></p></div>{hub_grid(d, REAL[:6], "Projet")}</div></section>
+{events_section(d)}
+<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">Outils</div><h2>Préparer votre projet</h2></div></div><div class="grid g4">{tools}</div></div></section>
 '''
     m = build_model(p) if p.get("native") is not None else None
     write("", head("", d, "O&D Impression 3D | Impression 3D SLS, FDM & CNC à Liège", "Impression 3D SLS, FDM et SLA, usinage CNC et scan 3D à Welkenraedt (Liège). Prototypes, pièces techniques et petites séries. Devis sous 24 h.") + chrome("", d) + hero + secs + cta(d) + footer(d))
@@ -601,7 +607,7 @@ def fx(t):
 def gen_faq():
     p = BY["faq"]; d = 1
     tabs = "".join(f'<a class="chip" href="#cat{i}">{E(c["c"])}</a>' for i, c in enumerate(FAQ))
-    secs = "".join(f'<section id="cat{i}" style="padding:50px 0 10px"><div class="wrap"><div class="sec-no">[ {i+1:02d} ] · {len(c["i"])} questions</div><h2 class="rv">{E(c["c"])}</h2>'
+    secs = "".join(f'<section id="cat{i}" style="padding:50px 0 10px"><div class="wrap"><div class="sec-no">{len(c["i"])} questions</div><h2 class="rv">{E(c["c"])}</h2>'
                    + '<div class="faq rv">' + "".join(f"<details><summary>{E(q)}</summary><p>{E(fx(a))}</p></details>" for q, a in c["i"]) + "</div></div></section>" for i, c in enumerate(FAQ))
     ld = [{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": fx(a)}} for c in FAQ for q, a in c["i"]]}]
     m = {"title": "Questions fréquentes", "eyebrow": "Foire aux questions", "lead": "Services, matériaux, prix, délais, fichiers : les réponses aux questions qu'on nous pose le plus souvent.", "stats": []}
@@ -669,8 +675,8 @@ gen_app("quiz-technologie-impression-3d", BY["quiz-technologie-impression-3d"]["
 gen_app("devis-instantane", "Devis instantané impression 3D | O&D Impression 3D", "Déposez votre fichier STL, choisissez la matière et la quantité : estimation immédiate du prix de votre impression 3D.",
         "Devis instantané", "Déposez votre fichier STL, choisissez la matière et la quantité : estimation immédiate. Au-delà de 100 pièces, demande personnalisée.", "devis.html", 760)
 (OUT / "merci").mkdir(exist_ok=True)
-(OUT / "merci/index.html").write_text(gen_simple("merci", "Demande envoyée", 'Merci. <span class="glow">On s\'en occupe.</span>', "Votre demande est bien arrivée : réponse technique sous 24 h."), encoding="utf-8")
-(OUT / "404.html").write_text(gen_simple("", "Page introuvable", 'Signal <span class="glow">perdu.</span>', "Cette page n'existe pas ou a été déplacée.").replace("<head>", f'<head>\n<base href="{BASE}">').replace('href="./static', 'href="' + BASE + 'static').replace('src="./static', 'src="' + BASE + 'static').replace('href="./"', 'href="' + BASE + '"'), encoding="utf-8")
+(OUT / "merci/index.html").write_text(gen_simple("merci", "Demande envoyée", 'Merci, on s\'en occupe.', "Votre demande est bien arrivée : réponse technique sous 24 h."), encoding="utf-8")
+(OUT / "404.html").write_text(gen_simple("", "Page introuvable", "Cette page n'existe pas.", "Elle a été déplacée ou supprimée. Retournez à l'accueil ou passez par le menu.").replace("<head>", f'<head>\n<base href="{BASE}">').replace('href="./static', 'href="' + BASE + 'static').replace('src="./static', 'src="' + BASE + 'static').replace('href="./"', 'href="' + BASE + '"'), encoding="utf-8")
 # sitemap / robots
 urls = [""] + [p["path"] for p in P if p["path"] and p["path"] != LIEGE_OLD] + ["devis-instantane"]
 seen = []

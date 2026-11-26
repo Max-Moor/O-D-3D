@@ -19,7 +19,7 @@ def comp_cards(d):
     for i, x in enumerate(COMP, 1):
         parts = CMP_PAIRS.get(x["path"], tuple(label(x).split(" vs ")))
         vs = '<span class="vs">vs</span>'.join(f'<b>{E(s)}</b>' for s in parts)
-        out.append(f'<a class="panel spot ccard rv" href="{rel(d, x["path"])}"><span class="hud k">Fiche comparative · {i:02d}</span>'
+        out.append(f'<a class="panel spot ccard rv" href="{rel(d, x["path"])}"><span class="hud k">Comparatif</span>'
                    f'<div class="cvs">{vs}</div><p>{E(short(x.get("desc", ""), 120))}</p><span class="go">Lire le comparatif →</span></a>')
     return '<div class="grid g3 ccards">' + "".join(out) + "</div>"
 
@@ -62,7 +62,7 @@ O.innerHTML='<div class="cmp-heads">'+head(ka,a,'a')+head(kb,b,'b')+'</div>'+
 document.querySelectorAll('.cmp-quick .chip').forEach(function(c){c.classList.toggle('on',c.dataset.a===ka&&c.dataset.b===kb)})}
 A.onchange=run;B.onchange=run;document.getElementById('swap').onclick=function(){var t=A.value;A.value=B.value;B.value=t;run()};
 document.querySelectorAll('.cmp-quick .chip').forEach(function(c){c.onclick=function(){A.value=c.dataset.a;B.value=c.dataset.b;run()}});run()})();</script>""".replace("__DATA__", json.dumps(data, ensure_ascii=False))
-    out = hero + sec("01", "Deux matériaux, <span class='glow'>face à face.</span>", tool, "Comparateur") + js
+    out = hero + sec("01", "Comparer deux matériaux", tool, "Comparateur") + js
     out += sec("02", "Les comparatifs détaillés", comp_cards(d), "Fiches", right='<p class="lead">Six duels rédigés par l\'atelier, avec tableaux complets et recommandations.</p>')
     out += cta(d)
     write(p["path"], head(p["path"], d, p["title"], p["desc"]) + chrome(p["path"], d) + out + footer(d))

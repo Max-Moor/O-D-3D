@@ -169,13 +169,13 @@ def spec_table(rows):
 def pros_cons(adv, lim):
     if not adv and not lim: return ""
     a = '<div class="panel rv"><div class="hud" style="margin-bottom:1rem;color:var(--ok)">Avantages</div><ul class="list">' + "".join(f"<li>{E(x)}</li>" for x in adv) + "</ul></div>" if adv else ""
-    l = '<div class="panel rv"><div class="hud" style="margin-bottom:1rem;color:var(--amber)">Limites</div><ul class="list neg">' + "".join(f"<li>{E(x)}</li>" for x in lim) + "</ul></div>" if lim else ""
+    l = '<div class="panel rv"><div class="hud" style="margin-bottom:1rem;color:var(--warn)">Limites</div><ul class="list neg">' + "".join(f"<li>{E(x)}</li>" for x in lim) + "</ul></div>" if lim else ""
     return f'<div class="grid g2">{a}{l}</div>'
 
 def sec(no, title, inner, eyebrow=None, right=""):
-    eb = f" · {E(eyebrow)}" if eyebrow else ""
+    eb = E(eyebrow) if eyebrow else ""
     plain = re.sub(r"<[^>]+>", "", title)
-    return f'<section><div class="wrap"><div class="sec-head"><div><div class="sec-no">[ {no} ]{eb}</div><h2 class="rv{" long" if len(plain) > 34 else ""}">{title}</h2></div>{right}</div>{inner}</div></section>'
+    return f'<section><div class="wrap"><div class="sec-head"><div>{f'<div class="sec-no">{eb}</div>' if eb else ''}<h2 class="rv{" long" if len(plain) > 34 else ""}">{title}</h2></div>{right}</div>{inner}</div></section>'
 
 def more_details(m):
     body = render_sections(m)
@@ -348,7 +348,7 @@ def gen_eco(tk):
     steps = '<div class="steps">' + "".join(f'<div class="panel rv n"><h3>{E(a)}</h3><p>{E(b)}</p></div>' for a, b in t["steps"]) + '<div class="panel hot rv"><h3>Votre pièce</h3><p>Envoyez votre fichier : nous confirmons que ' + art(t) + " est le bon choix, ou nous vous orientons vers une autre technologie.</p></div></div>"
     out = hero + sec("01", f'{art(t, True)} en 3 étapes', steps, "En clair")
     _sh, _ob, _pr = {"sls": ("lattice", "Structure en treillis", "PA12 · SLS"), "fdm": ("bracket", "Équerre de fixation", "PA12-CF · FDM"), "resine": ("ring", "Bague sertie", "Résine · SLA"), "cnc": ("impeller", "Roue de turbine", "Aluminium · CNC")}[tk]
-    out += sec("02", "Quand le choisir ?", '<div class="eco-split"><div class="eco-cloud">' + cloud(_sh, _ob, "Rendu", ECO_COL[tk], _pr, tilt={"sls": -.5, "fdm": -.6, "resine": -.2, "cnc": -.55}[tk]) + '<p class="hud dim" style="text-align:center;margin-top:.4rem">Rendu interactif · glissez pour faire tourner</p></div><div>' + pros_cons(t["ideal"], t["limits"]).replace(">Avantages<", ">Idéal pour<").replace(">Limites<", ">À savoir<").replace('class="grid g2"', 'class="grid"') + '</div></div>')
+    out += sec("02", "Quand le choisir ?", '<div class="eco-split"><div class="eco-cloud">' + cloud(_sh, _ob, _pr, "ink", tilt={"sls": -.5, "fdm": -.6, "resine": -.2, "cnc": -.55}[tk]) + '</div><div>' + pros_cons(t["ideal"], t["limits"]).replace(">Avantages<", ">Idéal pour<").replace(">Limites<", ">À savoir<").replace('class="grid g2"', 'class="grid"') + '</div></div>')
     out += f'<div id="machines"></div>' + sec("03", f'Nos machines {t["name"]}', mini_cards(d, t["machines"], "Machine " + t["name"]))
     if t["mats"]: out += sec("04", f'Nos matières {t["name"]}', mini_cards(d, t["mats"], "Matériau " + t["name"]))
     comps = [BY[c] for c in t["comp"] if c in BY]
@@ -371,7 +371,7 @@ def tech_picker(depth):
                      f'<p>{E(t["ideal"][0])} · {E(t["ideal"][1])}</p><span class="go">{len(t["machines"])} machine{"s" if len(t["machines"])>1 else ""}{(" · " + str(len(t["mats"])) + " matières") if t["mats"] else ""} →</span></a>')
     return '<div class="grid g4">' + "".join(cards) + "</div>"
 
-ECO_COL = {"sls": "#00C1EA", "fdm": "#FF8A3D", "resine": "#A97BFF", "cnc": "#C9D6DF"}
+ECO_COL = {"sls": "#00A6CC", "fdm": "#F07328", "resine": "#35A874", "cnc": "#8795A1"}
 ECO_TXT = {
  "sls": ("Un laser fait fondre de la poudre de nylon, couche après couche. La poudre autour soutient la pièce : aucun support.", "Pièce en nylon solide, grain fin, formes libres", "jusqu'à 350 × 350 × 430 mm"),
  "fdm": ("Une buse dépose un fil de plastique fondu, ligne par ligne, comme un stylo 3D piloté par ordinateur.", "Du PLA multicolore au PEEK haute performance", "jusqu'à 1 m (Modix Big Meter)"),
@@ -399,11 +399,11 @@ def gen_parc():
     tiles = "".join(f'<a class="ecot" style="--eco:{ECO_COL[k]}" href="#{k}"><span class="hud">{E(t["long"])}</span><b>{E(t["name"])}</b><p>{E(ECO_TXT[k][1])}</p>'
                     f'<span class="cnt">{len(t["machines"])} machine{"s" if len(t["machines"]) > 1 else ""}{" · " + str(len(t["mats"])) + " matières" if t["mats"] else ""}</span><i class="arr">↓</i></a>' for k, t in TECH.items())
     hero = (f'<section class="phero eco-hero"><div class="wrap">{crumbs("machines-materiaux", d)}<div class="hud eyebrow">Parc machines &amp; matières</div>'
-            f'<h1>4 écosystèmes.<br><span class="glow">Un seul atelier.</span></h1>'
+            f'<h1>Nos 4 technologies, un seul atelier</h1>'
             f'<p class="lead">Chaque technologie est un écosystème complet : un procédé, ses machines, ses matières. {nm} machines et {nt} matières, rangées pour que vous trouviez la bonne combinaison en un coup d\'œil.</p>'
             f'<div class="ecomap">{tiles}</div></div></section>')
     need = '<div class="needs">' + "".join(f'<a class="need" style="--eco:{ECO_COL[k]}" href="#{k}"><span class="q">Vous avez besoin de…</span><p>{E(txt)}</p><b>{E(TECH[k]["name"])} →</b></a>' for k, txt in ECO_NEED) + "</div>"
-    out = hero + sec("00", "Quelle technologie <span class='glow'>pour quoi ?</span>", need, "Choisir en 10 secondes")
+    out = hero + sec("00", "Quelle technologie pour quel besoin ?", need, "Choisir en 10 secondes")
     for i, (k, t) in enumerate(TECH.items(), 1):
         how, res, vol = ECO_TXT[k]
         img = pic(d, ECO_IMG[k], t["name"], "pimg")
@@ -412,14 +412,14 @@ def gen_parc():
                 + f'<div><b class="sm">{E(vol)}</b><span>{"volume max." if k != "cnc" else "matières usinées"}</span></div></div>')
         ideal = "".join(f"<li>{E(x)}</li>" for x in t["ideal"][:4])
         band = (f'<section class="ecoband" id="{k}" style="--eco:{ECO_COL[k]}"><div class="wrap">'
-                f'<div class="eb-top"><div class="eb-txt"><div class="hud eb-no">Écosystème {i:02d} / {len(TECH):02d}</div>'
+                f'<div class="eb-top"><div class="eb-txt"><div class="hud eb-no">Écosystème {E(t["long"])}</div>'
                 f'<h2 class="eb-code">{E(t["name"])}</h2><div class="eb-long">{E(t["long"])}</div>'
                 f'<div class="eb-how"><span class="hud">Comment ça marche</span><p>{E(how)}</p></div>'
                 f'<div class="eb-how"><span class="hud">Idéal pour</span><ul>{ideal}</ul></div>{figs}'
                 f'<a class="btn btn-p" href="{rel(d, t["url"])}">Explorer l\'écosystème {E(t["name"])} <span class="a">→</span></a></div>'
                 f'<div class="eb-vis"><div class="halo"></div>{img}</div></div>'
-                f'<div class="eb-flow"><div class="eb-step"><span class="hud">① Machines {E(t["name"])}</span></div>{mini_cards(d, t["machines"], "Machine " + t["name"])}</div>'
-                + (f'<div class="eb-flow"><div class="eb-step"><span class="hud">② Matières {E(t["name"])}</span></div>{mat_tiles(d, t["mats"])}</div>' if t["mats"] else "")
+                f'<div class="eb-flow"><div class="eb-step"><span class="hud">Machines {E(t["name"])}</span></div>{mini_cards(d, t["machines"], "Machine " + t["name"])}</div>'
+                + (f'<div class="eb-flow"><div class="eb-step"><span class="hud">Matières {E(t["name"])}</span></div>{mat_tiles(d, t["mats"])}</div>' if t["mats"] else "")
                 + '</div></section>')
         out += band
     out += '<div id="autres"></div>' + sec("05", "Et aussi : scan 3D &amp; gravure laser", mini_cards(d, OTHER_MACH, "Équipement"), "Équipements complémentaires")

@@ -31,7 +31,7 @@ def hub_grid(depth, items, kind):
     cards = []
     for ix, x in enumerate(items, 1):
         th = photo_thumb(depth, x["path"], label(x)) or pic(depth, x["path"], label(x), "thumb")
-        cards.append(f'<a class="panel spot lcard rv{" with-img" if th else ""}" href="{rel(depth, x["path"])}">{th}<span class="k">{kind} · {ix:02d}</span><h3>{E(label(x))}</h3><p>{E(short(x.get("desc", ""), 150))}</p><span class="go">Ouvrir la fiche →</span></a>')
+        cards.append(f'<a class="panel spot lcard rv{" with-img" if th else ""}" href="{rel(depth, x["path"])}">{th}<span class="k">{kind}</span><h3>{E(label(x))}</h3><p>{E(short(x.get("desc", ""), 150))}</p><span class="go">Ouvrir la fiche →</span></a>')
     return '<div class="grid g3">' + "".join(cards) + "</div>"
 
 def gallery(depth, path, alt, caps=None):
@@ -79,13 +79,13 @@ def gen_real(p):
         out += f'<section class="tight"><div class="wrap"><p class="nda hud">{E(R["nda"])}</p></div></section>'
     others = [x for x in REAL if x["path"] != p["path"]][:6]
     out += sec("→", "D'autres projets", hub_grid(d, others, "Projet"))
-    out += cta(d, "Un projet <span class='glow'>similaire ?</span>", "Envoyez-nous votre pièce, votre fichier ou une simple photo : réponse sous 24 h.")
+    out += cta(d, "Un projet similaire ?", "Envoyez-nous votre pièce, votre fichier ou une simple photo : réponse sous 24 h.")
     write(p["path"], head(p["path"], d, p["title"], p["desc"]) + chrome(p["path"], d) + out + footer(d))
 
 def events_section(depth, no="◆"):
     if not EVENTS: return ""
     items = "".join(f'<figure class="ev rv">{rimg(depth, b, s, c)}<figcaption class="hud">{E(c)}</figcaption></figure>' for b, s, c in EVENTS)
-    return sec(no, "Sur le <span class='glow'>terrain.</span>", f'<div class="events">{items}</div>', "Salons & événements",
+    return sec(no, "Salons et événements", f'<div class="events">{items}</div>', None,
                right='<p class="lead">On va à la rencontre de l\'industrie : Euronaval pour le naval et la défense, Formnext pour la fabrication additive, Batibouw pour la construction.</p>')
 
 def team_photo(depth, name):

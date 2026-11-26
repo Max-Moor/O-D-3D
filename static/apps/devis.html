@@ -3,57 +3,65 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Calculateur impression 3D — O&amp;D</title>
+<title>Calculateur impression 3D | O&amp;D</title>
 <!-- Même formule de prix que le calculateur Wix d'origine. Corrigé : STL ASCII, affichage remise, lien contact, adresse. -->
 <style>
-@font-face{font-family:"Chakra Petch";font-weight:600;src:url("../fonts/chakra-petch-latin-600-normal.woff2") format("woff2")}
-@font-face{font-family:"Inter";font-weight:400;src:url("../fonts/inter-latin-400-normal.woff2") format("woff2")}
-@font-face{font-family:"JetBrains Mono";font-weight:500;src:url("../fonts/jetbrains-mono-latin-500-normal.woff2") format("woff2")}
+@font-face{font-family:"Archivo";font-weight:100 900;font-stretch:62% 125%;src:url("../fonts/archivo-latin-wdth-normal.woff2") format("woff2")}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;src:url("../fonts/ibm-plex-sans-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;src:url("../fonts/ibm-plex-sans-latin-600-normal.woff2") format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-weight:500;src:url("../fonts/ibm-plex-mono-latin-500-normal.woff2") format("woff2")}
 *{box-sizing:border-box}
-body{margin:0;background:#060B11;color:#EAF6FB;font:16px/1.6 Inter,system-ui,sans-serif;padding:28px 18px}
+:root{--ink:#F2F5F7;--bg:#0B0E11;--bg1:#12171C;--bg2:#1A2127;--line:#262F37;--line2:#4A5761;--d:#93A0AA;--warn:#FF9A5A;color-scheme:dark}
+:root[data-theme=light]{--ink:#10161B;--bg:#fff;--bg1:#fff;--bg2:#F1F3F4;--line:#CDD3D8;--line2:#97A2AB;--d:#4A5560;--warn:#B4490F;color-scheme:light}
+body{margin:0;background:var(--bg1);color:var(--ink);font:16px/1.6 "IBM Plex Sans",system-ui,sans-serif;padding:24px 18px}
 .box{max-width:720px;margin:auto;display:grid;gap:18px}
-h2{font:600 1.6rem "Chakra Petch",sans-serif;text-transform:uppercase;margin:0}
-.lab{display:block;font:500 .66rem "JetBrains Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:#8FA3B3;margin-bottom:.5rem}
-.drop{border:1px dashed #00C1EA;background:rgba(0,193,234,.06);padding:34px 18px;text-align:center;cursor:pointer;transition:.2s}
-.drop:hover,.drop.over{background:rgba(0,193,234,.14)}
-.drop b{display:block;font:600 1.1rem "Chakra Petch",sans-serif;letter-spacing:.06em;text-transform:uppercase}
-.drop small{color:#8FA3B3}
+h2{font:700 1.5rem "Archivo",sans-serif;margin:0}
+.lab{display:block;font:600 .85rem "IBM Plex Sans",sans-serif;color:var(--ink);margin-bottom:.4rem}
+.drop{border:1.5px dashed var(--line2);background:var(--bg2);padding:30px 18px;text-align:center;cursor:pointer}
+.drop:hover,.drop.over{border-color:var(--c);background:var(--bg)}
+.drop b{display:block;font:700 1.05rem "Archivo",sans-serif}
+.drop small{color:var(--d)}
 .row{display:grid;gap:14px}
 @media(min-width:600px){.row{grid-template-columns:1.4fr 1fr 1fr}}
-select,input{width:100%;padding:13px;background:#020407;border:1px solid rgba(125,235,255,.22);color:#EAF6FB;font:inherit}
-select:focus,input:focus{outline:none;border-color:#00C1EA}
-button{padding:16px;border:0;background:#00C1EA;color:#001018;font:600 .9rem "Chakra Petch",sans-serif;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;
-  clip-path:polygon(12px 0,100% 0,100% calc(100% - 12px),calc(100% - 12px) 100%,0 100%,0 12px)}
-button:hover{filter:brightness(1.1)}
-.res{display:none;grid-template-columns:repeat(2,1fr);gap:8px}
+select,input{width:100%;padding:12px;background:var(--bg);border:1px solid var(--line2);border-radius:0;color:var(--ink);font:inherit}
+select:focus,input:focus,.drop:focus-visible,button:focus-visible{outline:2px solid var(--c);outline-offset:2px}
+button{padding:15px;border:0;border-radius:0;background:#00C1EA;color:#050709;font:700 1rem "Archivo",sans-serif;cursor:pointer}
+button:hover{background:var(--ink);color:var(--bg)}
+.res{display:none;grid-template-columns:repeat(2,1fr);gap:0;border:1px solid var(--line)}
 .res.on{display:grid}
-.res div{padding:14px;background:rgba(125,235,255,.04);border-top:1px solid rgba(0,193,234,.4)}
-.res div b{display:block;font:600 1.3rem "Chakra Petch",sans-serif}
-.res div span{font:500 .62rem "JetBrains Mono",monospace;letter-spacing:.12em;text-transform:uppercase;color:#8FA3B3}
-.res .total{grid-column:1/-1;background:rgba(0,193,234,.12)}
-.res .total b{font-size:2rem;color:#00C1EA}
-.msg{font-size:.9rem;color:#FFB547;min-height:1.4em}
-.note{font-size:.8rem;color:#5D7182}
+.res div{padding:14px;border-top:1px solid var(--line)}
+.res div:nth-child(-n+2){border-top:0}
+.res div b{display:block;font:500 1.2rem "IBM Plex Mono",monospace}
+.res div span{font-size:.85rem;color:var(--d)}
+.res .total{grid-column:1/-1;background:#050709;color:#fff;border-top:0}
+.res .total span{color:#CDD3D8}
+.res .total b{font-size:1.9rem;color:#00C1EA}
+.msg{font-size:.9rem;color:var(--warn);min-height:1.4em}
+.note{font-size:.85rem;color:var(--d)}
 </style>
+<script>
+(function(){function ap(){var t=null;try{t=localStorage.getItem("od3d-theme")}catch(e){}if(t==="light")document.documentElement.dataset.theme="light";else delete document.documentElement.dataset.theme}
+ap();window.addEventListener("storage",ap);})();
+</script>
 </head>
 <body>
 <div class="box">
   <h2>Estimation instantanée</h2>
   <div>
-    <span class="lab">1 · Fichier STL</span>
-    <div class="drop" id="drop" tabindex="0" role="button" aria-label="Choisir un fichier STL"><b id="dropTxt">Glissez votre STL ici</b><small>ou cliquez pour parcourir — STL binaire ou ASCII</small></div>
+    <span class="lab">1. Fichier STL</span>
+    <div class="drop" id="drop" tabindex="0" role="button" aria-label="Choisir un fichier STL"><b id="dropTxt">Glissez votre STL ici</b><small>ou cliquez pour parcourir (STL binaire ou ASCII)</small></div>
     <input type="file" id="file" accept=".stl" hidden>
   </div>
   <div class="row">
-    <div><span class="lab">2 · Matériau</span>
+    <div><span class="lab">2. Matériau</span>
       <select id="materiau">
         <option value="0.22">PLA / PETG</option><option value="0.28">ASA / ABS</option><option value="0.24">TPU</option>
         <option value="0.45">Nylon carbone (PA12-CF15) / fibre de verre (PA12-GF15)</option><option value="0.85">PPA-CF / PPS-CF</option>
         <option value="0.60">Polypropylène</option><option value="4.2">PEEK</option><option value="3.9">PEKK</option><option value="2.4">ULTEM PEI 9085</option>
       </select></div>
-    <div><span class="lab">3 · Remplissage</span>
+    <div><span class="lab">3. Remplissage</span>
       <select id="infill"><option value="2">2 %</option><option value="5">5 %</option><option value="10">10 %</option><option value="15" selected>15 %</option><option value="20">20 %</option><option value="25">25 %</option><option value="30">30 %</option></select></div>
-    <div><span class="lab">4 · Quantité</span><input type="number" id="quantity" min="1" value="1"></div>
+    <div><span class="lab">4. Quantité</span><input type="number" id="quantity" min="1" value="1"></div>
   </div>
   <button id="go">Calculer le prix</button>
   <div class="msg" id="msg" role="status"></div>
@@ -62,7 +70,7 @@ button:hover{filter:brightness(1.1)}
     <div><b id="rPoids">—</b><span>Poids estimé / pièce</span></div>
     <div><b id="rQty">—</b><span>Quantité</span></div>
     <div><b id="rRem">—</b><span>Remise volume</span></div>
-    <div class="total"><b id="rTot">—</b><span>Prix total estimé <span style="color:#FFB547">[HTVA ou TVAC ? à confirmer]</span></span></div>
+    <div class="total"><b id="rTot">—</b><span>Prix total estimé <span style="color:#FFB547;font-weight:600">[HTVA ou TVAC ? à confirmer]</span></span></div>
   </div>
   <p class="note">Estimation indicative pour l'impression FDM, hors post-traitement et livraison. Le prix final est confirmé par devis. O&amp;D Impression 3D se réserve le droit de refuser une impression contraire à ses valeurs. — Welkenraedt, Belgique.</p>
 </div>

@@ -16,11 +16,11 @@
             title: "Quel est l'usage final de la pièce ?",
             subtitle: "Choisissez la description la plus proche de votre besoin.",
             options: [
-                ["visual", "👁️", "Prototype visuel — je valide une forme ou un design, sans contrainte mécanique"],
-                ["functional-test", "🧪", "Prototype fonctionnel — je teste la pièce en conditions réelles avant la série"],
-                ["final-unique", "🏆", "Pièce définitive — un seul exemplaire final"],
-                ["final-series", "📦", "Pièce définitive — plusieurs exemplaires identiques"],
-                ["replacement", "🔧", "Pièce de remplacement — remplacer une pièce cassée ou introuvable"]
+                ["visual", "", "Prototype visuel : je valide une forme ou un design, sans contrainte mécanique"],
+                ["functional-test", "", "Prototype fonctionnel : je teste la pièce en conditions réelles avant la série"],
+                ["final-unique", "", "Pièce définitive : un seul exemplaire final"],
+                ["final-series", "", "Pièce définitive : plusieurs exemplaires identiques"],
+                ["replacement", "", "Pièce de remplacement : remplacer une pièce cassée ou introuvable"]
             ]
         },
 
@@ -41,23 +41,23 @@
             title: "Disposez-vous déjà d'un fichier 3D de la pièce ?",
             subtitle: "Cela détermine si nous devons d'abord modéliser ou scanner votre pièce.",
             options: [
-                ["file-ready", "📁", "Oui, un fichier 3D prêt (STL, STEP, etc.)"],
-                ["plans", "📐", "J'ai des plans ou des croquis, mais pas de fichier 3D"],
-                ["physical-object", "📷", "Non, je pars d'un objet physique existant à reproduire"],
-                ["idea-only", "💡", "Non, juste une idée à définir ensemble"]
+                ["file-ready", "", "Oui, un fichier 3D prêt (STL, STEP, etc.)"],
+                ["plans", "", "J'ai des plans ou des croquis, mais pas de fichier 3D"],
+                ["physical-object", "", "Non, je pars d'un objet physique existant à reproduire"],
+                ["idea-only", "", "Non, juste une idée à définir ensemble"]
             ]
         },
 
         {
             id: "size",
             title: "Quelle est la plus grande dimension de la pièce ?",
-            subtitle: "Longueur, largeur ou hauteur — prenez la plus grande des trois.",
+            subtitle: "Longueur, largeur ou hauteur : prenez la plus grande des trois.",
             options: [
                 ["small", "◽", "Moins de 10 cm"],
-                ["medium", "◻️", "10 à 30 cm"],
+                ["medium", "◻", "10 à 30 cm"],
                 ["large", "⬛", "30 cm à 1 m"],
-                ["veryLarge", "🗿", "Plus d'1 m"],
-                ["unknown", "❓", "Je ne sais pas encore"]
+                ["veryLarge", "", "Plus d'1 m"],
+                ["unknown", "", "Je ne sais pas encore"]
             ]
         },
 
@@ -70,7 +70,7 @@
                 ["medium", "▯", "1 à 3 mm"],
                 ["thin", "│", "0,5 à 1 mm"],
                 ["veryThin", "┆", "Moins de 0,5 mm"],
-                ["unknown", "❓", "Je ne sais pas"]
+                ["unknown", "", "Je ne sais pas"]
             ]
         },
 
@@ -81,8 +81,8 @@
             options: [
                 ["none", "○", "Non, forme pleine ou ouverte"],
                 ["some", "◐", "Quelques détails internes accessibles"],
-                ["closed", "🌀", "Oui, cavité ou canal totalement fermé"],
-                ["unknown", "❓", "Je ne sais pas"]
+                ["closed", "", "Oui, cavité ou canal totalement fermé"],
+                ["unknown", "", "Je ne sais pas"]
             ]
         },
 
@@ -94,7 +94,7 @@
                 ["none", "±0,5 mm", "Pas de contrainte particulière"],
                 ["medium", "±0,2–0,3 mm", "Ajustement standard entre deux pièces"],
                 ["tight", "±0,1 mm ou moins", "Ajustement précis (axe, roulement, filetage fin)"],
-                ["unknown", "❓", "Je ne sais pas"]
+                ["unknown", "", "Je ne sais pas"]
             ]
         },
 
@@ -103,10 +103,10 @@
             title: "Quel état de surface recherchez-vous ?",
             subtitle: "Aspect visuel et au toucher, une fois la pièce terminée.",
             options: [
-                ["functional", "🔩", "Fonctionnel — les traces de fabrication ne posent pas de problème"],
-                ["clean", "🧼", "Propre — légèrement poncée ou peinte si besoin"],
-                ["smooth", "✨", "Lisse dès la sortie machine"],
-                ["mirror", "💎", "Quasi miroir / polie (type bijouterie, vitrine)"]
+                ["functional", "", "Fonctionnel : les traces de fabrication ne posent pas de problème"],
+                ["clean", "", "Propre : légèrement poncée ou peinte si besoin"],
+                ["smooth", "", "Lisse dès la sortie machine"],
+                ["mirror", "", "Quasi miroir / polie (type bijouterie, vitrine)"]
             ]
         },
 
@@ -115,10 +115,10 @@
             title: "Quelle charge mécanique la pièce devra-t-elle supporter ?",
             subtitle: "Pensez au poids porté, aux chocs, et à la fréquence d'utilisation.",
             options: [
-                ["none", "🎨", "Aucune — pièce purement esthétique ou décorative"],
-                ["light", "✋", "Manipulation occasionnelle, faible poids"],
-                ["moderate", "⚙️", "Utilisation régulière, charge modérée"],
-                ["heavy", "🏋️", "Charge importante, chocs ou usage intensif répété"]
+                ["none", "", "Aucune : pièce purement esthétique ou décorative"],
+                ["light", "", "Manipulation occasionnelle, faible poids"],
+                ["moderate", "", "Utilisation régulière, charge modérée"],
+                ["heavy", "", "Charge importante, chocs ou usage intensif répété"]
             ]
         },
 
@@ -127,23 +127,23 @@
             title: "La pièce doit-elle être souple ou élastique ?",
             subtitle: "Par exemple un joint, une poignée souple, ou un amortisseur.",
             options: [
-                ["rigid", "🧱", "Non, elle doit rester rigide"],
-                ["some", "〰️", "Un peu de souplesse est acceptable"],
-                ["flexible", "🎈", "Oui, elle doit être souple"],
-                ["veryFlexible", "🩸", "Très souple / élastique"]
+                ["rigid", "", "Non, elle doit rester rigide"],
+                ["some", "〰", "Un peu de souplesse est acceptable"],
+                ["flexible", "", "Oui, elle doit être souple"],
+                ["veryFlexible", "", "Très souple / élastique"]
             ]
         },
 
         {
             id: "temperature",
             title: "À quelle température maximale la pièce sera-t-elle exposée en usage normal ?",
-            subtitle: "Une estimation suffit — pensez au pire cas d'usage.",
+            subtitle: "Une estimation suffit : pensez au pire cas d'usage.",
             options: [
-                ["ambient", "🌡️", "Température ambiante, moins de 45°C"],
-                ["medium", "🌤️", "45 à 80°C"],
-                ["high", "🔥", "80 à 150°C"],
-                ["veryHigh", "🌋", "Plus de 150°C"],
-                ["unknown", "❓", "Je ne sais pas"]
+                ["ambient", "", "Température ambiante, moins de 45°C"],
+                ["medium", "", "45 à 80°C"],
+                ["high", "", "80 à 150°C"],
+                ["veryHigh", "", "Plus de 150°C"],
+                ["unknown", "", "Je ne sais pas"]
             ]
         },
 
@@ -152,15 +152,15 @@
             title: "Quelle est la contrainte d'environnement la plus déterminante ?",
             subtitle: "Choisissez celle qui compte le plus pour le choix du matériau.",
             options: [
-                ["indoor", "🏠", "Intérieur, environnement contrôlé"],
-                ["outdoor", "☀️", "Extérieur, exposée aux UV et aux intempéries"],
-                ["moisture", "💧", "Humidité fréquente ou immersion dans l'eau"],
-                ["chemical", "🧪", "Contact avec solvants, huiles ou produits chimiques"],
-                ["food", "🍽️", "Contact alimentaire direct"],
-                ["esd", "⚡", "Proximité de composants électroniques sensibles (ESD)"],
-                ["fire", "🚨", "Norme feu / ignifugation requise"],
-                ["medical", "🩺", "Usage médical ou dentaire"],
-                ["jewelry", "💍", "Fonderie / bijouterie (coulée à la cire perdue)"]
+                ["indoor", "", "Intérieur, environnement contrôlé"],
+                ["outdoor", "", "Extérieur, exposée aux UV et aux intempéries"],
+                ["moisture", "", "Humidité fréquente ou immersion dans l'eau"],
+                ["chemical", "", "Contact avec solvants, huiles ou produits chimiques"],
+                ["food", "", "Contact alimentaire direct"],
+                ["esd", "", "Proximité de composants électroniques sensibles (ESD)"],
+                ["fire", "", "Norme feu / ignifugation requise"],
+                ["medical", "", "Usage médical ou dentaire"],
+                ["jewelry", "", "Fonderie / bijouterie (coulée à la cire perdue)"]
             ]
         },
 
@@ -169,10 +169,10 @@
             title: "La pièce doit-elle être usinée dans un bloc de matière massif ?",
             subtitle: "Par exemple pour obtenir un métal plein, plutôt qu'une pièce construite couche par couche.",
             options: [
-                ["metal", "🔩", "Oui, nécessite un métal usiné (aluminium, laiton...)"],
+                ["metal", "", "Oui, nécessite un métal usiné (aluminium, laiton...)"],
                 ["solid-plastic", "⬛", "Oui, un plastique usiné dans la masse"],
-                ["no", "🖨️", "Non, l'impression 3D convient parfaitement"],
-                ["unknown", "❓", "Je ne sais pas"]
+                ["no", "", "Non, l'impression 3D convient parfaitement"],
+                ["unknown", "", "Je ne sais pas"]
             ]
         }
     ];
@@ -190,7 +190,7 @@
 
         root.innerHTML = `
             <div class="qz-top">
-                <div class="qz-eyebrow">O&D 3D · Guide de fabrication</div>
+                <div class="qz-eyebrow">Guide de fabrication</div>
                 <div class="qz-progress">
                     <div class="qz-progressBar" style="width:${progress()}%"></div>
                 </div>
@@ -218,7 +218,6 @@
                 <div class="qz-options">
                     ${q.options.map(option => `
                         <button type="button" class="qz-option" data-value="${option[0]}">
-                            <span class="qz-icon">${option[1]}</span>
                             ${option[2]}
                         </button>
                     `).join("")}
@@ -239,7 +238,7 @@
             <div class="qz-footer">
                 ${
                     state.step > 0
-                        ? `<button type="button" class="qz-back" id="back">← Question précédente</button>`
+                        ? `<button type="button" class="qz-back" id="back">Question précédente</button>`
                         : `<span></span>`
                 }
                 <span class="qz-counter">${state.step + 1} / ${questions.length}</span>
@@ -253,11 +252,10 @@
 
         return `
             <div class="qz-resultHeader">
-                <div class="qz-resultIcon">${result.icon}</div>
-                <div class="qz-confidence">TECHNOLOGIE RECOMMANDÉE</div>
+                <div class="qz-confidence">Technologie recommandée</div>
                 <div class="qz-tech">${result.tech}</div>
                 <div class="qz-material">${result.material}</div>
-                <div class="qz-confidence">Niveau de pertinence : ${result.score}%</div>
+                <div class="qz-confidence">Pertinence estimée : ${result.score} %</div>
             </div>
 
             <div class="qz-card">
@@ -266,16 +264,16 @@
             </div>
 
             <div class="qz-card">
-                <div class="qz-cardTitle">✓ Les avantages</div>
+                <div class="qz-cardTitle">Les avantages</div>
                 <div class="qz-pros">
-                    ${result.pros.map(x => `<div class="qz-pro">✓ ${x}</div>`).join("")}
+                    ${result.pros.map(x => `<div class="qz-pro">${x}</div>`).join("")}
                 </div>
             </div>
 
             <div class="qz-card">
-                <div class="qz-cardTitle">⚠ Points d'attention</div>
+                <div class="qz-cardTitle">Points d'attention</div>
                 <div class="qz-cons">
-                    ${result.cons.map(x => `<div class="qz-con">⚠ ${x}</div>`).join("")}
+                    ${result.cons.map(x => `<div class="qz-con">${x}</div>`).join("")}
                 </div>
             </div>
 
@@ -290,14 +288,14 @@
                     O&D 3D valide le choix définitif en fonction de votre fichier 3D
                     et des contraintes réelles de votre projet.
                     <br><br>
-                    <a href="../contact/" style="color:#00d4ff;">
-                        Contactez-nous pour valider votre projet →
+                    <a href="../contact/" style="color:var(--cd);font-weight:600">
+                        Contactez-nous pour valider votre projet
                     </a>
                 </div>
             </div>
 
             <button type="button" class="qz-restart" id="restart">
-                ↺ Recommencer le quiz
+                Recommencer le quiz
             </button>
         `;
     }
@@ -414,13 +412,13 @@
             } else if (a.surfaceFinish === "mirror") {
                 material = "Laiton ou Aluminium poli (usinage CNC)";
             } else if (a.tolerance === "tight") {
-                material = "POM (Delrin) — usinage CNC";
+                material = "POM (Delrin) : usinage CNC";
             }
 
             return {
                 tech: "CNC",
                 material,
-                icon: "⚙️",
+                icon: "",
                 score,
                 reason: "Vos réponses indiquent qu'un usinage dans un matériau massif est particulièrement pertinent : tolérance serrée, finition premium ou nécessité d'un métal plein. Le CNC est recommandé lorsque la précision dimensionnelle et les propriétés du matériau massif priment.",
                 pros: [
@@ -455,7 +453,7 @@
             return {
                 tech: "Résine SLA / MSLA",
                 material,
-                icon: "💎",
+                icon: "",
                 score,
                 reason,
                 pros: [
@@ -505,7 +503,7 @@
             return {
                 tech: "SLS",
                 material,
-                icon: "🌡️",
+                icon: "",
                 score,
                 reason,
                 pros: [
@@ -556,7 +554,7 @@
         return {
             tech: "FDM / FFF",
             material,
-            icon: "🖨️",
+            icon: "",
             score,
             reason,
             pros: [

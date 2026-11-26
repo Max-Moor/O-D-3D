@@ -1,4 +1,4 @@
-// O&D Impression 3D — interactions (menu, apparitions, halo souris, nuage de points 3D)
+// O&D Impression 3D — interactions (menu, nuage de points 3D, filtres, visionneuse photo, vidéo)
 document.documentElement.classList.remove('no-js');
 
 const mb = document.querySelector('.menu-btn');
@@ -7,17 +7,6 @@ if (mb) mb.addEventListener('click', () => {
   mb.setAttribute('aria-expanded', o);
 });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') document.body.classList.remove('open'); });
-
-const io = 'IntersectionObserver' in window ? new IntersectionObserver(es => es.forEach(e => {
-  if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
-}), { threshold: .1 }) : null;
-document.querySelectorAll('.rv').forEach(el => io ? io.observe(el) : el.classList.add('in'));
-
-document.querySelectorAll('.spot').forEach(el => el.addEventListener('pointermove', e => {
-  const r = el.getBoundingClientRect();
-  el.style.setProperty('--mx', (e.clientX - r.left) + 'px');
-  el.style.setProperty('--my', (e.clientY - r.top) + 'px');
-}));
 
 document.querySelectorAll('[data-year]').forEach(e => e.textContent = new Date().getFullYear());
 
@@ -68,14 +57,13 @@ const SHAPES = {
 };
 function hexA(h, a) { const n = parseInt(h.slice(1), 16); return `rgba(${n >> 16 & 255},${n >> 8 & 255},${n & 255},${a})`; }
 document.querySelectorAll('canvas[data-shape]').forEach(cv => {
-  const ctx = cv.getContext('2d'), pts = (SHAPES[cv.dataset.shape] || SHAPES.flange)(), col = cv.dataset.color || '#00C1EA';
-  const host = cv.closest('.scan') || cv.parentElement, reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const angEl = host.querySelector('[data-ang]'), ptsEl = host.querySelector('[data-npts]');
-  if (ptsEl) ptsEl.textContent = pts.length.toLocaleString('fr-BE');
+  const ctx = cv.getContext('2d'), pts = (SHAPES[cv.dataset.shape] || SHAPES.flange)(), dc = cv.dataset.color;
+  const getCol = () => (!dc || dc === 'ink') ? (getComputedStyle(document.documentElement).getPropertyValue('--ink').trim() || '#E6ECF0') : dc;
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   let t = Math.random() * 10, W, Hh, dpr, ry = 0, rx = -.95, vy = .0064, drag = null, live = false, raf = 0;
   const tilt = cv.dataset.tilt ? +cv.dataset.tilt : -.95; rx = tilt;
   const size = () => { dpr = Math.min(devicePixelRatio || 1, 2); W = cv.clientWidth; Hh = cv.clientHeight; cv.width = W * dpr; cv.height = Hh * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0); };
-  size(); addEventListener('resize', size);
+  size(); addEventListener('resize', () => { size(); frame(); });
   cv.style.touchAction = 'pan-y'; cv.style.cursor = 'grab';
   cv.addEventListener('pointerdown', e => { drag = { x: e.clientX, y: e.clientY, ry, rx }; cv.setPointerCapture(e.pointerId); cv.style.cursor = 'grabbing'; });
   cv.addEventListener('pointermove', e => { if (!drag) return; const nry = drag.ry + (e.clientX - drag.x) * .012; vy = (nry - ry) * .6; ry = nry; rx = Math.max(-1.5, Math.min(.4, drag.rx + (e.clientY - drag.y) * .008)); if (!live) frame(); });
@@ -85,18 +73,14 @@ document.querySelectorAll('canvas[data-shape]').forEach(cv => {
     t += .004;
     if (!drag && !reduce) { vy += (.0064 - vy) * .02; ry += vy; rx += (tilt + Math.sin(t * .7) * .1 - rx) * .02; }
     ctx.clearRect(0, 0, W, Hh);
-    const s = Math.min(W, Hh) * .34, cx = W / 2, cy = Hh / 2, cyr = Math.cos(ry), syr = Math.sin(ry), cxr = Math.cos(rx), sxr = Math.sin(rx), scanY = Math.sin(t * 2.2) * .7;
+    const s = Math.min(W, Hh) * .34, cx = W / 2, cy = Hh / 2, cyr = Math.cos(ry), syr = Math.sin(ry), cxr = Math.cos(rx), sxr = Math.sin(rx);
     for (const p of pts) {
       let x = p[0] * cyr - p[2] * syr, z = p[0] * syr + p[2] * cyr, y = p[1];
       const y2 = y * cxr - z * sxr; z = y * sxr + z * cxr;
-      const f = 2.6 / (2.6 + z), X = cx + x * s * f, Y = cy + y2 * s * f, near = Math.abs(y2 - scanY) < .03;
-      ctx.fillStyle = near ? 'rgba(255,255,255,.95)' : hexA(col, (.25 + (1 - (z + 1) / 2) * .6).toFixed(2));
-      const r = near ? 1.6 : 1.1 * f; ctx.fillRect(X, Y, r, r);
+      const f = 2.6 / (2.6 + z), X = cx + x * s * f, Y = cy + y2 * s * f;
+      ctx.fillStyle = hexA(getCol(), (.22 + (1 - (z + 1) / 2) * .7).toFixed(2));
+      const r = 1.2 * f; ctx.fillRect(X, Y, r, r);
     }
-    const sy = cy + scanY * s, g = ctx.createLinearGradient(0, sy - 18, 0, sy + 18);
-    g.addColorStop(0, hexA(col, 0)); g.addColorStop(.5, hexA(col, .18)); g.addColorStop(1, hexA(col, 0));
-    ctx.fillStyle = g; ctx.fillRect(cx - s * 1.25, sy - 18, s * 2.5, 36); ctx.fillStyle = hexA(col, .8); ctx.fillRect(cx - s * 1.25, sy, s * 2.5, 1);
-    if (angEl) angEl.textContent = ((((ry * 57.3) % 360) + 360) % 360).toFixed(1).padStart(5, '0') + '°';
     if (live && !reduce) raf = requestAnimationFrame(frame);
   }
   new IntersectionObserver(es => es.forEach(e => { live = e.isIntersecting; cancelAnimationFrame(raf); if (live) frame(); }), { rootMargin: '100px' }).observe(cv);
@@ -120,60 +104,14 @@ document.querySelectorAll('.gal-i').forEach(a => a.addEventListener('click', e =
   document.body.appendChild(lb);
 }));
 
-// Anneau 3D des matières (page d'accueil) : glisser, flèches, filtres
+// Matériaux (accueil) : filtre par technologie
 (function () {
   const root = document.getElementById('mring'); if (!root) return;
-  const stage = root.querySelector('.mr-stage'), rot = root.querySelector('.mr-rot'), all = [...rot.querySelectorAll('.rcard')];
-  const nameEl = document.getElementById('mrName'), tagEl = document.getElementById('mrTag'), goEl = document.getElementById('mrGo');
-  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  let cards = all, R = 600, step = 30, th = 0, v = 0, target = null, drag = null, moved = 0, hover = false, tiltX = -12, tiltT = -12, live = false, front = null;
-  function layout() {
-    const cw = all[0] ? all[0].offsetWidth : 170;
-    step = 360 / cards.length; R = Math.max(cw * 2.2, cards.length * cw * 1.12 / (2 * Math.PI));
-    all.forEach(c => c.style.display = cards.includes(c) ? '' : 'none');
-    cards.forEach((c, i) => { c.dataset.a = i * step; });
-  }
-  function render() {
-    rot.style.transform = `translateZ(${-R}px) rotateX(${tiltX}deg) rotateY(${th}deg)`;
-    let best = -2;
-    cards.forEach(c => {
-      const a = (+c.dataset.a + th) * Math.PI / 180, k = Math.cos(a), o = .12 + .88 * Math.pow((k + 1) / 2, 1.6);
-      c.style.transform = `rotateY(${c.dataset.a}deg) translateZ(${R}px)`;
-      c.style.opacity = o.toFixed(3); c.style.pointerEvents = k > .2 ? 'auto' : 'none'; c.style.zIndex = Math.round(k * 100) + 100;
-      if (k > best) { best = k; front = c; }
-    });
-    all.forEach(c => c.classList.toggle('front', c === front));
-    if (front && nameEl) { nameEl.textContent = front.querySelector('b').textContent; tagEl.textContent = front.querySelector('.rc-t').textContent + ' · ' + front.querySelector('.rc-g').textContent; goEl.href = front.getAttribute('href'); }
-  }
-  let last = 0;
-  function frame(now) {
-    now = now || performance.now(); const dt = last ? Math.min((now - last) / 1000, .05) : 0; last = now;
-    if (target !== null) { const d = target - th; th += d * .12; if (Math.abs(d) < .05) { th = target; target = null; } }
-    else if (!drag) { th += v; v *= .94; if (!hover && !reduce && Math.abs(v) < .02) th -= 10 * dt; }
-    tiltX += (tiltT - tiltX) * .08;
-    render(); if (live) requestAnimationFrame(frame);
-  }
-  const snapTo = dir => { const i = Math.round(-th / step) + dir; target = -i * step; v = 0; };
-  stage.addEventListener('pointerdown', e => { root.classList.add('touched'); drag = { x: e.clientX, th }; moved = 0; v = 0; target = null; stage.setPointerCapture(e.pointerId); stage.classList.add('grab'); });
-  stage.addEventListener('pointermove', e => {
-        if (!drag) return; const dx = e.clientX - drag.x; moved = Math.max(moved, Math.abs(dx)); const nt = drag.th + dx * .22; v = nt - th; th = nt; });
-  const up = () => { if (drag) { drag = null; stage.classList.remove('grab'); if (Math.abs(v) < .3) snapTo(0); } };
-  stage.addEventListener('pointerup', up); stage.addEventListener('pointercancel', up);
-  all.forEach(c => { c.addEventListener('pointerenter', () => hover = true); c.addEventListener('pointerleave', () => hover = false); });
-  stage.addEventListener('pointerleave', () => { hover = false; });
-  stage.addEventListener('click', e => { if (moved > 6) { e.preventDefault(); e.stopPropagation(); } }, true);
-  stage.addEventListener('wheel', e => { if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) { e.preventDefault(); v = 0; target = null; th -= e.deltaX * .15; } }, { passive: false });
-  stage.tabIndex = 0;
-  stage.addEventListener('keydown', e => { if (e.key === 'ArrowLeft') { snapTo(-1); e.preventDefault(); } if (e.key === 'ArrowRight') { snapTo(1); e.preventDefault(); } });
-  root.querySelectorAll('[data-nav]').forEach(b => b.addEventListener('click', () => snapTo(+b.dataset.nav)));
+  const cards = [...root.querySelectorAll('.mcard')];
   root.querySelectorAll('.mr-filters button').forEach(b => b.addEventListener('click', () => {
     root.querySelectorAll('.mr-filters button').forEach(x => x.classList.toggle('on', x === b));
-    cards = b.dataset.f === 'all' ? all : all.filter(c => c.dataset.t === b.dataset.f);
-    layout(); th = 0; target = null; v = 6;
+    cards.forEach(c => { c.hidden = b.dataset.f !== 'all' && c.dataset.t !== b.dataset.f; });
   }));
-  addEventListener('resize', layout);
-  layout(); render();
-  new IntersectionObserver(es => es.forEach(e => { const was = live; live = e.isIntersecting; if (live && !was) { last = 0; frame(); } })).observe(stage);
 })();
 
 // Grilles équilibrées : 4 éléments → 2 + 2, 6 → 3 + 3, 5 → 3 + 2…
@@ -183,14 +121,6 @@ document.querySelectorAll('.grid.g3, .grid.g4').forEach(g => {
   const rows = Math.ceil(n / c), cols = Math.ceil(n / rows);
   if (cols !== c) { g.dataset.cols = cols; g.style.setProperty('--cols', cols); }
 });
-
-// En-têtes de section : la ligne se trace quand la section arrive à l'écran
-(function () {
-  const ss = document.querySelectorAll('section');
-  if (!('IntersectionObserver' in window)) { ss.forEach(s => s.classList.add('seen')); return; }
-  const o = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('seen'); o.unobserve(e.target); } }), { threshold: .15 });
-  ss.forEach(s => o.observe(s));
-})();
 
 // Vidéo de l'atelier (fond de l'accueil) : lecture auto en sourdine, pause / son
 (function () {
@@ -205,3 +135,11 @@ document.querySelectorAll('.grid.g3, .grid.g4').forEach(g => {
   if (pb) pb.addEventListener('click', () => { if (v.paused) { userPaused = false; v.play(); } else { userPaused = true; v.pause(); } });
   if (sb) sb.addEventListener('click', () => { v.muted = !v.muted; f.classList.toggle('sound', !v.muted); if (!v.muted && v.paused) { userPaused = false; v.play(); } });
 })();
+
+// Thème clair / sombre (sombre par défaut, choix mémorisé)
+document.querySelectorAll('.theme-btn').forEach(b => b.addEventListener('click', () => {
+  const light = document.documentElement.dataset.theme === 'light';
+  if (light) delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = 'light';
+  try { localStorage.setItem('od3d-theme', light ? 'dark' : 'light'); } catch (e) {}
+  window.dispatchEvent(new Event('resize'));
+}));
