@@ -1,0 +1,568 @@
+0|Kontakt & Angebot 3D-Druck | O&D Impression 3D
+1|Zum Inhalt springen
+2|Startseite
+3|Leistungen
+4|Maschinen
+5|Vergleichen
+6|Projekte
+7|Über uns
+8|Blog
+9|Kontakt
+11|3D-Druck
+12|Werkstatt online
+13|SLS · FDM · Harz · CNC · 3D-Scan
+14|Seit 2021
+15|Sofortangebot
+16|Leistungen →
+17|Industrieller 3D-Druck in Belgien
+18|SLS-3D-Druck
+19|3D-Druck in Lüttich
+20|Rapid Prototyping Belgien
+21|Additive Fertigung FDM, SLA, SLS Belgien
+22|3D-Scan Belgien
+23|3D-Modellierung & CAD nach Maß Belgien
+24|Reverse Engineering
+25|Großformatiger 3D-Druck bis 1 m
+26|Harz-3D-Druck
+27|Kleinserienfertigung im 3D-Druck
+28|FDM-3D-Druck
+29|CNC-Bearbeitung
+30|Maschinen →
+42|Vergleiche →
+43|FDM vs. SLS vs. Harz
+44|PLA vs. PETG
+45|ABS vs. ASA
+46|PA12-CF vs. PA12-GF
+47|PPA-CF vs. PPS-CF
+48|PEEK vs. PEKK vs. Ultem
+49|Werkstoffe →
+50|Nylon PA12 grau
+51|Nylon PA12 Serie
+52|Rilsan PA11
+56|PA12 glasgefüllt
+58|PA12 lebensmittelecht
+72|Aluminium
+73|Messing
+74|Bronze
+75|Titan
+76|POM (Delrin®)
+77|Ertalon® (PA6)
+78|Projekte →
+79|Polypropylen-Teil für eine Logopädin
+80|Fleischwolf-Zahnrad im 3D-Druck nachgebaut
+81|Audi-S3-Teile in PAHT-CF nachgebaut
+82|Infrabel-Modell
+83|Hockerfüße
+84|Zaunspitze in ASA nachgebaut
+85|300 zweifarbige Schlüsselanhänger für Lx Cars
+86|Schaltkästen
+87|Loup-Garou-Wagen — Walibi
+88|Falke — J-P Craninx
+89|Über uns & Regionen →
+90|3D-Druck in der Provinz Lüttich
+91|3D-Druck in ganz Belgien
+92|3D-Druck in Verviers
+93|3D-Druck in Spa
+94|3D-Druck in Eupen
+95|3D-Druck in Seraing
+96|3D-Druck in Huy
+97|Werkstoffratgeber →
+98|Technologie-Quiz →
+99|Sofortangebot →
+100|Blog →
+101|FAQ →
+102|Kontakt →
+103|Entwurf · nicht offiziell
+104|Kontakt & Angebot 3D-Druck
+105|Kontaktieren Sie O&D Impression 3D für ein schnelles Angebot: industrieller 3D-Druck, Prototypenbau und Teile nach Maß. Werkstatt in Welkenraedt, Provinz Lüttich.
+106|Werkstatt
+108|4840 Welkenraedt, Belgien
+109|Telefon
+110|E-Mail
+112|Öffnungszeiten
+113|Mo–Sa, 9–17 Uhr
+114|Besuch nach Vereinbarung
+115|Nicht ausfüllen
+116|Gewünschte Technologie
+119|Harz
+121|3D-Scan
+122|Lasergravur
+123|Ich weiß es nicht
+124|Name *
+125|Firma
+126|E-Mail *
+127|Menge
+128|Lieferfrist
+129|Auswählen…
+130|Dringend
+131|2 Wochen
+132|1 Monat
+133|Flexibel
+134|Ihr Projekt *
+135|3D-Datei oder Zeichnung
+136|Anfrage senden
+137|Kontaktieren Sie uns
+138|Bei Fragen oder Anfragen können Sie uns jederzeit kontaktieren.
+139|Wir antworten Ihnen so schnell wie möglich.
+140|Öffnungszeiten Mo. – Sa.: 9 – 17 Uhr Sonntag: geschlossen
+141|Nächster Schritt
+142|Ihr Teil,
+143|gefertigt.
+144|Senden Sie Ihre 3D-Datei oder beschreiben Sie Ihren Bedarf: Sofortangebot mit Datei, individuelles Angebot innerhalb von 24 h.
+145|Individuelle Anfrage
+146|Additive Fertigung und Zerspanung für die Industrie. Rue Trois Bourdons 52E, 4840 Welkenraedt, Belgien. Seit 2021.
+147|Maschinen
+148|Vergleiche
+149|Werkstoffe
+150|Projekte
+151|Regionen
+153|Impressum
+154|Datenschutz
+155|Cookies
+156|FAQ
+157|Startseite O&D Impression 3D
+159|Hauptnavigation
+160|Menü öffnen
+161|Brotkrumen-Navigation
+162|Verwendung, Anforderungen (Temperatur, Belastung, Chemikalien), Werkstoff, Abmessungen…
+163|O&D Impression 3D | SLS-, FDM-3D-Druck & CNC in Lüttich
+164|Additive Fertigung & Zerspanung — Belgien
+165|Die Zukunft
+166|fertigen,
+167|Schicht für Schicht.
+168|SLS, FDM und Harz
+169|CNC-Bearbeitung
+170|und
+171|3D-Scan
+172|vereint in einer Werkstatt in Welkenraedt. Prototypen, technische Teile und Kleinserien für die Industrie und anspruchsvolle Branchen.
+173|Unsere Technologien
+174|Werkstatt gegründet
+175|Verfahren
+176|Werkstoffblätter
+177|24 h
+178|Individuelles Angebot
+179|Objekt
+180|Gebohrter Flansch Ø80
+181|Rotation
+182|Punkte
+183|Scanner
+185|[ 01 ] — Technologien
+186|Sechs Verfahren.
+187|Ein Ansprechpartner.
+188|Das Verfahren richtet sich nach Ihrem Lastenheft: Festigkeit, Präzision, Oberflächengüte, Menge, Budget.
+189|SLS — Lasersintern
+190|Funktionsteile aus Nylon, ohne Stützstrukturen. Rentable Kleinserien.
+191|Entdecken →
+192|FDM — Fadenablage
+193|Von PLA bis PEEK und ULTEM: Prototypen, Werkzeuge, technische Teile.
+194|RES — Harz
+196|Feine Details und glatte Oberflächen für Modelle und Designprototypen.
+197|CNC — Zerspanung
+198|Aluminium, Messing, Bronze, Titan, POM: aus dem Vollen gefräst.
+199|SCN — 3D-Scan
+201|Digitalisierung und Reverse Engineering von nicht mehr erhältlichen Teilen.
+202|XXL — Großformat
+204|Große Teile in einem einzigen Druck.
+205|[ 02 ] — Maschinenpark
+206|Was in der Werkstatt
+207|läuft.
+208|Gesamter Maschinenpark
+209|Maschine · 01
+210|Supermaker SLS1518: kompakter industrieller SLS-Druck, Bauraum 150×150×180 mm, PA11, PA12, TPU, CF, GF, integriertes Pulverrecycling. O&D, Lüttich.
+211|Datenblatt öffnen →
+212|Maschine · 02
+213|Supermaker SLS3540 Pro: großformatiger industrieller SLS-Druck, Bauraum 350×350×430 mm, PA11, PA12, TPU, CF, GF, integriertes Pulverrecycling. O&D…
+214|Maschine · 03
+215|Der Bambu Lab H2C druckt im FDM-Verfahren mit bis zu 24 Farben, ideal für mehrfarbige Teile und Multimaterialteile. Erhältlich bei O&D Impression 3D in…
+216|Maschine · 04
+217|Bambu Lab X1C: Hochgeschwindigkeits-FDM-Druck, Bauraum 256×256×256 mm, ideal für Serienfertigung und Rapid Prototyping. O&D Impression 3D…
+218|Maschine · 05
+219|Prusa Core One: industrieller FDM-Drucker für ASA, ABS, PC und PA, für Ihre Prototypen und Kleinserien. Bei O&D Impression 3D in…
+220|Maschine · 06
+221|3D-Druck in sehr großem Format mit dem Modix Big Meter. XXL- und Multimaterialteile bei O&D Impression 3D in Lüttich, Belgien.
+222|[ REFERENZEN ] — Sie haben uns ihre Teile anvertraut
+223|[ BIBLIOTHEK ] — Werkstoffe
+224|Von PLA
+225|bis
+226|PEEK.
+227|28 ausführliche Werkstoffblätter: Eigenschaften, Vorteile, Grenzen und kompatible Maschinen.
+228|Werkstoff · 01
+229|SLS-3D-Druck in grauem Nylon PA12: robuste, stabile und nachbearbeitbare Funktionsteile. Die SLS-Referenz für die Industrie, in…
+230|Werkstoff · 02
+231|Serienfertigung von SLS-Teilen in Nylon PA12: hervorragende Wiederholgenauigkeit und hohe mechanische Festigkeit. Ihr Partner in Welkenraedt (Lüttich).
+232|Werkstoff · 03
+233|Rilsan PA11 ist ein biobasiertes Nylon mit hoher Schlag- und Ermüdungsfestigkeit, flexibel und langlebig für mechanische Teile…
+234|Werkstoff · 04
+235|SLS-3D-Druck in Ultrasint® PA11: biobasiertes Nylon, flexibler als PA12 und biokompatibel, ideal für Medizin und flexible Teile. O&D…
+236|Werkstoff · 05
+237|Steife, leichte SLS-Teile aus kohlefaserverstärktem PA11: ideal für Luftfahrtstrukturen, Drohnen und Robotik. O&D Impression 3D, Lüttich.
+238|Werkstoff · 06
+239|SLS-3D-Druck in antistatischem PA11 ESD: Schutz empfindlicher elektronischer Bauteile, geeignet für strenge ESD-Umgebungen. O&D, Lüttich.
+240|Werkstoff · 07
+241|Mit Glaskugeln verstärktes PA12 im SLS-Lasersintern: höhere Steifigkeit und Maßhaltigkeit als Standard-PA12. O&D Impression 3D, Lüttich.
+242|Werkstoff · 08
+243|SLS-3D-Druck in flammhemmendem PA2210 FR: zertifiziert für Luftfahrt und Verteidigung, entspricht den strengsten Brandschutznormen. O&D, Lüttich.
+244|Gesamte Bibliothek
+245|[ 03 ] — Methode
+246|Von der Datei
+247|zum Teil.
+248|Senden
+249|STEP-, STL- oder 3MF-Datei, Zeichnung, Skizze… oder das zu scannende Teil.
+250|Analyse & Angebot
+251|Sofort mit 3D-Datei, individuell innerhalb von 24 h.
+252|Fertigung
+253|Verfahren und Werkstoff je nach Ihren Anforderungen.
+254|Lieferung
+255|Versand oder Abholung in der Werkstatt in Welkenraedt.
+256|[ 04 ] — Projekte
+257|Echte
+258|Projekte.
+259|Alle Projekte
+260|Projekt · 01
+261|Maßgefertigtes Therapiewerkzeug für eine Logopädin, im 3D-Druck aus Polypropylen nachgebaut und an die Bedürfnisse der Patienten angepasst. O&D-Projekt…
+262|Projekt · 02
+263|Gebrochenes Fleischwolf-Zahnrad in PLA nachgebaut: Reverse Engineering in 1 h, Teil in weniger als 48 h fertig. Ein Projekt von O&D Impression 3D, Welkenraedt.
+264|Projekt · 03
+265|Nachbau beschädigter Audi-S3-Teile in PAHT-CF und PLA: Stoßstangengitter und S3-Logoabdeckungen. Ein Projekt von O&D Impression 3D, Lüttich.
+266|Projekt · 04
+267|3D-gedruckte Miniaturschienen aus PLA für das Einweihungsmodell von Infrabel. Ein Projekt von O&D Impression 3D, Werkstatt in Welkenraedt (Lüttich).
+268|Projekt · 05
+269|40-cm-Hockerfüße aus schwarzem PLA, maßgedruckt für Airbnb-Ferienhäuser in Herve: 24 h pro Teil, Prototyp gratis. O&D-Projekt…
+270|Projekt · 06
+271|Gebrochene dekorative Zaunspitze, anhand von Fotos neu konstruiert und in UV-beständigem ASA auf einem Bambu Lab X1C nachgedruckt. O&D-Projekt, Welkenraedt.
+272|[ 05 ] — Messen & Veranstaltungen
+273|Vor
+274|Ort.
+275|Wir gehen auf die Industrie zu: Euronaval für Marine und Verteidigung, Formnext für additive Fertigung, Batibouw für das Bauwesen.
+276|Euronaval 2026 · Paris
+277|Formnext · Frankfurt
+278|Batibouw · Brüssel
+279|[ 06 ] — Werkzeuge
+280|Wählen, vergleichen,
+281|kalkulieren.
+282|Werkzeug
+283|Quiz: welche Technologie?
+284|Ein paar Fragen, um herauszufinden, welches Verfahren zu Ihrem Teil passt.
+285|Öffnen →
+286|STL hochladen, Werkstoff wählen: sofortige Schätzung.
+287|Werkstoffvergleich
+288|PLA vs. PETG, PEEK vs. PEKK vs. Ultem, FDM vs. SLS vs. Harz…
+289|Ratgeber Werkstoffe & Technologien
+290|Der komplette Ratgeber zur Wahl von Verfahren und Werkstoff.
+292|Stadt Verviers
+297|Stadt Spa
+302|SLS-, FDM- und Harz-3D-Druck, CNC-Bearbeitung und 3D-Scan in Welkenraedt (Lüttich). Prototypen, technische Teile und Kleinserien. Angebot innerhalb von 24 h.
+303|Maschinenpark & 21 Werkstoffe in Lüttich | O&D Impression 3D
+304|Maschinenpark & 21 Werkstoffe in Lüttich
+305|Maschinenpark
+306|Maschinen & Werkstoffe
+307|Unser Maschinenpark und unsere Werkstoffe, nach Technologie sortiert. Wählen Sie eine Technologie, um alles zu verstehen, oder öffnen Sie direkt ein Datenblatt.
+308|Scan & Laser
+309|Technologie wählen
+310|Selektives Lasersintern
+311|Funktions- und mechanische Teile · Komplexe Formen, innere Kanäle, integrierte Scharniere
+312|2 Maschinen · 10 Werkstoffe →
+313|Schmelzschichtung
+314|Schnelle, günstige Prototypen · Sehr große Werkstoffauswahl, von PLA bis PEEK und ULTEM
+315|5 Maschinen · 12 Werkstoffe →
+316|Photopolymerisation (MSLA)
+317|Sehr feine Details · Glatte Oberflächen direkt aus der Maschine
+318|1 Maschine →
+319|CNC-Zerspanung
+320|Metallteile · Präzise Passungen und Bohrungen
+321|1 Maschine · 6 Werkstoffe →
+322|SLS — Selektives Lasersintern
+323|Das SLS-Ökosystem entdecken
+324|SLS-Maschinen
+325|SLS-Maschine
+326|SLS-Druck
+327|Datenblatt ansehen →
+328|SLS - Großformat
+329|SLS-Werkstoffe
+330|SLS-Werkstoff
+331|Vielseitig · Robust · Wirtschaftlich
+332|Reproduzierbar · Industriell · Serie
+333|Vielseitig · Robust · Flexibel
+334|Biobasiert · Flexibel · Biokompatibel
+335|Steif · Leicht · Strukturell
+336|Antistatisch · Schützend · Elektronik
+337|Steif · Stabil · Thermisch
+338|Flammhemmend · Zertifiziert · Luftfahrt
+339|Lebensmittelecht · Zertifiziert · Detektierbar
+340|Flexibel · Elastisch · Dämpfend
+341|FDM — Schmelzschichtung
+342|Das FDM-Ökosystem entdecken
+343|FDM-Maschinen
+344|FDM-Maschine
+345|Multimaterialdruck
+346|3D-Druck für Serien
+347|Schnelles industrielles Prototyping
+348|Großformatiger 3D-Druck
+349|Industrielle Werkstoffe
+350|FDM-Werkstoffe
+351|FDM-Werkstoff
+352|PLA, der Standardwerkstoff
+353|Der große Bruder von PLA
+354|Der Klassiker für technische Teile
+355|Für den Außeneinsatz?
+356|Flexibilität ohne Kopfzerbrechen
+357|Leicht, flexibel und chemikalienbeständig.
+358|Steif leicht technisch
+359|Stabil robust industriell
+360|Extreme Leistung für raue Umgebungen.
+361|Maximale industrielle Leistung
+362|Zugängliche Hochleistung
+363|Extreme Hochtemperatur
+364|Harz — Photopolymerisation (MSLA)
+365|Das Harz-Ökosystem entdecken
+366|Harz-Maschinen
+367|Harz-Maschine
+368|Harz-3D-Druck
+369|CNC — CNC-Zerspanung
+370|Das CNC-Ökosystem entdecken
+371|CNC-Maschinen
+372|CNC-Maschine
+373|CNC-Werkstoffe
+375|CNC-Werkstoff
+376|Leicht · Zerspanbar · Vielseitig
+378|Zerspanbar · Ästhetisch · Leitfähig
+380|Verschleißfest · Selbstschmierend · Langlebig
+382|Ultrafest · Leicht · Biokompatibel
+384|Gleitfähig · Stabil · Präzise
+386|Zäh · Verschleißfest · Dämpfend
+387|3D-Scan & Lasergravur
+388|Ausrüstung
+389|Industriescanner
+390|Lasergravierer
+391|Ein Park mit rund zehn Profimaschinen (FDM, SLS, Harz) und 21 qualifizierten Werkstoffen, von PLA bis Industrie-Ultem. O&D Impression 3D, Lüttich.
+392|FDM-3D-Druck in Belgien | O&D Impression 3D
+393|Professionelle additive Fertigung
+394|FDM-Ökosystem — Schmelzschichtung
+395|Die am weitesten verbreitete 3D-Drucktechnologie: ein geschmolzener Kunststofffaden, Schicht für Schicht aufgetragen. Vom PLA-Prototyp bis zum PEEK-Luftfahrtteil.
+396|[ 01 ] — Kurz erklärt
+397|FDM in 3 Schritten
+398|Der Faden schmilzt
+399|Eine Kunststoffspule speist eine beheizte Düse, die das Material schmilzt.
+400|Die Düse zeichnet
+401|Die Düse trägt das Material Linie für Linie auf, wie ein computergesteuerter 3D-Stift.
+402|Schicht um Schicht
+403|Das Teil wächst Schicht für Schicht, vom günstigen PLA bis zum Hochleistungs-PEEK.
+404|Ihr Teil
+405|Senden Sie Ihre Datei: Wir bestätigen, dass FDM die richtige Wahl ist, oder empfehlen Ihnen eine andere Technologie.
+406|Wann wählen?
+407|Ideal für
+408|Schnelle, günstige Prototypen
+409|Sehr große Werkstoffauswahl, von PLA bis PEEK und ULTEM
+410|Große Teile (Modix Big Meter)
+411|Mehrfarbige und Multimaterialteile
+412|Weniger geeignet, wenn
+413|Sichtbare Schichtlinien
+414|Geringere Festigkeit zwischen den Schichten: Die Ausrichtung zählt
+415|Stützstrukturen für Überhänge nötig
+416|Unsere FDM-Maschinen
+417|Unsere FDM-Werkstoffe
+418|Vergleichen, um besser zu wählen
+419|Vergleich · 01
+420|FDM, SLS oder Harz: Welche 3D-Drucktechnologie wählen? Vergleich von Präzision, Werkstoffen, Kosten und Lieferzeit, von O&D Impression 3D in Lüttich.
+421|Vergleich · 02
+422|PLA oder PETG: Was wählen? Kompletter Vergleich von Festigkeit, Temperatur und Kosten, von O&D Impression 3D, Ihrer Werkstatt in Welkenraedt (Lüttich).
+423|Vergleich · 03
+424|ABS oder ASA für Ihre technischen Teile? Vergleich von UV-, Wärme- und mechanischer Beständigkeit, von O&D Impression 3D, Werkstatt in Welkenraedt (Lüttich).
+425|Vergleich · 04
+426|Kohlefaser oder Glasfaser für Ihr Nylon PA12? Vergleich von Steifigkeit, Gewicht und Schlagfestigkeit, von O&D Impression 3D in Lüttich.
+427|Vergleich · 05
+428|PPA-CF oder PPS-CF für Ihre Industrieteile? Entdecken Sie unseren kompletten technischen Vergleich: thermische, chemische und mechanische Beständigkeit in…
+429|Vergleich · 06
+430|PEEK, PEKK oder Ultem für Ihre Hochleistungsteile? Vergleich von Temperatur, Festigkeit und Kosten, von O&D Impression 3D in Lüttich.
+431|Realisierte Projekte
+432|FDM-3D-Druck in Welkenraedt (Lüttich): Prototypen, technische Teile und große Teile, von PLA bis PEEK und ULTEM. Angebot innerhalb von 24 h.
+433|Harz-SLA-3D-Druck Belgien | O&D Impression 3D
+434|Harz-Ökosystem — Photopolymerisation (MSLA)
+435|Ein flüssiges Harz, das durch Licht aushärtet, für Teile mit unübertroffener Feinheit und Oberflächengüte.
+436|Harz in 3 Schritten
+437|Ein Harzbehälter
+438|Das Teil wird in einem Behälter mit flüssigem Harz gefertigt.
+439|Licht härtet aus
+440|Ein UV-Bildschirm härtet eine ganze Schicht auf einmal aus, mit sehr hoher Feinheit.
+441|Waschen und Nachhärten
+442|Das Teil wird gewaschen und dann nachgehärtet, um seine endgültigen Eigenschaften zu erreichen.
+443|Senden Sie Ihre Datei: Wir bestätigen, dass Harz die richtige Wahl ist, oder empfehlen Ihnen eine andere Technologie.
+444|Sehr feine Details
+445|Glatte Oberflächen direkt aus der Maschine
+446|Modelle, Figuren, Designprototypen
+447|Urmodelle für den Formenbau
+448|Spröder als Nylon oder technische Filamente
+449|Auf Dauer UV-empfindlich
+450|Max. Bauraum 298 × 300 × 164 mm
+451|Unsere Harz-Maschinen
+452|Häufige Fragen
+453|Was ist der Unterschied zwischen SLA und MSLA/LCD?
+454|SLA verwendet einen UV-Laser (präziser bei großen Teilen). MSLA verwendet einen UV-LCD-Bildschirm (schneller bei Kleinserien). Das optische Ergebnis ist identisch.
+455|Sind Harzteile stabil?
+456|Weniger schlagfest als FDM, aber steifer und präziser. Ideal für Finish, Präsentation und Formenbau. Für stark belastete Teile ist FDM vorzuziehen.
+457|Kann man Harzteile lackieren oder schleifen?
+458|Ja. Acrylfarbe oder Lack, Schleifen bis Körnung 2000, Klarlack. Die glatte Ausgangsoberfläche reduziert den Vorbereitungsaufwand erheblich.
+459|Sind Harze für den Lebensmittelkontakt sicher?
+460|Für direkten Lebensmittelkontakt raten wir von Harz ab und bevorzugen PETG oder PP. Biokompatible Harze sind für Medizin und Zahnmedizin zertifiziert.
+461|Wie groß kann ein Harzteil maximal sein?
+462|Unsere Harz-Ausrüstung ermöglicht Teile bis 218 × 122 × 260 mm in einem Durchgang. Größere Teile segmentieren und montieren wir.
+463|Welche Lieferzeit für einen Harz-Auftrag?
+464|Einfache Teile: 24 h. Figurenserien oder Teile mit Nachbearbeitung: 48–72 h. Genaues Angebot und Lieferzeit je nach Datei.
+465|Ausführliche Beschreibung
+466|Alles Wissenswerte — zum Aufklappen klicken
+467|[ 02 ] — Anwendungen
+468|Was wir in Harz drucken
+469|Von Schmuck bis Medizin: Harz ist die Referenztechnologie für Präzision und Ästhetik.
+470|Schmuck
+471|Gießereimodelle aus gießbarem Harz. Belgische Juweliere, Schmuckgeschäfte, Uhren.
+472|Zahnmedizin & Medizin
+473|Zahnmodelle, Schienen, chirurgische Bohrschablonen aus biokompatiblem Harz. Präzision ±0,05 mm.
+474|Figuren & Sammlerstücke
+475|Charaktere, Statuen, Spielfiguren. Stoffstrukturen, Gesichtsausdrücke — alles wird wiedergegeben.
+476|Premium-Prototypen
+477|Wenn FDM nicht präzise genug ist. Transparentes Harz zur Glassimulation.
+478|Architekturmodelle
+479|Architektonische Detailelemente (Geländer, Säulen, Ornamente) im Maßstab 1:50.
+480|Spezialharze
+481|Hochtemperatur (>200 °C), steif-opak, gummiartig, gießbar. Wählen Sie nach Ihrem Bedarf.
+482|UV 405 nm SLA · MSLA · Auflösung 0,025 mm
+483|[ 03 ] — Unsere Harze
+484|Vier Harzfamilien für jeden Einsatz
+485|Jede Anwendung hat ihr Harz. Wir wählen die Formulierung, die zu Ihren funktionalen und ästhetischen Anforderungen passt.
+486|Standard steif opak — allgemeiner Einsatz, Anschauungsprototypen
+487|Kristallklar — Glassimulation, Optik
+488|Gießbar — Gießereimodelle für Schmuck, Asche <0,01 %
+489|Hochtemperatur — beständig bis 200–220 °C
+490|Biokompatibel — Zahnmedizin, Medizin, zertifiziert
+491|[ 04 ] — Referenzen
+492|Harz in Aktion
+493|Konkrete Harz-SLA/MSLA-Projekte für belgische Kunden.
+494|Juwelier · Lüttich Zentrum
+495|Gießereimodelle
+496|50 Ringmodelle aus gießbarem Harz. Toleranz ±0,03 mm, perfekt glatte Oberfläche.
+497|50 Modelle
+499|Gießerei
+500|Zahnarztpraxis · Provinz Lüttich
+501|Modelle und chirurgische Schablonen
+502|12 Zahnmodelle aus biokompatiblem Harz für die Implantatplanung. Geliefert in 24 h.
+503|12 Modelle
+504|Biokompatibel
+506|Spielestudio · Belgien
+507|Sammlerfiguren
+508|200 Sammlerfiguren für ein Brettspiel. Details von 0,2 mm auf jedem Stück wiedergegeben.
+509|200 Figuren
+510|Details 0,2 mm
+511|[ 05 ] — Harz-Nachbearbeitung
+512|Vom Druck zum perfekt fertigen Teil
+513|Die Qualität eines Harzteils hängt ebenso von der Nachbearbeitung ab wie vom Druck selbst.
+514|Der Finish-Prozess bei Harz
+515|Nach dem Druck wird jedes Harzteil zwingend gewaschen (Isopropylalkohol oder eine spezielle Lösung), um nicht ausgehärtetes Harz zu entfernen, und anschließend vollständig UV-belichtet, um die endgültige Härte und Maßhaltigkeit zu gewährleisten. Ohne diesen Schritt bleibt das Teil klebrig und zerbrechlich.
+516|Dieser Prozess ist in unserem Standardpreis enthalten. Für Teile mit besonderem Finish (Schleifen, Lackieren, Versiegeln) bieten wir ergänzende Leistungen für jede Anwendung an.
+517|Harz und regulierte Branchen
+518|Für medizinische und zahnmedizinische Anwendungen verwenden wir ausschließlich zertifizierte biokompatible Harze (Klasse IIa). Für diese Harze liegen Sicherheitsdatenblätter und Zertifikate vor, die wir Ihnen auf Anfrage für Ihre Konformitätsunterlagen zur Verfügung stellen.
+519|Für Schmuck und Guss haben unsere gießbaren Harze einen Aschegehalt unter 0,01 %, kompatibel mit allen professionellen europäischen Gießereien. Wir stellen die technischen Datenblätter des Herstellers zur Prüfung durch Ihre Gießerei bereit.
+520|Harz-3D-Druck SLA/MSLA in Belgien: glatte Oberfläche, Präzision ±0,025 mm. Schmuck, Zahnmedizin, Premium-Prototypen. Werkstatt in Welkenraedt, Lüttich.
+521|SLS-3D-Druck Nylon-Sintern Belgien | O&D Impression 3D
+522|SLS-Ökosystem — Selektives Lasersintern
+523|Beim Lasersintern wird Nylonpulver ganz ohne Stützstrukturen zu festen Funktionsteilen. Die Technologie für technische Teile und Kleinserien.
+524|SLS in 3 Schritten
+525|Eine Pulverschicht
+526|Eine dünne Schicht Nylonpulver wird in der Baukammer verteilt.
+527|Der Laser zeichnet
+528|Ein Laser schmilzt das Pulver nur dort, wo das Teil entstehen soll.
+529|Das wiederholt sich bis oben. Das nicht geschmolzene Pulver stützt das Teil: keine Stützen zu entfernen.
+530|Senden Sie Ihre Datei: Wir bestätigen, dass SLS die richtige Wahl ist, oder empfehlen Ihnen eine andere Technologie.
+531|Funktions- und mechanische Teile
+532|Komplexe Formen, innere Kanäle, integrierte Scharniere
+533|Kleinserien: Dutzende Teile pro Zyklus
+534|Schlag- und verschleißfeste Teile
+535|Leicht körnige Oberfläche (Finish möglich)
+536|Begrenzte Farben: weiß, grau oder schwarz je nach Pulver
+537|Max. Bauraum 350 × 350 × 430 mm
+538|Unsere SLS-Maschinen
+539|Unsere SLS-Werkstoffe
+540|Ist SLS teurer als FDM?
+541|Bei einem Einzelteil ja. Ab 5–10 Teilen wird der Stückpreis jedoch wettbewerbsfähig, da die Kammer mit mehreren Teilen gleichzeitig gefüllt wird.
+542|Sind SLS-Teile dicht?
+543|Nicht von Haus aus. Für dichte Anwendungen tragen wir eine Epoxid-Imprägnierung auf, die die Poren verschließt. Vor der Lieferung geprüft.
+544|Kann man SLS-Teile färben?
+545|Rohes PA12 ist grauweiß. Tauchfärben für gleichmäßige Farben (schwarz, blau, rot). Spritzlackierung für kräftige Farben oder Verläufe.
+546|Welche Maßtoleranz hat SLS?
+547|±0,2–0,3 mm bei kleinen Maßen, ±0,5 mm bei großen Abmessungen. Bei kritischen Montageteilen ein Spiel von 0,3–0,5 mm vorsehen.
+548|Kann man funktionsfähige Baugruppen in einem Stück drucken?
+549|Ja, das ist einer der großen Vorteile von SLS. Scharniere, Kugelgelenke, Zahnräder — montiert gedruckt, einsatzbereit. Minimales Funktionsspiel: 0,5 mm zwischen Flächen.
+550|Welche SLS-Werkstoffe bieten Sie an?
+551|Standard-PA12, biobasiertes PA11, flexibles SLS-TPU und PA12-GF (glasfaserverstärkt). Jeder Werkstoff hat spezifische mechanische Eigenschaften für unterschiedliche Einsätze.
+552|[ 02 ] — Vorteile von SLS
+553|Warum SLS wählen?
+554|Wenn die Geometrie für FDM zu komplex ist und die mechanische Festigkeit wichtiger ist als die Oberflächenpräzision.
+555|Ohne Stützstrukturen
+556|In FDM unmögliche Geometrien, innere Kanäle, Scharniere in einem Stück gedruckt.
+557|Mechanische Festigkeit
+558|Gesintertes PA12: 45–50 MPa Zugfestigkeit, 15–20 % Dehnung. Beständig gegen Öle und Lösungsmittel.
+559|Scharniere & Zahnräder
+560|Gelenkmechanismen, Zahnräder, Schnappverbindungen — montiert gedruckt, ohne Nachmontage.
+561|Rentable Kleinserien
+562|Die SLS-Kammer fasst Dutzende Teile gleichzeitig. Degressiver Stückpreis ab 5–10 Teilen.
+563|Nachbearbeitung
+564|Färben, Gleitschleifen, Kugelstrahlen. SLS-Teile vertragen alle Oberflächenbehandlungen.
+565|Fortschrittliche Werkstoffe
+566|PA12, biobasiertes PA11, flexibles SLS-TPU, glasverstärktes PA12-GF.
+567|CO₂-LASER 0 Stützen SLS · PA12 · Festigkeit 45–50 MPa
+568|[ 03 ] — SLS-Technologie
+569|Wie funktioniert SLS-Sintern?
+570|Ein CO₂-Laser schmilzt Nylonpulver selektiv Schicht für Schicht. Das nicht gesinterte Pulver dient natürlich als Stütze — keine Stützen zu entfernen.
+571|CO₂-Laser sintert PA12 Schicht für Schicht
+572|Umgebendes Pulver = natürliche Stütze
+573|Zugfestigkeit: 45–50 MPa
+574|Bruchdehnung: 15–20 %
+575|Temperaturbereich: -40 °C bis +90 °C im Dauerbetrieb
+576|SLS in Aktion
+577|SLS-Teile für industrielle und gewerbliche Anwendungen.
+578|Robotik · Belgien
+579|Leichter Roboterarm
+580|Arm aus PA12 SLS mit inneren Kabelkanälen, direkt im Teil gedruckt.
+581|Innere Kanäle
+583|Leichtigkeit
+584|Sport & Outdoor · Lüttich
+585|Komponenten für Skibindungen
+586|50 Teile aus PA12 SLS für Skibindungen. Kältebeständigkeit und Temperaturwechsel validiert.
+587|50 Teile
+588|Temperaturwechsel validiert
+589|Hausautomation · Provinz Lüttich
+590|IoT-Sensorgehäuse
+591|120 Gehäuse aus PA12 mit integrierten Clips. Schwarz gefärbt, professionelles Finish.
+592|120 Gehäuse
+593|Integrierte Clips
+594|Schwarz gefärbt
+595|[ 05 ] — Konstruieren für SLS
+596|Optimieren Sie Ihr Design für das Lasersintern
+597|SLS bietet einzigartige Gestaltungsfreiheit — sofern einige spezifische Konstruktionsregeln beachtet werden.
+598|SLS-Konstruktionsregeln
+599|SLS ermöglicht dank fehlender Stützstrukturen Geometrien, die in FDM unmöglich sind. Einige Regeln gelten jedoch: minimale Wandstärke von 0,8 mm, Mindestabstand von 0,3 bis 0,5 mm zwischen zwei beweglichen Flächen, und geschlossene Hohlräume brauchen eine oder mehrere Ablauföffnungen, damit das nicht gesinterte Pulver entfernt werden kann.
+600|Unser Techniker prüft Ihre Datei vor der Produktion und weist Sie auf Problemstellen hin. Falls nötig, schlagen wir kleine Änderungen vor, um einen erfolgreichen Druck zu gewährleisten, ohne die Funktion zu beeinträchtigen.
+601|Wirtschaftlichkeit und Kammeroptimierung
+602|Die SLS-Kammer kann mehrere Dutzend Teile gleichzeitig aufnehmen. Je besser die Kammer gefüllt ist, desto niedriger die Stückkosten. Für Kunden mit mehreren Teilenummern optimieren wir die Platzierung der Teile in der Kammer, um die Packungsdichte zu maximieren und die Kosten pro Teil zu minimieren.
+603|Diese Optimierung kann gegenüber Einzeldrucken 20 bis 40 % einsparen. Kontaktieren Sie uns mit allen Ihren Teilenummern für ein optimiertes Gesamtangebot.
+604|SLS-3D-Druck in Belgien: Teile aus Nylon PA12 ohne Stützstrukturen, komplexe Geometrien, mechanische Festigkeit 45–50 MPa. Werkstatt in Welkenraedt, Provinz Lüttich.
+605|CNC-Bearbeitung von Aluminium, Messing & Kunststoffen | O&D Impression 3D
+606|CNC-Ökosystem — CNC-Zerspanung
+607|Wenn das Teil aus Metall oder sehr präzise sein muss, fräsen wir es aus dem Vollen. Die ideale Ergänzung zum 3D-Druck.
+608|CNC-Bearbeitung in 3 Schritten
+609|Ein Materialblock
+610|Wir beginnen mit einem Rohblock: Aluminium, Messing, technischer Kunststoff…
+611|Der Fräser trägt ab
+612|Ein schnell drehender Fräser trägt das Material gemäß Ihrer 3D-Datei ab.
+613|Ein Teil aus dem Vollen
+614|Das Ergebnis ist ein massives, präzises Teil mit schöner Oberfläche.
+615|Senden Sie Ihre Datei: Wir bestätigen, dass die CNC-Bearbeitung die richtige Wahl ist, oder empfehlen Ihnen eine andere Technologie.
+616|Metallteile
+617|Präzise Passungen und Bohrungen
+618|Mechanische Teile, die Verschleiß oder Hitze ausgesetzt sind
+619|Platten, Halterungen, Kleinserien
+620|Manche Innenformen sind unmöglich (dem 3D-Druck vorbehalten)
+621|Mehr Materialverschnitt als beim 3D-Druck
+622|Größe durch den Maschinentisch begrenzt
+623|Unsere CNC-Maschinen
+624|Unsere CNC-Werkstoffe
+625|CNC-Bearbeitung in Welkenraedt (Lüttich): Aluminium, Messing, Bronze, Titan, POM, Ertalon. Präzise Teile als Einzelstück oder in Kleinserie.

@@ -1,0 +1,564 @@
+0|Contact & offerte 3D-printen | O&D Impression 3D
+1|Naar de inhoud
+2|Home
+3|Diensten
+4|Machinepark
+5|Vergelijken
+6|Projecten
+7|Over ons
+8|Blog
+9|Contact
+11|3D-printen
+12|Atelier online
+13|SLS · FDM · Hars · CNC · 3D-scan
+14|Sinds 2021
+15|Directe offerte
+16|Diensten →
+17|Industrieel 3D-printen in België
+18|SLS-3D-printen
+19|3D-printen in Luik
+20|Rapid prototyping België
+21|Additieve productie FDM, SLA, SLS België
+22|3D-scannen België
+23|3D-modellering & CAD op maat België
+24|Reverse engineering
+25|3D-printen op groot formaat tot 1 m
+26|3D-printen in hars
+27|Kleine series in 3D-print
+28|FDM-3D-printen
+29|CNC-bewerking
+30|Machines →
+42|Vergelijkingen →
+43|FDM vs SLS vs hars
+48|PEEK vs PEKK vs Ultem
+49|Materialen →
+50|Nylon PA12 grijs
+51|Nylon PA12 serie
+52|Rilsan PA11
+56|Glasgevuld PA12
+58|Voedselveilig PA12
+72|Aluminium
+73|Messing
+74|Brons
+75|Titanium
+76|POM (Delrin®)
+77|Ertalon® (PA6)
+78|Projecten →
+79|Polypropyleen onderdeel voor een logopedist
+80|Tandwiel van een vleesmolen in 3D nagemaakt
+81|Audi S3-onderdelen nagemaakt in PAHT-CF
+82|Infrabel-maquette
+83|Krukvoeten
+84|Hekpunt nagemaakt in ASA
+85|300 tweekleurige sleutelhangers voor Lx Cars
+86|Elektriciteitskasten
+87|Loup-Garou-wagentjes — Walibi
+88|Valk — J-P Craninx
+89|Over ons & regio's →
+90|3D-printen in de provincie Luik
+91|3D-printen in heel België
+92|3D-printen in Verviers
+93|3D-printen in Spa
+94|3D-Druck in Eupen
+95|3D-printen in Seraing
+96|3D-printen in Hoei
+97|Materialengids →
+98|Technologiequiz →
+99|Directe offerte →
+100|Blog →
+101|FAQ →
+102|Contact →
+103|Maquette · niet officieel
+104|Contact & offerte 3D-printen
+105|Neem contact op met O&D Impression 3D voor een snelle offerte: industrieel 3D-printen, prototyping en onderdelen op maat. Atelier in Welkenraedt, provincie Luik.
+106|Atelier
+108|4840 Welkenraedt, België
+109|Telefoon
+110|E-mail
+112|Openingsuren
+113|Ma–za, 9–17 u
+114|Bezoek op afspraak
+115|Niet invullen
+116|Gewenste technologie
+119|Hars
+121|3D-scan
+122|Lasergravure
+123|Ik weet het niet
+124|Naam *
+125|Bedrijf
+126|E-mail *
+127|Aantal
+128|Levertermijn
+129|Kiezen…
+130|Dringend
+131|2 weken
+132|1 maand
+133|Flexibel
+134|Uw project *
+135|3D-bestand of tekening
+136|Mijn aanvraag versturen
+137|Contacteer ons
+138|Voor elke vraag of aanvraag kunt u ons gerust contacteren.
+139|We antwoorden u zo snel mogelijk.
+140|Openingsuren Ma. – Za.: 9 – 17 u Zondag: gesloten
+141|Volgende stap
+142|Uw onderdeel,
+143|geproduceerd.
+144|Stuur uw 3D-bestand of beschrijf uw behoefte: directe offerte met bestand, offerte op maat binnen 24 u.
+145|Aanvraag op maat
+146|Additieve productie en verspaning voor de industrie. Rue Trois Bourdons 52E, 4840 Welkenraedt, België. Sinds 2021.
+147|Machines
+148|Vergelijkingen
+149|Materialen
+150|Projecten
+151|Regio's
+153|Wettelijke vermeldingen
+154|Privacy
+155|Cookies
+156|FAQ
+157|Home O&D Impression 3D
+159|Hoofdnavigatie
+160|Menu openen
+161|Kruimelpad
+162|Gebruik, eisen (temperatuur, belasting, chemicaliën), materiaal, afmetingen…
+163|O&D Impression 3D | SLS-, FDM-3D-printen & CNC in Luik
+164|Additieve productie & verspaning — België
+165|De toekomst
+166|bouwen,
+167|laag per laag.
+168|SLS, FDM en hars
+169|CNC-bewerking
+170|en
+171|3D-scannen
+172|samen in één atelier in Welkenraedt. Prototypes, technische onderdelen en kleine series voor de industrie en veeleisende sectoren.
+173|Onze technologieën
+174|Atelier opgericht
+175|Processen
+176|Materiaalfiches
+177|24 u
+178|Offerte op maat
+179|Object
+180|Geboorde flens Ø80
+181|Rotatie
+182|Punten
+183|Scanner
+185|[ 01 ] — Technologieën
+186|Zes processen.
+187|Eén aanspreekpunt.
+188|Het proces wordt gekozen op basis van uw lastenboek: sterkte, precisie, oppervlakteafwerking, aantal, budget.
+189|SLS — Lasersinteren
+190|Functionele onderdelen in nylon, zonder supports. Rendabele kleine series.
+191|Ontdekken →
+192|FDM — Filamentdepositie
+193|Van PLA tot PEEK en ULTEM: prototypes, gereedschappen, technische onderdelen.
+194|RES — Hars
+196|Fijne details en gladde oppervlakken voor maquettes en designprototypes.
+197|CNC — Verspaning
+198|Aluminium, messing, brons, titanium, POM: uit het volle gefreesd.
+199|SCN — 3D-scan
+201|Digitalisering en reverse engineering van onderdelen die niet meer te vinden zijn.
+202|XXL — Groot formaat
+204|Grote onderdelen in één enkele print.
+205|[ 02 ] — Machinepark
+206|Wat er draait
+207|in het atelier.
+208|Volledig machinepark
+209|Machine · 01
+210|Supermaker SLS1518: compact industrieel SLS-printen, bouwvolume 150×150×180 mm, PA11, PA12, TPU, CF, GF, geïntegreerde poederrecyclage. O&D, Luik.
+211|Fiche openen →
+212|Machine · 02
+213|Supermaker SLS3540 Pro: industrieel SLS-printen op groot formaat, bouwvolume 350×350×430 mm, PA11, PA12, TPU, CF, GF, geïntegreerde poederrecyclage. O&D…
+214|Machine · 03
+215|De Bambu Lab H2C print in FDM met tot 24 kleuren, ideaal voor meerkleurige onderdelen en multimateriaalonderdelen. Beschikbaar bij O&D Impression 3D in…
+216|Machine · 04
+217|Bambu Lab X1C: snel FDM-printen, bouwvolume 256×256×256 mm, ideaal voor serieproductie en rapid prototyping. O&D Impression 3D…
+218|Machine · 05
+219|Prusa Core One: industriële FDM-printer voor ASA, ABS, PC en PA, voor uw prototypes en kleine producties. Bij O&D Impression 3D in…
+220|Machine · 06
+221|3D-printen op zeer groot formaat met de Modix Big Meter. XXL- en multimateriaalonderdelen bij O&D Impression 3D in Luik, België.
+222|[ REFERENTIES ] — Zij vertrouwden ons hun onderdelen toe
+223|[ BIBLIOTHEEK ] — Materialen
+224|Van PLA
+225|tot
+226|PEEK.
+227|28 gedetailleerde materiaalfiches: eigenschappen, voordelen, beperkingen en compatibele machines.
+228|Materiaal · 01
+229|SLS-3D-printen in grijs nylon PA12: sterke, stabiele en nabewerkbare functionele onderdelen. De SLS-referentie voor de industrie, in…
+230|Materiaal · 02
+231|Serieproductie van SLS-onderdelen in nylon PA12: uitstekende herhaalbaarheid en hoge mechanische sterkte. Uw partner in Welkenraedt (Luik).
+232|Materiaal · 03
+233|Rilsan PA11 is een biogebaseerd nylon dat zeer bestand is tegen schokken en vermoeiing, flexibel en duurzaam voor mechanische onderdelen…
+234|Materiaal · 04
+235|SLS-3D-printen in Ultrasint® PA11: biogebaseerd nylon, soepeler dan PA12 en biocompatibel, ideaal voor medische en flexibele onderdelen. O&D…
+236|Materiaal · 05
+237|Stijve, lichte SLS-onderdelen in koolstofvezelversterkt PA11: ideaal voor luchtvaartstructuren, drones en robotica. O&D Impression 3D, Luik.
+238|Materiaal · 06
+239|SLS-3D-printen in antistatisch PA11 ESD: bescherming van gevoelige elektronische componenten, geschikt voor strikte ESD-omgevingen. O&D, Luik.
+240|Materiaal · 07
+241|PA12 versterkt met glasparels via SLS-lasersinteren: hogere stijfheid en maatvastheid dan standaard PA12. O&D Impression 3D, Luik.
+242|Materiaal · 08
+243|SLS-3D-printen in vlamvertragend PA2210 FR: gecertificeerd voor luchtvaart en defensie, conform de strengste brandnormen. O&D, Luik.
+244|Volledige bibliotheek
+245|[ 03 ] — Methode
+246|Van bestand
+247|tot onderdeel.
+248|Versturen
+249|STEP-, STL- of 3MF-bestand, tekening, schets… of het te scannen onderdeel.
+250|Analyse & offerte
+251|Direct met 3D-bestand, op maat binnen 24 u.
+252|Productie
+253|Proces en materiaal gekozen volgens uw eisen.
+254|Levering
+255|Verzending of afhaling in het atelier in Welkenraedt.
+256|[ 04 ] — Projecten
+257|Echte
+258|projecten.
+259|Alle projecten
+260|Project · 01
+261|Revalidatiehulpmiddel op maat voor een logopedist, in polypropyleen nagemaakt via 3D-printen en aangepast aan de noden van de patiënten. Project van O&D…
+262|Project · 02
+263|Gebroken tandwiel van een vleesmolen nagemaakt in PLA: reverse engineering in 1 u, onderdeel klaar in minder dan 48 u. Een project van O&D Impression 3D, Welkenraedt.
+264|Project · 03
+265|Namaak van beschadigde Audi S3-onderdelen in PAHT-CF en PLA: bumperrooster en S3-logokapjes. Een project van O&D Impression 3D, Luik.
+266|Project · 04
+267|3D-geprinte miniatuurrails in PLA voor de inhuldigingsmaquette van Infrabel. Een project van O&D Impression 3D, atelier in Welkenraedt (Luik).
+268|Project · 05
+269|Krukvoeten van 40 cm in zwart PLA, op maat geprint voor Airbnb-vakantiewoningen in Herve: 24 u per stuk, gratis prototype. Project van O&D…
+270|Project · 06
+271|Gebroken decoratieve hekpunt, opnieuw getekend op basis van foto's en opnieuw geprint in UV-bestendig ASA op een Bambu Lab X1C. Project van O&D, Welkenraedt.
+272|[ 05 ] — Beurzen & evenementen
+273|Op het
+274|terrein.
+275|We gaan de industrie tegemoet: Euronaval voor maritiem en defensie, Formnext voor additieve productie, Batibouw voor de bouw.
+276|Euronaval 2026 · Parijs
+277|Formnext · Frankfurt
+278|Batibouw · Brussel
+279|[ 06 ] — Tools
+280|Kiezen, vergelijken,
+281|berekenen.
+282|Tool
+283|Quiz: welke technologie?
+284|Enkele vragen om te weten welk proces bij uw onderdeel past.
+285|Openen →
+286|Upload uw STL, kies het materiaal: directe schatting.
+287|Materiaalvergelijker
+288|PLA vs PETG, PEEK vs PEKK vs Ultem, FDM vs SLS vs hars…
+289|Gids materialen & technologieën
+290|De volledige gids om proces en materiaal te kiezen.
+292|Stad Verviers
+297|Stad Spa
+302|SLS-, FDM- en hars-3D-printen, CNC-bewerking en 3D-scannen in Welkenraedt (Luik). Prototypes, technische onderdelen en kleine series. Offerte binnen 24 u.
+303|Machinepark & 21 materialen in Luik | O&D Impression 3D
+304|Machinepark & 21 materialen in Luik
+305|Machinepark
+306|Machines & materialen
+307|Ons machinepark en onze materialen, gerangschikt per technologie. Kies een technologie om alles te begrijpen, of open meteen een fiche.
+308|Scan & laser
+309|Kies een technologie
+310|Selectief lasersinteren
+311|Functionele en mechanische onderdelen · Complexe vormen, interne kanalen, geïntegreerde scharnieren
+312|2 machines · 10 materialen →
+313|Fused filament fabrication
+314|Snelle, voordelige prototypes · Zeer ruime materiaalkeuze, van PLA tot PEEK en ULTEM
+315|5 machines · 12 materialen →
+316|Fotopolymerisatie (MSLA)
+317|Zeer fijne details · Gladde oppervlakken rechtstreeks uit de machine
+318|1 machine →
+319|CNC-verspaning
+320|Metalen onderdelen · Nauwkeurige passingen en boringen
+321|1 machine · 6 materialen →
+322|SLS — Selectief lasersinteren
+323|Ontdek het SLS-ecosysteem
+324|SLS-machines
+325|SLS-machine
+326|SLS-printen
+327|Fiche bekijken →
+328|SLS - Groot formaat
+329|SLS-materialen
+330|SLS-materiaal
+331|Veelzijdig · Sterk · Voordelig
+332|Reproduceerbaar · Industrieel · Serie
+333|Veelzijdig · Sterk · Flexibel
+334|Biogebaseerd · Soepel · Biocompatibel
+335|Stijf · Licht · Structureel
+336|Antistatisch · Beschermend · Elektronica
+337|Stijf · Stabiel · Thermisch
+338|Vlamvertragend · Gecertificeerd · Luchtvaart
+339|Voedselveilig · Gecertificeerd · Detecteerbaar
+340|Flexibel · Elastisch · Schokabsorberend
+341|FDM — Fused filament fabrication
+342|Ontdek het FDM-ecosysteem
+343|FDM-machines
+344|FDM-machine
+345|Multimateriaalprinten
+346|3D-printen voor series
+347|Snelle industriële prototyping
+348|3D-printen op groot formaat
+349|Industriële materialen
+350|FDM-materialen
+351|FDM-materiaal
+352|PLA, het standaardmateriaal
+353|De grote broer van PLA
+354|De klassieker voor technische onderdelen
+355|Voor buitengebruik?
+356|Flexibiliteit zonder kopzorgen
+357|Licht, flexibel en bestand tegen chemicaliën.
+358|Stijf licht technisch
+359|Stabiel robuust industrieel
+360|Extreme prestaties voor zware omgevingen.
+361|Maximale industriële prestaties
+362|Toegankelijke geavanceerde prestaties
+363|Extreem hoge temperatuur
+364|Hars — Fotopolymerisatie (MSLA)
+365|Ontdek het hars-ecosysteem
+366|Harsmachines
+367|Harsmachine
+368|3D-printen in hars
+369|CNC — CNC-verspaning
+370|Ontdek het CNC-ecosysteem
+371|CNC-machines
+372|CNC-machine
+373|CNC-materialen
+375|CNC-materiaal
+376|Licht · Verspaanbaar · Veelzijdig
+378|Verspaanbaar · Esthetisch · Geleidend
+380|Slijtvast · Zelfsmerend · Duurzaam
+382|Ultrasterk · Licht · Biocompatibel
+384|Glijdend · Stabiel · Precies
+386|Taai · Slijtvast · Dempend
+387|3D-scan & lasergravure
+388|Uitrusting
+389|Industriële scanner
+390|Lasergraveerder
+391|Een park van een tiental professionele machines (FDM, SLS, hars) en 21 gekwalificeerde materialen, van PLA tot industrieel Ultem. O&D Impression 3D, Luik.
+392|FDM-3D-printen in België | O&D Impression 3D
+393|Professionele additieve productie
+394|FDM-ecosysteem — Fused filament fabrication
+395|De meest verspreide 3D-printtechnologie: een gesmolten kunststofdraad, laag per laag aangebracht. Van een PLA-prototype tot een PEEK-onderdeel voor de luchtvaart.
+396|[ 01 ] — Eenvoudig uitgelegd
+397|FDM in 3 stappen
+398|De draad smelt
+399|Een spoel kunststof voedt een verwarmde nozzle die het materiaal doet smelten.
+400|De nozzle tekent
+401|De nozzle brengt het materiaal lijn per lijn aan, als een computergestuurde 3D-pen.
+402|Laag na laag
+403|Het onderdeel groeit laag per laag, van voordelig PLA tot hoogwaardig PEEK.
+404|Uw onderdeel
+405|Stuur uw bestand: we bevestigen dat FDM de juiste keuze is, of we verwijzen u naar een andere technologie.
+406|Wanneer kiezen?
+407|Ideaal voor
+408|Snelle, voordelige prototypes
+409|Zeer ruime materiaalkeuze, van PLA tot PEEK en ULTEM
+410|Grote onderdelen (Modix Big Meter)
+411|Meerkleurige en multimateriaalonderdelen
+412|Minder geschikt als
+413|Zichtbare laaglijnen
+414|Minder sterkte tussen de lagen: de oriëntatie telt
+415|Supports nodig voor overhangende delen
+416|Onze FDM-machines
+417|Onze FDM-materialen
+418|Vergelijken om beter te kiezen
+419|Vergelijking · 01
+420|FDM, SLS of hars: welke 3D-printtechnologie kiezen? Vergelijking van precisie, materialen, kosten en levertijd, door O&D Impression 3D in Luik.
+421|Vergelijking · 02
+422|PLA of PETG: welke kiezen? Volledige vergelijking van sterkte, temperatuur en kosten, door O&D Impression 3D, uw atelier in Welkenraedt (Luik).
+423|Vergelijking · 03
+424|ABS of ASA voor uw technische onderdelen? Vergelijking van UV-, thermische en mechanische bestendigheid, door O&D Impression 3D, atelier in Welkenraedt (Luik).
+425|Vergelijking · 04
+426|Koolstofvezel of glasvezel voor uw nylon PA12? Vergelijking van stijfheid, gewicht en slagvastheid, door O&D Impression 3D in Luik.
+427|Vergelijking · 05
+428|PPA-CF of PPS-CF voor uw industriële onderdelen? Ontdek onze volledige technische vergelijking: thermische, chemische en mechanische bestendigheid in…
+429|Vergelijking · 06
+430|PEEK, PEKK of Ultem voor uw hoogwaardige onderdelen? Vergelijking van temperatuur, sterkte en kosten, door O&D Impression 3D in Luik.
+431|Gerealiseerde projecten
+432|FDM-3D-printen in Welkenraedt (Luik): prototypes, technische onderdelen en grote onderdelen, van PLA tot PEEK en ULTEM. Offerte binnen 24 u.
+433|SLA-3D-printen in hars België | O&D Impression 3D
+434|Hars-ecosysteem — Fotopolymerisatie (MSLA)
+435|Een vloeibare hars die door licht uithardt, voor onderdelen met een ongeëvenaarde fijnheid en oppervlakteafwerking.
+436|Hars in 3 stappen
+437|Een harsbak
+438|Het onderdeel wordt gemaakt in een bak met vloeibare hars.
+439|Licht hardt uit
+440|Een UV-scherm hardt een volledige laag in één keer uit, met zeer grote fijnheid.
+441|Wassen en uitharden
+442|Het onderdeel wordt gewassen en daarna nagehard om zijn definitieve eigenschappen te bereiken.
+443|Stuur uw bestand: we bevestigen dat hars de juiste keuze is, of we verwijzen u naar een andere technologie.
+444|Zeer fijne details
+445|Gladde oppervlakken rechtstreeks uit de machine
+446|Maquettes, figuren, designprototypes
+447|Masters voor gietvormen
+448|Brosser dan nylon of technische filamenten
+449|Op termijn gevoelig voor UV
+450|Max. volume 298 × 300 × 164 mm
+451|Onze harsmachines
+452|Veelgestelde vragen
+453|Wat is het verschil tussen SLA en MSLA/LCD?
+454|SLA gebruikt een UV-laser (nauwkeuriger bij grote onderdelen). MSLA gebruikt een UV-lcd-scherm (sneller voor kleine series). Het visuele resultaat is identiek.
+455|Zijn harsonderdelen sterk?
+456|Minder slagvast dan FDM, maar stijver en nauwkeuriger. Ideaal voor afwerking, presentatie en gietvormen. Voor zwaar belaste onderdelen is FDM aangewezen.
+457|Kan men harsonderdelen schilderen of schuren?
+458|Ja. Acrylverf of lak, schuren tot korrel 2000, vernis. Het gladde basisoppervlak vermindert het voorbereidende werk aanzienlijk.
+459|Zijn harsen veilig voor contact met voedsel?
+460|Voor rechtstreeks contact met voedsel raden we hars af en verkiezen we PETG of PP. Biocompatibele harsen zijn gecertificeerd voor medisch en tandheelkundig gebruik.
+461|Wat is de maximale grootte in hars?
+462|Met onze harsuitrusting zijn onderdelen tot 218 × 122 × 260 mm in één keer mogelijk. Grotere onderdelen splitsen en assembleren we.
+463|Welke levertijd voor een harsbestelling?
+464|Eenvoudige onderdelen: 24 u. Series figuren of onderdelen met nabewerking: 48–72 u. Exacte offerte en levertijd volgens uw bestand.
+465|Gedetailleerde beschrijving
+466|Alles wat u moet weten — klik om open te klappen
+467|[ 02 ] — Toepassingen
+468|Wat we in hars printen
+469|Van juwelen tot medisch: hars is dé technologie voor precisie en esthetiek.
+470|Juwelen
+471|Gietmasters in gietbare hars. Belgische juweliers, juwelierszaken, horloges.
+472|Tandheelkunde & medisch
+473|Tandmodellen, aligners, chirurgische boorgeleiders in biocompatibele hars. Precisie ±0,05 mm.
+474|Figuren & verzamelobjecten
+475|Personages, beelden, speelstukken. Stofstructuren, gezichtsuitdrukkingen — alles wordt weergegeven.
+476|Premium prototypes
+477|Wanneer FDM niet nauwkeurig genoeg is. Transparante hars om glas te simuleren.
+478|Architectuurmaquettes
+479|Architecturale detailelementen (balustrades, zuilen, ornamenten) op schaal 1/50.
+480|Speciale harsen
+481|Hoge temperatuur (>200 °C), stijf-opaak, rubberachtig, gietbaar. Kies volgens uw behoefte.
+482|UV 405 nm SLA · MSLA · Resolutie 0,025 mm
+483|[ 03 ] — Onze harsen
+484|Vier harsfamilies voor elk gebruik
+485|Elke toepassing heeft haar hars. We kiezen de formulering die past bij uw functionele en esthetische eisen.
+486|Standaard stijf opaak — algemeen gebruik, visuele prototypes
+487|Kristalhelder — glassimulatie, optiek
+488|Gietbaar — gietmasters voor juwelen, as <0,01 %
+489|Hoge temperatuur — bestand tot 200–220 °C
+490|Biocompatibel — tandheelkunde, medisch, gecertificeerd
+491|[ 04 ] — Referenties
+492|Hars in actie
+493|Concrete hars-SLA/MSLA-projecten voor Belgische klanten.
+494|Juwelier · Centrum van Luik
+495|Gietmasters
+496|50 ringmasters in gietbare hars. Tolerantie ±0,03 mm, perfect glad oppervlak.
+497|50 masters
+499|Gieterij
+500|Tandartspraktijk · Provincie Luik
+501|Modellen en chirurgische geleiders
+502|12 tandmodellen in biocompatibele hars voor implantaatplanning. Geleverd in 24 u.
+503|12 modellen
+504|Biocompatibel
+506|Gamestudio · België
+507|Verzamelfiguren
+508|200 verzamelfiguren voor een bordspel. Details van 0,2 mm op elk stuk weergegeven.
+509|200 figuren
+510|Details 0,2 mm
+511|[ 05 ] — Nabewerking van hars
+512|Van print tot perfect afgewerkt onderdeel
+513|De kwaliteit van een harsonderdeel hangt evenveel af van de nabewerking als van de print zelf.
+514|Het afwerkingsproces voor hars
+515|Na het printen wordt elk harsonderdeel verplicht gewassen (isopropylalcohol of een specifieke oplossing) om niet-uitgeharde hars te verwijderen, en daarna volledig aan UV blootgesteld voor de uiteindelijke hardheid en maatvastheid. Zonder deze stap blijft het onderdeel kleverig en breekbaar.
+516|Dit proces is inbegrepen in ons standaardtarief. Voor onderdelen die een bijzondere afwerking vragen (schuren, schilderen, vernissen) bieden we aanvullende diensten aan, afgestemd op elke toepassing.
+517|Hars en gereglementeerde sectoren
+518|Voor medische en tandheelkundige toepassingen gebruiken we uitsluitend gecertificeerde biocompatibele harsen (klasse IIa). Voor deze harsen bestaan veiligheidsinformatiebladen en certificaten die we op aanvraag kunnen bezorgen voor uw conformiteitsdossiers.
+519|Voor juwelen en gieten hebben onze gietbare harsen een asgehalte van minder dan 0,01 %, compatibel met alle professionele Europese gieterijen. We kunnen de technische fiches van de fabrikant bezorgen ter validatie door uw gieter.
+520|SLA/MSLA-3D-printen in hars in België: gladde afwerking, precisie ±0,025 mm. Juwelen, tandheelkunde, premium prototypes. Atelier in Welkenraedt, Luik.
+521|SLS-3D-printen nylon sinteren België | O&D Impression 3D
+522|SLS-ecosysteem — Selectief lasersinteren
+523|Lasersinteren zet nylonpoeder om in stevige, functionele onderdelen, zonder enige support. Dé technologie voor technische onderdelen en kleine series.
+524|SLS in 3 stappen
+525|Een laag poeder
+526|Een dunne laag nylonpoeder wordt in de bouwkamer van de machine uitgespreid.
+527|De laser tekent
+528|Een laser smelt het poeder enkel waar het onderdeel moet ontstaan.
+529|Dit herhaalt zich tot bovenaan. Het niet-gesmolten poeder ondersteunt het onderdeel: geen supports te verwijderen.
+530|Stuur uw bestand: we bevestigen dat SLS de juiste keuze is, of we verwijzen u naar een andere technologie.
+531|Functionele en mechanische onderdelen
+532|Complexe vormen, interne kanalen, geïntegreerde scharnieren
+533|Kleine series: tientallen onderdelen per cyclus
+534|Onderdelen bestand tegen schokken en slijtage
+535|Licht korrelig oppervlak (afwerkingen mogelijk)
+536|Beperkte kleuren: wit, grijs of zwart naargelang het poeder
+537|Max. volume 350 × 350 × 430 mm
+538|Onze SLS-machines
+539|Onze SLS-materialen
+540|Is SLS duurder dan FDM?
+541|Voor één onderdeel wel. Maar vanaf 5–10 onderdelen wordt de stukprijs concurrerend, omdat de kamer met meerdere onderdelen tegelijk gevuld wordt.
+542|Zijn SLS-onderdelen waterdicht?
+543|Niet van nature. Voor waterdichte toepassingen brengen we een epoxy-impregnatie aan die de poriën afsluit. Getest vóór levering.
+544|Kan men SLS-onderdelen kleuren?
+545|Ruw PA12 is grijswit. Dompelverven voor egale kleuren (zwart, blauw, rood). Spuitlak voor felle kleuren of kleurverlopen.
+546|Wat is de maattolerantie van SLS?
+547|±0,2–0,3 mm voor kleine maten, ±0,5 mm voor grote afmetingen. Voor kritische assemblageonderdelen een speling van 0,3–0,5 mm voorzien.
+548|Kan men functionele assemblages in één keer printen?
+549|Ja, dat is een van de grote voordelen van SLS. Scharnieren, kogelgewrichten, tandwielen — geassembleerd geprint, klaar voor gebruik. Minimale functionele speling: 0,5 mm tussen oppervlakken.
+550|Welke SLS-materialen biedt u aan?
+551|Standaard PA12, biogebaseerd PA11, flexibel SLS-TPU en PA12-GF (glasvezelversterkt). Elk materiaal heeft specifieke mechanische eigenschappen voor verschillende toepassingen.
+552|[ 02 ] — Voordelen van SLS
+553|Waarom kiezen voor SLS?
+554|Wanneer de geometrie te complex is voor FDM en mechanische sterkte belangrijker is dan oppervlakteprecisie.
+555|Zonder supports
+556|Geometrieën die in FDM onmogelijk zijn, interne kanalen, scharnieren in één stuk geprint.
+557|Mechanische sterkte
+558|Gesinterd PA12: 45–50 MPa treksterkte, 15–20 % rek. Bestand tegen oliën en solventen.
+559|Scharnieren & tandwielen
+560|Scharnierende mechanismen, tandwielen, snap-fits — geassembleerd geprint, zonder nabewerking.
+561|Rendabele kleine series
+562|De SLS-kamer bevat tientallen onderdelen tegelijk. Dalende stukprijs vanaf 5–10 onderdelen.
+563|Nabewerkingen
+564|Verven, trilpolijsten, kogelstralen. SLS-onderdelen aanvaarden alle oppervlaktebehandelingen.
+565|Geavanceerde materialen
+566|PA12, biogebaseerd PA11, flexibel SLS-TPU, glasversterkt PA12-GF.
+567|CO₂-LASER 0 supports SLS · PA12 · Sterkte 45–50 MPa
+568|[ 03 ] — SLS-technologie
+569|Hoe werkt SLS-sinteren?
+570|Een CO₂-laser smelt nylonpoeder selectief laag per laag. Het niet-gesinterde poeder dient vanzelf als support — geen supports te verwijderen.
+571|CO₂-laser sintert PA12 laag per laag
+572|Omringend poeder = natuurlijke support
+573|Treksterkte: 45–50 MPa
+574|Rek bij breuk: 15–20 %
+575|Temperatuurbereik: -40 °C tot +90 °C continu
+576|SLS in actie
+577|SLS-onderdelen voor industriële en commerciële toepassingen.
+578|Robotica · België
+579|Lichte robotarm
+580|Arm in PA12 SLS met interne kabelkanalen, rechtstreeks in het onderdeel geprint.
+581|Interne kanalen
+583|Lichtheid
+584|Sport & outdoor · Luik
+585|Componenten voor skibindingen
+586|50 onderdelen in PA12 SLS voor skibindingen. Koudebestendigheid en thermische cycli gevalideerd.
+587|50 onderdelen
+588|Thermische cycli gevalideerd
+589|Domotica · Provincie Luik
+590|Behuizingen voor IoT-sensoren
+591|120 behuizingen in PA12 met geïntegreerde clips. Zwart geverfd, professionele afwerking.
+592|120 behuizingen
+593|Geïntegreerde clips
+594|Zwart geverfd
+595|[ 05 ] — Ontwerpen voor SLS
+596|Optimaliseer uw ontwerp voor lasersinteren
+597|SLS biedt een unieke ontwerpvrijheid — op voorwaarde dat enkele specifieke ontwerpregels worden gerespecteerd.
+598|Ontwerpregels voor SLS
+599|SLS maakt dankzij het ontbreken van supports geometrieën mogelijk die in FDM onmogelijk zijn. Toch gelden enkele regels: minimale wanddikte van 0,8 mm, minimale speling van 0,3 tot 0,5 mm tussen twee bewegende oppervlakken, en gesloten holtes hebben een of meer afvoeropeningen nodig zodat het niet-gesinterde poeder verwijderd kan worden.
+600|Onze technicus analyseert uw bestand vóór de productie en wijst u op elk probleem. Indien nodig stellen we kleine aanpassingen voor om een geslaagde print te garanderen zonder de functionaliteit aan te tasten.
+601|Rendabiliteit en optimalisatie van de kamer
+602|De SLS-kamer kan meerdere tientallen onderdelen tegelijk bevatten. Hoe beter de kamer gevuld is, hoe lager de stukprijs. Voor klanten met meerdere referenties optimaliseren we de plaatsing van de onderdelen in de kamer om de bouwdichtheid te maximaliseren en de kosten per onderdeel te minimaliseren.
+603|Deze optimalisatie kan 20 tot 40 % besparen ten opzichte van afzonderlijke prints. Contacteer ons met al uw referenties voor een geoptimaliseerde totaalofferte.
+604|SLS-3D-printen in België: onderdelen in nylon PA12 zonder supports, complexe geometrieën, mechanische sterkte 45–50 MPa. Atelier in Welkenraedt, provincie Luik.
+605|CNC-bewerking van aluminium, messing & kunststoffen | O&D Impression 3D
+606|CNC-ecosysteem — CNC-verspaning
+607|Wanneer het onderdeel uit metaal of zeer nauwkeurig moet zijn, frezen we het uit het volle. De ideale aanvulling op 3D-printen.
+608|CNC-bewerking in 3 stappen
+609|Een blok materiaal
+610|We vertrekken van een ruw blok: aluminium, messing, technische kunststof…
+611|De frees verwijdert
+612|Een snel draaiende frees verwijdert het materiaal volgens uw 3D-bestand.
+613|Een onderdeel uit het volle
+614|Het resultaat is een massief, nauwkeurig onderdeel met een mooie oppervlakteafwerking.
+615|Stuur uw bestand: we bevestigen dat CNC-bewerking de juiste keuze is, of we verwijzen u naar een andere technologie.
+616|Metalen onderdelen
+617|Nauwkeurige passingen en boringen
+618|Mechanische onderdelen onderhevig aan slijtage of hitte
+619|Platen, steunen, kleine series
+620|Sommige interne vormen zijn onmogelijk (voorbehouden aan 3D-printen)
+621|Meer materiaalverlies dan bij 3D-printen
+622|Grootte beperkt door het machinebed
+623|Onze CNC-machines
+624|Onze CNC-materialen
+625|CNC-bewerking in Welkenraedt (Luik): aluminium, messing, brons, titanium, POM, Ertalon. Nauwkeurige onderdelen per stuk of in kleine series.
