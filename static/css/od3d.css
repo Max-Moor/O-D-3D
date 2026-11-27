@@ -652,3 +652,13 @@ html{color-scheme:light}
 .brief .bf{padding:1.1rem 1.2rem 1.2rem 0;border-bottom:1px solid var(--line)}
 .brief .bf h3{font:700 1.02rem/1.25 var(--fh);margin:0 0 .4rem;color:var(--ink)}
 .brief .bf p{margin:0;color:var(--m);font-size:.95rem;line-height:1.55}
+/* nuage de points : rendu directement sur la page, avec un repère technique discret */
+.scan{--pt:#0B6E82;background:none;border:0;box-shadow:none}
+.scan canvas{border-radius:50%;background:
+ radial-gradient(closest-side,transparent calc(100% - 1.5px),var(--line) calc(100% - 1px),transparent 100%),
+ radial-gradient(closest-side,transparent calc(72% - 1px),rgba(16,22,27,.08) 72%,transparent calc(72% + 1px)),
+ linear-gradient(var(--line),var(--line)) center/1px 100% no-repeat,
+ linear-gradient(var(--line),var(--line)) center/100% 1px no-repeat;
+ -webkit-mask:radial-gradient(closest-side,#000 99%,transparent 100%);mask:radial-gradient(closest-side,#000 99%,transparent 100%)}
+.scan .cap{border-top:0;justify-content:center;gap:.35rem 1rem;color:var(--d);background:none;padding:.4rem 0 0}
+.scan .cap b{color:var(--ink)}

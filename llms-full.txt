@@ -11963,13 +11963,13 @@ Nous réalisons une large gamme de pièces adaptées à vos besoins : prototypes
 Absolument ! Nous réalisons des productions en série adaptées à vos besoins : prototypes, petites séries, séries moyennes, et même grandes séries (1000 pièces et plus). Nos machines garantissent une production rapide et fiable.
 
 **Quelles machines utilisez-vous ?**
-Notre parc machines comprend : Bambu Lab X1C et H2C (FDM multicolore), Prusa Core One (FDM industriel), Modix Big Meter (FDM grande format jusqu'à 1m³), SuperMaker 3D SLS1518 (frittage laser), Anycubic Photon Mono M7 Max (résine MSLA), xTool F1 Lite (gravure laser), INTAMSYS Funmat HT (PEEK/PEKK/Ultem haute température) et le scanner 3D 3DeVOK MT.
+Notre parc machines comprend : Bambu Lab X1C et H2C (FDM multicolore), Prusa Core One (FDM industriel), Modix Big Meter (FDM grande format jusqu'à 1m³), SuperMaker SLS1518 et SLS3540 Pro (frittage laser), Anycubic Photon Mono M7 Max (résine MSLA), xTool F1 Lite (gravure laser), INTAMSYS Funmat HT (PEEK/PEKK/Ultem haute température) et le scanner 3D 3DeVOK MT.
 
 **Pouvez-vous imprimer des pièces en PEEK, PEKK ou Ultem ?**
 Oui, c'est l'une de nos spécialités ! Nous sommes équipés de l'INTAMSYS Funmat HT, une machine haute température capable d'imprimer le PEEK (jusqu'à 420°C), le PEKK Kepstan® d'Arkema et l'Ultem/PEI (homologué FAA pour l'aéronautique). Ces matériaux sont réservés aux applications industrielles, médicales et aérospatiales.
 
 **Quelle est la taille maximale d'impression que vous pouvez réaliser ?**
-Avec notre Modix Big Meter, nous pouvons imprimer des pièces allant jusqu'à environ 1000 x 1000 x 1000 mm (1 m³) en FDM. Pour les autres technologies : résine jusqu'à 298 x 300 x 164 mm, SLS jusqu'à 150 x 150 x 180 mm. Pour les pièces encore plus grandes, nous pouvons les découper et assembler.
+Avec notre Modix Big Meter, nous pouvons imprimer des pièces allant jusqu'à environ 1000 x 1000 x 1000 mm (1 m³) en FDM. Pour les autres technologies : résine jusqu'à 298 x 300 x 164 mm, SLS jusqu'à 350 x 350 x 430 mm. Pour les pièces encore plus grandes, nous pouvons les découper et assembler.
 
 **Proposez-vous la numérisation 3D ?**
 Oui ! Nous disposons du scanner 3D professionnel 3DeVOK MT avec une précision allant jusqu'à 0,04 mm et une vitesse d'acquisition de 4,5 millions de points par seconde. Il permet la rétro-ingénierie, le contrôle qualité, la capture de pièces complexes et la création de modèles 3D à partir d'objets physiques existants.

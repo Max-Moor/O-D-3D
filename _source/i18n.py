@@ -118,7 +118,7 @@ def main():
             here = out_dir(l, rel)
             def fix(m):
                 attr, u = m.group(1), m.group(2)
-                if re.match(r"(https?:|mailto:|tel:|data:|javascript:|#)", u) or u.startswith("/"): return m.group(0)
+                if re.match(r"(https?:|mailto:|tel:|data:|javascript:|#)", u) or u.startswith("/") or "'+" in u or "${" in u: return m.group(0)
                 parts = u.split()
                 p = parts[0]; path, _, frag = p.partition("#")
                 path, q, query = path.partition("?")
@@ -137,6 +137,15 @@ def main():
                 return f'{attr}="{" ".join(parts)}"'
 
             out = re.sub(r'\b(href|src|data-full|poster)="([^"]*)"', fix, t)
+            def fixjs(m):  # chemins relatifs dans les données JSON des scripts (ex. comparateur)
+                u = m.group(1); path, _, frag = u.partition("#")
+                full = posixpath.normpath((pathlib.PurePosixPath(str(base)) / urllib.parse.unquote(path)).as_posix()).lstrip("/")
+                full = "" if full == "." else full
+                if (D / full / "index.html").exists() if full else True:
+                    target = out_dir(l, full) if full in done[l] else full
+                    return '"' + rel_link(target, here) + ('#' + frag if frag else '') + '"'
+                return '"' + rel_link(full, here, is_dir=False) + '"'
+            out = re.sub(r'<script\b[\s\S]*?</script>', lambda sm: re.sub(r'"((?:\.\./)+[^"\s<>]*)"', fixjs, sm.group(0)), out)
             def fixset(m):
                 outp = []
                 for x in m.group(1).split(","):
