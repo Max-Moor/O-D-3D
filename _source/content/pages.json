@@ -2618,7 +2618,7 @@
    },
    {
     "t": "p",
-    "v": "Nous ne modelisons pas des pièces pour qu'elles soient belles dans un logiciel — nous les concevons pour qu'elles s'impriment correctement et fonctionnent dans leur contexte réel. Cela implique de respecter des épaisseurs de paroi minimales, d'éviter les surplombs importants, de prévoir des tolérances d'assemblage adaptées à la technologie choisie."
+    "v": "Nous ne modélisons pas des pièces pour qu'elles soient belles dans un logiciel — nous les concevons pour qu'elles s'impriment correctement et fonctionnent dans leur contexte réel. Cela implique de respecter des épaisseurs de paroi minimales, d'éviter les surplombs importants, de prévoir des tolérances d'assemblage adaptées à la technologie choisie."
    },
    {
     "t": "p",
@@ -2904,7 +2904,7 @@
    },
    {
     "t": "p",
-    "v": "Les bâtiments classés, le mobilier ancien, les œuvres d'art nécessitent parfois des pièces de remplacement qui n'existent plus nulle part. Poignées, ferrures, elements décoratifs — nous numérisons les pièces existantes (même abîmées) et restituons une version fidèle ou restaurée."
+    "v": "Les bâtiments classés, le mobilier ancien, les œuvres d'art nécessitent parfois des pièces de remplacement qui n'existent plus nulle part. Poignées, ferrures, éléments décoratifs — nous numérisons les pièces existantes (même abîmées) et restituons une version fidèle ou restaurée."
    },
    {
     "t": "p",
@@ -3718,7 +3718,7 @@
    },
    {
     "t": "p",
-    "v": "La dégressivité s'apply principalement sur le temps machine et le temps opérateur, qui sont mutualisés sur un plus grand nombre de pièces. Le coût matière, lui, reste proportionnel à la quantité."
+    "v": "La dégressivité s'applique principalement sur le temps machine et le temps opérateur, qui sont mutualisés sur un plus grand nombre de pièces. Le coût matière, lui, reste proportionnel à la quantité."
    },
    {
     "t": "h3",

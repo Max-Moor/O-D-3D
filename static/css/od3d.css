@@ -137,7 +137,7 @@ a.panel:hover,a.lcard:hover .panel{border-color:var(--ink)}
 .pvis::before,.pvis::after{border-color:#10161B}
 .pvis::before,.frame::before{left:8px;top:8px;border-width:2px 0 0 2px}
 .pvis::after,.frame::after{right:8px;bottom:8px;border-width:0 2px 2px 0}
-.pimg img{max-height:420px;width:auto;margin:auto}
+.pimg img{max-height:420px;width:auto;height:auto;object-fit:contain;margin:auto}
 .pvis .tagl{position:absolute;bottom:10px;left:14px;font:400 .72rem var(--fm);color:#5C6873}
 .halo,.ring{display:none}
 .cta-row{display:flex;flex-wrap:wrap;gap:.7rem}

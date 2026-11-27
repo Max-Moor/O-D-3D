@@ -1242,7 +1242,7 @@ Notre expertise
 Un fichier 3D mal conçu peut conduire à des pièces défectueuses, des supports impossibles à retirer, ou des temps d'impression inutilement longs.
 
 #### Conception orientée fabrication
-Nous ne modelisons pas des pièces pour qu'elles soient belles dans un logiciel, nous les concevons pour qu'elles s'impriment correctement et fonctionnent dans leur contexte réel. Cela implique de respecter des épaisseurs de paroi minimales, d'éviter les surplombs importants, de prévoir des tolérances d'assemblage adaptées à la technologie choisie.
+Nous ne modélisons pas des pièces pour qu'elles soient belles dans un logiciel, nous les concevons pour qu'elles s'impriment correctement et fonctionnent dans leur contexte réel. Cela implique de respecter des épaisseurs de paroi minimales, d'éviter les surplombs importants, de prévoir des tolérances d'assemblage adaptées à la technologie choisie.
 Cette approche DfAM (Design for Additive Manufacturing) réduit les coûts de fabrication et améliore la qualité finale de la pièce.
 
 #### Formats et compatibilité
@@ -1381,7 +1381,7 @@ Pas de surprise sur la facture. Voici exactement comment nous calculons nos tari
 
 #### Les composantes du prix
 Le prix d'une série se compose de trois éléments : le coût matière (volume de plastique utilisé), le temps machine (nombre d'heures d'impression) et le temps opérateur (préparation, contrôle, conditionnement). Ces trois composantes varient selon la complexité de la pièce, le matériau choisi et la quantité commandée.
-La dégressivité s'apply principalement sur le temps machine et le temps opérateur, qui sont mutualisés sur un plus grand nombre de pièces. Le coût matière, lui, reste proportionnel à la quantité.
+La dégressivité s'applique principalement sur le temps machine et le temps opérateur, qui sont mutualisés sur un plus grand nombre de pièces. Le coût matière, lui, reste proportionnel à la quantité.
 
 #### Commandes récurrentes et contrats-cadres
 Si vous avez des besoins réguliers : même petits : un contrat-cadre peut être avantageux. Il permet de fixer des tarifs préférentiels, de garantir des délais de production prioritaires et de simplifier le processus de commande : vous envoyez un bon de commande, nous produisons et livrons selon le planning convenu.
@@ -1661,7 +1661,7 @@ Les machines industrielles ont une durée de vie de 20 à 40 ans. Les pièces d'
 Nous avons une expérience particulière avec les équipements textiles, métallurgiques et agroalimentaires de la région liégeoise et verviétoise.
 
 #### Patrimoine et restauration
-Les bâtiments classés, le mobilier ancien, les œuvres d'art nécessitent parfois des pièces de remplacement qui n'existent plus nulle part. Poignées, ferrures, elements décoratifs, nous numérisons les pièces existantes (même abîmées) et restituons une version fidèle ou restaurée.
+Les bâtiments classés, le mobilier ancien, les œuvres d'art nécessitent parfois des pièces de remplacement qui n'existent plus nulle part. Poignées, ferrures, éléments décoratifs, nous numérisons les pièces existantes (même abîmées) et restituons une version fidèle ou restaurée.
 Le résultat peut être imprimé en résine haute résolution pour une finition exceptionnelle, puis peint ou doré selon les besoins de restauration. Nous travaillons avec des artisans restaurateurs de la région.
 
 À voir aussi
