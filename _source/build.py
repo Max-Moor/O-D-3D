@@ -676,7 +676,7 @@ def gen_contact():
             '<div class="panel rv"><span class="k hud">Atelier</span><p style="color:var(--t)">Rue Trois Bourdons 52E<br>4840 Welkenraedt, Belgique</p></div>'
             '<div class="panel rv"><span class="k hud">Téléphone</span><p><a style="color:var(--t)" href="tel:+32471686653">0471 68 66 53</a></p></div>'
             '<div class="panel rv"><span class="k hud">E-mail</span><p><a style="color:var(--t)" href="mailto:o.d3dindustrie@gmail.com">o.d3dindustrie@gmail.com</a></p></div>'
-            '<div class="panel rv"><span class="k hud">Horaires</span><p style="color:var(--t)">Lun–sam, 9 h–17 h<br>Visite sur rendez-vous</p></div>'
+            '<div class="panel rv"><span class="k hud">Horaires</span><p style="color:var(--t)">Uniquement sur rendez-vous</p></div>'
             '</div></div></section>')
     body = page_hero(p, d, m) + info + form + render_sections(m) + cta(d)
     write("contact", head("contact", d, p["title"], p["desc"]) + chrome("contact", d) + body + footer(d))

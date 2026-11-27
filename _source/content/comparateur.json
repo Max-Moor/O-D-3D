@@ -322,14 +322,14 @@
    "flexibilite": 5
   },
   "specs": {
-   "Température service": "~180°C",
+   "Température service": "~160°C",
    "Résistance traction": "~80 MPa",
    "Module de Young": "Très élevé",
    "Buse acier": "Requise",
    "Température impression": "270–290°C",
    "Contact alimentaire": "Non",
    "Poids": "Léger (fibre carbone)",
-   "Prix relatif": "€€€e"
+   "Prix relatif": "€€€"
   },
   "usages": [
    "Aéronautique",
@@ -359,13 +359,13 @@
    "flexibilite": 18
   },
   "specs": {
-   "Température service": "~180°C",
+   "Température service": "~170°C",
    "Résistance traction": "~75 MPa",
    "Résistance chocs": "Meilleure que CF",
    "Buse acier": "Requise",
    "SLS disponible": "✓ Oui",
    "Contact alimentaire": "Non",
-   "Prix relatif": "€€€e"
+   "Prix relatif": "€€€"
   },
   "usages": [
    "Outillage industriel",

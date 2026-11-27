@@ -75,7 +75,7 @@ Architecture & Design · Bruxelles
 Recherche universitaire · ULiège
 
 #### Rig expérimental PEEK
-Châssis en PEEK haute performance résistant à 250°C pour laboratory de l'ULiège.
+Châssis en PEEK haute performance résistant à 250°C pour un laboratoire de l'ULiège.
 PEEK 250°C · Fabrication unique
 
 FAQ
@@ -607,7 +607,7 @@ Chaque projet est analysé techniquement avant lancement : orientation d'impress
 
 #### Flexibilité et réactivité pour l'industrie
 Les délais industriels sont souvent serrés. Nous le savons, et nous organisons notre production pour répondre aux urgences : plusieurs machines fonctionnant en parallèle, priorisation possible sur demande, communication transparente sur l'avancement.
-We acceptons les commandes ponctuelles comme les commandes récurrentes. Un contrat-cadre peut être établi pour les clients ayant des besoins réguliers, avec des tarifs préférentiels et des délais garantis contractuellement.
+Nous acceptons les commandes ponctuelles comme les commandes récurrentes. Un contrat-cadre peut être établi pour les clients ayant des besoins réguliers, avec des tarifs préférentiels et des délais garantis contractuellement.
 
 À voir aussi
 Fiche
@@ -737,11 +737,11 @@ Sur les petites quantités avec besoin de conseil et de rapidité, nous sommes g
 Notre atelier
 
 ### Un atelier physique, une vraie relation client
-Travailler avec un prestateur local, c'est avoir un interlocuteur qui connaît votre région, vos délais et vos contraintes.
+Travailler avec un prestataire local, c'est avoir un interlocuteur qui connaît votre région, vos délais et vos contraintes.
 
 #### Venez visiter l'atelier
 Contrairement aux plateformes en ligne anonymes, notre atelier est ouvert aux clients. Vous pouvez venir découvrir nos machines, discuter de votre projet face à face, et voir concrètement comment vos pièces seront fabriquées. Un rendez-vous est nécessaire, contactez-nous par email ou téléphone, nous nous adaptons à votre agenda.
-Welkenraedt is idéalement situé entre Liège, Verviers et Eupen, accessible en moins de 30 minutes depuis la plupart des communes de la province. Parking disponible sur place.
+Welkenraedt est idéalement situé entre Liège, Verviers et Eupen, accessible en moins de 30 minutes depuis la plupart des communes de la province. Parking disponible sur place.
 
 #### Particuliers et professionnels bienvenus
 Nous ne faisons pas de distinction entre les particuliers et les professionnels. Que vous ayez besoin d'une seule pièce pour réparer un objet du quotidien ou de 500 composants pour votre ligne de production, nous traitons chaque commande avec le même soin.
@@ -2208,7 +2208,7 @@ INTAMSYS Funmat HT
 
 ### Fiche technique
 
-260 x 260 x 260 mm Volume d'impression 34 matières PEEK, PEKK, ULTEM
+260 x 260 x 260 mm Volume d'impression Plus de 20 matières PEEK, PEKK, ULTEM
 
 ### Matériaux compatibles
 
@@ -2269,7 +2269,7 @@ Tout savoir sur le FDM : machines, matières, comparatifs →
 ### FDM
 La INTAMSYS Funmat HT est la machine de référence pour l'impression 3D de matériaux haute performance. Conçue spécifiquement pour le PEEK, le PEKK et l'Ultem (PEI), elle permet de produire des pièces industrielles aux propriétés mécaniques, thermiques et chimiques exceptionnelles, des propriétés impossibles à atteindre avec les imprimantes 3D standard.
 Grâce à son système thermique avancé : chambre chauffée a 90 degrés C, plateau a 160 degrés C et extrudeur tout metal montant a 450 degrés C, la Funmat HT maintient les conditions idéales pour imprimer sans gauchissement ni fissuration sur ces matériaux exigeants.
-Avec un volume d'impression de 260 x 260 x 260 mm et une compatibilité avec plus de 14 matériaux techniques (PEEK, PEEK-CF, PEKK, Ultem, PPSU, PC, PA, ABS…), c'est l'outil idéal pour les bureaux d'études, les laboratoires, l'aérospatial, le médical et l'automobile.
+Avec un volume d'impression de 260 x 260 x 260 mm et une compatibilité avec plus de 20 matériaux techniques (PEEK, PEEK-CF, PEKK, Ultem, PPSU, PC, PA, ABS…), c'est l'outil idéal pour les bureaux d'études, les laboratoires, l'aérospatial, le médical et l'automobile.
 Chez O&D Impression 3D à Welkenraedt, nous utilisons la Funmat HT pour des projets industriels critiques. Contactez-nous pour votre projet en PEEK, PEKK ou Ultem.
 
 ### MATÉRIAUX COMPATIBLES
@@ -2639,7 +2639,7 @@ Tout savoir sur le SLS : machines, matières, comparatifs →
 La Supermaker SLS1518 est l'imprimante SLS (Frittage Laser Selectif) desktop la plus compacte du marché. Avec une empreinte de seulement 0.33 m2, elle tient dans un laboratoire ou un atelier comme un petit réfrigérateur, tout en délivrant des performances SLS véritablement industrielles.
 Concue pour les laboratoires de recherche, les universités, les studios professionnels et les petites entreprises qui souhaitent accéder a la technologie SLS sans les coûts et la complexité des systèmes industriels traditionnels, la SLS1518 produit des pièces en nylon, TPU, fibre carbone et fibre de verre sans aucune structure de support.
 Son système de controle thermique allemand (capteurs infrarouges haute précision, uniformité de chambre a 0.5-1 degres C) et sa station de post-traitement integree (tri, tamisage, melange de poudre) en font une solution SLS complete, propre et efficace.
-Chez O&D Impression 3D à Welkenraedt, nous exploitons la Supermaker SLS1518 pour des projets nécéssitant des géométries libres et des pieces fonctionnelles en nylon de qualité industrielle.
+Chez O&D Impression 3D à Welkenraedt, nous exploitons la Supermaker SLS1518 pour des projets nécessitant des géométries libres et des pieces fonctionnelles en nylon de qualité industrielle.
 
 ### MATÉRIAUX COMPATIBLES
 
@@ -3112,7 +3112,7 @@ Voir la fiche →
 On nous trouve aussi pour Impression 3D ABS Liège Pièce technique ABS Belgique Prototype fonctionnel ABS
 
 **Description détaillée Tout savoir : cliquez pour déplier**
-Très utilisé dans l'industrie, l'automobile et l'électronique grand public, l'ABS est le choix naturel pour les boitiers techniques, les pièces sous capot, les prototypes fonctionnels et les pièces nécéssitant une finition soignée.
+Très utilisé dans l'industrie, l'automobile et l'électronique grand public, l'ABS est le choix naturel pour les boitiers techniques, les pièces sous capot, les prototypes fonctionnels et les pièces nécessitant une finition soignée.
 Chez O&D Impression 3D, nous imprimons l'ABS sur des machines avec enceinte chauffée pour éviter le gauchissement et garantir la qualité dimensionnelle.
 
 ### CAS D'USAGE : POUR QUOI ?
@@ -3120,27 +3120,16 @@ Chez O&D Impression 3D, nous imprimons l'ABS sur des machines avec enceinte chau
 - Boitiers électroniques et industriels
 - Pièces automobiles (intérieur, support)
 - Prototypes fonctionnels haute fidélité
-- Pièces nécéssitant un lissage acétone
+- Pièces nécessitant un lissage acétone
 - Moules et gabarits de fabrication
 
 ### Machines compatibles chez O&D
 
-#### Bambu lab X1C
+#### Bambu Lab X1C
 
-#### Bambu lab H2C
+#### Bambu Lab H2C
 
 #### Prusa Core One
-
-#### SuperMaker SLS1518
-
-### Le TPU : le filament flexible pour des impressions 3D résistantes et souples
-Le TPU est un matériau particulièrement apprécié dans le domaine de l’impression 3D pour sa flexibilité et sa résistance. Contrairement aux filaments rigides traditionnels, le filament TPU permet de produire des pièces souples, élastiques et capables d’absorber les chocs, ce qui en fait un choix idéal pour de nombreuses applications techniques et fonctionnelles.
-Grâce à ses propriétés mécaniques spécifiques, le TPU pour imprimante 3D est largement utilisé pour la fabrication de joints, protections, semelles, pièces amortissantes, coques, éléments anti-vibrations ou encore composants nécessitant une certaine flexibilité. Sa capacité à retrouver sa forme après déformation en fait un matériau particulièrement intéressant pour les pièces soumises à des contraintes répétées.
-Le TPU impression 3D combine flexibilité, résistance à l’usure et bonne durabilité. Il offre également une excellente résistance aux chocs et à l’abrasion, ce qui permet de produire des pièces adaptées à des usages intensifs ou à des environnements nécessitant une meilleure absorption des impacts.
-Disponible dans différentes duretés et finitions, le TPU permet de répondre à une grande variété de besoins, allant des pièces très souples aux composants plus fermes tout en conservant une certaine élasticité. Cette polyvalence en fait un matériau apprécié aussi bien dans le prototypage fonctionnel que dans la production de pièces techniques personnalisées.
-Chez O&D Impression 3D , nous utilisons régulièrement le TPU haute qualité pour la fabrication de pièces flexibles et techniques nécessitant résistance, souplesse et durabilité. Ce matériau est particulièrement adapté aux projets demandant une absorption des vibrations, une bonne résistance mécanique et une excellente tenue dans le temps.
-Même si le TPU offre de nombreux avantages, son impression demande davantage de précision et des réglages adaptés en raison de sa flexibilité. Le choix du matériau dépend toujours des contraintes mécaniques et des performances recherchées pour chaque projet.
-Choisir un filament TPU professionnel permet d’obtenir des impressions 3D souples, résistantes et parfaitement adaptées aux applications techniques modernes nécessitant flexibilité et robustesse.
 
 Prochaine étape
 
@@ -3345,9 +3334,9 @@ Chez O&D Impression 3D, l'ASA est notre recommandation systématique pour tout p
 
 ### Machines compatibles chez O&D
 
-#### Bambu lab X1C
+#### Bambu Lab X1C
 
-#### Bambu lab H2C
+#### Bambu Lab H2C
 
 #### Prusa Core One
 
@@ -4883,7 +4872,7 @@ Voir la fiche →
 On nous trouve aussi pour Impression 3D fibre de carbone PA12 CF Belgique Pièce carbone impression 3D Liège Impression 3D nylon carbone
 
 **Description détaillée Tout savoir : cliquez pour déplier**
-Avec une résistance thermique allant jusqu'a 180 degrés C et une excellente stabilité dimensionnelle, le PA12-CF produit des pièces qui restent stables même sous forte charge mécanique ou thermique.
+Avec une résistance thermique allant jusqu'à 160 °C et une excellente stabilité dimensionnelle, le PA12-CF produit des pièces qui restent stables même sous forte charge mécanique ou thermique.
 Chez O&D Impression 3D, nous imprimons le PA12-CF pour des clients exigeant des performances proches du métal à fraction du poids.
 
 ### CAS D'USAGE : POUR QUOI ?
@@ -4896,7 +4885,7 @@ Chez O&D Impression 3D, nous imprimons le PA12-CF pour des clients exigeant des 
 
 ### Machines compatibles chez O&D
 
-#### Bambu lab H2C
+#### Bambu Lab H2C
 
 #### Prusa Core One
 
@@ -5103,7 +5092,7 @@ Voir la fiche →
 On nous trouve aussi pour Impression 3D nylon fibre de verre PA12 GF Belgique Pièce industrielle impression 3D Liège
 
 **Description détaillée Tout savoir : cliquez pour déplier**
-C'est le matériau idéal pour les applications industrielles nécéssitant robustesse et stabilité sans la fragilité aux impacts du carbone. La résistance chimique du PA12 est conservée et renforcée.
+C'est le matériau idéal pour les applications industrielles nécessitant robustesse et stabilité sans la fragilité aux impacts du carbone. La résistance chimique du PA12 est conservée et renforcée.
 Chez O&D Impression 3D, le PA12-GF est recommandé pour les outillages industriels, les gabarits de conformation et les pièces de série en milieu contraint.
 
 ### CAS D'USAGE : POUR QUOI ?
@@ -5116,7 +5105,7 @@ Chez O&D Impression 3D, le PA12-GF est recommandé pour les outillages industrie
 
 ### Machines compatibles chez O&D
 
-#### Bambu lab H2C
+#### Bambu Lab H2C
 
 #### Prusa Core One
 
@@ -5513,7 +5502,7 @@ On nous trouve aussi pour Impression 3D PEKK PEKK aéronautique Belgique Impress
 
 **Description détaillée Tout savoir : cliquez pour déplier**
 Fabriqué a partir du Kepstan® d'Arkema (France), le PEKK est certifié pour les usages aéronautiques (FAA/EASA), médicaux et spatiaux. Il s'impose progressivement comme le matériau de référence pour les nouvelles applications haute performance.
-Chez O&D Impression 3D, nous utilisons le PEKK sur notre INTAMSYS Funmat HT pour des projets nécéssitant le summum de la performance polymère.
+Chez O&D Impression 3D, nous utilisons le PEKK sur notre INTAMSYS Funmat HT pour des projets nécessitant le summum de la performance polymère.
 
 ### CAS D'USAGE : POUR QUOI ?
 
@@ -5732,7 +5721,7 @@ On nous trouve aussi pour Impression 3D PETG Liège Pièce PETG sur mesure Belgi
 
 **Description détaillée Tout savoir : cliquez pour déplier**
 Avec une resistance thermique autour de 80 degrés C, une bonne tenue aux chocs et une excellente résistance chimique de base, le PETG convient à de nombreuses applications intermédiaires : boitiers, supports, pièces de remplacement, contenants alimentaires (selon qualité du filament).
-Chez O&D Impression 3D, nous recommandons le PETG pour tout projet nécéssitant une pièce durable sans recourir aux matériaux techniques complexes comme l'ABS ou le PC.
+Chez O&D Impression 3D, nous recommandons le PETG pour tout projet nécessitant une pièce durable sans recourir aux matériaux techniques complexes comme l'ABS ou le PC.
 
 ### CAS D'USAGE : POUR QUOI ?
 
@@ -5744,9 +5733,9 @@ Chez O&D Impression 3D, nous recommandons le PETG pour tout projet nécéssitant
 
 ### Machines compatibles chez O&D
 
-#### Bambu lab X1C
+#### Bambu Lab X1C
 
-#### Bambu lab H2C
+#### Bambu Lab H2C
 
 #### Prusa Core One
 
@@ -5982,9 +5971,9 @@ Bien que non adapté aux pieces techniques soumises à la chaleur ou aux contrai
 
 ### Machines compatibles chez O&D
 
-#### Bambu lab X1C
+#### Bambu Lab X1C
 
-#### Bambu lab H2C
+#### Bambu Lab H2C
 
 #### Prusa Core One
 
@@ -6200,7 +6189,7 @@ Chez O&D Impression 3D, le PP est recommandé pour les projets combinant légere
 
 ### Machines compatibles chez O&D
 
-#### Bambu lab H2C
+#### Bambu Lab H2C
 
 ### Le PP (Polypropylène) : un matériau léger et résistant pour l’impression 3D technique
 Le PP (polypropylène) est un matériau technique reconnu pour sa légèreté, sa résistance chimique et sa grande flexibilité. Utilisé dans de nombreux secteurs industriels, le filament PP gagne également en popularité dans le domaine de l’impression 3D pour la fabrication de pièces fonctionnelles nécessitant durabilité et résistance aux contraintes du quotidien.
@@ -8469,7 +8458,7 @@ Voir la fiche →
 On nous trouve aussi pour Impression 3D TPU Pièce souple impression 3D Liège Joint sur mesure Belgique Impression 3D flexible
 
 **Description détaillée Tout savoir : cliquez pour déplier**
-Le TPU est idéal pour les joints d'étanchéité, les coques de protection anti-chocs, les semelles personnalisées, les poignées antidérapantes, les accessoires portables et tous les composants nécéssitant une absorption de vibrations.
+Le TPU est idéal pour les joints d'étanchéité, les coques de protection anti-chocs, les semelles personnalisées, les poignées antidérapantes, les accessoires portables et tous les composants nécessitant une absorption de vibrations.
 Chez O&D Impression 3D, nous utilisons le TPU pour des projets où la flexibilité est une contrainte fonctionnelle, notamment dans la robotique, la protection industrielle et les accessoires sur mesure.
 
 ### CAS D'USAGE : POUR QUOI ?
@@ -8483,9 +8472,9 @@ Chez O&D Impression 3D, nous utilisons le TPU pour des projets où la flexibilit
 
 ### Machines compatibles chez O&D
 
-#### Bambu lab X1C
+#### Bambu Lab X1C
 
-#### Bambu lab H2C
+#### Bambu Lab H2C
 
 #### Prusa Core One
 
@@ -9225,7 +9214,7 @@ Critère | PA12-CF (carbone) | PA12-GF (verre) |
 Rigidité (module de Young) | Très élevée | Élevée |
 Résistance aux chocs | Faible (cassant) | Meilleure que CF |
 Poids | Léger | Plus lourd que CF |
-Résistance thermique | ~180°C | ~180°C |
+Résistance thermique | ~160 °C | ~170 °C |
 Résistance chimique | Bonne | Bonne |
 Finition de surface | Rugueuse (fibres apparentes) | Rugueuse |
 Conductivité thermique | Meilleure | Standard |
@@ -9237,7 +9226,7 @@ Usure des buses | Forte (abrasif) | Forte (abrasif) |
 Rigidité | Très élevée |
 Résistance aux chocs | Faible (cassant) |
 Poids | Léger |
-Résistance thermique | ~180°C |
+Résistance thermique | ~160 °C (CF) · ~170 °C (GF) |
 Stabilité dimensionnelle | 5/5 |
 Prix relatif | Élevé |
 
@@ -9246,7 +9235,7 @@ Prix relatif | Élevé |
 Rigidité | Élevée |
 Résistance aux chocs | Meilleure que CF |
 Poids | Plus lourd que CF |
-Résistance thermique | ~180°C |
+Résistance thermique | ~160 °C (CF) · ~170 °C (GF) |
 Stabilité dimensionnelle | 5/5 |
 Prix relatif | Inférieur à CF |
 
@@ -9531,7 +9520,7 @@ La règle générale: si votre pièce fonctionne à moins de 150°C et n'est pas
 
 ### Polymères haute performance : quand les plastiques standards ne suffisent plus
 La grande majorité des projets en impression 3D ne nécessite pas de polymères haute performance. Le PLA, le PETG ou le PA12 répondent à 95% des besoins courants. Mais il existe des cas où aucun de ces matériaux ne suffit : températures supérieures à 150°C en continu, contact prolongé avec des acides concentrés, exigences de stérilisation à l'autoclave, certifications de résistance au feu dans l'aéronautique. C'est précisément pour ces applications extrêmes que nous proposons le PEEK, le PEKK et l'Ultem.
-Le PEEK (PolyEtherEtherKetone) est sans doute le polymère le plus connu dans le domaine de la haute performance. Utilisé depuis les années 1980 dans l'industrie aéronautique, pétrolière et médicale, il est capable de fonctionner en continu jusqu'à 300°C and de résister à une très large gamme de produits chimiques agressifs. En impression 3D, il nécessite une température d'extrusion de 380 à 420°C et une chambre chauffée à 150-200°C, des paramètres que seule notre machine INTAMSYS Funmat HT peut atteindre dans notre atelier.
+Le PEEK (PolyEtherEtherKetone) est sans doute le polymère le plus connu dans le domaine de la haute performance. Utilisé depuis les années 1980 dans l'industrie aéronautique, pétrolière et médicale, il est capable de fonctionner en continu jusqu'à 300°C et de résister à une très large gamme de produits chimiques agressifs. En impression 3D, il nécessite une température d'extrusion de 380 à 420°C et une chambre chauffée à 150-200°C, des paramètres que seule notre machine INTAMSYS Funmat HT peut atteindre dans notre atelier.
 Le PEKK (PolyEtherKetoneKetone) appartient à la même famille de polymères aromatiques semi-cristallins. Il offre une meilleure adhésion inter-couches que le PEEK, ce qui se traduit par des pièces plus homogènes mécaniquement. Sa plage de températures de service est légèrement inférieure (jusqu'à 250°C), mais il est souvent préféré en aéronautique et défense pour sa meilleure imprimabilité et ses propriétés dynamiques supérieures.
 L'Ultem (PEI : PolyEtherImide) se distingue des deux précédents par une caractéristique unique et déterminante : sa certification ignifuge UL94 V0 native. C'est le seul des trois à satisfaire sans traitement supplémentaire aux normes de résistance au feu imposées par la réglementation aéronautique FAR 25.853 (selon les grades). Il est largement utilisé dans la fabrication de pièces d'intérieur de cabine, de supports d'avionique et de boîtiers pour l'électronique industrielle certifiée.
 Pour les entreprises belges actives dans les secteurs médical, aéronautique, de la défense ou de la chimie de procédés, O&D Impression 3D propose une consultation technique préalable gratuite pour valider si votre application justifie le recours à ces matériaux, et si oui, lequel est le plus adapté. La plupart du temps, nous pouvons réduire significativement le coût en identifiant le matériau le moins cher qui répond quand même à toutes vos exigences.
@@ -9805,7 +9794,7 @@ Matériaux FDM composites & haute performance
 Composite
 
 #### PA12-CF
-Polyamide chargé fibre de carbone. Haute performance mécanique, ultra-léger et rigide. Résistance thermique ~180°C.
+Polyamide chargé fibre de carbone. Haute performance mécanique, ultra-léger et rigide. Résistance thermique ~160 °C.
 Composite
 
 #### PA12-GF
@@ -11432,10 +11421,10 @@ Atelier physique ouvert sur rendez-vous . Nous nous adaptons 100% à votre plann
 
 Nos avantages pour Spa
 
-### Pourquoi O&D Impression 3D pour votre project à Spa ?
+### Pourquoi O&D Impression 3D pour votre projet à Spa ?
 
 #### Motorsport & Francorchamps
-Notre expertise en ASA, PA12-CF et PA12-GF is parfaitement adaptée aux pièces automobiles. Résistance thermique, légèreté et précision pour le motorsport.
+Notre expertise en ASA, PA12-CF et PA12-GF est parfaitement adaptée aux pièces automobiles. Résistance thermique, légèreté et précision pour le motorsport.
 
 #### Hôtellerie & tourisme
 Pièces de remplacement pour équipements hôteliers, éléments décoratifs sur-mesure, signalétique 3D, nous servons le secteur du tourisme haut de gamme de Spa.
@@ -11846,13 +11835,13 @@ Notre atelier de Welkenraedt est à 30 minutes du centre de Liège par l'autorou
 Oui. Nous collaborons régulièrement avec des PME industrielles, des bureaux d'études et des ateliers de maintenance de l'agglomération liégeoise. Nos matériaux techniques (PA12-CF, ABS, ASA, PEEK) répondent aux exigences des secteurs métallurgique, agroalimentaire et électronique.
 
 **Peut-on venir visiter l'atelier depuis Liège?**
-Oui, sur rendez-vous. Le déplacement depuis Liège prend environ 30 minutes. We vous accueillons pour discuter de votre projet, voir les machines en fonctionnement et repartir avec un premier devis. Contactez-nous pour fixer un créneau.
+Oui, sur rendez-vous. Le déplacement depuis Liège prend environ 30 minutes. Nous vous accueillons pour discuter de votre projet, voir les machines en fonctionnement et repartir avec un premier devis. Contactez-nous pour fixer un créneau.
 
 **Faites-vous des partenariats avec les hautes écoles et l'ULiège?**
 Oui. Nous travaillons avec des équipes de recherche de l'ULiège et de plusieurs hautes écoles liégeoises. Pour les projets académiques, nous proposons des tarifs adaptés et une confidentialité renforcée (NDA). Contactez-nous avec votre affiliation et votre besoin.
 
 **Où est situé O&D Impression 3D dans la province de Liège?**
-O&D Impression 3D possède son atelier Rue Trois Bourdons 52 à Welkenraedt (4840), au cœur de la province de Liège, à quelques kilomètres de Verviers et à 30 minutes de la ville de Liège. Nous servons toute la province du lundi au samedi de 9h à 17h.
+O&D Impression 3D possède son atelier Rue Trois Bourdons 52 à Welkenraedt (4840), au cœur de la province de Liège, à quelques kilomètres de Verviers et à 30 minutes de la ville de Liège. Nous servons toute la province, sur rendez-vous.
 
 **Quelles villes de la province de Liège desservez-vous?**
 Nous servons toute la province: Liège, Verviers, Spa, Seraing, Herve, Eupen, Visé, Huy, Waremme, Malmedy, Stavelot, Aywaille, Theux et toutes les communes environnantes. Livraison possible dans toute la Belgique.
@@ -11890,7 +11879,7 @@ Téléphone: 0471 68 66 53
 
 E-mail: o.d3dindustrie@gmail.com
 
-Horaires Lun–sam, 9 h–17 hVisite sur rendez-vous
+Horaires Uniquement sur rendez-vous
 
 Ne pas remplir
 
@@ -11915,7 +11904,7 @@ Fichier 3D ou plan
 ### Nous contacter
 Pour toute question ou demande, n’hésitez pas à nous contacter.
 Nous vous répondrons dans les plus brefs délais.
-Horaires Lun. – Sam. : 9h – 17h Dimanche : Fermé
+Horaires Uniquement sur rendez-vous
 
 Prochaine étape
 
@@ -11975,7 +11964,7 @@ Avec notre Modix Big Meter, nous pouvons imprimer des pièces allant jusqu'à en
 Oui ! Nous disposons du scanner 3D professionnel 3DeVOK MT avec une précision allant jusqu'à 0,04 mm et une vitesse d'acquisition de 4,5 millions de points par seconde. Il permet la rétro-ingénierie, le contrôle qualité, la capture de pièces complexes et la création de modèles 3D à partir d'objets physiques existants.
 
 **Puis-je venir visiter vos locaux et voir les machines en fonctionnement ?**
-Absolument ! Nous adorons faire découvrir notre atelier. Contactez-nous par téléphone ou email pour convenir d'un rendez-vous. Nous sommes basés à Welkenraedt (4840), Belgique. Nos locaux vous sont ouvert uniquement sur rendez-vous !
+Absolument ! Nous adorons faire découvrir notre atelier. Contactez-nous par téléphone ou email pour convenir d'un rendez-vous. Nous sommes basés à Welkenraedt (4840), Belgique. Nos locaux vous sont ouverts uniquement sur rendez-vous !
 
 **Faites-vous de la découpe et gravure laser ?**
 Oui, grâce à notre xTool F1 Lite (laser diode 10W, 4000 mm/s). Nous travaillons le bois, le cuir, le papier, le caoutchouc, la pierre, le verre, le métal anodisé et même certains aliments. Idéal pour la personnalisation, les cadeaux, les enseignes et la petite série.
@@ -12038,7 +12027,7 @@ Les délais varient selon la technologie, la complexité et notre charge de trav
 Oui ! Nous livrons partout en Belgique et dans les pays limitrophes (France, Luxembourg, Pays-Bas, Allemagne). Pour d'autres destinations, contactez-nous pour un devis de livraison. Les pièces sont soigneusement emballées pour éviter tout dommage pendant le transport.
 
 **Est-il possible de venir récupérer ma commande directement ?**
-Absolument ! Vous pouvez venir chercher votre commande directement à notre atelier à Welkenraedt (4840), du lundi au samedi de 9h à 17h. Contactez-nous pour convenir d'un horaire de retrait. C'est aussi l'occasion de voir nos machines en action !
+Absolument ! Vous pouvez venir chercher votre commande directement à notre atelier à Welkenraedt (4840), sur rendez-vous. Contactez-nous pour convenir d'un moment de retrait. C'est aussi l'occasion de voir nos machines en action !
 
 **Que se passe-t-il si ma pièce est endommagée pendant la livraison ?**
 Nos colis sont soigneusement emballés et protégés. En cas de dommage pendant le transport, contactez-nous immédiatement avec des photos du colis et de la pièce. Nous trouverons une solution, réimpression ou remboursement selon les cas.
@@ -12079,7 +12068,7 @@ Oui, c'est une partie importante de notre travail ! Si vous n'êtes pas sûr de 
 Nous proposons des finitions de base selon les matériaux (retrait des supports, nettoyage). Pour des finitions avancées (ponçage, peinture, traitement de surface), contactez-nous pour discuter des possibilités selon votre projet.
 
 **Comment vous contacter ?**
-Par téléphone : 0471 68 66 53 (Lun-Sam, 9h-17h). Par email : o.d3dindustrie@gmail.com. Ou directement sur notre site od3d.be. Nous répondons généralement sous 24 à 48 heures ouvrables.
+Par téléphone : 0471 68 66 53. Par email : o.d3dindustrie@gmail.com. Ou directement sur notre site od3d.be. Nous répondons généralement sous 24 à 48 heures ouvrables.
 
 Prochaine étape
 
