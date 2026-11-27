@@ -51,8 +51,21 @@ def translate(t, dic):
         pieces[i] = seg
     return "".join(pieces)
 
+def load_slugs(lang):
+    p = ROOT / "i18n" / f"slugs_{lang}.json"
+    return json.load(open(p, encoding="utf-8")) if p.exists() else {}
+SLUGS = {l: load_slugs(l) for l in LANGS}
+def tr_rel(lang, rel):
+    """Chemin de la page dans la langue (sans préfixe), ex. machines-materiaux/pla -> machines-materials/pla"""
+    return rel if lang == "fr" else SLUGS[lang].get(rel, rel)
+def out_dir(lang, rel):
+    return rel if lang == "fr" else (lang + ("/" + tr_rel(lang, rel) if rel else ""))
+def rel_link(target, cur, is_dir=True):
+    r = posixpath.relpath("/" + target if target else "/", "/" + cur if cur else "/")
+    r = "" if r == "." else r
+    return urllib.parse.quote(r) + ("/" if is_dir and r else ("./" if is_dir else ""))
 def url_of(lang, rel):
-    return SITE + (f"{lang}/" if lang != "fr" else "") + urllib.parse.quote(rel)
+    return SITE + (f"{lang}/" if lang != "fr" else "") + urllib.parse.quote(tr_rel(lang, rel))
 
 def main():
     dics = {l: load(l) for l in LANGS}
@@ -66,14 +79,14 @@ def main():
     avail = lambda rel: [l for l in LANGS if rel in done[l]]
 
     def switcher(cur, rel, depth):
-        # depth = profondeur du fichier dans dist (préfixe langue compris)
-        up = "../" * depth
+        here = out_dir(cur, rel)
         items = []
         for l, code, name in ALL:
-            if l == "fr": href = up + (urllib.parse.quote(rel) + "/" if rel else "")
-            elif rel in done[l]: href = up + f"{l}/" + (urllib.parse.quote(rel) + "/" if rel else "")
-            elif "" in done[l]: href = up + f"{l}/"
-            else: href = up + (urllib.parse.quote(rel) + "/" if rel else "")
+            if l == "fr": tgt = rel
+            elif rel in done[l]: tgt = out_dir(l, rel)
+            elif "" in done[l]: tgt = l
+            else: tgt = rel
+            href = rel_link(tgt, here)
             cls = ' aria-current="true"' if l == cur else ""
             items.append(f'<a href="{href}" hreflang="{l}" lang="{l}"{cls}><b>{code}</b> {name}</a>')
         return (f'<details class="lang-sw"><summary aria-label="Langue / Language"><span>{cur.upper()}</span></summary>'
@@ -102,33 +115,45 @@ def main():
             depth_fr = len(rel.split("/")) if rel else 0
             base = pathlib.PurePosixPath("/" + rel + "/") if rel else pathlib.PurePosixPath("/")
 
+            here = out_dir(l, rel)
             def fix(m):
                 attr, u = m.group(1), m.group(2)
                 if re.match(r"(https?:|mailto:|tel:|data:|javascript:|#)", u) or u.startswith("/"): return m.group(0)
                 parts = u.split()
                 p = parts[0]; path, _, frag = p.partition("#")
+                path, q, query = path.partition("?")
                 tgt = urllib.parse.unquote(path)
                 full = (pathlib.PurePosixPath(str(base)) / tgt).as_posix()
                 full = posixpath.normpath(full).lstrip("/")
                 full = "" if full == "." else full
                 is_page = (D / full / "index.html").exists() if full else True
-                if is_page and full in done[l] and (not path or path.endswith("/") or path in ("..", ".")):
-                    newp = p
+                if is_page and (not path or path.endswith("/") or path in ("..", ".")):
+                    target = out_dir(l, full) if full in done[l] else full
+                    newp = rel_link(target, here)
                 else:
-                    newp = "../" + p
+                    newp = rel_link(full, here, is_dir=False)
+                newp = (newp or "./") + (q + query if q else "") + ("#" + frag if frag else "")
                 parts[0] = newp
                 return f'{attr}="{" ".join(parts)}"'
 
             out = re.sub(r'\b(href|src|data-full|poster)="([^"]*)"', fix, t)
-            out = re.sub(r'\bsrcset="([^"]*)"', lambda m: 'srcset="' + ", ".join(
-                ("../" + x.strip() if not re.match(r"(https?:|data:|/)", x.strip()) else x.strip()) for x in m.group(1).split(",")) + '"', out)
+            def fixset(m):
+                outp = []
+                for x in m.group(1).split(","):
+                    x = x.strip(); bits = x.split()
+                    if bits and not re.match(r"(https?:|data:|/)", bits[0]):
+                        full = posixpath.normpath((pathlib.PurePosixPath(str(base)) / urllib.parse.unquote(bits[0])).as_posix()).lstrip("/")
+                        bits[0] = rel_link(full, here, is_dir=False)
+                    outp.append(" ".join(bits))
+                return 'srcset="' + ", ".join(outp) + '"'
+            out = re.sub(r'\bsrcset="([^"]*)"', fixset, out)
             out = translate(out, dic)
             out = out.replace('<html lang="fr"', f'<html lang="{l}"', 1)
             out = out.replace('content="fr_BE"', f'content="{LANGS[l][1]}"')
             out = re.sub(r'(<link rel="canonical" href=")[^"]*', lambda m: m.group(1) + url_of(l, rel), out, count=1)
             out = re.sub(r'(<meta property="og:url" content=")[^"]*', lambda m: m.group(1) + url_of(l, rel), out, count=1)
             out = inject(out, l, rel, depth_fr + 1)
-            dst = D / l / rel / "index.html"
+            dst = D / out_dir(l, rel) / "index.html"
             dst.parent.mkdir(parents=True, exist_ok=True)
             dst.write_text(out, encoding="utf-8")
 

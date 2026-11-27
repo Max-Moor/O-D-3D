@@ -11,6 +11,8 @@ E = html.escape
 
 P = json.load(open(ROOT / "content/pages.json", encoding="utf-8"))
 P = [p for p in P if p["path"] not in ("donate", "donation-thank-you-page")]
+for _p in P:  # libellé FR de la page Eupen (le titre d'origine était en allemand)
+    if _p["path"] == "a-propos/impression-3d-eupen": _p["title"] = "Impression 3D à Eupen | O&D Impression 3D"
 BY = {p["path"]: p for p in P}
 MEDIA = json.load(open(ROOT / "content/media.json", encoding="utf-8"))
 IMG = MEDIA["img"]; LOGOS = MEDIA["logos"]
@@ -57,10 +59,19 @@ def section_of(path):
     first = path.split("/")[0]
     return "actualites" if first == "post" else first
 
+SEO = json.load(open(ROOT / "content/seo.json", encoding="utf-8"))
 def head(p, depth, title, desc, extra_ld=()):
+    o = SEO.get(p)
+    if o:
+        title = o[0] or title; desc = o[1] or desc
     url = SITE + "/" + (p.strip("/") + ("/" if p else "")) if False else SITE + ("/" + urllib.parse.quote(p) if p else "/")
     ld = [{"@context": "https://schema.org", "@type": "LocalBusiness", "@id": SITE + "/#od3d", "name": "O&D Impression 3D", "url": SITE + "/",
-           "logo": SITE + "/static/img/icon-512.png", "foundingDate": "2021",
+           "logo": SITE + "/static/img/icon-512.png", "image": SITE + "/static/img/og-image.jpg", "foundingDate": "2021",
+           "telephone": "+32 471 68 66 53", "email": "o.d3dindustrie@gmail.com", "hasMap": "https://share.google/9VKVb3GRIVtUuPpTp",
+           "description": "Atelier de fabrication à Welkenraedt (Liège) : impression 3D SLS, FDM et SLA, usinage CNC, scan 3D et modélisation. Prototypes, pièces techniques et petites séries.",
+           "founder": [{"@type": "Person", "name": "Owen Schimmenti", "jobTitle": "Co-fondateur"}, {"@type": "Person", "name": "Donovan Waucomont", "jobTitle": "Co-fondateur"}],
+           "areaServed": [{"@type": "AdministrativeArea", "name": "Province de Liège"}] + [{"@type": "City", "name": c} for c in ("Liège", "Verviers", "Eupen", "Spa", "Huy", "Seraing", "Welkenraedt")] + [{"@type": "Country", "name": "Belgique"}],
+           "knowsAbout": ["Impression 3D", "Frittage laser sélectif (SLS)", "Dépôt de fil fondu (FDM)", "Stéréolithographie (SLA)", "Usinage CNC", "Scan 3D", "Rétro-conception", "Modélisation 3D", "Gravure laser", "Prototypage rapide", "Production en petite série", "Nylon PA12", "PA11", "TPU", "PEEK", "PEKK", "ULTEM", "ASA", "Aluminium", "Laiton"],
            "address": {"@type": "PostalAddress", "streetAddress": "Rue Trois Bourdons 52E", "postalCode": "4840", "addressLocality": "Welkenraedt", "addressRegion": "Liège", "addressCountry": "BE"}}]
     if p:
         parts = p.split("/"); items = [{"@type": "ListItem", "position": 1, "name": "Accueil", "item": SITE + "/"}]
@@ -72,7 +83,7 @@ def head(p, depth, title, desc, extra_ld=()):
     pre = "../" * depth
     robots = "index, follow" if PROD else "noindex, nofollow"
     return f'''<!DOCTYPE html>
-<html lang="fr" class="no-js">
+<html lang="fr" class="no-js" data-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -85,8 +96,7 @@ def head(p, depth, title, desc, extra_ld=()):
 <meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}">
 <meta property="og:url" content="{url}"><meta property="og:image" content="{SITE}/static/img/og-image.jpg"><meta property="og:locale" content="fr_BE">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#0B0E11">
-<script>try{{var t=localStorage.getItem("od3d-theme");if(t==="light")document.documentElement.dataset.theme="light"}}catch(e){{}}</script>
+<meta name="theme-color" content="#F1F3F4">
 <link rel="icon" href="{pre}static/img/favicon-32.png" sizes="32x32"><link rel="apple-touch-icon" href="{pre}static/img/apple-touch-icon.png">
 <link rel="preload" href="{pre}static/fonts/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{pre}static/css/od3d.css">
@@ -114,7 +124,7 @@ def chrome(p, depth):
     mock = "" if PROD else '<div class="mock">Maquette · non officielle</div>'
     return f'''<header class="top"><a class="brand" href="{rel(depth, "")}" aria-label="Accueil O&amp;D Impression 3D"><img src="{pre}static/img/logo-od.png" alt="O&amp;D" width="56" height="30"><span>Impression 3D</span></a>
 <nav class="mainnav" aria-label="Navigation principale">{rail}</nav>
-<div class="top-actions"><button type="button" class="theme-btn" aria-label="Thème clair ou sombre"><svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg><svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M5 19l1.5-1.5M17.5 6.5L19 5"/></svg></button><a class="btn btn-p" href="{rel(depth, "devis-instantane")}">Devis instantané <span class="a">→</span></a><button class="menu-btn" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu"><i></i><span>Menu</span></button></div></header>
+<div class="top-actions"><a class="btn btn-p" href="{rel(depth, "devis-instantane")}">Devis instantané <span class="a">→</span></a><button class="menu-btn" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu"><i></i><span>Menu</span></button></div></header>
 {over}{mock}
 <main id="main">
 '''
@@ -163,8 +173,14 @@ def _fix(v):
         for a, b in TEXTFIX: v = v.replace(a, b)
     elif isinstance(v, list): v = [_fix(x) for x in v]
     return v
+BRAND_TAIL = re.compile(r"(?:\s*(?:[^.!?]*\b(?:O&D|O&amp;D)\b[^.!?]*[.!?]?))+\s*$")
+def clean_desc(s):
+    """Retire la phrase finale « …O&D Impression 3D à Liège. » répétée sur chaque carte."""
+    s = (s or "").strip()
+    c = BRAND_TAIL.sub("", s).strip()
+    return c if len(c) >= 40 else s
 def short(s, n=150):
-    s = s or ""
+    s = clean_desc(s)
     if len(s) <= n: return s
     c = s[:n].rsplit(" ", 1)[0].rstrip(" ,;:—-")
     return c + "…"
@@ -538,8 +554,33 @@ def mat_ring(d):
         tg = HUBDATA.get(s, {}).get("tag") or (CNC_MATS[s][1] if s in CNC_MATS else "")
         cards.append(f'<a class="mcard" data-t="{tk}" style="--eco:{ECO_C[tk]}" href="{rel(d, x["path"])}">{im}<span class="mc-t">{E(TECH[tk]["name"])}</span><b>{E(label(x))}</b><span class="mc-g">{E(tg)}</span></a>')
     chips = '<button type="button" class="on" data-f="all">Toutes</button>' + "".join(f'<button type="button" data-f="{k}">{E(t["name"])}</button>' for k, t in TECH.items() if t["mats"])
+    groups = []
+    for k, t in TECH.items():
+        cs = [c for c in cards if f'data-t="{k}"' in c]
+        if not cs: continue
+        groups.append(f'<div class="mgroup" data-t="{k}" style="--eco:{ECO_C[k]}"><div class="mg-head"><b>{E(t["name"])}</b><span>{E(t["long"])}</span><em>{len(cs)} matières</em><a href="{rel(d, t["url"])}">Écosystème {E(t["name"])} →</a></div><div class="mgrid">{"".join(cs)}</div></div>')
     return (f'<div class="mring" id="mring"><div class="mr-filters" role="group" aria-label="Filtrer par technologie">{chips}</div>'
-            f'<div class="mgrid">{"".join(cards)}</div></div>')
+            + "".join(groups) + '</div>')
+
+def brief_facts():
+    mnames = ", ".join(label(m) for m in MACH)
+    return [
+     ("Qui sommes-nous ?", "O&D Impression 3D est un atelier de fabrication belge fondé en 2021 par Owen Schimmenti et Donovan Waucomont."),
+     ("Où se trouve notre atelier ?", "Rue Trois Bourdons 52E, 4840 Welkenraedt, en province de Liège. Nous travaillons pour Liège, Verviers, Eupen, Spa, Huy, Seraing et toute la Belgique."),
+     ("Que fabriquons-nous ?", "Impression 3D SLS, FDM et SLA, usinage CNC, scan 3D, modélisation 3D et gravure laser : prototypes, pièces techniques, pièces de remplacement et petites séries."),
+     ("Avec quelles machines travaillons-nous ?", f"{len(MACH)} machines dans notre atelier : {mnames}."),
+     ("Quelles matières utilisons-nous ?", f"{len(MATS)} matières documentées : nylon PA12 et PA11, TPU, PLA, PETG, ABS, ASA, PEEK, PEKK, ULTEM, aluminium, laiton, cuivre, bronze, titane et plastiques techniques."),
+     ("Comment obtenir un devis ?", "Devis instantané en ligne à partir d'un fichier 3D (STL, STEP, 3MF), ou devis personnalisé sous 24 h."),
+     ("Pour qui travaillons-nous ?", "Entreprises, collectivités et créateurs : par exemple Walibi, Infrabel, la Ville de Spa ou Lx Cars."),
+     ("Comment nous contacter ?", "Par téléphone au 0471 68 66 53, par e-mail à o.d3dindustrie@gmail.com ou via le formulaire de contact."),
+    ]
+def brief_section(d):
+    f = brief_facts()
+    body = '<div class="brief">' + "".join(f'<div class="bf"><h3>{E(q)}</h3><p>{E(a)}</p></div>' for q, a in f) + "</div>"
+    ld = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in f]}
+    return ('<section id="en-bref"><div class="wrap"><div class="sec-head"><div><div class="sec-no">En bref</div><h2>O&amp;D Impression 3D en 8 réponses</h2></div>'
+            '<p class="lead">Les informations essentielles sur notre atelier, en un coup d\'œil.</p></div>' + body + '</div></section>'
+            '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False) + '</script>')
 
 def gen_home():
     p = BY[""] if "" in BY else {"path": "", "title": "O&D Impression 3D", "desc": ""}
@@ -581,6 +622,7 @@ def gen_home():
 <div class="steps"><div class="panel rv n"><h3>Envoyez</h3><p>Fichier STEP, STL ou 3MF, plan, croquis… ou la pièce à scanner.</p></div><div class="panel rv n"><h3>Analyse &amp; devis</h3><p>Instantané avec fichier 3D, personnalisé sous 24 h.</p></div><div class="panel rv n"><h3>Fabrication</h3><p>Procédé et matière choisis selon vos contraintes.</p></div><div class="panel rv n"><h3>Livraison</h3><p>Envoi ou retrait à l'atelier de Welkenraedt.</p></div></div></div></section>
 <section><div class="wrap"><div class="sec-head"><div><div class="sec-no">Réalisations</div><h2>Nos réalisations</h2></div><p><a class="btn btn-g" href="réalisations/">Tous les projets <span class="a">→</span></a></p></div>{hub_grid(d, REAL[:6], "Projet")}</div></section>
 {events_section(d)}
+{brief_section(d)}
 <section><div class="wrap"><div class="sec-head"><div><div class="sec-no">Outils</div><h2>Préparer votre projet</h2></div></div><div class="grid g4">{tools}</div></div></section>
 '''
     m = build_model(p) if p.get("native") is not None else None
@@ -632,7 +674,7 @@ def gen_contact():
 </div></section>'''
     info = ('<section style="padding:40px 0 0"><div class="wrap"><div class="grid g4">'
             '<div class="panel rv"><span class="k hud">Atelier</span><p style="color:var(--t)">Rue Trois Bourdons 52E<br>4840 Welkenraedt, Belgique</p></div>'
-            '<div class="panel rv"><span class="k hud">Téléphone</span><p><a style="color:var(--t)" href="tel:+3242901192">04 290 11 92</a></p></div>'
+            '<div class="panel rv"><span class="k hud">Téléphone</span><p><a style="color:var(--t)" href="tel:+32471686653">0471 68 66 53</a></p></div>'
             '<div class="panel rv"><span class="k hud">E-mail</span><p><a style="color:var(--t)" href="mailto:o.d3dindustrie@gmail.com">o.d3dindustrie@gmail.com</a></p></div>'
             '<div class="panel rv"><span class="k hud">Horaires</span><p style="color:var(--t)">Lun–sam, 9 h–17 h<br>Visite sur rendez-vous</p></div>'
             '</div></div></section>')
@@ -688,3 +730,4 @@ for u in urls:
 (OUT / ".nojekyll").write_text("")
 print("pages:", len(list(OUT.rglob("index.html"))))
 import subprocess; subprocess.run([sys.executable, str(ROOT / "i18n.py")], check=True)
+subprocess.run([sys.executable, str(ROOT / "geo.py")] + (["--prod"] if PROD else []), check=True)

@@ -58,7 +58,7 @@ const SHAPES = {
 function hexA(h, a) { const n = parseInt(h.slice(1), 16); return `rgba(${n >> 16 & 255},${n >> 8 & 255},${n & 255},${a})`; }
 document.querySelectorAll('canvas[data-shape]').forEach(cv => {
   const ctx = cv.getContext('2d'), pts = (SHAPES[cv.dataset.shape] || SHAPES.flange)(), dc = cv.dataset.color;
-  const getCol = () => (!dc || dc === 'ink') ? (getComputedStyle(document.documentElement).getPropertyValue('--ink').trim() || '#E6ECF0') : dc;
+  const getCol = () => (!dc || dc === 'ink') ? (getComputedStyle(cv).getPropertyValue('--pt').trim() || '#BFEFFA') : dc;
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   let t = Math.random() * 10, W, Hh, dpr, ry = 0, rx = -.95, vy = .0064, drag = null, live = false, raf = 0;
   const tilt = cv.dataset.tilt ? +cv.dataset.tilt : -.95; rx = tilt;
@@ -107,10 +107,10 @@ document.querySelectorAll('.gal-i').forEach(a => a.addEventListener('click', e =
 // Matériaux (accueil) : filtre par technologie
 (function () {
   const root = document.getElementById('mring'); if (!root) return;
-  const cards = [...root.querySelectorAll('.mcard')];
+  const groups = [...root.querySelectorAll('.mgroup')];
   root.querySelectorAll('.mr-filters button').forEach(b => b.addEventListener('click', () => {
     root.querySelectorAll('.mr-filters button').forEach(x => x.classList.toggle('on', x === b));
-    cards.forEach(c => { c.hidden = b.dataset.f !== 'all' && c.dataset.t !== b.dataset.f; });
+    groups.forEach(g => { g.hidden = b.dataset.f !== 'all' && g.dataset.t !== b.dataset.f; });
   }));
 })();
 
@@ -136,10 +136,3 @@ document.querySelectorAll('.grid.g3, .grid.g4').forEach(g => {
   if (sb) sb.addEventListener('click', () => { v.muted = !v.muted; f.classList.toggle('sound', !v.muted); if (!v.muted && v.paused) { userPaused = false; v.play(); } });
 })();
 
-// Thème clair / sombre (sombre par défaut, choix mémorisé)
-document.querySelectorAll('.theme-btn').forEach(b => b.addEventListener('click', () => {
-  const light = document.documentElement.dataset.theme === 'light';
-  if (light) delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = 'light';
-  try { localStorage.setItem('od3d-theme', light ? 'dark' : 'light'); } catch (e) {}
-  window.dispatchEvent(new Event('resize'));
-}));

@@ -617,3 +617,38 @@ html[data-theme="light"] .top .brand img{filter:brightness(0)}
  .htile{min-width:0;padding:.8rem}
  .htile img{max-width:56px;height:auto}
 }
+
+/* ===== Site toujours en clair ===== */
+html{color-scheme:light}
+/* Pièces sans fond blanc : elles se posent directement sur le gris clair */
+.mc-img,.lcard .thumb,.thumb.sym{background:transparent}
+.mc-img{height:104px}
+.mc-img img{max-height:92px;filter:drop-shadow(0 6px 10px rgba(16,22,27,.12))}
+.lcard .thumb img{filter:drop-shadow(0 10px 16px rgba(16,22,27,.14))}
+.lcard .thumb.photo{background:var(--bg2)}
+.lcard .thumb.photo img{filter:none}
+/* Matières : une ligne par technologie */
+.mgroup{margin-top:var(--s4)}
+.mgroup[hidden]{display:none}
+.mg-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:.4rem 1rem;padding-bottom:.6rem;margin-bottom:var(--s2);border-bottom:1px solid var(--line)}
+.mg-head b{font:800 1.6rem/1 var(--fh);font-stretch:80%;color:var(--ink)}
+.mg-head span{color:var(--m);font-size:.95rem}
+.mg-head em{font-style:normal;font:500 .8rem var(--fm);color:var(--d)}
+.mg-head a{margin-left:auto;font-weight:600;font-size:.9rem;color:var(--cd)}
+.mg-head a:hover{text-decoration:underline}
+/* Touches sombres : rendus 3D en nuage de points */
+.scan{--pt:#9FE7F6;background:#0B0E11;border-color:#0B0E11}
+.scan .cap{border-top-color:#1F272E;color:#93A0AA}
+.scan .cap b{color:#fff}
+/* Accueil : bloc titre centré */
+.hero.hv .wrap{align-items:center}
+.hv-txt{max-width:900px;margin:0 auto;text-align:center;display:flex;flex-direction:column;align-items:center}
+.hv-txt .lead{max-width:680px}
+.hv-txt .cta-row{justify-content:center}
+.htiles{width:100%}
+.hv-ctl{justify-content:center}
+.mgroup .mc-t{display:none}
+.brief{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:0;border-top:1px solid var(--line)}
+.brief .bf{padding:1.1rem 1.2rem 1.2rem 0;border-bottom:1px solid var(--line)}
+.brief .bf h3{font:700 1.02rem/1.25 var(--fh);margin:0 0 .4rem;color:var(--ink)}
+.brief .bf p{margin:0;color:var(--m);font-size:.95rem;line-height:1.55}

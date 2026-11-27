@@ -1,0 +1,23 @@
+{
+ "contact": "kontakt",
+ "machines-materiaux": "maschinen-werkstoffe",
+ "services": "leistungen",
+ "services/impression-3d-sls": "leistungen/sls-3d-druck",
+ "services/impression-3d-fdm": "leistungen/fdm-3d-druck",
+ "services/impression-3d-resine": "leistungen/sla-3d-druck",
+ "services/usinage-cnc": "leistungen/cnc-bearbeitung",
+ "services/scan-3d": "leistungen/3d-scan",
+ "services/prototypage-rapide": "leistungen/rapid-prototyping",
+ "services/impression-3d-industrielle-belgique": "leistungen/industrieller-3d-druck-belgien",
+ "services/retroconception-reverse-engineering": "leistungen/reverse-engineering",
+ "devis-instantane": "sofortangebot",
+ "faq": "faq",
+ "a-propos": "ueber-uns",
+ "a-propos/impression-3d-eupen": "ueber-uns/3d-druck-eupen",
+ "a-propos/impression-3d-verviers": "ueber-uns/3d-druck-verviers",
+ "a-propos/impression-3d-belgique": "ueber-uns/3d-druck-belgien",
+ "a-propos/impression-3d-ville-liege": "ueber-uns/3d-druck-luettich",
+ "comparateur-materiaux": "werkstoffvergleich",
+ "réalisations": "referenzen",
+ "actualites": "blog"
+}

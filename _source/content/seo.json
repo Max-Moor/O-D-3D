@@ -1,0 +1,238 @@
+{
+"": [
+"Impression 3D industrielle & usinage CNC à Liège | O&D",
+"Service d'impression 3D SLS, FDM et SLA et d'usinage CNC en Belgique, à Welkenraedt (Liège). Prototypes, pièces techniques et petites séries. Devis sous 24 h."
+],
+"services": [
+"Services d'impression 3D et d'usinage CNC | O&D",
+"Services d'impression 3D (SLS, FDM, SLA), usinage CNC, scan 3D et modélisation en Belgique. Atelier à Welkenraedt, province de Liège. Devis sous 24 h."
+],
+"services/impression-3d-sls": [
+"Impression 3D SLS (frittage nylon) en Belgique | O&D",
+null
+],
+"services/impression-3d-resine": [
+"Impression 3D résine SLA (stéréolithographie) | O&D",
+"Impression 3D résine par stéréolithographie (SLA/MSLA) en Belgique : finition lisse, précision ±0,025 mm. Prototypes, maquettes, bijoux. Welkenraedt."
+],
+"services/fabrication-additive": [
+"Fabrication additive FDM, SLA et SLS en Belgique | O&D",
+null
+],
+"services/modelisation-3d": [
+"Modélisation 3D & CAO sur mesure en Belgique | O&D",
+"Modélisation 3D et conception CAO sur mesure en Belgique : de l'esquisse au fichier imprimable en 48 h, 3 révisions incluses. Atelier à Welkenraedt (Liège)."
+],
+"services/production-petite-serie": [
+"Production en petite série par impression 3D | O&D",
+"Production en petite série par impression 3D en Belgique : de 10 à 500 pièces identiques, contrôle qualité et prix dégressifs. Atelier à Welkenraedt (Liège)."
+],
+"services/prototypage-rapide": [
+"Prototypage rapide en Belgique | O&D Impression 3D",
+null
+],
+"services/scan-3d": [
+"Scan 3D en Belgique – numérisation de pièces | O&D",
+"Service de scan 3D et de numérisation en Belgique : précision ±0,05 mm, rétroconception, contrôle et archivage numérique. Atelier à Welkenraedt (Liège)."
+],
+"services/usinage-cnc": [
+"Usinage CNC aluminium, laiton & plastiques | O&D",
+null
+],
+"services/impression-3d-grand-format": [
+"Impression 3D grand format, jusqu'à 1 m | O&D",
+"Impression 3D grand format et grande dimension en Belgique : pièces jusqu'à 1 m, maquettes, prototypes industriels, assemblage multi-sections."
+],
+"a-propos/impression-3d-eupen": [
+"Impression 3D à Eupen | Prototypes & pièces | O&D",
+"Impression 3D à Eupen : FDM, SLS, résine, scan 3D et CAO. Notre atelier de Welkenraedt est à 10 minutes d'Eupen. Service en français et en allemand."
+],
+"a-propos/impression-3d-seraing": [
+"Impression 3D à Seraing | Conception & scan | O&D",
+null
+],
+"a-propos/impression-3d-spa": [
+"Impression 3D à Spa | Maquettes & prototypes | O&D",
+null
+],
+"a-propos/impression-3d-verviers": [
+"Impression 3D à Verviers | Pros & particuliers | O&D",
+null
+],
+"a-propos/impression-3d-ville-liege": [
+"Impression 3D à Liège et en province | O&D Impression 3D",
+"Impression 3D à Liège et dans toute la province : SLS, FDM, SLA et usinage CNC depuis notre atelier de Welkenraedt. Prototypes, pièces et séries. Devis 24 h."
+],
+"comparateur-materiaux": [
+"Comparateur de matériaux impression 3D | O&D Impression 3D",
+null
+],
+"comparateur-materiaux/abs-asa": [
+"ABS vs ASA : comparatif impression 3D | O&D Impression 3D",
+null
+],
+"comparateur-materiaux/pla-petg": [
+"PLA vs PETG : comparatif impression 3D | O&D Impression 3D",
+null
+],
+"machines-materiaux": [
+"Parc machines & 29 matériaux | O&D Impression 3D",
+null
+],
+"machines-materiaux/modix-big-meter": [
+"Modix Big Meter – impression 3D grand format | O&D",
+null
+],
+"machines-materiaux/pekk": [
+"Impression 3D PEKK – plus rigide que le PEEK | O&D",
+null
+],
+"machines-materiaux/petg": [
+"Impression 3D PETG – résistant & polyvalent | O&D",
+null
+],
+"machines-materiaux/prusa-core-one": [
+"Prusa Core One – prototypage FDM | O&D Impression 3D",
+null
+],
+"machines-materiaux/sls-nylon-pa12-gris": [
+"Nylon PA12 gris SLS – pièces fonctionnelles | O&D",
+null
+],
+"machines-materiaux/sls-ultrasint-pa11-cf": [
+"Ultrasint® PA11 CF SLS – fibre de carbone | O&D",
+null
+],
+"machines-materiaux/sls-ultrasint-tpu-88a": [
+"Ultrasint® TPU 88A SLS – pièces flexibles | O&D",
+null
+],
+"machines-materiaux/supermaker-sls3540-pro": [
+"Supermaker SLS3540 Pro – SLS grand format | O&D",
+null
+],
+"machines-materiaux/tooldance-x1-cnc": [
+null,
+"ToolDance X1 : fraiseuse CNC de l'atelier O&D pour l'aluminium, le laiton, le cuivre et les plastiques techniques. Pièces précises à l'unité ou en petite série."
+],
+"machines-materiaux/cnc-bronze": [
+null,
+"Usinage CNC du bronze à Welkenraedt (Liège) : bagues, coussinets et pièces de frottement autolubrifiantes, à l'unité ou en petite série. Devis sous 24 h."
+],
+"machines-materiaux/cnc-cuivre": [
+null,
+"Usinage CNC du cuivre à Welkenraedt (Liège) : pièces conductrices électriques et thermiques, à l'unité ou en petite série. Devis sous 24 h."
+],
+"machines-materiaux/cnc-ertalon": [
+null,
+"Usinage CNC de l'Ertalon® (PA6) à Welkenraedt (Liège) : pièces techniques en polyamide, guides, galets et pignons, à l'unité ou en série. Devis sous 24 h."
+],
+"machines-materiaux/cnc-laiton": [
+null,
+"Usinage CNC du laiton à Welkenraedt (Liège) : pièces décoratives, raccords et pièces de précision, à l'unité ou en petite série. Devis sous 24 h."
+],
+"devis-instantane": [
+null,
+"Déposez votre fichier STL, choisissez la matière et la quantité : estimation immédiate du prix de votre impression 3D. Devis personnalisé sous 24 h au-delà."
+],
+"quiz-technologie-impression-3d": [
+"Quiz : quelle technologie d'impression 3D choisir ? | O&D",
+null
+],
+"réalisations/coffrets-electriques-ville-de-spa": [
+"Coffrets électriques pour la Ville de Spa | O&D",
+null
+],
+"réalisations/faucon-bas-relief-jean-pierre-craninx": [
+"Faucon en bas-relief pour Jean-Pierre Craninx | O&D",
+"Un faucon en bas-relief imprimé en 3D pour l'artiste Jean-Pierre Craninx : modélisation, impression et finition d'une œuvre d'art par O&D Impression 3D."
+],
+"réalisations/infrabel-rails-maquette": [
+"Rails miniatures pour la maquette Infrabel | O&D",
+null
+],
+"réalisations/semelles-tabouret-40cm-gites-herve": [
+"Semelles de tabourets pour des gîtes à Herve | O&D",
+null
+],
+"réalisations/walibi-wagons-loup-garou": [
+"200 wagons miniatures pour Walibi Belgium | O&D",
+null
+],
+"post/200-wagons-miniatures-imprimés-en-3d-pour-l-attraction-loup-garou-de-walibi": [
+"200 wagons imprimés en 3D pour Walibi | O&D Impression 3D",
+"Comment nous avons conçu et imprimé en 3D 200 wagons miniatures, objets-souvenirs de l'attraction Loup Garou de Walibi : modélisation, série et finition."
+],
+"post/combien-coûte-une-impression-3d": [
+"Combien coûte une impression 3D ? | O&D Impression 3D",
+"Prix d'une impression 3D : temps machine, matière, volume, finitions et quantité. Les facteurs de coût expliqués pour optimiser le budget de vos pièces."
+],
+"post/comment-optimiser-un-fichier-stl-pour-l-impression-3d": [
+"Comment optimiser un fichier STL pour l'impression 3D ?",
+"Épaisseurs de paroi, orientation, tolérances, maillage : nos conseils pour préparer un fichier STL qui s'imprime mieux et coûte moins cher en impression 3D."
+],
+"post/comprendre-la-technologie-sls-fonctionnement-étapes-applications-avantages-et-limites": [
+"Technologie SLS : fonctionnement, avantages et limites",
+"Comment fonctionne l'impression 3D SLS (frittage laser sélectif) : étapes, matériaux, applications, avantages et limites de cette technologie sans supports."
+],
+"post/faut-il-acheter-une-imprimante-3d-ou-passer-par-un-service": [
+"Acheter une imprimante 3D ou passer par un service ?",
+"Acheter une imprimante 3D ou faire appel à un service d'impression 3D ? Coûts, compétences, matériaux et volumes : les critères pour bien choisir."
+],
+"post/gravure-laser-sur-métal-en-belgique-applications-et-possibilités": [
+"Gravure laser sur métal en Belgique : applications | O&D",
+"Gravure laser sur métal en Belgique : marquage précis et permanent, sans contact. Applications pour entreprises et particuliers, matériaux et possibilités."
+],
+"post/impression-3d-et-développement-durable-mythe-ou-réalité": [
+"L'impression 3D est-elle écologique ? | O&D Impression 3D",
+"L'impression 3D est-elle vraiment écologique ? Production à la demande, réduction des déchets, fabrication locale : avantages réels et limites à connaître."
+],
+"post/impression-3d-grand-format-ce-qu-il-faut-savoir": [
+"Impression 3D grand format : ce qu'il faut savoir | O&D",
+"Impression 3D grand format : à partir de quelle taille, quelles technologies, quelles contraintes et quels coûts pour des pièces de 30 cm à plus d'un mètre."
+],
+"post/impression-3d-pour-l-industrie-quels-avantages-concrets": [
+"Impression 3D pour l'industrie : avantages concrets | O&D",
+"Prototypes, outillages, pièces de rechange, petites séries : les avantages concrets de l'impression 3D pour l'industrie, et quand elle devient rentable."
+],
+"post/les-erreurs-à-éviter-en-impression-3d": [
+"Impression 3D : les erreurs courantes à éviter | O&D",
+"Mauvais matériau, parois trop fines, orientation, tolérances : les erreurs courantes qui compromettent un projet d'impression 3D, et comment les éviter."
+],
+"post/obtenez-un-devis-rapide-avec-o-d-impression-3d-devis-impression-3d-personnalisé": [
+"Devis d'impression 3D rapide et personnalisé | O&D",
+"Obtenez un devis d'impression 3D personnalisé rapidement : fichier, matière, quantité et délai. Comment fonctionne notre service de devis, étape par étape."
+],
+"post/quand-choisir-le-peek-plutôt-que-l-abs": [
+"Quand choisir le PEEK plutôt que l'ABS ? | O&D",
+"PEEK ou ABS ? Tenue en température, résistance chimique, mécanique et coût : dans quels cas le PEEK s'impose face à l'ABS en impression 3D technique."
+],
+"post/recevez-un-devis-impression-3d-rapide-avec-o-d": [
+"Recevez un devis d'impression 3D rapide | O&D",
+"Recevez un devis d'impression 3D en quelques clics : envoi du fichier, choix de la matière et réponse rapide pour vos pièces sur mesure, avec O&D."
+],
+"post/résine-vs-fdm-quelle-technologie-d-impression-3d-choisir": [
+"Résine vs FDM : quelle impression 3D choisir ? | O&D",
+"Résine (SLA) ou FDM : précision, état de surface, solidité, taille et coût. Les différences entre les deux technologies et laquelle choisir selon l'usage."
+],
+"post/services-d-impression-3d-sls-en-ligne-pour-la-belgique-votre-allié-pour-des-pièces-sur-mesure": [
+"Impression 3D SLS en ligne en Belgique | O&D",
+"Commandez vos pièces en impression 3D SLS en ligne en Belgique : prototypes et pièces fonctionnelles en nylon, qualité industrielle, sans vous déplacer."
+],
+"post/simplifiez-vos-commandes-avec-un-service-impression-3d-sls": [
+"Simplifiez vos commandes d'impression 3D SLS | O&D",
+"Conseils pratiques pour commander vos pièces en impression 3D SLS en ligne : préparation des fichiers, choix du service, délais et optimisation des coûts."
+],
+"post/un-faucon-en-bas-relief-imprimé-en-3d-pour-l-artiste-jean-pierre-craninx": [
+"Un faucon en bas-relief imprimé en 3D pour un artiste",
+"Collaboration avec l'artiste Jean-Pierre Craninx : un faucon en bas-relief modélisé et imprimé en 3D par O&D Impression 3D, de l'idée à l'œuvre finie."
+],
+"post/réalisation-de-portes-de-coffrets-électriques-pour-la-ville-de-spa": [
+null,
+"Portes de coffrets électriques imprimées en 3D pour la Ville de Spa : pièces résistantes aux UV et aux intempéries, fabriquées à Welkenraedt (Liège)."
+],
+"mentions-légales": [
+null,
+"Mentions légales du site d'O&D Impression 3D : éditeur, coordonnées, conditions d'utilisation du site et informations sur les cookies."
+]
+}

@@ -425,3 +425,27 @@ def gen_parc():
     out += '<div id="autres"></div>' + sec("05", "Et aussi : scan 3D &amp; gravure laser", mini_cards(d, OTHER_MACH, "Équipement"), "Équipements complémentaires")
     out += cta(d)
     write("machines-materiaux", head("machines-materiaux", d, p["title"], p["desc"]) + chrome("machines-materiaux", d) + out + footer(d))
+
+# ---------------------------------------------------------------- finitions éditoriales
+# Titres des réalisations en casse française (pas de Majuscules À Chaque Mot)
+NICE.update({
+ "réalisations/logopede-polypropylene": "Pièce en polypropylène pour une logopède",
+ "réalisations/hachoir-piece-cassee": "Engrenage de hachoir reproduit en 3D",
+ "réalisations/audi-s3-pieces-endommagees": "Pièces d'Audi S3 reproduites en PAHT-CF",
+ "réalisations/infrabel-rails-maquette": "Rails miniatures pour la maquette Infrabel",
+ "réalisations/semelles-tabouret-40cm-gites-herve": "Semelles de tabourets pour des gîtes à Herve",
+ "réalisations/pic-barriere-asa-retro-conception": "Pic de barrière reproduit en ASA",
+ "réalisations/porte-cles-bicolores-garage-lx-cars": "300 porte-clés bicolores pour Lx Cars",
+ "réalisations/coffrets-electriques-ville-de-spa": "Coffrets électriques pour la Ville de Spa",
+})
+for _p in P:
+    if _p["path"].startswith("réalisations/") and _p["path"] in NICE:
+        _p["title"] = NICE[_p["path"]] + " | O&D Impression 3D"
+# Accroches des matières FDM au même format que les autres (3 qualités, données du catalogue)
+for _s, _tag in {"pla": "Précis · Économique · Multicolore", "petg": "Solide · Durable · Résistant chimique",
+                 "abs": "Dur · Usinable · Tenue à la chaleur", "asa": "Résistant UV · Extérieur · Durable",
+                 "tpu": "Souple · Élastique · Anti-abrasion", "pp": "Léger · Souple · Résistant chimique",
+                 "pa12-cf": "Rigide · Léger · Technique", "pa12-gf": "Stable · Robuste · Industriel",
+                 "pps-cf": "Haute température · Résistant chimique · Rigide", "peek": "Haute performance · Chimie · Usure",
+                 "pekk": "Haute performance · Ininflammable · Aéronautique", "ultem-pei": "Incombustible · Ferroviaire · Aéronautique"}.items():
+    HUBDATA.setdefault(_s, {})["tag"] = _tag
