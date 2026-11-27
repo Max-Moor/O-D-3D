@@ -7744,7 +7744,7 @@
    },
    {
     "t": "txt",
-    "v": "Température buse jusqu'à 300°C"
+    "v": "Température buse jusqu'à 290°C"
    },
    {
     "t": "txt",
@@ -10889,7 +10889,7 @@
   "native": [
    {
     "t": "h2",
-    "v": "XTool F1 Lite"
+    "v": "xTool F1"
    },
    {
     "t": "h2",
@@ -10897,7 +10897,7 @@
    },
    {
     "t": "p",
-    "v": "La xTool F1 Lite est notre laser de gravure et découpe ultra-rapide. Avec une vitesse de 4000 mm/s et la capacité de travailler sur plus de 300 matériaux différents (bois, métal, cuir, verre, tissu, plastique…), elle est l'outil parfait pour la personnalisation, la création artisanale et la petite série industrielle."
+    "v": "La xTool F1 est notre laser de gravure et découpe ultra-rapide. Avec une vitesse de 4000 mm/s et la capacité de travailler sur plus de 300 matériaux différents (bois, métal, cuir, verre, tissu, plastique…), elle est l'outil parfait pour la personnalisation, la création artisanale et la petite série industrielle."
    },
    {
     "t": "p",
@@ -10961,15 +10961,15 @@
    },
    {
     "t": "p",
-    "v": "Le xTool F1 Lite est une machine de gravure laser compacte et moderne conçue pour les créateurs, les artisans, les petites entreprises et les passionnés de personnalisation. Développé par xTool , spécialiste reconnu des technologies de fabrication numérique, ce système a été pensé pour offrir une solution accessible, fiable et parfaitement adaptée aux besoins des ateliers créatifs et des espaces de travail modernes."
+    "v": "La xTool F1 est une machine de gravure laser compacte et moderne conçue pour les créateurs, les artisans, les petites entreprises et les passionnés de personnalisation. Développé par xTool , spécialiste reconnu des technologies de fabrication numérique, ce système a été pensé pour offrir une solution accessible, fiable et parfaitement adaptée aux besoins des ateliers créatifs et des espaces de travail modernes."
    },
    {
     "t": "p",
-    "v": "Avec son design élégant et sa conception soignée, le xTool F1 Lite s’intègre facilement dans un bureau, un atelier ou un studio de création. Sa structure compacte permet de profiter d’un équipement performant sans nécessiter un espace de travail important, tout en conservant une finition premium et une excellente qualité de fabrication."
+    "v": "Avec son design élégant et sa conception soignée, le xTool F1 s’intègre facilement dans un bureau, un atelier ou un studio de création. Sa structure compacte permet de profiter d’un équipement performant sans nécessiter un espace de travail important, tout en conservant une finition premium et une excellente qualité de fabrication."
    },
    {
     "t": "p",
-    "v": "Le xTool F1 Lite répond aux besoins des utilisateurs souhaitant développer des projets de personnalisation, de marquage et de création d’objets uniques. Il trouve naturellement sa place dans des domaines comme l’artisanat, la création de produits personnalisés, le prototypage créatif ou encore les petites productions sur mesure."
+    "v": "La xTool F1 répond aux besoins des utilisateurs souhaitant développer des projets de personnalisation, de marquage et de création d’objets uniques. Il trouve naturellement sa place dans des domaines comme l’artisanat, la création de produits personnalisés, le prototypage créatif ou encore les petites productions sur mesure."
    },
    {
     "t": "p",
@@ -10977,17 +10977,17 @@
    },
    {
     "t": "p",
-    "v": "Choisir le xTool F1 Lite , c’est investir dans une solution de gravure laser compacte et moderne, conçue pour accompagner les créateurs et les professionnels recherchant précision, simplicité et fiabilité au quotidien."
+    "v": "Choisir le xTool F1 , c’est investir dans une solution de gravure laser compacte et moderne, conçue pour accompagner les créateurs et les professionnels recherchant précision, simplicité et fiabilité au quotidien."
    }
   ],
   "embed": [
    {
     "t": "txt",
-    "v": "Laser Diode"
+    "v": "Laser double source"
    },
    {
     "t": "txt",
-    "v": "xTool F1 Lite"
+    "v": "xTool F1"
    },
    {
     "t": "txt",
@@ -11003,11 +11003,11 @@
    },
    {
     "t": "txt",
-    "v": "Type de laser Diode 10W — 455 nm"
+    "v": "Type de laser Diode bleue 10 W (455 nm) + infrarouge 2 W (1064 nm)"
    },
    {
     "t": "txt",
-    "v": "Source laser Mono-laser (sans IR)"
+    "v": "Source laser Double laser, bascule automatique"
    },
    {
     "t": "txt",
@@ -11019,15 +11019,15 @@
    },
    {
     "t": "txt",
-    "v": "Poids ~4.45 kg — compact & portable"
+    "v": "Poids ~4,6 kg — compact & portable"
    },
    {
     "t": "txt",
-    "v": "Alimentation 24V / 3.5A"
+    "v": "Alimentation 24V / 5A"
    },
    {
     "t": "txt",
-    "v": "Connectivité USB / PC direct"
+    "v": "Connectivité Wi-Fi · USB"
    },
    {
     "t": "txt",
@@ -11047,23 +11047,7 @@
    },
    {
     "t": "txt",
-    "v": "Limitations"
-   },
-   {
-    "t": "txt",
-    "v": "Métaux nus Très limité (pas d'IR)"
-   },
-   {
-    "t": "txt",
-    "v": "Découpe industrielle Non adapté aux épaisseurs importantes"
-   },
-   {
-    "t": "txt",
-    "v": "Compatibles Bois Cuir Papier / carton Caoutchouc Pierre / ardoise Verre Métal anodisé Aliments"
-   },
-   {
-    "t": "txt",
-    "v": "Limités Métal nu (acier / alu) Découpes épaisses"
+    "v": "Compatibles Bois Cuir Papier / carton Caoutchouc Pierre / ardoise Verre Métal anodisé Inox Laiton Aluminium Or / argent"
    },
    {
     "t": "txt",
@@ -11187,7 +11171,7 @@
    },
    {
     "t": "txt",
-    "v": "Source lumineuse LCD mono 12K"
+    "v": "Source lumineuse LCD mono 7K (13,6\")"
    },
    {
     "t": "txt",
@@ -22031,7 +22015,7 @@
    },
    {
     "t": "p",
-    "v": "Cette machine se distingue par une technologie d’impression utilisant de la poudre plutôt que du filament. Son procédé de fonctionnement repose sur un rayon laser qui vient brûler la matière afin de solidifier chaque couche. Les impressions peuvent atteindre un volume maximal de 160 × 160 × 200 mm."
+    "v": "Cette machine se distingue par une technologie d’impression utilisant de la poudre plutôt que du filament. Son procédé de fonctionnement repose sur un rayon laser qui vient brûler la matière afin de solidifier chaque couche. Les impressions peuvent atteindre un volume maximal de 150 × 150 × 180 mm."
    },
    {
     "t": "p",

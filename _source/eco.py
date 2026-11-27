@@ -1,3 +1,4 @@
+exec(open(ROOT / "content/machx.py", encoding="utf-8").read())
 import re
 # Écosystèmes technologiques + fiches machines / matières structurées (chargé par build.py)
 
@@ -218,14 +219,28 @@ def gen_machine(p):
         rows.append((k, v))
     feats = hub.get("feat", [])
     chip = tag_chip(d, tk) if tk else ""
-    lead = lead_of(p) if p["native"] else p["desc"]
+    X = MACHX.get(s)
+    lead = X["intro"] if X else (lead_of(p) if p["native"] else p["desc"])
+    if X:
+        for k, v in X["specs"]:
+            if not any(k.lower() == rk.lower() or (digits(v) and digits(v) == digits(rv)) for rk, rv in rows): rows.append((k, v))
     m = {"title": label(p), "eyebrow": None, "lead": lead, "stats": []}
     after = f'<div class="chips" style="margin-top:1.4rem">{chip}</div>'
     out = page_hero(p, d, m, after)
     if rows or feats:
         inner = (spec_table(rows) if rows else "") + (('<div class="chips" style="margin-top:1rem">' + "".join(f'<span class="chip">{E(x)}</span>' for x in feats) + "</div>") if feats else "")
         out += sec("01", "Fiche technique", inner, NICE.get(s, label(p)))
-    if adv or lim: out += sec("02", "Points forts &amp; limites", pros_cons(adv, lim))
+    if X:
+        nm = NICE.get(s, label(p)).replace("Scanner ", "")
+        how = "".join(f'<p>{E(x)}</p>' for x in X["how"])
+        out += sec("02", ("Comment fonctionne " + ("le scanner " if s.startswith("scanner") else ("l\'" if nm[0].lower() in "aeiou" else "la ")) + E(nm) + " ?"), f'<div class="prose mx-how">{how}</div>', "Présentation")
+        can = '<div class="panel rv"><div class="hud" style="margin-bottom:1rem;color:var(--ok)">Ce qu\'elle sait faire</div><ul class="list">' + "".join(f"<li>{E(x)}</li>" for x in X["can"]) + "</ul></div>"
+        if s.startswith("scanner"): can = can.replace("Ce qu\'elle sait faire", "Ce qu\'il sait faire")
+        lim2 = '<div class="panel rv"><div class="hud" style="margin-bottom:1rem;color:var(--warn)">Limites</div><ul class="list neg">' + "".join(f"<li>{E(x)}</li>" for x in X["limits"]) + "</ul></div>"
+        out += sec("", "Capacités &amp; limites", f'<div class="grid g2">{can}{lim2}</div>')
+        uses = '<ul class="list">' + "".join(f"<li>{E(x)}</li>" for x in X["uses"]) + "</ul>"
+        out += sec("", "Pour quels projets ?", f'<div class="grid g2"><div class="panel rv">{uses}</div><div class="panel rv"><div class="hud" style="margin-bottom:1rem">Chez O&amp;D</div><p>{E(X["ours"])}</p></div></div>')
+    elif adv or lim: out += sec("02", "Points forts &amp; limites", pros_cons(adv, lim))
     if tk and TECH[tk]["mats"]:
         mats = TECH[tk]["mats"]
         if s == "intamsys-funmat-ht": mats = ["peek", "pekk", "ultem-pei", "pps-cf", "pa12-cf", "pa12-gf"]
@@ -235,7 +250,7 @@ def gen_machine(p):
         others = [x for x in TECH[tk]["machines"] if x != s]
         if others: out += sec("04", f'Les autres machines {TECH[tk]["name"]}', mini_cards(d, others, "Machine " + TECH[tk]["name"]))
         out += sec("05", f'Tout l\'écosystème {TECH[tk]["name"]}', f'<a class="btn btn-g" href="{rel(d, TECH[tk]["url"])}">Tout savoir sur {art(TECH[tk])} : machines, matières, comparatifs <span class="a">→</span></a>')
-    if p["native"]: out += more_details(detail_model(p))
+    if p["native"] and not X: out += more_details(detail_model(p))
     out += cta(d)
     write(p["path"], head(p["path"], d, p["title"], p["desc"]) + chrome(p["path"], d) + out + footer(d))
 
@@ -290,7 +305,7 @@ def gen_material_rich(p, s, X):
         out += S(f'Autres matières {tname}', mini_cards(d, others, "Matériau " + tname), right=f'<p><a class="btn btn-g" href="{rel(d, TECH[tk]["url"])}">Écosystème {tname} <span class="a">→</span></a></p>')
     if X.get("seo"):
         out += f'<section class="tight"><div class="wrap"><div class="kw"><span class="hud">On nous trouve aussi pour</span><div class="chips">' + "".join(f'<span class="chip">{E(k)}</span>' for k in X["seo"]) + "</div></div></div></section>"
-    if p["native"]: out += more_details(detail_model(p))
+    if p["native"] and not X: out += more_details(detail_model(p))
     out += cta(d)
     write(p["path"], head(p["path"], d, p["title"], p["desc"]) + chrome(p["path"], d) + out + footer(d))
 
@@ -319,7 +334,7 @@ def gen_material(p):
         others = [x for x in TECH[tk]["mats"] if x != s][:8]
         out += sec("05", f'Autres matières {TECH[tk]["name"]}', mini_cards(d, others, "Matériau " + TECH[tk]["name"]),
                    right=f'<p><a class="btn btn-g" href="{rel(d, TECH[tk]["url"])}">Écosystème {TECH[tk]["name"]} <span class="a">→</span></a></p>')
-    if p["native"]: out += more_details(detail_model(p))
+    if p["native"] and not X: out += more_details(detail_model(p))
     out += cta(d)
     write(p["path"], head(p["path"], d, p["title"], p["desc"]) + chrome(p["path"], d) + out + footer(d))
 

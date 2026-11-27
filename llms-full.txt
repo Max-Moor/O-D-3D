@@ -1932,43 +1932,54 @@ Devis instantané → Demande personnalisée →
 URL : https://www.od3d.be/machines-materiaux/anycubic-photon-m7-max
 
 ## Anycubic Photon M7 Max
-L'Anycubic Photon Mono M7 Max est notre imprimante résine MSLA grande surface. Avec un plateau d'impression de 298 x 300 mm et une hauteur de 164 mm, elle permet de produire des pièces en résine d'une précision et d'un niveau de détail exceptionnels, idéales pour la bijouterie, le médical, la figurine et le design produit.
+L'Anycubic Photon Mono M7 Max est une imprimante 3D résine grand format. Elle produit des pièces lisses et très détaillées, là où le FDM laisserait des couches visibles.
 SLA · Stéréolithographie (résine)
 
 Anycubic Photon M7 Max
 
 ### Fiche technique
 
+Volume d'impression | 298 × 164 × 300 mm (14,7 L) |
+Écran | 13,6" monochrome, 7K |
+Résolution XY | 46 µm |
+Technologie | MSLA (résine photopolymère) |
 298 x 300 x 164mm volume d'impression Recyclage automatique de la résine Cuve résine à température contrôlée Nettoyage par pulvérisation Séchage dimensionnel à 360°
+
+Présentation
+
+### Comment fonctionne l'Anycubic Photon M7 Max ?
+
+L'impression résine (MSLA) fonctionne avec un bac de résine liquide et un écran LCD. L'écran affiche la forme de chaque couche, la lumière UV durcit la résine à cet endroit, puis le plateau remonte et la couche suivante commence. Toute la couche est exposée d'un coup, quelle que soit la taille ou le nombre de pièces.
+Avec son écran de 13,6 pouces en 7K (pixels de 46 µm) et un volume de 298 × 164 × 300 mm, la M7 Max combine finesse de détail et grande taille de pièce. Après impression, les pièces sont lavées puis post-durcies aux UV.
+
+### Capacités & limites
+
+Ce qu'elle sait faire
+
+- Reproduire des détails très fins (gravures, textures, petits textes)
+- Obtenir une surface lisse, sans couches visibles
+- Imprimer plusieurs petites pièces en même temps sans allonger le temps
+- Imprimer des résines techniques (type ABS, flexibles, haute température)
+- Imprimer des modèles calcinables pour la fonderie
+Limites
+
+- La résine est plus cassante que la plupart des filaments techniques
+- Lavage et post-durcissement obligatoires
+- Les résines standard ne conviennent pas à l'extérieur sans protection UV
+
+### Pour quels projets ?
+
+- Figurines, maquettes et modèles d'exposition
+- Bijouterie : modèles pour la fonte à cire perdue
+- Prototypes d'aspect pour le design produit
+- Petites pièces de précision
+- Pièces de patrimoine à restaurer (poignées, ornements)
+Chez O&D
+Nous choisissons la résine quand l'aspect et le détail comptent plus que la résistance mécanique. Pour une pièce qui doit encaisser des efforts, nous recommandons plutôt le FDM ou le SLS.
 
 ### Tout l'écosystème SLA
 
 Tout savoir sur le SLA : machines, matières, comparatifs →
-
-**Description détaillée Tout savoir : cliquez pour déplier**
-
-### Anycubic Photon Mono M7 Max
-
-### Résine
-L'Anycubic Photon Mono M7 Max est notre imprimante résine MSLA grande surface. Avec un plateau d'impression de 298 x 300 mm et une hauteur de 164 mm, elle permet de produire des pièces en résine d'une précision et d'un niveau de détail exceptionnels, idéales pour la bijouterie, le médical, la figurine et le design produit.
-Dotée d'un système de recyclage automatique de la résine, d'un nettoyage par spray intégré et d'un séchage 360°, la M7 Max offre un flux de travail complet et propre, sans manipulation complexe. La résolution d'impression est inférieure à 0.05 mm, garantissant des surfaces lisses et des détails fins impossibles à obtenir en FDM.
-O&D Impression 3D utilise l'Anycubic Photon M7 Max pour des projets nécessitant un niveau de détail extrême. Contactez-nous pour votre projet résine.
-
-### MATÉRIAUX COMPATIBLES
-
-- Résine standard : Prototypes détaillés
-- Résine ABS-like : Pièces fonctionnelles résistantes
-- Résine flexible : Joints et pièces souples
-- Résine castable : Joaillerie, fonderie à cire perdue
-- Résine dentaire / médicale : Selon application
-
-### CAS D'USAGE : POUR QUI ?
-Bijoutiers / joailliers : bagues, pendentifs, moulages précis Médical / dentaire : modèles anatomiques, gouttières Figurinistes / collectionneurs : détails fins et réalistes Design produit : coques et pièces d'apparence premium
-La Anycubic Photon Mono M7 Max est une imprimante 3D résine grand format conçue pour les utilisateurs recherchant un haut niveau de précision, une grande capacité de production et une qualité de finition exceptionnelle. Développée par Anycubic, marque reconnue dans l’univers de l’impression 3D résine, elle répond aux besoins des créateurs, des studios de design, des professionnels du prototypage et des ateliers spécialisés.
-Avec son design moderne et sa conception robuste, la Photon Mono M7 Max a été pensée pour offrir une expérience fiable et adaptée aux productions exigeantes. Son format généreux permet de réaliser des pièces de grande taille tout en conservant le niveau de détail attendu des technologies d’impression résine.
-La Anycubic Photon Mono M7 Max se distingue par son approche orientée vers la précision et la qualité de fabrication. Elle s’adresse aux professionnels et aux passionnés souhaitant produire des modèles détaillés pour des applications variées comme le prototypage, la création artistique, les pièces techniques, les figurines ou encore les projets de conception avancée.
-Conçue pour s’intégrer dans des environnements de travail modernes, elle bénéficie d’un écosystème pensé pour améliorer le confort d’utilisation et optimiser les flux de production. Sa structure stable et sa conception soignée participent à garantir une expérience d’impression cohérente et durable dans le temps.
-Choisir la Photon Mono M7 Max , c’est investir dans une imprimante 3D résine professionnelle capable de répondre aux attentes des utilisateurs recherchant précision, volume d’impression important et qualité de finition élevée pour leurs projets les plus ambitieux.
 
 Prochaine étape
 
@@ -1983,7 +1994,7 @@ Devis instantané → Demande personnalisée →
 URL : https://www.od3d.be/machines-materiaux/bambu-lab-h2c
 
 ## Bambu Lab H2C
-La Bambu Lab H2C représente l'évolution ultime de l'impression 3D FDM multicolore. Capable d'imprimer jusqu'à 24 couleurs et matériaux simultanément, elle ouvre des possibilités créatives et techniques inédites pour les professionnels et les makers exigeants.
+La Bambu Lab H2C est une imprimante 3D FDM multi-matières : elle change de buse au lieu de purger le filament, ce qui lui permet d'imprimer plusieurs couleurs ou plusieurs matières sur une même pièce, vite et avec très peu de déchets.
 FDM · Dépôt de fil fondu
 
 Bambu Lab H2C
@@ -1991,7 +2002,43 @@ Bambu Lab H2C
 ### Fiche technique
 
 Système Vortek | jusqu'à 7 buses |
+Volume d'impression | 330 × 320 × 325 mm (305 × 320 × 325 mm en simple buse) |
+Couleurs par pièce | Jusqu'à 24 avec AMS |
+Température buse | Jusqu'à 350 °C |
+Chambre | Chauffée jusqu'à 65 °C, intérieur ignifuge |
 330 x 320 x 325 mm Jusqu'à 24 couleurs / pièce Multi-matériaux sur une même pièce Chambre chauffée jusqu'à 65 °C Buses jusqu'à 350 °C
+
+Présentation
+
+### Comment fonctionne la Bambu Lab H2C ?
+
+Sur une imprimante multicolore classique, chaque changement de couleur oblige la machine à vider la buse : on jette du filament et on perd du temps. La H2C fonctionne autrement grâce au système Vortek : chaque couleur ou matière a sa propre buse, rangée dans un magasin. La tête prend la buse dont elle a besoin, et un chauffage par induction la met à température en environ 8 secondes.
+La machine gère jusqu'à sept buses. Couplée aux unités d'alimentation AMS, elle peut combiner jusqu'à 24 couleurs sur une pièce. Sa chambre chauffée (jusqu'à 65 °C) et ses buses à 350 °C lui permettent aussi d'imprimer des matières techniques, pas seulement du PLA.
+
+### Capacités & limites
+
+Ce qu'elle sait faire
+
+- Imprimer une pièce en plusieurs couleurs, sans peinture ni assemblage
+- Associer deux matières sur une même pièce : une zone rigide et une zone souple, par exemple
+- Utiliser un support soluble pour des formes internes complexes
+- Imprimer des matières techniques : ABS, ASA, PC, polyamides, composites chargés
+- Produire des petites séries multicolores avec peu de perte de matière
+- Se calibrer seule : décalage des buses, plateau et buse installée
+Limites
+
+- Volume limité à environ 33 cm : au-delà, nous passons sur la Modix Big Meter
+- Pour du PEEK ou de l'Ultem, il faut la Funmat HT et ses 450 °C
+
+### Pour quels projets ?
+
+- Produits dérivés et objets souvenirs multicolores
+- Prototypes qui doivent ressembler au produit final
+- Pièces avec zones souples intégrées (poignées, joints, butées)
+- Maquettes, logos et signalétique en relief
+- Pièces techniques en ABS, ASA ou polyamide
+Chez O&D
+Notre atelier compte cinq Bambu Lab H2C. C'est sur elles que nous avons produit les 200 wagons miniatures multicolores pour Walibi et les éléments de précision des coffrets électriques de la Ville de Spa. Elles tournent en parallèle, ce qui nous permet de tenir des délais courts sur les petites séries.
 
 ### Matériaux compatibles
 
@@ -2057,31 +2104,6 @@ Voir la fiche →
 
 Tout savoir sur le FDM : machines, matières, comparatifs →
 
-**Description détaillée Tout savoir : cliquez pour déplier**
-
-### FDM
-La Bambu Lab H2C représente l'évolution ultime de l'impression 3D FDM multicolore. Capable d'imprimer jusqu'à 24 couleurs et matériaux simultanément, elle ouvre des possibilités créatives et techniques inédites pour les professionnels et les makers exigeants.
-Conçue pour l'assemblage multi-matériaux et les projets complexes, la H2C associe la précision d'impression de Bambu Lab à une flexibilité de matériaux exceptionnelle. PLA, PETG, ABS, TPU, PA : chaque matériau peut être combiné dans une même pièce, dans une même impression.
-O&D Impression 3D utilise la Bambu Lab H2C pour des projets créatifs, des prototypes multicolores et des pièces d'assemblage complexes. Contactez-nous pour discuter de votre projet.
-
-### MATÉRIAUX COMPATIBLES
-
-- PLA / PLA+ : Facile d'utilisation, résultats propres
-- PETG : Résistant, semi-flexible
-- ABS / ASA : Haute résistance thermique et UV
-- TPU : Flexible et élastique
-- PA (Nylon) : Résistance mécanique élevée
-- Support soluble (PVA / HIPS) : Pour structures complexes
-
-### CAS D'USAGE : POUR QUI ?
-Designers : figurines et objets multicolores détaillés Entreprises : pièces avec zones rigides et flexibles Éducation : modèles pédagogiques multicolores Prototypage : assemblages complexes en une impression
-La Bambu Lab H2C est l'imprimante 3D FDM multi-matériaux haut de gamme de la série H de Bambu Lab, présentée au salon Formnext en novembre 2025. Sa grande nouveauté est le système Vortek : au lieu de purger le filament à chaque changement de couleur, la machine change de buse.
-Chaque couleur ou matière dispose de sa propre buse. La H2C gère jusqu'à sept buses : un magasin automatique les range et la tête les échange en quelques secondes, grâce à un chauffage par induction qui met une buse à température en environ 8 secondes. Résultat : beaucoup moins de déchets de purge et des impressions multicolores plus rapides.
-Le volume d'impression atteint 330 × 320 × 325 mm au total (305 × 320 × 325 mm avec une seule buse, 300 × 320 × 325 mm en double buse). Les buses montent jusqu'à 350 °C et la chambre est chauffée jusqu'à 65 °C, ce qui permet d'imprimer des matières techniques comme l'ABS, l'ASA, le PC, les polyamides ou le PPS.
-La calibration est entièrement automatique : décalage entre les buses, contrôle du plateau avant chaque impression et vérification de la buse installée. L'intérieur de la chambre est en matériau ignifuge.
-Couplée aux systèmes d'alimentation automatique AMS, la H2C peut combiner jusqu'à 24 couleurs sur une même pièce, ou associer des matières différentes : une zone rigide et une zone souple, ou un support soluble pour des formes complexes.
-Notre atelier compte cinq Bambu Lab H2C. Nous les utilisons pour les pièces multicolores, les prototypes multi-matières et les petites séries où la couleur doit sortir directement de la machine, sans peinture.
-
 Prochaine étape
 
 ### Une pièce à fabriquer ?
@@ -2095,14 +2117,51 @@ Devis instantané → Demande personnalisée →
 URL : https://www.od3d.be/machines-materiaux/bambu-lab-x1c
 
 ## Bambu Lab X1C
-La Bambu Lab X1C est une imprimante 3D FDM haut de gamme conçue pour la production en série et le prototypage rapide. Grâce à sa vitesse d'impression exceptionnelle et son système multi-couleurs intégré, elle s'impose comme la machine idéale pour les entreprises et créateurs qui ont besoin de résultats précis, rapides et reproductibles.
+La Bambu Lab X1 Carbon est une imprimante 3D FDM fermée, rapide et très régulière. C'est notre machine de production courante pour les pièces techniques, les prototypes et les petites séries.
 FDM · Dépôt de fil fondu
 
 Bambu Lab X1C
 
 ### Fiche technique
 
+Volume d'impression | 256 × 256 × 256 mm |
+Vitesse max | 500 mm/s · accélération 20 000 mm/s² |
+Température buse | Jusqu'à 300 °C (buse acier trempé) |
+Plateau | Jusqu'à 110 °C |
+Calibration | Lidar + capteurs de force |
+Multi-couleurs | Jusqu'à 16 avec AMS |
 256 x 256 x 256mm volume d'impression Impression multi-couleur Prototypage très rapide Production de série stable & fiable
+
+Présentation
+
+### Comment fonctionne la Bambu Lab X1C ?
+
+La X1 Carbon repose sur une cinématique CoreXY : la tête se déplace dans un plan horizontal fixe, ce qui permet d'atteindre 500 mm/s et 20 000 mm/s² d'accélération sans sacrifier la précision. Le châssis est en acier, l'enceinte en aluminium et verre.
+Avant chaque impression, un capteur lidar et des capteurs de force mesurent la hauteur de la buse et contrôlent la première couche. La buse en acier trempé (jusqu'à 300 °C) supporte les filaments chargés en fibres de carbone ou de verre, qui useraient une buse en laiton. Avec le système AMS, la machine change aussi de filament automatiquement : jusqu'à 16 couleurs.
+
+### Capacités & limites
+
+Ce qu'elle sait faire
+
+- Imprimer rapidement des pièces fonctionnelles de bonne qualité
+- Travailler les filaments abrasifs (PA-CF, PETG-CF, PA-GF) grâce à la buse en acier trempé
+- Imprimer en deux couleurs ou plus avec l'AMS (porte-clés, logos)
+- Enchaîner des séries identiques avec une qualité constante
+- Détecter une impression ratée et s'arrêter d'elle-même
+Limites
+
+- Volume de 25,6 cm de côté
+- Pas de chambre chauffée active : pour les matières très techniques, nous utilisons la H2C ou la Funmat HT
+
+### Pour quels projets ?
+
+- Pièces techniques et supports
+- Prototypes fonctionnels
+- Objets promotionnels en série
+- Pièces extérieures en ASA
+- Pièces légères et rigides en composite carbone
+Chez O&D
+Nous l'avons utilisée pour les 300 porte-clés bicolores du garage Lx Cars (par lots de 10) et pour le pic de barrière reproduit en ASA. C'est la machine que nous lançons quand il faut du fiable et du rapide.
 
 ### Matériaux compatibles
 
@@ -2168,26 +2227,6 @@ Voir la fiche →
 
 Tout savoir sur le FDM : machines, matières, comparatifs →
 
-**Description détaillée Tout savoir : cliquez pour déplier**
-
-### FDM
-La Bambu Lab X1C est une imprimante 3D FDM haut de gamme conçue pour la production en série et le prototypage rapide. Grâce à sa vitesse d'impression exceptionnelle et son système multi-couleurs intégré, elle s'impose comme la machine idéale pour les entreprises et créateurs qui ont besoin de résultats précis, rapides et reproductibles.
-Avec un volume d'impression de 256 x 256 x 256 mm et une compatibilité étendue avec les matériaux techniques (PLA, PETG, ABS, ASA, TPU, PA, PC), la Bambu Lab X1C répond aux exigences les plus poussées de l'impression 3D professionnelle en Belgique.
-Chez O&D Impression 3D à Welkenraedt, nous utilisons cette machine au quotidien pour des commandes en série, des pièces techniques et des prototypes multicolores. Contactez-nous pour lancer votre projet.
-
-### MATÉRIAUX COMPATIBLES
-PLA : Idéal pour prototypes et pièces décoratives PETG, Résistant à l'humidité, bon pour pièces fonctionnelles
-ABS / ASA : Résistance aux UV et aux chocs TPU : Flexible, parfait pour joints et coques PA (Nylon) : Haute résistance mécanique PC (Polycarbonate) : Très haute résistance thermique
-Matériaux composites : Fibre de carbone, bois, etc.
-
-### CAS D'USAGE : POUR QUI ?
-Entreprises industrielles : production de pièces en série Designers produit : prototypage rapide multicolore Ingénieurs : pièces techniques en matériaux haute performance Agences créatives : modèles 3D colorés et détaillés
-La Bambu Lab X1 Carbon s’impose aujourd’hui comme une référence incontournable dans l’univers de l’impression 3D haut de gamme. Pensée pour les professionnels, les ingénieurs, les designers et les passionnés de fabrication numérique, cette imprimante 3D nouvelle génération combine design premium, fiabilité et conception industrielle avancée.
-Avec son châssis robuste et entièrement fermé, la X1 Carbon offre une structure stable et durable parfaitement adaptée aux environnements de production, aux ateliers de prototypage et aux espaces de création exigeants. Son esthétique moderne et sa qualité de fabrication en font une machine aussi élégante que performante, conçue pour répondre aux attentes des utilisateurs les plus ambitieux.
-Développée par Bambu Lab, marque reconnue pour son innovation dans le domaine de l’impression 3D, la X1 Carbon a été imaginée pour repousser les standards du marché. Elle répond aux besoins des entreprises et des créateurs recherchant une solution fiable capable d’accompagner des projets complexes, du prototypage rapide à la production de pièces techniques.
-Au-delà de son design et de sa conception premium, la Bambu Lab X1 Carbon bénéficie d’un écosystème moderne pensé pour améliorer l’expérience utilisateur. Son environnement logiciel intuitif et sa connectivité avancée permettent une intégration fluide dans les flux de travail professionnels et créatifs.
-Choisir la X1 Carbon, c’est investir dans une imprimante 3D professionnelle conçue pour durer, évoluer et accompagner les utilisateurs dans leurs projets les plus exigeants. Elle représente une nouvelle vision de l’impression 3D moderne : plus fiable, plus intuitive et tournée vers la productivité et l’innovation.
-
 Prochaine étape
 
 ### Une pièce à fabriquer ?
@@ -2201,14 +2240,51 @@ Devis instantané → Demande personnalisée →
 URL : https://www.od3d.be/machines-materiaux/intamsys-funmat-ht
 
 ## INTAMSYS Funmat HT
-La INTAMSYS Funmat HT est la machine de référence pour l'impression 3D de matériaux haute performance. Conçue spécifiquement pour le PEEK, le PEKK et l'Ultem (PEI), elle permet de produire des pièces industrielles aux propriétés mécaniques, thermiques et chimiques exceptionnelles, des propriétés impossibles à atteindre avec les imprimantes 3D standard.
+L'INTAMSYS Funmat HT est une imprimante 3D FDM haute température. Elle imprime les polymères de très haute performance, PEEK, PEKK et Ultem (PEI), que les imprimantes classiques ne savent pas travailler.
 FDM · Dépôt de fil fondu
 
 INTAMSYS Funmat HT
 
 ### Fiche technique
 
+Volume d'impression | 260 × 260 × 260 mm |
+Température tête | Jusqu'à 450 °C |
+Plateau | Jusqu'à 160 °C |
+Chambre | Chauffée, jusqu'à 90 °C |
+Matériaux | Plus de 20 (PEEK, PEKK, Ultem, PPSU, PC, PA…) |
 260 x 260 x 260 mm Volume d'impression Plus de 20 matières PEEK, PEKK, ULTEM
+
+Présentation
+
+### Comment fonctionne l'INTAMSYS Funmat HT ?
+
+Le PEEK et l'Ultem fondent à des températures bien plus élevées que les plastiques courants, et ils se fissurent ou se déforment s'ils refroidissent trop vite. La Funmat HT est conçue pour ça : sa tête monte jusqu'à 450 °C, son plateau jusqu'à 160 °C, et sa chambre fermée est maintenue chaude (jusqu'à 90 °C) pendant toute l'impression.
+Ces conditions donnent des pièces qui résistent à la chaleur, aux produits chimiques et aux contraintes mécaniques, utilisables là où un plastique standard ne tiendrait pas. INTAMSYS annonce plus de 20 matériaux compatibles.
+
+### Capacités & limites
+
+Ce qu'elle sait faire
+
+- Imprimer du PEEK, du PEEK-CF, du PEKK et de l'Ultem (PEI)
+- Produire des pièces qui tiennent jusqu'à 250 °C en continu (PEEK)
+- Fabriquer des pièces résistantes aux produits chimiques et à l'hydrolyse
+- Imprimer aussi des matières plus courantes : PC, PA, ABS
+- Remplacer certaines pièces métalliques par des pièces plus légères
+Limites
+
+- Matières coûteuses : le PEEK n'a de sens que si la pièce en a vraiment besoin
+- Volume de 26 cm de côté
+- Les usages réglementés (aéronautique, implants) demandent une validation propre à chaque pièce
+
+### Pour quels projets ?
+
+- Pièces sous capot et motorsport
+- Pièces exposées à la chaleur ou à des produits agressifs
+- Outillages pour environnements chauds
+- Prototypes en matière finale pour l'aéronautique ou le médical
+- Pièces de laboratoire et de recherche
+Chez O&D
+Nous utilisons la Funmat HT pour les pièces techniques qui doivent tenir la température ou un environnement chimique. Avant de proposer du PEEK, nous vérifions toujours si un PA12-CF ou un ASA suffit : c'est souvent moins cher pour le même résultat.
 
 ### Matériaux compatibles
 
@@ -2262,32 +2338,6 @@ Voir la fiche →
 
 Tout savoir sur le FDM : machines, matières, comparatifs →
 
-**Description détaillée Tout savoir : cliquez pour déplier**
-
-### Intamsys Funmat HT
-
-### FDM
-La INTAMSYS Funmat HT est la machine de référence pour l'impression 3D de matériaux haute performance. Conçue spécifiquement pour le PEEK, le PEKK et l'Ultem (PEI), elle permet de produire des pièces industrielles aux propriétés mécaniques, thermiques et chimiques exceptionnelles, des propriétés impossibles à atteindre avec les imprimantes 3D standard.
-Grâce à son système thermique avancé : chambre chauffée a 90 degrés C, plateau a 160 degrés C et extrudeur tout metal montant a 450 degrés C, la Funmat HT maintient les conditions idéales pour imprimer sans gauchissement ni fissuration sur ces matériaux exigeants.
-Avec un volume d'impression de 260 x 260 x 260 mm et une compatibilité avec plus de 20 matériaux techniques (PEEK, PEEK-CF, PEKK, Ultem, PPSU, PC, PA, ABS…), c'est l'outil idéal pour les bureaux d'études, les laboratoires, l'aérospatial, le médical et l'automobile.
-Chez O&D Impression 3D à Welkenraedt, nous utilisons la Funmat HT pour des projets industriels critiques. Contactez-nous pour votre projet en PEEK, PEKK ou Ultem.
-
-### MATÉRIAUX COMPATIBLES
-
-- PPSU : résistance chimique extrêmement élevée, medical et aérospatial
-- PC (Polycarbonate) : transparent, résistant aux chocs
-- PA / PA-CF : Nylon standard et renforcé fibre carbone
-- ABS / ASA : usage général et résistance UV
-- HIPS, TPU, support soluble et pièces flexibles
-
-### CAS D'USAGE : POUR QUI ?
-Aérospatial & defense : pièces structurelles et fonctionnelles certifiées Médical & dentaire : prothèses, outils chirurgicaux, équipements stérilisables Automobile & motorsport : pièces sous capot, résistance haute température Industrie & R&D : prototypes et pièces finales en matériaux techniques Laboratoires & universités : recherche sur matériaux avancés
-La INTAMSYS FUNMAT HT est une imprimante 3D industrielle haute température conçue pour répondre aux exigences des secteurs techniques et industriels les plus avancés. Développée par INTAMSYS, spécialiste des solutions d’impression 3D pour matériaux techniques, elle s’adresse aux ingénieurs, aux centres de recherche, aux ateliers de production et aux entreprises recherchant une machine capable d’évoluer dans des environnements professionnels exigeants.
-Avec sa conception robuste et son architecture entièrement fermée, la FUNMAT HT a été pensée pour offrir une stabilité optimale et des conditions de travail adaptées aux matériaux techniques haute performance. Sa structure industrielle et son environnement thermique contrôlé renforcent la fiabilité globale de la machine et permettent une production plus stable sur des applications complexes.
-La INTAMSYS FUNMAT HT se distingue par son positionnement orienté vers les matériaux techniques et les applications industrielles avancées. Elle répond aux besoins des professionnels travaillant dans des domaines comme l’ingénierie, l’aéronautique, l’automobile, la recherche ou encore le prototypage fonctionnel nécessitant des pièces résistantes et techniquement exigeantes.
-Pensée pour s’intégrer dans des flux de production professionnels, la FUNMAT HT bénéficie d’un environnement conçu pour favoriser la précision, la régularité des impressions et la durabilité dans le temps. Son approche industrielle et sa conception spécialisée en font une solution adaptée aux entreprises souhaitant accéder à l’impression 3D de matériaux haute performance sans compromis sur la qualité de fabrication.
-Choisir la FUNMAT HT, c’est investir dans une imprimante 3D professionnelle haute température conçue pour accompagner les projets techniques les plus ambitieux et répondre aux besoins des environnements industriels modernes.
-
 Prochaine étape
 
 ### Une pièce à fabriquer ?
@@ -2301,7 +2351,7 @@ Devis instantané → Demande personnalisée →
 URL : https://www.od3d.be/machines-materiaux/modix-big-meter
 
 ## Modix Big Meter
-La Modix Big Meter est l'imprimante 3D FDM grande format de référence pour les projets qui dépassent les limites habituelles. Avec un volume d'impression d'un mètre cube, elle permet de créer des pièces XXL en une seule impression, sans assemblage ni collage.
+La Modix Big Meter est une imprimante 3D FDM grand format : son volume d'impression d'environ un mètre cube permet de fabriquer des pièces XXL en une seule fois, sans les découper ni les coller.
 FDM · Dépôt de fil fondu
 
 Modix Big Meter
@@ -2309,7 +2359,41 @@ Modix Big Meter
 ### Fiche technique
 
 Volume d'impression | 1 mètre cube |
+Buse | Diamant Gühring |
+Enceinte | Fermée |
+Technologie | FDM grand format |
 Dotée d'une chambre fermée Tout types de matériaux techniques en grand volume Qualité d'impression incomparable
+
+Présentation
+
+### Comment fonctionne la Modix Big Meter ?
+
+La Big Meter fonctionne comme une imprimante FDM classique (un filament fondu déposé couche par couche), mais à une autre échelle : environ 1000 × 1000 × 1000 mm. Son cadre rigide et ses guidages linéaires gardent la précision sur toute la surface, et son enceinte fermée limite les écarts de température sur les grandes pièces.
+Notre machine est équipée d'une buse diamant Gühring. Une buse classique s'use sur les impressions de plusieurs dizaines d'heures, surtout avec des filaments chargés : la buse diamant garde son diamètre, donc une extrusion régulière du début à la fin.
+
+### Capacités & limites
+
+Ce qu'elle sait faire
+
+- Imprimer des pièces jusqu'à environ un mètre en une seule fois
+- Réduire le nombre d'assemblages sur les grandes pièces
+- Tenir de longues impressions (plusieurs jours) avec une extrusion stable
+- Imprimer en PLA, PETG, ABS, ASA et filaments composites
+- Produire plusieurs grandes pièces identiques
+Limites
+
+- Impressions longues : une grande pièce peut demander plusieurs jours
+- Moins de finesse de détail qu'une machine plus petite : les détails fins se font sur H2C ou Core One
+
+### Pour quels projets ?
+
+- Grandes pièces techniques et carters
+- Maquettes d'architecture et d'événementiel
+- Signalétique et lettres en relief
+- Prototypes à l'échelle 1
+- Gabarits et outillages de grande taille
+Chez O&D
+Nous l'avons utilisée pour les portes de coffrets électriques de 60 cm de la Ville de Spa (5 exemplaires).
 
 ### Matériaux compatibles
 
@@ -2375,29 +2459,6 @@ Voir la fiche →
 
 Tout savoir sur le FDM : machines, matières, comparatifs →
 
-**Description détaillée Tout savoir : cliquez pour déplier**
-
-### FDM
-La Modix Big Meter est l'imprimante 3D FDM grande format de référence pour les projets qui dépassent les limites habituelles. Avec un volume d'impression d'un mètre cube, elle permet de créer des pièces XXL en une seule impression, sans assemblage ni collage.
-Idéale pour l'architecture, la muséographie, la signalétique, les maquettes industrielles et les prototypes de grande taille, la Modix Big Meter est la solution quand les autres machines ne suffisent plus. Elle supporte une large gamme de filaments dont le PLA, PETG, ABS et les composites.
-O&D Impression 3D est équipée de la Modix Big Meter pour répondre aux projets les plus ambitieux en Belgique. Dites-nous ce que vous voulez créer.
-
-### MATÉRIAUX COMPATIBLES
-
-- PLA / PLA+ : Pour grandes maquettes légères
-- PETG : Résistant, bon pour pièces d'usage
-- ABS / ASA : Résistance thermique et UV
-- Composites : Fibre de carbone, fibre de verre
-- Matériaux flexibles : Selon projet
-
-### CAS D'USAGE : POUR QUI ?
-Architectes : maquettes à grande échelle Musées / expositions : pièces de scénographie Industrie : prototypes et gabarits XXL Signalétique : lettres et logos 3D de grande taille
-La Modix BIG-METER est une imprimante 3D grand format conçue pour répondre aux besoins des professionnels recherchant un volume d’impression exceptionnel et une capacité de production adaptée aux projets de grande envergure. Développée par Modix , spécialiste reconnu des systèmes d’impression 3D industriels et grand format, elle s’adresse aux ateliers de fabrication, aux ingénieurs, aux designers et aux secteurs nécessitant la production de pièces volumineuses.
-Grâce à sa conception robuste et à sa structure renforcée, la BIG-METER offre une excellente stabilité mécanique, essentielle pour garantir des impressions précises sur de très grandes dimensions. Son architecture a été pensée pour supporter des utilisations intensives tout en maintenant un haut niveau de fiabilité et de régularité dans les résultats.
-La Modix BIG-METER se distingue par son immense volume d’impression, permettant la fabrication de prototypes grandeur nature, de pièces techniques imposantes, d’éléments industriels ou encore de projets destinés à l’architecture, à l’événementiel et au design produit. Cette capacité de production ouvre de nouvelles possibilités pour les professionnels souhaitant réduire les contraintes liées à l’assemblage de plusieurs pièces.
-Conçue pour s’intégrer dans des environnements de production modernes, la BIG-METER bénéficie d’une approche orientée vers la productivité, la durabilité et l’optimisation des flux de travail. Sa conception modulaire et son environnement technique permettent aux entreprises et aux ateliers spécialisés de disposer d’une solution évolutive adaptée aux besoins de fabrication avancés.
-Choisir la Modix BIG-METER , c’est investir dans une imprimante 3D industrielle grand format pensée pour les projets ambitieux, la production de pièces XXL et les applications professionnelles nécessitant précision, stabilité et grande capacité d’impression.
-
 Prochaine étape
 
 ### Une pièce à fabriquer ?
@@ -2411,14 +2472,49 @@ Devis instantané → Demande personnalisée →
 URL : https://www.od3d.be/machines-materiaux/prusa-core-one
 
 ## Prusa Core One
-La Prusa Core One est la machine de prototypage industriel par excellence. Réputée pour sa fiabilité, sa précision et sa compatibilité avec les matériaux techniques les plus exigeants, elle est le choix idéal des ingénieurs, bureaux d'études et entreprises qui ne peuvent pas se permettre l'échec.
+La Prusa Core One est une imprimante 3D FDM fermée, conçue en Europe par Prusa Research. Précise, régulière et facile à entretenir, elle nous sert pour les pièces de précision et les reproductions de pièces cassées.
 FDM · Dépôt de fil fondu
 
 Prusa Core One
 
 ### Fiche technique
 
+Volume d'impression | 250 × 220 × 270 mm |
+Température buse | Jusqu'à 290 °C |
+Plateau | Jusqu'à 120 °C |
+Chambre | Régulée jusqu'à 55 °C, ventilation automatique |
+Cinématique | CoreXY, châssis acier |
 250 x 220 x 270mm volume d'impression Dotée d'une chambre fermée Imprimer de l'ASA, de l'ABS, du PC, du PA… Qualité d'impression maximale
+
+Présentation
+
+### Comment fonctionne la Prusa Core One ?
+
+La Core One reprend l'extrudeur Nextruder de Prusa dans un châssis CoreXY en acier, entièrement fermé. Sa chambre est régulée en température jusqu'à 55 °C, avec une ventilation automatique : elle reste chaude pour l'ABS ou l'ASA, et s'aère d'elle-même pour le PLA.
+Le plateau est nivelé automatiquement par la buse elle-même, qui palpe la surface avant chaque impression. Résultat : des premières couches régulières et des cotes fiables, ce qui compte pour une pièce qui doit s'emboîter dans un mécanisme existant.
+
+### Capacités & limites
+
+Ce qu'elle sait faire
+
+- Reproduire des pièces mécaniques avec des cotes précises
+- Imprimer de l'ABS, de l'ASA et du PC sans gauchissement grâce à la chambre régulée
+- Imprimer du polypropylène (PP) et d'autres matières plus délicates
+- Produire des pièces fonctionnelles à petite échelle
+- Imprimer à des hauteurs de couche fines pour un bel état de surface
+Limites
+
+- Volume moyen (25 cm) : pour plus grand, Modix Big Meter
+- Une seule matière par impression
+
+### Pour quels projets ?
+
+- Pièces de rechange d'électroménager
+- Pièces en contact avec la peau en PP
+- Engrenages, cames et petites pièces mécaniques
+- Boîtiers et supports en ABS ou ASA
+Chez O&D
+C'est sur la Core One que nous avons reproduit l'engrenage du hachoir d'une cliente (modélisation et impression en moins de 2 heures) et l'outil de rééducation en polypropylène d'une logopède.
 
 ### Matériaux compatibles
 
@@ -2484,30 +2580,6 @@ Voir la fiche →
 
 Tout savoir sur le FDM : machines, matières, comparatifs →
 
-**Description détaillée Tout savoir : cliquez pour déplier**
-
-### FDM
-La Prusa Core One est la machine de prototypage industriel par excellence. Réputée pour sa fiabilité, sa précision et sa compatibilité avec les matériaux techniques les plus exigeants, elle est le choix idéal des ingénieurs, bureaux d'études et entreprises qui ne peuvent pas se permettre l'échec.
-Avec un volume d'impression de 250 x 220 x 270 mm et une compatibilité native avec l'ASA, l'ABS, le PC (Polycarbonate) et le PA (Nylon), la Prusa Core One est taillée pour les pièces fonctionnelles qui doivent résister à des conditions difficiles : chaleur, UV, chocs mécaniques.
-Chez O&D Impression 3D à Welkenraedt, nous utilisons la Prusa Core One pour des projets industriels et techniques exigeants. Parlez-nous de votre besoin.
-
-### MATÉRIAUX COMPATIBLES
-
-- ASA : Résistance aux UV, idéal pour pièces extérieures
-- ABS : Résistance thermique et mécanique
-- PC (Polycarbonate) : Haute dureté, usage industriel
-- PA (Nylon) : Résistance à l'abrasion et aux chocs
-- PETG : Polyvalent, résistant à l'humidité
-- PLA / PLA+ : Prototypage rapide et propre
-
-### CAS D'USAGE : POUR QUI ?
-Bureaux d'études : pièces fonctionnelles de précision Industries : prototypes résistants à la chaleur et aux UV R&D : tests de matériaux techniques Maintenance industrielle : pièces de remplacement rapides
-La Prusa CORE One incarne la nouvelle génération d’imprimantes 3D professionnelles développées par Prusa Research , une marque reconnue mondialement pour la fiabilité et la qualité de ses solutions d’impression 3D. Pensée pour les créateurs, les ingénieurs et les ateliers de production modernes, elle combine conception robuste, précision et environnement de travail optimisé.
-Avec sa structure entièrement fermée et son architecture CoreXY, la Prusa CORE One a été conçue pour offrir une stabilité mécanique élevée et une expérience d’utilisation adaptée aux besoins des professionnels comme des utilisateurs exigeants. Son design moderne et sa qualité de fabrication renforcent son positionnement haut de gamme tout en garantissant une excellente durabilité dans le temps.
-Fidèle à la philosophie de Prusa Research , la CORE One met l’accent sur la fiabilité, la cohérence des résultats et l’intégration dans des flux de production efficaces. Elle répond aux attentes des utilisateurs recherchant une machine capable d’accompagner aussi bien le prototypage rapide que la fabrication de pièces techniques et de projets avancés.
-La Prusa CORE One bénéficie également d’un environnement logiciel mature et d’un écosystème reconnu dans le secteur de l’impression 3D. Cette approche permet une prise en main fluide et une intégration naturelle dans les ateliers de conception, les studios créatifs et les environnements professionnels.
-Choisir la CORE One , c’est investir dans une imprimante 3D fiable , pensée pour durer et conçue pour répondre aux exigences des utilisateurs recherchant précision, stabilité et qualité de fabrication.
-
 Prochaine étape
 
 ### Une pièce à fabriquer ?
@@ -2521,34 +2593,48 @@ Devis instantané → Demande personnalisée →
 URL : https://www.od3d.be/machines-materiaux/scanner-3devok-mt
 
 ## Scanner 3DeVOK MT
-Le 3DeVOK MT est un scanner 3D professionnel de nouvelle génération, conçu pour capturer la géométrie et la couleur d'objets réels avec une précision et une rapidité exceptionnelles. Basé sur la technologie industrielle de Scantech, il combine trois sources de lumière, laser bleu, laser infrarouge et lumière infrarouge à grande zone, pour s'adapter a tous les scénarios de numérisation.
+Le 3DeVOK MT est un scanner 3D professionnel portable. Il transforme un objet réel en modèle 3D, base de toutes nos reproductions de pièces cassées ou introuvables.
 
 Scanner 3DeVOK MT
 
 ### Fiche technique
 
+Précision | Jusqu'à 0,04 mm |
+Résolution | Jusqu'à 0,05 mm |
+Vitesse | 4,5 millions de points / s, jusqu'à 70 images / s |
+Sources | 34 lignes laser bleues · 22 lignes IR · IR grand champ |
 Génération en temps réel de nuages de points. Alignement hybride (texture et géométrie). Numérisations locales haute résolution.
 
-**Description détaillée Tout savoir : cliquez pour déplier**
+Présentation
 
-### SMS 3DeVOK MT
+### Comment fonctionne le scanner 3DeVOK MT ?
 
-### Scanner
-Le 3DeVOK MT est un scanner 3D professionnel de nouvelle génération, conçu pour capturer la géométrie et la couleur d'objets réels avec une précision et une rapidité exceptionnelles. Basé sur la technologie industrielle de Scantech, il combine trois sources de lumière, laser bleu, laser infrarouge et lumière infrarouge à grande zone, pour s'adapter a tous les scénarios de numérisation.
-Avec une précision allant jusqu'a 0.04 mm et une vitesse d'acquisition de 4 500 000 points par seconde, le 3DeVOK MT transforme vos objets physiques en modeles 3D numériques prêts pour la retro-ingénierie, l'impression 3D, le controle qualitévou l'archivage patrimonial.
-Chez O&D Impression 3D à Welkenraedt, nous utilisons le 3DeVOK MT pour capturer des pieces complexes, créer des modèles sur mesure et alimenter nos imprimantes 3D avec des données precises. Contactez-nous pour votre projet de numérisation.
+Le scanner projette des lignes laser sur l'objet et ses caméras mesurent leur déformation pour calculer la forme en 3D, jusqu'à 4,5 millions de points par seconde. Il dispose de trois sources de lumière : 34 lignes laser bleues pour les pièces mécaniques, 22 lignes laser infrarouges pour les petits détails, et une lumière infrarouge grand champ pour les gros objets et les personnes.
+Il scanne directement les surfaces noires ou brillantes, souvent sans spray matifiant. Le nuage de points obtenu est ensuite converti en modèle CAO que nous pouvons modifier, imprimer ou usiner.
 
-### CAS D'USAGE : POUR QUI ?
-Rétro-ingenierie : numériser une pièce existante pour la reproduire ou la modifier
-Controle qualité : comparer pièce produite et modele CAO Médical & prothétique : numérisation de membres, réhabilitation sur mesure Art & patrimoine : archivage de sculptures, oeuvres d'art, objets historiques Industrie & fabrication : gestion de gabarits, inspection dimensionnelle 3D Printing workflow : scanner > modéliser > imprimer en boucle complète
+### Capacités & limites
 
-### LOGICIEL 3DeVOK STUDIO (inclus)
-Génération de nuage de points en temps reel Alignement hybride (géometrie + texture) Scan haute résolution localisé Pas d'abonnement, pas de licences supplémentaires Export vers logiciels tiers : SolidWorks, Rhino, Geomagic, Meshlab…
-Le 3DeVOK MT est un scanner 3D professionnel conçu pour répondre aux besoins des ingénieurs, designers, ateliers techniques et professionnels de la numérisation 3D. Développé à partir de technologies de scan de niveau industriel, il combine précision, polyvalence et mobilité dans une solution pensée pour les environnements de travail exigeants.
-Avec sa conception compacte et ergonomique, le 3DeVOK MT offre une prise en main fluide et une grande liberté de mouvement lors des opérations de scan. Sa structure robuste et son approche orientée vers la productivité permettent une utilisation efficace aussi bien en atelier que sur site, pour des projets nécessitant rapidité et précision.
-Le 3DeVOK MT se distingue par sa capacité à s’adapter à une grande variété d’applications professionnelles, allant de la rétro-ingénierie et du contrôle dimensionnel jusqu’à la numérisation artistique, l’archivage numérique et la préparation de modèles pour l’impression 3D. Sa technologie multi-source lui permet de travailler sur des objets de tailles et de surfaces variées, y compris des matériaux complexes ou réfléchissants.
-Pensé pour s’intégrer dans des flux de travail modernes, le scanner bénéficie d’un environnement logiciel professionnel permettant une capture et un traitement des données fluides et efficaces. Cette approche améliore l’expérience utilisateur tout en optimisant les étapes de numérisation et d’exploitation des modèles 3D.
-Choisir le 3DeVOK MT , c’est investir dans une solution de scan 3D haute précision conçue pour accompagner les professionnels recherchant fiabilité, flexibilité et qualité de capture pour leurs projets les plus exigeants.
+Ce qu'il sait faire
+
+- Numériser une pièce cassée pour la reproduire
+- Scanner des pièces mécaniques avec une précision jusqu'à 0,04 mm
+- Scanner de gros objets, des sculptures ou une personne
+- Capturer les surfaces sombres ou réfléchissantes
+- Comparer une pièce fabriquée à son modèle 3D d'origine
+Limites
+
+- Les pièces transparentes demandent une préparation
+- Un scan donne une forme : la conversion en modèle CAO propre est un travail de modélisation à part entière
+
+### Pour quels projets ?
+
+- Rétroconception de pièces sans plan
+- Pièces automobiles introuvables
+- Archivage d'objets de patrimoine
+- Contrôle dimensionnel
+- Base pour une pièce sur mesure qui doit s'adapter à une forme existante
+Chez O&D
+Le scan est souvent la première étape de nos rétroconceptions : nous numérisons la pièce, reconstruisons un modèle 3D propre, vous le soumettons pour validation, puis l'imprimons ou l'usinons.
 
 Prochaine étape
 
@@ -2563,7 +2649,7 @@ Devis instantané → Demande personnalisée →
 URL : https://www.od3d.be/machines-materiaux/supermaker-sls1518
 
 ## Supermaker SLS1518
-La Supermaker SLS1518 est l'imprimante SLS (Frittage Laser Selectif) desktop la plus compacte du marché. Avec une empreinte de seulement 0.33 m2, elle tient dans un laboratoire ou un atelier comme un petit réfrigérateur, tout en délivrant des performances SLS véritablement industrielles.
+La SuperMaker SLS1518 est une imprimante 3D SLS compacte : un laser fritte de la poudre de nylon couche par couche, sans aucun support. Elle produit des pièces fonctionnelles aux formes libres, dans un format de petite machine d'atelier.
 SLS · Frittage laser sélectif
 
 Supermaker SLS1518
@@ -2573,7 +2659,41 @@ Supermaker SLS1518
 Dimensions imprimable | 150×150×180mm |
 Possibilité matière | Pa11, Pa12, TPU, PAGF, PACF |
 Tolérances | +-0.05mm |
+Supports | Aucun |
+Technologie | Frittage laser sélectif (SLS) |
 Prototypage industriel
+
+Présentation
+
+### Comment fonctionne la Supermaker SLS1518 ?
+
+Une fine couche de poudre est étalée sur le plateau, le laser dessine la forme de la pièce et fusionne les grains, puis le plateau descend et la couche suivante est déposée. La poudre non frittée reste autour de la pièce et la soutient : pas besoin de supports, donc pas de traces à retirer.
+Une fois l'impression terminée et refroidie, les pièces sont sorties du bloc de poudre puis dépoudrées. La poudre non utilisée est tamisée et réutilisée en partie.
+
+### Capacités & limites
+
+Ce qu'elle sait faire
+
+- Imprimer des formes impossibles en FDM : canaux internes, treillis, pièces imbriquées
+- Produire des charnières et des assemblages mobiles en une seule impression
+- Fabriquer des pièces en nylon solides et légères
+- Remplir le volume de plusieurs pièces à la fois pour les petites séries
+- Imprimer des pièces souples en TPU
+Limites
+
+- Volume compact : pour des pièces plus grandes, nous utilisons la SLS3540 Pro
+- Surface légèrement granuleuse à l'état brut
+- Teinture ou microbillage à prévoir si l'aspect compte
+
+### Pour quels projets ?
+
+- Petites pièces fonctionnelles en nylon
+- Clips, charnières et pièces imbriquées
+- Prototypes proches de la pièce injectée
+- Petites séries de pièces techniques
+- Pièces souples en TPU
+Chez O&D
+La SLS1518 nous sert pour les petites pièces en nylon et les essais de matière. Elle complète la SLS3540 Pro, qui prend le relais dès que les pièces sont plus grandes ou plus nombreuses.
 
 ### Matériaux compatibles
 
@@ -2631,39 +2751,6 @@ Voir la fiche →
 
 Tout savoir sur le SLS : machines, matières, comparatifs →
 
-**Description détaillée Tout savoir : cliquez pour déplier**
-
-### Supermaker SLS 1518
-
-### SLS
-La Supermaker SLS1518 est l'imprimante SLS (Frittage Laser Selectif) desktop la plus compacte du marché. Avec une empreinte de seulement 0.33 m2, elle tient dans un laboratoire ou un atelier comme un petit réfrigérateur, tout en délivrant des performances SLS véritablement industrielles.
-Concue pour les laboratoires de recherche, les universités, les studios professionnels et les petites entreprises qui souhaitent accéder a la technologie SLS sans les coûts et la complexité des systèmes industriels traditionnels, la SLS1518 produit des pièces en nylon, TPU, fibre carbone et fibre de verre sans aucune structure de support.
-Son système de controle thermique allemand (capteurs infrarouges haute précision, uniformité de chambre a 0.5-1 degres C) et sa station de post-traitement integree (tri, tamisage, melange de poudre) en font une solution SLS complete, propre et efficace.
-Chez O&D Impression 3D à Welkenraedt, nous exploitons la Supermaker SLS1518 pour des projets nécessitant des géométries libres et des pieces fonctionnelles en nylon de qualité industrielle.
-
-### MATÉRIAUX COMPATIBLES
-
-- PA12 (Nylon 12) : résistance mécanique et chimique, pièces fonctionnelles
-- PA11 (Nylon 11) : base biologique, flexible et résistant
-- TPU : pièces flexibles et élastiques, semelles, joints
-- CF (Fibre de carbone) : pièces légères haute rigidité
-- GF (Fibre de verre) : amélioration des propriétés mécaniques et thermiques
-
-### AVANTAGES CLE DE LA TECHNOLOGIE SLS
-Aucun support nécessaire : la poudre non frittée soutient naturellement la pièce
-Géométries libres : cavités internes, assemblages intégrés, formes complexes
-Recyclage poudre : systeme fermé, 90% de réduction de main-d'oeuvre
-Impression par lot : plusieurs pièces simultanees dans la meme chambre
-Post-traitement intégré : tri, tamisage et mélange automatiques
-
-### CAS D'USAGE : POUR QUI ?
-Laboratoires de recherche : prototypes SLS en nylon sans cout industriel Universités & écoles : accès pédagogique a la technologie SLS Ingénierie & R&D : pièces fonctionnelles sans support, assemblages complexes Petites séries : production de pièces nylon en quantité limitée Drones, robotique, structures légères en nylon CF ou GF
-La Super Maker SLS 1518 est une imprimante 3D SLS professionnelle conçue pour rendre la technologie de frittage laser sélectif plus accessible aux ateliers de conception, aux ingénieurs, aux centres de recherche et aux professionnels du prototypage avancé. Développée par Zongheng3D , elle combine une approche compacte avec des standards de fabrication inspirés des systèmes industriels.
-Grâce à sa conception robuste et à son architecture pensée pour les environnements techniques, la SLS 1518 offre une solution adaptée aux utilisateurs recherchant la liberté de création propre à la technologie SLS. Son format compact permet une intégration plus simple dans les ateliers modernes tout en conservant les avantages d’une production orientée vers les pièces techniques et les géométries complexes.
-La Super Maker SLS 1518 se distingue également par son approche centrée sur la productivité et l’optimisation des flux de fabrication. Son environnement de travail fermé et son système de gestion des poudres participent à améliorer l’expérience utilisateur et à renforcer la stabilité des processus de production.
-Pensée pour accompagner les besoins du prototypage fonctionnel, de la recherche et de la fabrication de petites séries, elle répond aux attentes des professionnels souhaitant accéder aux avantages de l’impression 3D SLS dans un format plus accessible et plus compact que les solutions industrielles traditionnelles.
-Choisir la Super Maker SLS 1518 , c’est investir dans une solution SLS professionnelle conçue pour offrir précision, liberté de conception et fiabilité aux utilisateurs recherchant une technologie de fabrication additive avancée adaptée aux projets techniques les plus ambitieux.
-
 Prochaine étape
 
 ### Une pièce à fabriquer ?
@@ -2677,7 +2764,7 @@ Devis instantané → Demande personnalisée →
 URL : https://www.od3d.be/machines-materiaux/supermaker-sls3540-pro
 
 ## Supermaker SLS3540 Pro
-La Supermaker SLS3540 Pro est une imprimante 3D SLS (Frittage Laser Sélectif) grand format conçue pour répondre aux besoins du prototypage industriel, de la production de petites séries et de la fabrication de pièces techniques à haute valeur ajoutée. Avec son volume d'impression de 350 × 350 × 430 mm, elle permet de réaliser des pièces de grandes dimensions ou d'optimiser la production grâce à un empilage dense de composants dans une seule fabrication.
+La SuperMaker SLS3540 Pro est une imprimante 3D SLS industrielle. Avec un volume de 350 × 350 × 430 mm, elle produit des pièces en nylon sans supports, de la grande pièce unique à la petite série.
 SLS · Frittage laser sélectif
 
 Supermaker SLS3540 Pro
@@ -2689,6 +2776,38 @@ Matériaux compatibles | PA11, PA12, TPU, PA-GF, PA-CF |
 Applications | prototypage industriel, pièces fonctionnelles, petites séries de production, outillages et composants techniques |
 Technologie | Frittage Sélectif par Laser (SLS), sans supports |
 Épaisseur de couche | 0,1 à 0,3 mm |
+Supports | Aucun |
+
+Présentation
+
+### Comment fonctionne la Supermaker SLS3540 Pro ?
+
+Le principe est celui du SLS : un laser fritte une poudre de polymère couche par couche, et la poudre non frittée soutient la pièce pendant l'impression. On peut donc empiler plusieurs pièces dans tout le volume du bac, et pas seulement sur le plateau comme en FDM.
+Son grand volume permet de remplir une production entière en un seul cycle. Les épaisseurs de couche vont de 0,1 à 0,3 mm selon le compromis souhaité entre finesse et vitesse.
+
+### Capacités & limites
+
+Ce qu'elle sait faire
+
+- Imprimer des pièces jusqu'à 350 × 350 × 430 mm sans supports
+- Produire des séries en remplissant tout le volume du bac
+- Fabriquer des pièces fonctionnelles en PA11, PA12, TPU et nylon chargé
+- Imprimer des formes complexes : canaux, treillis, pièces imbriquées
+- Reproduire fidèlement des pièces techniques d'une série à l'autre
+Limites
+
+- Surface légèrement granuleuse à l'état brut (microbillage ou teinture possibles)
+- Cycle complet (impression + refroidissement) plus long qu'une impression FDM courte
+
+### Pour quels projets ?
+
+- Petites séries de pièces fonctionnelles
+- Grandes pièces techniques en nylon
+- Boîtiers, conduits et carters
+- Gabarits et outillages
+- Prototypes proches de la pièce injectée
+Chez O&D
+C'est notre machine pour les séries en nylon et les pièces SLS de grande taille. Nous regroupons les commandes dans un même bac quand c'est possible, ce qui fait baisser le prix par pièce.
 
 ### Matériaux compatibles
 
@@ -2746,40 +2865,6 @@ Voir la fiche →
 
 Tout savoir sur le SLS : machines, matières, comparatifs →
 
-**Description détaillée Tout savoir : cliquez pour déplier**
-
-### Supermaker SLS 3540 Pro
-
-### SLS
-La Supermaker SLS3540 Pro est une imprimante 3D SLS (Frittage Laser Sélectif) grand format conçue pour répondre aux besoins du prototypage industriel, de la production de petites séries et de la fabrication de pièces techniques à haute valeur ajoutée. Avec son volume d'impression de 350 × 350 × 430 mm, elle permet de réaliser des pièces de grandes dimensions ou d'optimiser la production grâce à un empilage dense de composants dans une seule fabrication.
-Destinée aux bureaux d'études, centres de recherche, universités, services R&D et industriels souhaitant internaliser leur production additive, la SLS3540 Pro offre un accès à une technologie SLS de niveau industriel tout en conservant une grande simplicité d'utilisation. Elle permet de fabriquer des pièces fonctionnelles en PA12, PA11, TPU, nylon chargé fibre de carbone (PA-CF) et fibre de verre (PA-GF), sans aucun support d'impression.
-Équipée d'un système avancé de gestion thermique assurant une excellente stabilité du procédé, d'un laser haute précision et d'une architecture optimisée pour les longues productions, la SLS3540 Pro garantit une qualité de surface homogène, une excellente précision dimensionnelle et des propriétés mécaniques constantes sur l'ensemble du volume de fabrication. Son grand volume de production en fait une solution idéale pour les prototypes fonctionnels, l'outillage, les pièces finales et les préséries industrielles.
-Chez O&D Impression 3D à Welkenraedt, nous exploitons la Supermaker SLS3540 Pro pour la fabrication de pièces techniques grand format, de prototypes fonctionnels et de séries de production en nylon industriel, lorsque la résistance mécanique, la liberté de conception et la qualité professionnelle sont indispensables.
-
-### MATÉRIAUX COMPATIBLES
-
-- PA12 (Nylon 12) : résistance mécanique et chimique, pièces fonctionnelles
-- PA11 (Nylon 11) : base biologique, flexible et résistant
-- TPU : pièces flexibles et élastiques, semelles, joints
-- CF (Fibre de carbone) : pièces légères haute rigidité
-- GF (Fibre de verre) : amélioration des propriétés mécaniques et thermiques
-
-### AVANTAGES CLE DE LA TECHNOLOGIE SLS
-Aucun support nécessaire : la poudre non frittée soutient naturellement la pièce
-Géométries libres : cavités internes, assemblages intégrés, formes complexes
-Recyclage poudre : systeme fermé, 90% de réduction de main-d'oeuvre
-Impression par lot : plusieurs pièces simultanees dans la meme chambre
-Post-traitement intégré : tri, tamisage et mélange automatiques
-
-### CAS D'USAGE : POUR QUI ?
-Laboratoires de recherche : prototypes SLS en nylon sans cout industriel Universités & écoles : accès pédagogique a la technologie SLS Ingénierie & R&D : pièces fonctionnelles sans support, assemblages complexes Petites séries : production de pièces nylon en quantité limitée Drones, robotique, structures légères en nylon CF ou GF
-La Super Maker SLS3540 Pro est une imprimante 3D SLS professionnelle conçue pour répondre aux exigences du prototypage industriel, de la fabrication de pièces fonctionnelles et de la production en petites et moyennes séries. Développée par Zongheng3D, elle associe un grand volume de fabrication à des performances de niveau industriel, permettant aux entreprises d’accéder à une solution de fabrication additive puissante, fiable et évolutive.
-Grâce à son volume d’impression de 350 × 350 × 430 mm , la SLS3540 Pro offre une capacité de production particulièrement adaptée aux pièces de grandes dimensions ainsi qu’à l’impression simultanée de nombreuses références dans un même cycle de fabrication. Cette polyvalence en fait un outil de choix pour les bureaux d’études, les services R&D, les centres de recherche et les industriels recherchant une solution performante pour accélérer leurs développements produits.
-La Super Maker SLS3540 Pro se distingue également par son architecture conçue pour les environnements de production exigeants. Son système de gestion thermique avancé, sa chambre de fabrication optimisée et son procédé de frittage laser de haute précision garantissent une excellente répétabilité, une qualité de surface homogène et des propriétés mécaniques constantes sur l’ensemble des pièces produites.
-Compatible avec les principaux matériaux techniques du marché tels que le PA12, le PA11, le TPU, le PA-CF et le PA-GF , elle permet de réaliser des pièces robustes, fonctionnelles et complexes sans nécessiter de structures de support. Cette liberté de conception ouvre la voie à la fabrication de composants techniques, d’outillages, de prototypes avancés et de séries de production destinées à des applications industrielles exigeantes.
-Pensée pour accompagner les besoins croissants des entreprises en matière de fabrication additive, la SLS3540 Pro combine productivité, précision et flexibilité dans une solution SLS grand format capable de répondre aux projets les plus ambitieux. Son importante capacité de production permet d’optimiser les coûts par pièce tout en réduisant les délais de développement et de fabrication.
-Choisir la Super Maker SLS3540 Pro , c’est investir dans une technologie SLS industrielle conçue pour offrir performance, fiabilité et liberté de conception aux professionnels souhaitant produire des pièces techniques de haute qualité, du prototype jusqu’à la petite série.
-
 Prochaine étape
 
 ### Une pièce à fabriquer ?
@@ -2793,8 +2878,38 @@ Devis instantané → Demande personnalisée →
 URL : https://www.od3d.be/machines-materiaux/tooldance-x1-cnc
 
 ## ToolDance X1
-La ToolDance X1 est une fraiseuse CNC de bureau carénée qui associe une broche annoncée à 1,5 kW, un changement automatique d’outils et une architecture évolutive. Elle est conçue pour l’usinage de différents métaux et matériaux non métalliques, dans un format compact destiné aux ateliers, aux bureaux d’études et aux environnements de prototypage.
+La ToolDance X1 est une fraiseuse CNC de bureau, fermée, avec changement automatique d'outils. Elle complète nos imprimantes 3D quand une pièce doit être en métal ou usinée dans la masse.
 CNC · Usinage à commande numérique
+
+Présentation
+
+### Comment fonctionne la ToolDance X1 ?
+
+Une fraiseuse CNC fonctionne à l'inverse d'une imprimante 3D : elle part d'un bloc de matière et enlève ce qui est en trop avec un outil qui tourne à grande vitesse. La X1 dispose d'une broche annoncée à 1,5 kW (jusqu'à 24 000 tr/min) et d'un magasin automatique de neuf outils, avec une sonde de mesure de pièce.
+Sa zone de travail est de 400 × 265 × 180 mm. Le châssis en aluminium moulé et les vis à billes préchargées assurent la rigidité, et le fabricant annonce une répétabilité de ± 0,01 mm. La machine fonctionne en 3 axes ; des modules 4 et 5 axes sont annoncés en option.
+
+### Capacités & limites
+
+Ce qu'elle sait faire
+
+- Usiner l'aluminium, le laiton, le cuivre et le titane
+- Usiner des plastiques techniques comme le POM ou l'Ertalon
+- Enchaîner plusieurs outils sans intervention grâce au magasin automatique
+- Obtenir des surfaces et des tolérances que l'impression 3D n'atteint pas
+- Réaliser des pièces unitaires ou de petites séries
+Limites
+
+- Formes internes impossibles à atteindre avec un outil : là, l'impression 3D est plus adaptée
+- Zone de travail de bureau (400 × 265 × 180 mm)
+
+### Pour quels projets ?
+
+- Pièces mécaniques en aluminium
+- Pièces en laiton ou cuivre
+- Pièces plastiques usinées dans la masse
+- Reprises d'usinage sur pièces imprimées
+Chez O&D
+Nous proposons l'usinage CNC en complément de l'impression 3D : quand une pièce doit être métallique ou très précise, nous l'usinons plutôt que de l'imprimer.
 
 ### Matériaux compatibles
 
@@ -2832,43 +2947,6 @@ Voir la fiche →
 
 Tout savoir sur l’usinage CNC : machines, matières, comparatifs →
 
-**Description détaillée Tout savoir : cliquez pour déplier**
-
-### CNC
-La ToolDance X1 est une fraiseuse CNC de bureau carénée qui associe une broche annoncée à 1,5 kW, un changement automatique d’outils et une architecture évolutive. Elle est conçue pour l’usinage de différents métaux et matériaux non métalliques, dans un format compact destiné aux ateliers, aux bureaux d’études et aux environnements de prototypage.
-La X1 intègre un moteur synchrone à aimants permanents (PMSM), dont la puissance nominale annoncée est de 1,5 kW (S1), avec une vitesse maximale de 24 000 tr/min.
-Selon les informations communiquées par le fabricant, la machine peut usiner notamment l’acier, l’acier inoxydable, le titane, l’aluminium, le laiton, le cuivre, le bois dur, l’acrylique et différents plastiques.
-Les résultats dépendent du matériau, de l’outil utilisé, du bridage de la pièce et des paramètres de coupe.
-
-### MATÉRIAUX COMPATIBLES
-
-- Aluminium
-- Titane
-- Acier et acier inoxydable
-- Cuivre et laiton
-- Bois
-- Plastiques et polymères
-- Pierre et matériaux composites
-
-### Une zone de travail de 400 × 265 × 180 mm
-La ToolDance X1 dispose d'une zone de travail annoncée de 400 × 265 × 180 mm sur les axes X, Y et Z.
-Son châssis en alliage d’aluminium moulé et son système de déplacement à vis à billes préchargées sont conçus pour assurer la rigidité et la stabilité nécessaires aux opérations d’usinage.
-Le fabricant annonce une répétabilité de positionnement de ± 0,01 mm. Cette valeur correspond à la capacité de la machine à retrouver une position et ne constitue pas, à elle seule, une garantie de tolérance dimensionnelle sur une pièce finie.
-
-### Changement automatique de neuf outils
-La machine dispose d’un magasin automatique pouvant accueillir neuf outils, accompagné d’une sonde de mesure de pièce et d’un système d’identification des outils par RFID.
-Cette automatisation permet d’envisager des opérations successives sans devoir remplacer manuellement chaque outil. Elle peut ainsi simplifier certains travaux de prototypage et de fabrication de petites séries.
-
-### Une plateforme évolutive
-La configuration standard fonctionne sur trois axes. Des modules quatre axes et cinq axes sont annoncés en option, afin d’élargir les possibilités d’usinage.
-La machine dispose également d’une enceinte fermée avec porte verrouillable. Le soufflage d’air est prévu en standard, tandis que le refroidissement liquide et le système de collecte et de filtration des poussières sont proposés en options selon les informations publiées.
-
-### Logiciels et pilotage
-ToolDance présente deux outils logiciels complémentaires :
-
-- ToolDance Studio : préparation des trajectoires d’usinage, fonctions CAM automatiques et contrôles de conception.
-- ToolDance Controller : pilotage de la machine.
-
 Prochaine étape
 
 ### Une pièce à fabriquer ?
@@ -2882,40 +2960,48 @@ Devis instantané → Demande personnalisée →
 URL : https://www.od3d.be/machines-materiaux/xtool-f1
 
 ## xTool F1
-La xTool F1 Lite est notre laser de gravure et découpe ultra-rapide. Avec une vitesse de 4000 mm/s et la capacité de travailler sur plus de 300 matériaux différents (bois, métal, cuir, verre, tissu, plastique…), elle est l'outil parfait pour la personnalisation, la création artisanale et la petite série industrielle.
+La xTool F1 est une machine de gravure laser compacte et fermée, à double laser : une diode bleue et un laser infrarouge. Rapide et précise, elle personnalise des objets en quelques secondes, y compris sur le métal.
 
 xTool F1
 
 ### Fiche technique
 
+Lasers | Diode bleue 10 W (455 nm) + infrarouge 2 W (1064 nm) |
+Vitesse | Jusqu'à 4 000 mm/s |
+Zone de travail | 115 × 115 mm (115 × 400 mm avec extension) |
 Gravure à 4000mm/s sur plus de 300 matériaux Gravure ultra détaillée + découpe laser Léger et portable
 
-**Description détaillée Tout savoir : cliquez pour déplier**
+Présentation
 
-### XTool F1 Lite
+### Comment fonctionne la xTool F1 ?
 
-### Laser
-La xTool F1 Lite est notre laser de gravure et découpe ultra-rapide. Avec une vitesse de 4000 mm/s et la capacité de travailler sur plus de 300 matériaux différents (bois, métal, cuir, verre, tissu, plastique…), elle est l'outil parfait pour la personnalisation, la création artisanale et la petite série industrielle.
-Compacte et portable, la xTool F1 utilise une technologie laser à double source (infrarouge + diode bleue) permettant de graver avec une précision extrême sur des surfaces courbes ou planes. Que ce soit pour personnaliser un cadeau, créer une signalétique ou graver un logo sur du métal, la F1 le fait rapidement et avec une qualité professionnelle.
-O&D Impression 3D propose la gravure laser via la xTool F1 pour vos projets de personnalisation et de création. Contactez-nous pour un devis.
+La F1 combine deux lasers : une diode bleue de 10 W (455 nm) pour le bois, le cuir ou l'ardoise, et un laser infrarouge de 2 W (1064 nm) pour les métaux et certains plastiques. La machine utilise l'un ou l'autre selon la matière.
+Le faisceau est guidé par un système galvanométrique : au lieu de déplacer la tête, deux petits miroirs orientent le laser, ce qui permet de graver jusqu'à 4 000 mm/s. La zone de travail est de 115 × 115 mm, extensible à 115 × 400 mm avec un accessoire. Le capot fermé filtre la lumière du laser et retient les fumées.
 
-### MATÉRIAUX COMPATIBLES
+### Capacités & limites
 
-- Bois et dérivés : gravure et découpe
-- Métal : gravure sur acier, aluminium, titane
-- Cuir : personnalisation fine
-- Verre et céramique : gravure décorative
-- Tissu : marquage et découpe
-- Plastiques : ABS, acrylique, PET
-- Pierre, marbre, gravure décorative
+Ce qu'elle sait faire
 
-### CAS D'USAGE : POUR QUI ?
-Artisans / créateurs : personnalisation de produits Entreprises : gravure de logos et signalétique Cadeaux personnalisés : bijoux, objets, accessoires Petite série : découpe et gravure reproductibles
-Le xTool F1 Lite est une machine de gravure laser compacte et moderne conçue pour les créateurs, les artisans, les petites entreprises et les passionnés de personnalisation. Développé par xTool , spécialiste reconnu des technologies de fabrication numérique, ce système a été pensé pour offrir une solution accessible, fiable et parfaitement adaptée aux besoins des ateliers créatifs et des espaces de travail modernes.
-Avec son design élégant et sa conception soignée, le xTool F1 Lite s’intègre facilement dans un bureau, un atelier ou un studio de création. Sa structure compacte permet de profiter d’un équipement performant sans nécessiter un espace de travail important, tout en conservant une finition premium et une excellente qualité de fabrication.
-Le xTool F1 Lite répond aux besoins des utilisateurs souhaitant développer des projets de personnalisation, de marquage et de création d’objets uniques. Il trouve naturellement sa place dans des domaines comme l’artisanat, la création de produits personnalisés, le prototypage créatif ou encore les petites productions sur mesure.
-Pensé pour offrir une expérience utilisateur fluide, il bénéficie d’un environnement moderne et intuitif permettant une intégration simple dans les flux de travail créatifs. Cette approche facilite la prise en main et permet aux utilisateurs de se concentrer pleinement sur leurs projets et leur créativité.
-Choisir le xTool F1 Lite , c’est investir dans une solution de gravure laser compacte et moderne, conçue pour accompagner les créateurs et les professionnels recherchant précision, simplicité et fiabilité au quotidien.
+- Graver logos, textes, QR codes et numéros de série
+- Graver le métal nu : inox, aluminium, laiton, or, argent
+- Graver le bois, le cuir, le papier, l'ardoise et le métal anodisé
+- Personnaliser en série (cadeaux d'entreprise, porte-clés, plaques)
+- Découper des matériaux fins (bois et acrylique foncé de quelques millimètres)
+- Marquer des pièces imprimées en 3D ou usinées
+Limites
+
+- Gravure et marquage du métal, pas de découpe du métal
+- Découpe limitée aux faibles épaisseurs
+- Zone de travail réduite
+
+### Pour quels projets ?
+
+- Marquage de pièces métalliques (numéros, traçabilité)
+- Objets promotionnels personnalisés
+- Plaques et étiquettes
+- Cadeaux et bijoux gravés
+Chez O&D
+Nous utilisons la F1 pour personnaliser des objets et marquer des pièces, y compris des pièces métalliques, souvent en complément d'une impression 3D ou d'un usinage.
 
 Prochaine étape
 
@@ -3111,26 +3197,6 @@ Voir la fiche →
 
 On nous trouve aussi pour Impression 3D ABS Liège Pièce technique ABS Belgique Prototype fonctionnel ABS
 
-**Description détaillée Tout savoir : cliquez pour déplier**
-Très utilisé dans l'industrie, l'automobile et l'électronique grand public, l'ABS est le choix naturel pour les boitiers techniques, les pièces sous capot, les prototypes fonctionnels et les pièces nécessitant une finition soignée.
-Chez O&D Impression 3D, nous imprimons l'ABS sur des machines avec enceinte chauffée pour éviter le gauchissement et garantir la qualité dimensionnelle.
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Boitiers électroniques et industriels
-- Pièces automobiles (intérieur, support)
-- Prototypes fonctionnels haute fidélité
-- Pièces nécessitant un lissage acétone
-- Moules et gabarits de fabrication
-
-### Machines compatibles chez O&D
-
-#### Bambu Lab X1C
-
-#### Bambu Lab H2C
-
-#### Prusa Core One
-
 Prochaine étape
 
 ### Une pièce à fabriquer ?
@@ -3319,37 +3385,6 @@ Haute température · Résistant chimique · Rigide
 Voir la fiche →
 
 On nous trouve aussi pour Impression 3D ASA extérieur Pièce extérieure impression 3D Belgique Impression 3D résistante UV ASA Liège
-
-**Description détaillée Tout savoir : cliquez pour déplier**
-Idéal pour la signalétique extérieure, les boitiers électriques, les pièces pour véhicules, les équipements agricoles et tout composant exposé aux éléments naturels.
-Chez O&D Impression 3D, l'ASA est notre recommandation systématique pour tout projet destiné à l'usage extérieur durable.
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Signalétique et affichage extérieur
-- Boitiers électriques et électroniques outdoor
-- Pièces pour véhicules (extérieur)
-- Équipements agricoles et industriels
-- Meubles et installations extérieures
-
-### Machines compatibles chez O&D
-
-#### Bambu Lab X1C
-
-#### Bambu Lab H2C
-
-#### Prusa Core One
-
-#### Modix Big Meter
-
-### L’ASA : un filament technique conçu pour l’extérieur et les environnements exigeants
-L’ASA est un matériau technique particulièrement apprécié dans le domaine de l’impression 3D pour sa résistance aux conditions extérieures et sa grande durabilité. Souvent considéré comme une évolution de l’ABS, le filament ASA offre d’excellentes performances mécaniques tout en résistant efficacement aux UV, aux variations climatiques et à l’humidité.
-Grâce à ses propriétés avancées, l’ ASA pour imprimante 3D est largement utilisé pour la fabrication de pièces destinées à un usage extérieur, de composants techniques, de boîtiers, de supports ou encore d’éléments exposés au soleil et aux intempéries. Sa stabilité dans le temps en fait un matériau particulièrement recherché pour les applications nécessitant une bonne tenue en environnement difficile.
-L' ASA impression 3D se distingue par sa capacité à conserver ses propriétés mécaniques et son apparence même après une exposition prolongée aux rayons UV. Contrairement à certains matériaux plus sensibles aux conditions extérieures, l’ASA limite le jaunissement et la dégradation liés à l’exposition solaire.
-En plus de sa résistance aux UV, le filament ASA offre une bonne solidité mécanique et une meilleure résistance thermique que des matériaux comme le PLA. Il constitue ainsi un excellent choix pour les pièces fonctionnelles nécessitant robustesse, stabilité et durabilité dans le temps.
-Chez O&D Impression 3D , nous utilisons régulièrement l’ASA haute qualité pour la réalisation de pièces techniques destinées à des environnements exigeants ou à une utilisation extérieure prolongée. Sa fiabilité et sa résistance en font un matériau particulièrement adapté aux projets professionnels nécessitant performance et longévité.
-Même si l’ASA présente de nombreux avantages, son impression demande des conditions adaptées afin de limiter les risques de déformation liés aux variations thermiques pendant l’impression. Le choix du matériau dépend toujours des contraintes techniques et des conditions d’utilisation finales des pièces imprimées.
-Choisir un filament ASA professionnel permet d’obtenir des impressions 3D résistantes, durables et parfaitement adaptées aux applications techniques et extérieures nécessitant stabilité et performance sur le long terme.
 
 Prochaine étape
 
@@ -4661,27 +4696,6 @@ Voir la fiche →
 
 On nous trouve aussi pour Impression 3D Rilsan PA11 PA11 biosourcé SLS Belgique Pièce nylon résistante aux chocs Polyamide 11 impression 3D Liège
 
-**Description détaillée Tout savoir : cliquez pour déplier**
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Pièces finales fonctionnelles
-- Pièces souples et résistantes aux chocs
-- Prototypes fonctionnels
-- Applications soumises à la fatigue
-- Petites et moyennes séries
-- Pièces nécessitant de la flexibilité
-
-### Machines compatibles chez O&D
-
-#### Supermaker SLS 1518
-
-#### Supermaker SLS 3540 PRO
-
-### Le Rilsan PA11 est un polyamide technique flexible, résistant et durable pour pièces fonctionnelles SLS.
-Le Rilsan PA11 est un matériau thermoplastique de la famille des polyamides, utilisé en fabrication additive via le procédé SLS (Selective Laser Sintering). Il est particulièrement adapté aux pièces fonctionnelles nécessitant une excellente résistance aux chocs, une bonne flexibilité et une grande résistance à la fatigue.
-Ce matériau offre un excellent équilibre entre résistance mécanique, flexibilité et durabilité. Il résiste bien aux chocs, à l’usure et à de nombreux agents chimiques, ce qui le rend adapté aux applications industrielles exigeantes. Le PA11 est également idéal pour les pièces soumises à des déformations répétées ou nécessitant une certaine souplesse. Sa surface mate et légèrement granuleuse reste homogène, offrant une finition technique directement exploitable.
-
 Prochaine étape
 
 ### Une pièce à fabriquer ?
@@ -4870,37 +4884,6 @@ Haute température · Résistant chimique · Rigide
 Voir la fiche →
 
 On nous trouve aussi pour Impression 3D fibre de carbone PA12 CF Belgique Pièce carbone impression 3D Liège Impression 3D nylon carbone
-
-**Description détaillée Tout savoir : cliquez pour déplier**
-Avec une résistance thermique allant jusqu'à 160 °C et une excellente stabilité dimensionnelle, le PA12-CF produit des pièces qui restent stables même sous forte charge mécanique ou thermique.
-Chez O&D Impression 3D, nous imprimons le PA12-CF pour des clients exigeant des performances proches du métal à fraction du poids.
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Pièces aérospatiales et aéronautiques
-- Composants automobiles sous capot
-- Structures légères haute résistance
-- Drones et robotique
-- Remplacement de pièces métalliques
-
-### Machines compatibles chez O&D
-
-#### Bambu Lab H2C
-
-#### Prusa Core One
-
-#### Modix Big Meter
-
-#### SuperMaker SLS1518
-
-### Le PA12 CF : un matériau composite haute performance pour l’impression 3D technique
-Le PA12 CF est un matériau technique avancé conçu pour les applications nécessitant une excellente résistance mécanique, une grande stabilité dimensionnelle et des performances élevées. Combinant du nylon PA12 avec des fibres de carbone, le filament PA12 CF est particulièrement apprécié dans le domaine de l’impression 3D professionnelle et industrielle.
-Grâce à l’ajout de fibres de carbone, le PA12 CF pour imprimante 3D offre une rigidité supérieure tout en conservant les propriétés techniques reconnues du nylon. Ce matériau est largement utilisé pour la fabrication de pièces structurelles, de composants mécaniques, de supports techniques et de pièces fonctionnelles nécessitant solidité, légèreté et résistance à l’usure.
-Le PA12 CF impression 3D se distingue par son excellente stabilité dimensionnelle et sa faible déformation, même sur des pièces techniques complexes. Il permet de produire des composants précis capables de résister à des contraintes mécaniques importantes tout en conservant un poids réduit grâce aux fibres de carbone intégrées dans le matériau.
-Le filament PA12 CF possède également une bonne résistance chimique et une excellente tenue à l’usure, ce qui en fait un matériau particulièrement adapté aux environnements industriels, techniques et mécaniques exigeants. Sa finition légèrement texturée et mate est également appréciée pour les pièces professionnelles nécessitant un rendu technique haut de gamme.
-Chez O&D Impression 3D , nous utilisons régulièrement le PA12 CF haute performance pour la réalisation de pièces techniques avancées, de prototypes fonctionnels et de composants nécessitant rigidité, précision et durabilité. Ce matériau est particulièrement adapté aux projets industriels et aux applications demandant des performances mécaniques élevées.
-L’impression du PA12 CF nécessite cependant des équipements adaptés et une parfaite maîtrise des paramètres d’impression en raison des contraintes techniques liées aux matériaux composites renforcés en fibre de carbone. Le choix de ce matériau dépend des performances mécaniques et de la résistance recherchées pour chaque projet.
-Choisir un filament PA12 CF professionnel permet d’obtenir des impressions 3D techniques, robustes et parfaitement adaptées aux applications industrielles modernes nécessitant précision, rigidité et haute résistance mécanique.
 
 Prochaine étape
 
@@ -5091,37 +5074,6 @@ Voir la fiche →
 
 On nous trouve aussi pour Impression 3D nylon fibre de verre PA12 GF Belgique Pièce industrielle impression 3D Liège
 
-**Description détaillée Tout savoir : cliquez pour déplier**
-C'est le matériau idéal pour les applications industrielles nécessitant robustesse et stabilité sans la fragilité aux impacts du carbone. La résistance chimique du PA12 est conservée et renforcée.
-Chez O&D Impression 3D, le PA12-GF est recommandé pour les outillages industriels, les gabarits de conformation et les pièces de série en milieu contraint.
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Outillages et gabarits industriels
-- Pièces de série en milieu contraint
-- Structures industrielles stables
-- Pièces en contact avec produits chimiques
-- Remplacement de pièces métal second rôle
-
-### Machines compatibles chez O&D
-
-#### Bambu Lab H2C
-
-#### Prusa Core One
-
-#### Modix Big Meter
-
-#### SuperMaker SLS1518
-
-### Le PA12 GF : un matériau renforcé pour les applications techniques exigeantes
-Le PA12 GF est un matériau composite haute performance utilisé dans le domaine de l’impression 3D technique pour la fabrication de pièces nécessitant robustesse, stabilité et résistance mécanique avancée. Composé de nylon PA12 renforcé en fibre de verre , le filament PA12 GF est particulièrement apprécié dans les secteurs industriels, mécaniques et techniques exigeant des composants durables et fiables.
-Grâce au renfort en fibre de verre, le PA12 GF pour imprimante 3D offre une excellente rigidité et une grande stabilité dimensionnelle, même sur des pièces soumises à des contraintes mécaniques importantes. Il constitue un excellent choix pour la fabrication de supports techniques, de pièces structurelles, de composants mécaniques ou encore de prototypes fonctionnels destinés à des environnements exigeants.
-Le PA12 GF impression 3D se distingue par sa capacité à produire des pièces solides et résistantes tout en limitant les déformations pendant l’impression. Cette stabilité améliore la précision des pièces techniques et permet d’obtenir des résultats fiables sur des projets nécessitant des tolérances précises et une excellente tenue dans le temps.
-Le filament PA12 GF possède également une bonne résistance thermique et chimique, ce qui le rend particulièrement adapté aux applications industrielles, automobiles et mécaniques où les pièces doivent résister à des conditions d’utilisation difficiles.
-Chez O&D Impression 3D , nous utilisons régulièrement le PA12 GF haute performance pour la réalisation de pièces techniques et fonctionnelles nécessitant rigidité, résistance et durabilité. Ce matériau est particulièrement adapté aux projets professionnels demandant des performances mécaniques élevées et une excellente stabilité structurelle.
-L’impression du PA12 GF nécessite des équipements adaptés et une bonne maîtrise des paramètres d’impression en raison des contraintes liées aux matériaux composites renforcés en fibre de verre. Le choix de ce matériau dépend toujours des exigences mécaniques, thermiques et techniques du projet.
-Choisir un filament PA12 GF professionnel permet d’obtenir des impressions 3D robustes , précises et parfaitement adaptées aux applications industrielles et techniques nécessitant performance et fiabilité sur le long terme.
-
 Prochaine étape
 
 ### Une pièce à fabriquer ?
@@ -5306,31 +5258,6 @@ Voir la fiche →
 
 On nous trouve aussi pour Impression 3D PEEK Belgique PEEK haute température Remplacer pièce métal impression 3D Impression 3D haute performance Liège
 
-**Description détaillée Tout savoir : cliquez pour déplier**
-Utilise dans l'aérospatial, l'automobile, le médical et l'électronique de puissance, le PEEK remplace le metal dans de nombreuses applications critiques, offrant un gain de poids significatif sans compromis sur les performances.
-Chez O&D Impression 3D, nous imprimons le PEEK sur notre INTAMSYS Funmat HT, l'une des rares machines capables de maintenir les conditions thermiques strictes requises par ce matériau d'elite.
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Implants et outils chirurgicaux médicaux
-- Composants aéronautiques certifiés
-- Pièces automobiles haute performance
-- Électronique de puissance
-- Industrie alimentaire et chimique
-
-### Machines compatibles chez O&D
-
-#### Intamsys Funmat HT
-
-### Le PEEK : le matériau haute performance pour l’impression 3D industrielle
-Le PEEK est l’un des matériaux les plus avancés utilisés dans le domaine de l’impression 3D industrielle . Reconnu pour ses performances mécaniques, thermiques et chimiques exceptionnelles, le filament PEEK est largement utilisé dans les secteurs les plus exigeants comme l’aéronautique, le médical, l’automobile, l’énergie et l’industrie de pointe.
-Grâce à ses propriétés techniques remarquables, le PEEK pour imprimante 3D permet de produire des pièces capables de résister à des températures très élevées, à des contraintes mécaniques importantes et à des environnements chimiques agressifs. Il constitue un excellent choix pour la fabrication de composants techniques, de pièces structurelles, de prototypes fonctionnels avancés et de pièces destinées à des applications industrielles critiques.
-Le PEEK impression 3D se distingue par sa combinaison unique de rigidité, de résistance à l’usure et de stabilité dimensionnelle. Même dans des conditions extrêmes, ce matériau conserve ses propriétés mécaniques et sa fiabilité, ce qui en fait une référence pour les applications nécessitant des performances élevées sur le long terme.
-Le filament PEEK possède également une excellente résistance chimique et une très faible sensibilité à l’humidité, permettant son utilisation dans des environnements industriels complexes et contraignants. Sa capacité à supporter des conditions sévères en fait un matériau particulièrement recherché pour les secteurs nécessitant sécurité, durabilité et haute précision.
-Chez O&D Impression 3D , nous utilisons le PEEK haute performance pour la réalisation de pièces techniques avancées destinées aux environnements industriels les plus exigeants. Ce matériau est particulièrement adapté aux projets nécessitant résistance thermique, stabilité mécanique et fiabilité sur le long terme.
-L’impression du PEEK nécessite des équipements industriels spécialisés capables d’atteindre des températures élevées et de maintenir un environnement thermique parfaitement contrôlé. Sa mise en œuvre demande une expertise technique avancée afin de garantir des performances optimales et une qualité de fabrication irréprochable.
-Choisir un filament PEEK professionnel permet d’obtenir des impressions 3D ultra-performantes adaptées aux applications industrielles, techniques et scientifiques nécessitant un niveau d’exigence élevé en matière de résistance, de précision et de durabilité.
-
 Prochaine étape
 
 ### Une pièce à fabriquer ?
@@ -5499,31 +5426,6 @@ Stable · Robuste · Industriel
 Voir la fiche →
 
 On nous trouve aussi pour Impression 3D PEKK PEKK aéronautique Belgique Impression 3D défense Polymère haute performance impression 3D
-
-**Description détaillée Tout savoir : cliquez pour déplier**
-Fabriqué a partir du Kepstan® d'Arkema (France), le PEKK est certifié pour les usages aéronautiques (FAA/EASA), médicaux et spatiaux. Il s'impose progressivement comme le matériau de référence pour les nouvelles applications haute performance.
-Chez O&D Impression 3D, nous utilisons le PEKK sur notre INTAMSYS Funmat HT pour des projets nécessitant le summum de la performance polymère.
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Pièces aéronautiques certifiées (FAA/EASA)
-- Implants et outils médicaux
-- Applications spatiales
-- Électronique de défense
-- Pièces de précision haute performance
-
-### Machines compatibles chez O&D
-
-#### Intamsys Funmat HT
-
-### Le PEKK : un polymère haute performance pour l’impression 3D technique et industrielle
-Le PEKK est un matériau hautes performances utilisé dans les applications les plus avancées de l’impression 3D industrielle . Appartenant à la famille des polymères PAEK, le filament PEKK est reconnu pour son excellente résistance mécanique, sa stabilité thermique et sa résistance chimique exceptionnelle. Il est particulièrement apprécié dans les secteurs exigeants comme l’aéronautique, l’automobile, l’énergie, le médical et l’industrie de pointe.
-Grâce à ses propriétés techniques avancées, le PEKK pour imprimante 3D permet de produire des pièces capables de résister à des températures élevées, à des contraintes mécaniques importantes et à des environnements industriels complexes. Il constitue un excellent choix pour la fabrication de composants techniques, de pièces structurelles et de prototypes fonctionnels nécessitant fiabilité et durabilité.
-Le PEKK impression 3D se distingue par sa grande stabilité dimensionnelle et sa résistance naturelle au feu et aux produits chimiques. Comparé à d’autres matériaux techniques haute température, le PEKK offre également une meilleure maîtrise du retrait thermique, permettant d’obtenir des pièces plus stables et plus précises lors de l’impression.
-Le filament PEKK possède également une excellente résistance à l’usure et une forte capacité à conserver ses propriétés mécaniques dans des environnements extrêmes. Ces caractéristiques en font un matériau particulièrement adapté aux applications industrielles critiques nécessitant des performances élevées sur le long terme.
-Chez O&D Impression 3D , nous utilisons le PEKK haute performance pour la fabrication de pièces techniques avancées destinées aux projets industriels nécessitant résistance thermique, précision et durabilité. Ce matériau est particulièrement adapté aux applications demandant des performances mécaniques élevées et une excellente stabilité dans des conditions exigeantes.
-L’impression du PEKK nécessite des équipements industriels spécialisés capables de maintenir des températures élevées et un environnement d’impression parfaitement contrôlé. Sa mise en œuvre demande une expertise technique avancée afin de garantir des résultats fiables et des performances optimales.
-Choisir un filament PEKK professionnel permet d’obtenir des impressions 3D techniques et industrielles capables de répondre aux exigences les plus élevées en matière de résistance, de stabilité et de performance dans les environnements les plus contraignants.
 
 Prochaine étape
 
@@ -5718,38 +5620,6 @@ Haute température · Résistant chimique · Rigide
 Voir la fiche →
 
 On nous trouve aussi pour Impression 3D PETG Liège Pièce PETG sur mesure Belgique Boîtier impression 3D Impression 3D résistante
-
-**Description détaillée Tout savoir : cliquez pour déplier**
-Avec une resistance thermique autour de 80 degrés C, une bonne tenue aux chocs et une excellente résistance chimique de base, le PETG convient à de nombreuses applications intermédiaires : boitiers, supports, pièces de remplacement, contenants alimentaires (selon qualité du filament).
-Chez O&D Impression 3D, nous recommandons le PETG pour tout projet nécessitant une pièce durable sans recourir aux matériaux techniques complexes comme l'ABS ou le PC.
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Boitiers et coques de protection
-- Supports et fixations fonctionnelles
-- Pièces de remplacement courantes
-- Contenants et rangements
-- Prototypes fonctionnels semi-techniques
-
-### Machines compatibles chez O&D
-
-#### Bambu Lab X1C
-
-#### Bambu Lab H2C
-
-#### Prusa Core One
-
-#### Modix Big Meter
-
-### Le PETG : un filament polyvalent et résistant pour l’impression 3D
-Le PETG est un matériau incontournable dans l’univers de l’impression 3D . Reconnu pour sa polyvalence, sa solidité et sa résistance supérieure au PLA, il est largement utilisé aussi bien par les professionnels que par les utilisateurs recherchant des pièces plus durables et adaptées à des usages techniques.
-Le filament PETG combine plusieurs avantages particulièrement recherchés en fabrication additive : une bonne résistance mécanique, une excellente adhérence entre les couches et une meilleure résistance à l’humidité et aux variations de température. Grâce à ces propriétés, il constitue un excellent choix pour la fabrication de pièces fonctionnelles, de composants techniques, de supports, de boîtiers ou encore d’éléments destinés à une utilisation quotidienne.
-L’un des grands atouts du PETG pour imprimante 3D est son équilibre entre facilité d’impression et performances techniques. Plus résistant que le PLA tout en restant plus accessible à imprimer que certains matériaux industriels, il permet d’obtenir des pièces solides avec une belle qualité de finition.
-Le PETG impression 3D est également apprécié pour sa légère flexibilité et sa bonne résistance aux chocs, ce qui réduit les risques de casse sur les pièces soumises à des contraintes mécaniques modérées. Sa résistance à l’humidité en fait aussi un matériau intéressant pour certaines applications en environnement humide ou en usage extérieur modéré.
-Disponible dans de nombreuses couleurs et finitions, le PETG permet de produire aussi bien des pièces techniques que des créations visuellement soignées. Certaines variantes offrent des effets translucides, mats ou techniques adaptés à des besoins spécifiques en prototypage et en fabrication fonctionnelle.
-Chez O&D Impression 3D , nous utilisons régulièrement le PETG haute qualité pour la réalisation de pièces techniques, de composants fonctionnels et de projets nécessitant une meilleure résistance mécanique et thermique que le PLA. Sa polyvalence et sa fiabilité en font un matériau particulièrement apprécié pour les applications professionnelles et les projets exigeants.
-Même si le PETG offre de nombreux avantages, il nécessite des réglages d’impression plus précis que le PLA et peut générer davantage de fils lors de l’impression selon les paramètres utilisés. Le choix du matériau dépend donc toujours des contraintes techniques, mécaniques et environnementales du projet.
-Choisir un filament PETG professionnel permet d’obtenir des impressions plus solides, plus durables et adaptées à un large éventail d’applications en impression 3D moderne.
 
 Prochaine étape
 
@@ -5957,37 +5827,6 @@ Voir la fiche →
 
 On nous trouve aussi pour Impression 3D PLA Liège Impression 3D PLA Belgique Maquette impression 3D Objet personnalisé impression 3D Impression 3D multicolore Prototype PLA Verviers
 
-**Description détaillée Tout savoir : cliquez pour déplier**
-Chez O&D Impression 3D, nous utilisons le PLA pour tous les projets ou le détail visuel et la fidélité de forme priment sur la résistance mécanique : maquettes architecturales, prototypes visuels, objets décoratifs, figurines, modeles pédagogiques.
-Bien que non adapté aux pieces techniques soumises à la chaleur ou aux contraintes, le PLA reste le choix numero 1 pour démarrer rapidement, a moindre coût et avec une qualité d'impression optimale.
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Maquettes architecturales et urbanistiques
-- Prototypes visuels et démonstrations
-- Figurines, objets décoratifs, art
-- Modèles pédagogiques et éducatifs
-- Logotypage et enseignes 3D
-
-### Machines compatibles chez O&D
-
-#### Bambu Lab X1C
-
-#### Bambu Lab H2C
-
-#### Prusa Core One
-
-#### Modix Big Meter
-
-### Le PLA : le filament incontournable de l’impression 3D
-Le PLA est aujourd’hui l’un des matériaux les plus utilisés dans le monde de l’impression 3D . Apprécié pour sa simplicité d’utilisation, sa qualité de finition et sa grande polyvalence, il convient aussi bien aux débutants qu’aux professionnels recherchant un matériau fiable pour leurs projets de fabrication additive.
-Fabriqué à partir de ressources d’origine végétale comme l’amidon de maïs ou la canne à sucre, le filament PLA est souvent considéré comme une alternative plus respectueuse de l’environnement par rapport à d’autres matériaux utilisés en impression 3D. Il permet d’obtenir des impressions propres, précises et visuellement détaillées, ce qui en fait un excellent choix pour le prototypage, les objets décoratifs, les maquettes, les figurines ou encore les pièces de présentation.
-L’un des grands avantages du PLA pour imprimante 3D réside dans sa facilité d’impression. Il présente peu de déformation pendant l’impression et offre une excellente adhérence des couches, permettant d’obtenir des résultats de qualité sur une large variété de machines. Cette stabilité en fait un matériau particulièrement apprécié pour les impressions nécessitant une belle finition visuelle.
-Le PLA impression 3D est également disponible dans une très large gamme de couleurs, de textures et de finitions. On retrouve aujourd’hui des variantes mates, satinées, soie, translucides, effet bois, carbone ou encore métalliques, offrant de nombreuses possibilités créatives aux designers, créateurs et professionnels du prototypage.
-Chez O&D Impression 3D , nous utilisons régulièrement le PLA haute qualité pour la réalisation de prototypes visuels, de pièces de présentation et de créations personnalisées nécessitant un excellent rendu esthétique. Grâce à sa polyvalence et à sa fiabilité, le PLA reste un matériau incontournable pour de nombreux projets d’impression 3D.
-Même si le PLA offre de nombreux avantages, il possède également certaines limites. Il résiste moins bien aux fortes températures et aux contraintes mécaniques importantes que certains matériaux techniques comme le PETG, l’ABS ou le nylon. Le choix du matériau dépend donc toujours des besoins spécifiques du projet et des conditions d’utilisation des pièces imprimées.
-Choisir un filament PLA professionnel de qualité permet d’obtenir des impressions plus fiables, une meilleure régularité d’extrusion et un rendu final plus propre. Que ce soit pour le prototypage rapide, la création d’objets personnalisés ou la fabrication de pièces esthétiques, le PLA reste une référence incontournable dans l’univers de l’impression 3D moderne.
-
 Prochaine étape
 
 ### Une pièce à fabriquer ?
@@ -6172,34 +6011,6 @@ Voir la fiche →
 
 On nous trouve aussi pour Impression 3D polypropylène Impression 3D PP Belgique Pièce résistante produits chimiques impression 3D
 
-**Description détaillée Tout savoir : cliquez pour déplier**
-
-### PP (Polypropylene)
-Le Polypropylene (PP) est l'un des plastiques les plus utilisés dans l'industrie mondiale pour une raison simple : il combine légereté extrême, excellente résistance chimique et une fatigue mécanique très élevée. Les charnières en PP peuvent être pliées des milliers de fois sans se rompre.
-Sa resistance aux solvants, acides et bases en fait le matériau idéal pour les contenants de laboratoire, les boitiers d'équipements chimiques et les pièces en contact avec des fluides agressifs.
-Chez O&D Impression 3D, le PP est recommandé pour les projets combinant légereté, durabilité mécanique et résistance chimique élevée.
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Contenants et flacons pour produits chimiques
-- Charnières et mécanismes répétitifs
-- Boitiers pour environnements humides
-- Pièces en contact avec fluides agressifs
-- Applications laboratoire et médical
-
-### Machines compatibles chez O&D
-
-#### Bambu Lab H2C
-
-### Le PP (Polypropylène) : un matériau léger et résistant pour l’impression 3D technique
-Le PP (polypropylène) est un matériau technique reconnu pour sa légèreté, sa résistance chimique et sa grande flexibilité. Utilisé dans de nombreux secteurs industriels, le filament PP gagne également en popularité dans le domaine de l’impression 3D pour la fabrication de pièces fonctionnelles nécessitant durabilité et résistance aux contraintes du quotidien.
-Grâce à ses propriétés spécifiques, le PP pour imprimante 3D est particulièrement adapté à la création de pièces techniques, de contenants, de charnières flexibles, de composants mécaniques légers ou encore d’éléments soumis à des mouvements répétés. Sa capacité à supporter les flexions sans casser en fait un matériau particulièrement intéressant pour les applications nécessitant souplesse et résistance à la fatigue mécanique.
-Le PP impression 3D se distingue également par son excellente résistance chimique. Il résiste efficacement à de nombreux produits chimiques, à l’humidité et à certaines substances corrosives, ce qui le rend adapté à des environnements techniques et industriels exigeants.
-L’un des grands avantages du filament PP réside dans son faible poids. Le polypropylène permet de produire des pièces légères tout en conservant de bonnes propriétés mécaniques, un atout important dans les secteurs où la réduction de poids est recherchée.
-Chez O&D Impression 3D , nous utilisons régulièrement le PP haute performance pour la réalisation de pièces techniques et fonctionnelles nécessitant flexibilité, résistance chimique et légèreté. Ce matériau est particulièrement adapté aux projets industriels et aux applications demandant des composants durables capables de résister à des usages intensifs.
-Même si le polypropylène impression 3D offre de nombreux avantages, son impression demande des conditions adaptées afin de limiter les risques de déformation et d’assurer une bonne adhérence pendant le processus d’impression. Le choix du matériau dépend toujours des contraintes techniques et des performances recherchées pour chaque projet.
-Choisir un filament PP professionnel permet d’obtenir des impressions 3D légères, résistantes et parfaitement adaptées aux applications techniques modernes nécessitant flexibilité, durabilité et résistance chimique.
-
 Prochaine étape
 
 ### Une pièce à fabriquer ?
@@ -6379,32 +6190,6 @@ Stable · Robuste · Industriel
 Voir la fiche →
 
 On nous trouve aussi pour Impression 3D PPS CF Pièce haute température impression 3D Impression 3D résistante chimique Belgique
-
-**Description détaillée Tout savoir : cliquez pour déplier**
-Utilisé dans l'industrie lourde, la chimie, l'aerospatial et le petrolier, le PPS-CF est le matériau de dernier recours quand aucun autre plastique ne peut tenir dans l'environnement ciblé. Il remplace avantageusement des pièces métalliques dans des contextes corrosifs à haute température.
-Chez O&D Impression 3D, nous sommes équipés pour imprimer le PPS-CF grâce à nos machines haute température (INTAMSYS Funmat HT).
-Contactez-nous pour tout projet en milieu extreme.
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Industrie chimique et pétrolière
-- Composants aérospatiaux haute température
-- Pièces en milieu corrosif
-- Industrie alimentaire haute température
-- Remplacement de pièces métalliques en environnement agressif
-
-### Machines compatibles chez O&D
-
-#### Intamsys Funmat HT
-
-### Le PPS CF : un matériau composite ultra-performant pour l’impression 3D industrielle
-Le PPS CF est un matériau composite haute performance conçu pour les applications industrielles les plus exigeantes en impression 3D technique . Combinant du PPS (polyphénylène sulfure) avec des fibres de carbone, le filament PPS CF offre des propriétés mécaniques et thermiques exceptionnelles adaptées aux environnements extrêmes et aux usages industriels avancés.
-Grâce à sa structure renforcée en fibre de carbone, le PPS CF pour imprimante 3D présente une rigidité élevée, une excellente stabilité dimensionnelle et une très grande résistance mécanique. Il est particulièrement utilisé pour la fabrication de composants techniques, de pièces structurelles, d’éléments mécaniques et de pièces fonctionnelles destinées à des secteurs comme l’industrie, l’automobile, l’aéronautique ou encore les environnements chimiques exigeants.
-Le PPS CF impression 3D se distingue par sa remarquable résistance thermique et chimique. Ce matériau conserve ses propriétés mécaniques même dans des environnements soumis à des températures élevées, à l’humidité ou à des substances chimiques agressives. Cette stabilité en fait un excellent choix pour les applications nécessitant fiabilité et performance sur le long terme.
-Le filament PPS CF offre également une excellente résistance à l’usure et une faible déformation, permettant la production de pièces techniques précises et durables adaptées aux contraintes industrielles les plus sévères. Sa finition technique et son aspect renforcé en fibre de carbone sont particulièrement appréciés dans les applications professionnelles haut de gamme.
-Chez O&D Impression 3D , nous utilisons le PPS CF haute performance pour la réalisation de pièces techniques avancées nécessitant résistance thermique, rigidité et stabilité dans des environnements industriels complexes. Ce matériau est particulièrement adapté aux projets demandant des performances mécaniques et chimiques élevées.
-L’impression du PPS CF nécessite des équipements industriels adaptés ainsi qu’une parfaite maîtrise des paramètres d’impression en raison des contraintes liées aux matériaux haute température renforcés en fibre de carbone. Le choix de ce matériau dépend des exigences techniques, thermiques et mécaniques spécifiques de chaque projet.
-Choisir un filament PPS CF professionnel permet d’obtenir des impressions 3D industrielles capables de répondre aux besoins les plus exigeants en matière de résistance, de précision et de durabilité.
 
 Prochaine étape
 
@@ -6618,26 +6403,6 @@ Voir la fiche →
 
 On nous trouve aussi pour Impression 3D nylon PA12 Liège Pièce SLS sur mesure Belgique Frittage laser PA12 Welkenraedt Prototype fonctionnel en nylon Petite série SLS Verviers Impression 3D nylon Eupen
 
-**Description détaillée Tout savoir : cliquez pour déplier**
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Prototypes fonctionnels
-- Boîtiers électroniques
-- Pièces mécaniques
-- Outillages / gabarits
-- Petites séries
-
-### Machines compatibles chez O&D
-
-#### Supermaker SLS 1518
-
-#### Supermaker SLS 3540 PRO
-
-### Le Nylon PA12 est un matériau technique alliant résistance mécanique, légèreté, durabilité et précision.
-Le Nylon PA12 gris est un matériau thermoplastique de la famille des polyamides, largement utilisé dans le procédé d'impression 3D SLS (Selective Laser Sintering) . Lors de la fabrication, un laser fusionne sélectivement de fines couches de poudre de PA12 afin de créer des pièces tridimensionnelles robustes et précises. Grâce à ses propriétés mécaniques équilibrées, le PA12 est particulièrement apprécié pour la production de prototypes fonctionnels, d'outillages, de boîtiers techniques et de composants destinés à une utilisation réelle.
-Ce matériau se distingue par sa bonne résistance à la traction, aux chocs et à l'usure, ainsi que par sa faible absorption d'humidité comparativement à d'autres nylons. Il possède également une bonne résistance aux huiles, aux graisses et à de nombreux agents chimiques. Sa surface présente un aspect mat et légèrement texturé caractéristique du procédé SLS. Le Nylon PA12 gris constitue ainsi une solution polyvalente pour la fabrication de pièces légères, durables et complexes, tout en offrant une excellente stabilité dimensionnelle et une longue durée de vie.
-
 Prochaine étape
 
 ### Une pièce à fabriquer ?
@@ -6833,26 +6598,6 @@ Voir la fiche →
 
 On nous trouve aussi pour Production série impression 3D Belgique Alternative injection plastique petite série Série de pièces SLS Liège Fabrication additive série PA12
 
-**Description détaillée Tout savoir : cliquez pour déplier**
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Petites séries industrielles
-- Moyennes séries de production
-- Pièces finales fonctionnelles
-- Remplacement injection plastique
-- Production à la demande
-
-### Machines compatibles chez O&D
-
-#### Supermaker SLS 1518
-
-#### Supermaker SLS 3540 PRO
-
-### Le Nylon PA12 (série) est un polyamide technique résistant, léger et durable pour pièces fonctionnelles SLS.
-Le PA12 pour les séries est un matériau thermoplastique de la famille des polyamides, largement utilisé en fabrication additive via le procédé SLS (Selective Laser Sintering) . Il est particulièrement apprécié pour la production de pièces en petites et moyennes séries, car il permet de fabriquer des composants directement fonctionnels sans nécessiter d’outillage coûteux comme dans le moulage par injection.
-Ce matériau offre un excellent équilibre entre résistance mécanique, rigidité et légère flexibilité, tout en conservant une bonne stabilité dimensionnelle dans le temps. Il résiste bien aux chocs, à l’usure ainsi qu’à de nombreux agents chimiques, ce qui le rend adapté à des environnements industriels exigeants. Le PA12 pour les séries est souvent utilisé pour réduire les délais de production et permettre une fabrication à la demande, tout en garantissant une qualité constante des pièces. Sa surface mate et légèrement granuleuse reste homogène sur l’ensemble des pièces produites, ce qui en fait une solution idéale pour des productions techniques et fonctionnelles.
-
 Prochaine étape
 
 ### Une pièce à fabriquer ?
@@ -7039,26 +6784,6 @@ Voir la fiche →
 
 On nous trouve aussi pour PA12 chargé verre SLS PA12 GF impression 3D Belgique Gabarit de contrôle impression 3D Pièce rigide nylon SLS Liège
 
-**Description détaillée Tout savoir : cliquez pour déplier**
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Pièces structurelles
-- Supports mécaniques
-- Boîtiers renforcés
-- Composants industriels
-- Pièces de charge
-
-### Machines compatibles chez O&D
-
-#### Supermaker SLS 1518
-
-#### Supermaker SLS 3540 PRO
-
-### Le PA12 GF est un polyamide renforcé verre, rigide et stable.
-Le PA12 GF (Polyamide 12 chargé fibres de verre) est un matériau composite utilisé en fabrication additive, notamment en SLS. Il combine la base robuste et polyvalente du PA12 avec des fibres de verre qui améliorent significativement sa rigidité, sa stabilité dimensionnelle et sa résistance à la déformation sous charge.
-Grâce à ce renforcement, le PA12 GF est particulièrement adapté aux pièces techniques devant supporter des contraintes mécaniques importantes tout en conservant une bonne précision géométrique. Il offre une meilleure tenue thermique et structurelle que le PA12 standard, ce qui le rend idéal pour des applications industrielles exigeantes comme les supports, les carters, les pièces structurelles ou les composants soumis à des efforts constants. Il est largement utilisé dans l’automobile, l’industrie et les équipements techniques où la rigidité est prioritaire.
-
 Prochaine étape
 
 ### Une pièce à fabriquer ?
@@ -7237,26 +6962,6 @@ Ignifuge · Certifié · Aéronautique
 Voir la fiche →
 
 On nous trouve aussi pour Impression 3D contact alimentaire PA12 alimentaire SLS Belgique Pièce agroalimentaire impression 3D Pièce de rechange machine emballage
-
-**Description détaillée Tout savoir : cliquez pour déplier**
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Pièces alimentaires
-- Contact denrées
-- Outillage agroalimentaire
-- Boîtiers machines alimentaires
-- Conduits / pièces hygiéniques
-
-### Machines compatibles chez O&D
-
-#### Supermaker SLS 1518
-
-#### Supermaker SLS 3540 PRO
-
-### Le PA12 est un polyamide alimentaire résistant et conforme technique.
-Le PA12 grade alimentaire est une version spécifique du polyamide 12 utilisée en fabrication additive, notamment en SLS, conçue pour des applications où le matériau peut entrer en contact avec des denrées alimentaires. Il est formulé ou certifié selon des exigences réglementaires strictes (selon le fabricant et le traitement post-impression), afin de garantir une utilisation sûre dans des environnements alimentaires.
-Ce matériau conserve les propriétés caractéristiques du PA12, à savoir une bonne résistance mécanique, une excellente durabilité, une faible absorption d’humidité et une bonne résistance chimique. Il est particulièrement adapté à la fabrication de pièces techniques utilisées dans l’industrie agroalimentaire, comme des guides, des boîtiers, des composants de machines ou des éléments de manipulation de produits. Le PA12 grade alimentaire permet ainsi de produire des pièces fonctionnelles robustes tout en répondant aux contraintes d’hygiène et de sécurité propres à ce secteur.
 
 Prochaine étape
 
@@ -7437,26 +7142,6 @@ Alimentaire · Certifié · Détectable
 Voir la fiche →
 
 On nous trouve aussi pour Impression 3D ignifugée PA2210 FR SLS Pièce plastique retardateur de flamme Belgique Boîtier électrique impression 3D
-
-**Description détaillée Tout savoir : cliquez pour déplier**
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Boîtiers électriques
-- Composants électroniques
-- Pièces industrielles
-- Environnements ATEX
-- Applications ferroviaires / aéronautiques
-
-### Machines compatibles chez O&D
-
-#### Supermaker SLS 1518
-
-#### Supermaker SLS 3540 PRO
-
-### Le PA2210 FR est un polyamide ignifuge, sécurisé et technique industriel.
-Le PA2210 FR est un polyamide technique utilisé en fabrication additive, notamment en SLS, conçu pour répondre aux exigences de résistance au feu. Sa formulation spécifique lui confère des propriétés auto-extinguibles, limitant la propagation des flammes et améliorant la sécurité des pièces dans des environnements sensibles.
-En plus de ses performances ignifuges, le PA2210 FR conserve de bonnes propriétés mécaniques, avec une résistance correcte aux chocs, une bonne stabilité dimensionnelle et une durabilité adaptée aux applications industrielles. Il est particulièrement utilisé dans les secteurs où les normes de sécurité incendie sont strictes, comme l’électronique, le transport, le ferroviaire ou l’aéronautique. Ce matériau permet de produire des pièces fonctionnelles fiables tout en respectant les contraintes réglementaires liées à la sécurité incendie.
 
 Prochaine étape
 
@@ -7644,26 +7329,6 @@ Voir la fiche →
 
 On nous trouve aussi pour Ultrasint PA11 impression 3D Nylon flexible SLS Belgique Impression 3D PA11 Liège
 
-**Description détaillée Tout savoir : cliquez pour déplier**
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Pièces flexibles
-- Charnières techniques
-- Pièces mécaniques résistantes
-- Composants automobiles
-- Pièces soumises aux chocs
-
-### Machines compatibles chez O&D
-
-#### Supermaker SLS 1518
-
-#### Supermaker SLS 3540 PRO
-
-### Le PA11 est un polyamide flexible, résistant, durable et technique.
-Le PA11 (Polyamide 11) est un matériau issu de ressources partiellement biosourcées, utilisé en fabrication additive, notamment en SLS. Il se distingue du PA12 par une meilleure flexibilité et une résistance supérieure aux impacts, ce qui en fait un choix privilégié pour les pièces devant supporter des déformations répétées ou des environnements mécaniques exigeants.
-Ce matériau offre une excellente résistance à la fatigue, aux chocs et à certains produits chimiques, tout en conservant de bonnes propriétés mécaniques dans le temps. Il est particulièrement apprécié dans les secteurs industriels comme l’automobile, l’aéronautique ou la production de pièces techniques fonctionnelles. Le PA11 permet ainsi de fabriquer des composants durables, fiables et capables de résister à des conditions d’utilisation intensives, tout en conservant une bonne stabilité dimensionnelle.
-
 Prochaine étape
 
 ### Une pièce à fabriquer ?
@@ -7850,26 +7515,6 @@ Voir la fiche →
 
 On nous trouve aussi pour Impression 3D carbone SLS PA11 CF Belgique Pièce légère fibre de carbone impression 3D Remplacer aluminium impression 3D
 
-**Description détaillée Tout savoir : cliquez pour déplier**
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Pièces structurelles
-- Supports mécaniques
-- Composants automobiles
-- Bras / pièces robotique
-- Pièces haute rigidité
-
-### Machines compatibles chez O&D
-
-#### Supermaker SLS 1518
-
-#### Supermaker SLS 3540 PRO
-
-### Le PA11 CF est un polyamide carbone, rigide, léger et résistant.
-Le PA11 CF (Polyamide 11 chargé fibres de carbone) est un matériau composite utilisé en fabrication additive, notamment en impression 3D SLS ou procédés similaires selon les fabricants. Il associe une base de PA11, reconnue pour sa flexibilité et sa résistance aux impacts, à des fibres de carbone qui renforcent fortement sa rigidité et sa stabilité mécanique.
-Ce renforcement permet d’obtenir des pièces beaucoup plus rigides et légères que le PA11 standard, tout en conservant une bonne résistance à la fatigue et aux environnements techniques exigeants. Le PA11 CF est particulièrement adapté aux applications structurelles où la réduction de poids est essentielle sans compromis sur la solidité. Il est largement utilisé dans l’automobile, la robotique, l’aéronautique et les équipements industriels pour des composants soumis à des charges mécaniques élevées et nécessitant une grande précision dimensionnelle.
-
 Prochaine étape
 
 ### Une pièce à fabriquer ?
@@ -8054,26 +7699,6 @@ Voir la fiche →
 
 On nous trouve aussi pour Impression 3D ESD antistatique Pièce antistatique électronique Belgique PA11 ESD SLS Liège Outillage ESD impression 3D
 
-**Description détaillée Tout savoir : cliquez pour déplier**
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Boîtiers électroniques
-- Supports de composants
-- Plateaux de production
-- Outillages ESD
-- Pièces en zones ATEX / électronique
-
-### Machines compatibles chez O&D
-
-#### Supermaker SLS 1518
-
-#### Supermaker SLS 3540 PRO
-
-### Le PA11 ESD est un polyamide antistatique, sûr et conducteur.
-Le PA11 ESD (Electrostatic Discharge) est une variante technique du polyamide 11 spécialement formulée pour dissiper les charges électrostatiques. En impression 3D, notamment en SLS, ce matériau est utilisé pour fabriquer des pièces destinées à des environnements sensibles où l’électricité statique peut endommager des composants électroniques ou perturber des processus de production.
-Il conserve les propriétés mécaniques du PA11, notamment sa flexibilité, sa résistance aux chocs et sa durabilité, tout en intégrant une conductivité contrôlée permettant d’éviter l’accumulation de charges électrostatiques. Le PA11 ESD est largement utilisé dans l’industrie électronique, la fabrication de semi-conducteurs et les environnements industriels spécialisés. Il permet de concevoir des supports, boîtiers et outillages sûrs, fiables et adaptés aux exigences des chaînes de production sensibles.
-
 Prochaine étape
 
 ### Une pièce à fabriquer ?
@@ -8253,26 +7878,6 @@ Ignifuge · Certifié · Aéronautique
 Voir la fiche →
 
 On nous trouve aussi pour Impression 3D TPU SLS Pièce souple impression 3D Belgique Treillis amortissant impression 3D Joint sur mesure impression 3D
-
-**Description détaillée Tout savoir : cliquez pour déplier**
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Joints flexibles
-- Semelles techniques
-- Protections / coques
-- Amortisseurs de chocs
-- Pièces souples fonctionnelles
-
-### Machines compatibles chez O&D
-
-#### Supermaker SLS 1518
-
-#### Supermaker SLS 3540 PRO
-
-### Le TPU 88A est un élastomère souple, flexible et résistant industriel.
-Le TPU 88A (Thermoplastic Polyurethane) est un matériau flexible utilisé en fabrication additive, notamment en impression 3D FDM et parfois en SLS selon les variantes. Avec une dureté de 88A sur l’échelle Shore, il se situe dans une gamme intermédiaire de souplesse, offrant un bon compromis entre élasticité et résistance mécanique.
-Ce matériau est capable de supporter des déformations importantes tout en revenant à sa forme initiale, ce qui le rend particulièrement adapté aux pièces soumises à des flexions répétées ou à des impacts. Il présente également une bonne résistance à l’abrasion, aux huiles et à certains produits chimiques. Le TPU 88A est largement utilisé pour la fabrication de pièces fonctionnelles nécessitant du confort, de l’absorption de chocs ou une certaine souplesse structurelle, tout en restant durable dans le temps.
 
 Prochaine étape
 
@@ -8457,38 +8062,6 @@ Voir la fiche →
 
 On nous trouve aussi pour Impression 3D TPU Pièce souple impression 3D Liège Joint sur mesure Belgique Impression 3D flexible
 
-**Description détaillée Tout savoir : cliquez pour déplier**
-Le TPU est idéal pour les joints d'étanchéité, les coques de protection anti-chocs, les semelles personnalisées, les poignées antidérapantes, les accessoires portables et tous les composants nécessitant une absorption de vibrations.
-Chez O&D Impression 3D, nous utilisons le TPU pour des projets où la flexibilité est une contrainte fonctionnelle, notamment dans la robotique, la protection industrielle et les accessoires sur mesure.
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Joints et garnitures d'étanchéité
-- Coques et protections anti-chocs
-- Semelles et insoles personnalisées
-- Poignées et revêtements antidérapants
-- Amortisseurs et tampons de vibration
-- Accessoires wearables et sportifs
-
-### Machines compatibles chez O&D
-
-#### Bambu Lab X1C
-
-#### Bambu Lab H2C
-
-#### Prusa Core One
-
-#### SuperMaker SLS1518
-
-### Le TPU : le filament flexible pour des impressions 3D résistantes et souples
-Le TPU est un matériau particulièrement apprécié dans le domaine de l’impression 3D pour sa flexibilité et sa résistance. Contrairement aux filaments rigides traditionnels, le filament TPU permet de produire des pièces souples, élastiques et capables d’absorber les chocs, ce qui en fait un choix idéal pour de nombreuses applications techniques et fonctionnelles.
-Grâce à ses propriétés mécaniques spécifiques, le TPU pour imprimante 3D est largement utilisé pour la fabrication de joints, protections, semelles, pièces amortissantes, coques, éléments anti-vibrations ou encore composants nécessitant une certaine flexibilité. Sa capacité à retrouver sa forme après déformation en fait un matériau particulièrement intéressant pour les pièces soumises à des contraintes répétées.
-Le TPU impression 3D combine flexibilité, résistance à l’usure et bonne durabilité. Il offre également une excellente résistance aux chocs et à l’abrasion, ce qui permet de produire des pièces adaptées à des usages intensifs ou à des environnements nécessitant une meilleure absorption des impacts.
-Disponible dans différentes duretés et finitions, le TPU permet de répondre à une grande variété de besoins, allant des pièces très souples aux composants plus fermes tout en conservant une certaine élasticité. Cette polyvalence en fait un matériau apprécié aussi bien dans le prototypage fonctionnel que dans la production de pièces techniques personnalisées.
-Chez O&D Impression 3D , nous utilisons régulièrement le TPU haute qualité pour la fabrication de pièces flexibles et techniques nécessitant résistance, souplesse et durabilité. Ce matériau est particulièrement adapté aux projets demandant une absorption des vibrations, une bonne résistance mécanique et une excellente tenue dans le temps.
-Même si le TPU offre de nombreux avantages, son impression demande davantage de précision et des réglages adaptés en raison de sa flexibilité. Le choix du matériau dépend toujours des contraintes mécaniques et des performances recherchées pour chaque projet.
-Choisir un filament TPU professionnel permet d’obtenir des impressions 3D souples, résistantes et parfaitement adaptées aux applications techniques modernes nécessitant flexibilité et robustesse.
-
 Prochaine étape
 
 ### Une pièce à fabriquer ?
@@ -8668,31 +8241,6 @@ Stable · Robuste · Industriel
 Voir la fiche →
 
 On nous trouve aussi pour Impression 3D ULTEM ULTEM 9085 Belgique PEI impression 3D Impression 3D ferroviaire Impression 3D aéronautique
-
-**Description détaillée Tout savoir : cliquez pour déplier**
-Il existe deux grades principaux : l'Ultem 1010, biocompatible et compatible alimentaire/médical, et l'Ultem 9085, certifié pour l'aéronautique. Les deux offrent une excellente résistance thermique (jusqu'a 210 degrés C) et une rigidité élevée.
-Chez O&D Impression 3D, nous imprimons l'Ultem sur notre INTAMSYS Funmat HT pour des clients dans l'aéronautique, la défense et le médical.
-
-### CAS D'USAGE : POUR QUOI ?
-
-- Cabines et interieurs d'avions (9085)
-- Équipements médicaux et chirurgicaux (1010)
-- Défense et militaire
-- Électronique de puissance
-- Pièces certifiées pour milieux critiques
-
-### Machines compatibles chez O&D
-
-#### Intamsys Funmat HT
-
-### L’Ultem™ PEI : un matériau haute performance pour l’impression 3D industrielle
-L’ Ultem™ PEI est un matériau thermoplastique hautes performances utilisé dans les applications les plus exigeantes de l’impression 3D industrielle . Reconnu pour sa résistance thermique exceptionnelle, sa solidité mécanique et sa stabilité dimensionnelle, le filament PEI est largement utilisé dans les secteurs de l’aéronautique, du ferroviaire, de l’automobile, du médical et de l’industrie de pointe.
-Grâce à ses propriétés techniques avancées, l’ Ultem™ PEI pour imprimante 3D permet de produire des pièces capables de résister à des températures élevées, à des contraintes mécaniques importantes et à des environnements industriels complexes. Ce matériau est particulièrement adapté à la fabrication de composants techniques, de pièces structurelles et de prototypes fonctionnels nécessitant fiabilité et performances sur le long terme.
-Le PEI impression 3D se distingue par son excellente résistance au feu, sa faible émission de fumées et ses propriétés naturellement retardatrices de flamme. Ces caractéristiques en font un matériau particulièrement recherché pour les applications nécessitant des normes de sécurité élevées et des performances techniques avancées.
-Le filament Ultem™ PEI possède également une excellente résistance chimique et une grande stabilité dimensionnelle, même dans des conditions extrêmes. Il permet de produire des pièces précises et durables adaptées aux environnements industriels les plus contraignants.
-Chez O&D Impression 3D , nous utilisons l’ Ultem™ PEI haute performance pour la réalisation de pièces techniques destinées aux applications industrielles avancées nécessitant résistance thermique, stabilité mécanique et fiabilité maximale. Ce matériau est particulièrement adapté aux projets demandant des performances élevées dans des environnements complexes.
-L’impression de l’ Ultem™ PEI nécessite des équipements industriels spécialisés capables de maintenir des températures très élevées et un environnement thermique parfaitement contrôlé. Sa mise en œuvre demande une expertise technique avancée afin de garantir des résultats fiables et des performances optimales.
-Choisir un filament Ultem™ PEI professionnel permet d’obtenir des impressions 3D industrielles capables de répondre aux exigences les plus strictes en matière de résistance thermique, sécurité, stabilité et durabilité.
 
 Prochaine étape
 
@@ -11952,7 +11500,7 @@ Nous réalisons une large gamme de pièces adaptées à vos besoins : prototypes
 Absolument ! Nous réalisons des productions en série adaptées à vos besoins : prototypes, petites séries, séries moyennes, et même grandes séries (1000 pièces et plus). Nos machines garantissent une production rapide et fiable.
 
 **Quelles machines utilisez-vous ?**
-Notre parc machines comprend : Bambu Lab X1C et H2C (FDM multicolore), Prusa Core One (FDM industriel), Modix Big Meter (FDM grande format jusqu'à 1m³), SuperMaker SLS1518 et SLS3540 Pro (frittage laser), Anycubic Photon Mono M7 Max (résine MSLA), xTool F1 Lite (gravure laser), INTAMSYS Funmat HT (PEEK/PEKK/Ultem haute température) et le scanner 3D 3DeVOK MT.
+Notre parc machines comprend : Bambu Lab X1C et H2C (FDM multicolore), Prusa Core One (FDM industriel), Modix Big Meter (FDM grande format jusqu'à 1m³), SuperMaker SLS1518 et SLS3540 Pro (frittage laser), Anycubic Photon Mono M7 Max (résine MSLA), xTool F1 (gravure laser), INTAMSYS Funmat HT (PEEK/PEKK/Ultem haute température) et le scanner 3D 3DeVOK MT.
 
 **Pouvez-vous imprimer des pièces en PEEK, PEKK ou Ultem ?**
 Oui, c'est l'une de nos spécialités ! Nous sommes équipés de l'INTAMSYS Funmat HT, une machine haute température capable d'imprimer le PEEK (jusqu'à 420°C), le PEKK Kepstan® d'Arkema et l'Ultem/PEI (homologué FAA pour l'aéronautique). Ces matériaux sont réservés aux applications industrielles, médicales et aérospatiales.
@@ -11967,7 +11515,7 @@ Oui ! Nous disposons du scanner 3D professionnel 3DeVOK MT avec une précision a
 Absolument ! Nous adorons faire découvrir notre atelier. Contactez-nous par téléphone ou email pour convenir d'un rendez-vous. Nous sommes basés à Welkenraedt (4840), Belgique. Nos locaux vous sont ouverts uniquement sur rendez-vous !
 
 **Faites-vous de la découpe et gravure laser ?**
-Oui, grâce à notre xTool F1 Lite (laser diode 10W, 4000 mm/s). Nous travaillons le bois, le cuir, le papier, le caoutchouc, la pierre, le verre, le métal anodisé et même certains aliments. Idéal pour la personnalisation, les cadeaux, les enseignes et la petite série.
+Oui, grâce à notre xTool F1 (double laser : diode 10 W et infrarouge 2 W, jusqu'à 4000 mm/s). Nous travaillons le bois, le cuir, le papier, le caoutchouc, la pierre, le verre, le métal anodisé, le métal nu (inox, laiton, aluminium) et même certains aliments. Idéal pour la personnalisation, les cadeaux, les enseignes et la petite série.
 
 6 questions
 
